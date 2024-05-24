@@ -1,0 +1,6 @@
+MEMDesign_blk_mem_gen_0_0.v,verilog,xil_defaultlib,../../../bd/MEMDesign/ip/MEMDesign_blk_mem_gen_0_0/sim/MEMDesign_blk_mem_gen_0_0.v,
+MEMDesign_CADA_MEMControl_0_0.v,verilog,xil_defaultlib,../../../bd/MEMDesign/ip/MEMDesign_CADA_MEMControl_0_0/sim/MEMDesign_CADA_MEMControl_0_0.v,
+MEMDesign_ArrayTop_0_0.v,verilog,xil_defaultlib,../../../bd/MEMDesign/ip/MEMDesign_ArrayTop_0_0/sim/MEMDesign_ArrayTop_0_0.v,
+MEMDesign_CADA_LaneSplit_0_0.v,verilog,xil_defaultlib,../../../bd/MEMDesign/ip/MEMDesign_CADA_LaneSplit_0_0/sim/MEMDesign_CADA_LaneSplit_0_0.v,
+MEMDesign.v,verilog,xil_defaultlib,../../../bd/MEMDesign/sim/MEMDesign.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

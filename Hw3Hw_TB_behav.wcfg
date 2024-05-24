@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Hw3Hw_TB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Hw3Hw_TB" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="52.550 ns"></ZoomStartTime>
+      <ZoomEndTime time="84.251 ns"></ZoomEndTime>
+      <Cursor1Time time="112.550 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="325"></NameColumnWidth>
+      <ValueColumnWidth column_width="136"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="16" />
+   <wvobject fp_name="/Hw3Hw_TB/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Hw3Hw_TB/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Hw3Hw_TB/valid" type="logic">
+      <obj_property name="ElementShortName">valid</obj_property>
+      <obj_property name="ObjectShortName">valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Hw3Hw_TB/writeEnable" type="logic">
+      <obj_property name="ElementShortName">writeEnable</obj_property>
+      <obj_property name="ObjectShortName">writeEnable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Hw3Hw_TB/dataOut" type="array">
+      <obj_property name="ElementShortName">dataOut[143:0]</obj_property>
+      <obj_property name="ObjectShortName">dataOut[143:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Hw3Hw_TB/inputData" type="array">
+      <obj_property name="ElementShortName">inputData[42:0]</obj_property>
+      <obj_property name="ObjectShortName">inputData[42:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Hw3Hw_TB/endLatency" type="array">
+      <obj_property name="ElementShortName">endLatency[15:0]</obj_property>
+      <obj_property name="ObjectShortName">endLatency[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Hw3Hw_TB/startLatency" type="array">
+      <obj_property name="ElementShortName">startLatency[15:0]</obj_property>
+      <obj_property name="ObjectShortName">startLatency[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Hw3Hw_TB/startAddr" type="array">
+      <obj_property name="ElementShortName">startAddr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">startAddr[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Hw3Hw_TB/stride" type="array">
+      <obj_property name="ElementShortName">stride[3:0]</obj_property>
+      <obj_property name="ObjectShortName">stride[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Hw3Hw_TB/ena" type="logic">
+      <obj_property name="ElementShortName">ena</obj_property>
+      <obj_property name="ObjectShortName">ena</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Hw3Hw_TB/configIn" type="array">
+      <obj_property name="ElementShortName">configIn[6:0]</obj_property>
+      <obj_property name="ObjectShortName">configIn[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Hw3Hw_TB/controlIn" type="array">
+      <obj_property name="ElementShortName">controlIn[35:0]</obj_property>
+      <obj_property name="ObjectShortName">controlIn[35:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Hw3Hw_TB/dataIn" type="array">
+      <obj_property name="ElementShortName">dataIn[1727:0]</obj_property>
+      <obj_property name="ObjectShortName">dataIn[1727:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Hw3Hw_TB/gcontrolIn" type="array">
+      <obj_property name="ElementShortName">gcontrolIn[125:0]</obj_property>
+      <obj_property name="ObjectShortName">gcontrolIn[125:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Hw3Hw_TB/selectedChannel" type="array">
+      <obj_property name="ElementShortName">selectedChannel[15:0]</obj_property>
+      <obj_property name="ObjectShortName">selectedChannel[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>
