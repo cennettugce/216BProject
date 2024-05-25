@@ -1,0 +1,861 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x0",
+      "device": "xc7z020clg400-2",
+      "gen_directory": "../../../../EE216BClass.gen/sources_1/bd/Project_Design",
+      "name": "Project_Design",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2023.2"
+    },
+    "design_tree": {
+      "ArrayTop_0": "",
+      "CADA_LaneSplit_0": "",
+      "CADAConfig_MEMControl": "",
+      "blk_mem_gen_0": "",
+      "DataIn_MEMControl": "",
+      "gControlIn_MEMControl": "",
+      "blk_mem_gen_1": "",
+      "DataIn_MEMControl1": "",
+      "blk_mem_gen_3": "",
+      "blk_mem_gen_4": ""
+    },
+    "ports": {
+      "ComputeDataIn": {
+        "direction": "I",
+        "left": "1727",
+        "right": "0"
+      },
+      "clk": {
+        "direction": "I"
+      },
+      "dataOut": {
+        "direction": "O",
+        "left": "143",
+        "right": "0"
+      },
+      "ena": {
+        "direction": "O"
+      },
+      "endLatency": {
+        "direction": "I",
+        "left": "15",
+        "right": "0"
+      },
+      "gControlIn": {
+        "direction": "I",
+        "left": "125",
+        "right": "0"
+      },
+      "inputData": {
+        "direction": "I",
+        "left": "42",
+        "right": "0"
+      },
+      "rst": {
+        "direction": "I"
+      },
+      "startAddr": {
+        "direction": "I",
+        "left": "4",
+        "right": "0"
+      },
+      "startLatency": {
+        "direction": "I",
+        "left": "15",
+        "right": "0"
+      },
+      "strideInterval": {
+        "direction": "I",
+        "left": "3",
+        "right": "0"
+      },
+      "valid": {
+        "direction": "I"
+      },
+      "writeEn": {
+        "direction": "I"
+      }
+    },
+    "components": {
+      "ArrayTop_0": {
+        "vlnv": "xilinx.com:module_ref:ArrayTop:1.0",
+        "ip_revision": "1",
+        "xci_name": "Project_Design_ArrayTop_0_0",
+        "xci_path": "ip\\Project_Design_ArrayTop_0_0\\Project_Design_ArrayTop_0_0.xci",
+        "inst_hier_path": "ArrayTop_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "ArrayTop",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "rst",
+                "value_src": "constant"
+              }
+            }
+          },
+          "rst": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "dataOut": {
+            "direction": "O",
+            "left": "143",
+            "right": "0"
+          },
+          "dataIn": {
+            "direction": "I",
+            "left": "1727",
+            "right": "0"
+          },
+          "configIn": {
+            "direction": "I",
+            "left": "6",
+            "right": "0"
+          },
+          "controlIn": {
+            "direction": "I",
+            "left": "35",
+            "right": "0"
+          },
+          "gControlIn": {
+            "direction": "I",
+            "left": "125",
+            "right": "0"
+          }
+        }
+      },
+      "CADA_LaneSplit_0": {
+        "vlnv": "xilinx.com:module_ref:CADA_LaneSplit:1.0",
+        "ip_revision": "1",
+        "xci_name": "Project_Design_CADA_LaneSplit_0_0",
+        "xci_path": "ip\\Project_Design_CADA_LaneSplit_0_0\\Project_Design_CADA_LaneSplit_0_0.xci",
+        "inst_hier_path": "CADA_LaneSplit_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "CADA_LaneSplit",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "dataOut1": {
+            "direction": "O",
+            "left": "6",
+            "right": "0"
+          },
+          "dataOut2": {
+            "direction": "O",
+            "left": "35",
+            "right": "0"
+          },
+          "dataIn": {
+            "direction": "I",
+            "left": "42",
+            "right": "0"
+          }
+        }
+      },
+      "CADAConfig_MEMControl": {
+        "vlnv": "xilinx.com:module_ref:CADA_MEMControl:1.0",
+        "ip_revision": "1",
+        "xci_name": "Project_Design_CADA_MEMControl_0_0",
+        "xci_path": "ip\\Project_Design_CADA_MEMControl_0_0\\Project_Design_CADA_MEMControl_0_0.xci",
+        "inst_hier_path": "CADAConfig_MEMControl",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "CADA_MEMControl",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "rst",
+                "value_src": "constant"
+              }
+            }
+          },
+          "rst": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "valid": {
+            "direction": "I"
+          },
+          "DataIn": {
+            "direction": "I",
+            "left": "42",
+            "right": "0"
+          },
+          "DataOut": {
+            "direction": "O",
+            "left": "42",
+            "right": "0"
+          },
+          "addrOut": {
+            "direction": "O",
+            "left": "4",
+            "right": "0"
+          },
+          "writeEn": {
+            "direction": "I"
+          },
+          "startAddr": {
+            "direction": "I",
+            "left": "4",
+            "right": "0"
+          },
+          "strideInterval": {
+            "direction": "I",
+            "left": "3",
+            "right": "0"
+          },
+          "startLatency": {
+            "direction": "I",
+            "left": "15",
+            "right": "0"
+          },
+          "endLatency": {
+            "direction": "I",
+            "left": "15",
+            "right": "0"
+          },
+          "MEMin": {
+            "direction": "I",
+            "left": "42",
+            "right": "0"
+          },
+          "MEMout": {
+            "direction": "O",
+            "left": "42",
+            "right": "0"
+          },
+          "MWMWen": {
+            "direction": "O"
+          },
+          "MEMEn": {
+            "direction": "O"
+          }
+        }
+      },
+      "blk_mem_gen_0": {
+        "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+        "ip_revision": "7",
+        "xci_name": "Project_Design_blk_mem_gen_0_0",
+        "xci_path": "ip\\Project_Design_blk_mem_gen_0_0\\Project_Design_blk_mem_gen_0_0.xci",
+        "inst_hier_path": "blk_mem_gen_0",
+        "parameters": {
+          "Memory_Type": {
+            "value": "Single_Port_RAM"
+          },
+          "Use_RSTA_Pin": {
+            "value": "true"
+          },
+          "Write_Depth_A": {
+            "value": "32"
+          },
+          "Write_Width_A": {
+            "value": "43"
+          },
+          "use_bram_block": {
+            "value": "Stand_Alone"
+          }
+        }
+      },
+      "DataIn_MEMControl": {
+        "vlnv": "xilinx.com:module_ref:CADA_MEMControl:1.0",
+        "ip_revision": "1",
+        "xci_name": "Project_Design_CADA_MEMControl_0_1",
+        "xci_path": "ip\\Project_Design_CADA_MEMControl_0_1\\Project_Design_CADA_MEMControl_0_1.xci",
+        "inst_hier_path": "DataIn_MEMControl",
+        "parameters": {
+          "Data_bitWidth": {
+            "value": "1728"
+          },
+          "addr_BW": {
+            "value": "5"
+          }
+        },
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "CADA_MEMControl",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "rst",
+                "value_src": "constant"
+              }
+            }
+          },
+          "rst": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "valid": {
+            "direction": "I"
+          },
+          "DataIn": {
+            "direction": "I",
+            "left": "1727",
+            "right": "0"
+          },
+          "DataOut": {
+            "direction": "O",
+            "left": "1727",
+            "right": "0"
+          },
+          "addrOut": {
+            "direction": "O",
+            "left": "4",
+            "right": "0"
+          },
+          "writeEn": {
+            "direction": "I"
+          },
+          "startAddr": {
+            "direction": "I",
+            "left": "4",
+            "right": "0"
+          },
+          "strideInterval": {
+            "direction": "I",
+            "left": "3",
+            "right": "0"
+          },
+          "startLatency": {
+            "direction": "I",
+            "left": "15",
+            "right": "0"
+          },
+          "endLatency": {
+            "direction": "I",
+            "left": "15",
+            "right": "0"
+          },
+          "MEMin": {
+            "direction": "I",
+            "left": "1727",
+            "right": "0"
+          },
+          "MEMout": {
+            "direction": "O",
+            "left": "1727",
+            "right": "0"
+          },
+          "MWMWen": {
+            "direction": "O"
+          },
+          "MEMEn": {
+            "direction": "O"
+          }
+        }
+      },
+      "gControlIn_MEMControl": {
+        "vlnv": "xilinx.com:module_ref:CADA_MEMControl:1.0",
+        "ip_revision": "1",
+        "xci_name": "Project_Design_CADA_MEMControl_1_0",
+        "xci_path": "ip\\Project_Design_CADA_MEMControl_1_0\\Project_Design_CADA_MEMControl_1_0.xci",
+        "inst_hier_path": "gControlIn_MEMControl",
+        "parameters": {
+          "Data_bitWidth": {
+            "value": "126"
+          },
+          "addr_BW": {
+            "value": "5"
+          }
+        },
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "CADA_MEMControl",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "rst",
+                "value_src": "constant"
+              }
+            }
+          },
+          "rst": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "valid": {
+            "direction": "I"
+          },
+          "DataIn": {
+            "direction": "I",
+            "left": "125",
+            "right": "0"
+          },
+          "DataOut": {
+            "direction": "O",
+            "left": "125",
+            "right": "0"
+          },
+          "addrOut": {
+            "direction": "O",
+            "left": "4",
+            "right": "0"
+          },
+          "writeEn": {
+            "direction": "I"
+          },
+          "startAddr": {
+            "direction": "I",
+            "left": "4",
+            "right": "0"
+          },
+          "strideInterval": {
+            "direction": "I",
+            "left": "3",
+            "right": "0"
+          },
+          "startLatency": {
+            "direction": "I",
+            "left": "15",
+            "right": "0"
+          },
+          "endLatency": {
+            "direction": "I",
+            "left": "15",
+            "right": "0"
+          },
+          "MEMin": {
+            "direction": "I",
+            "left": "125",
+            "right": "0"
+          },
+          "MEMout": {
+            "direction": "O",
+            "left": "125",
+            "right": "0"
+          },
+          "MWMWen": {
+            "direction": "O"
+          },
+          "MEMEn": {
+            "direction": "O"
+          }
+        }
+      },
+      "blk_mem_gen_1": {
+        "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+        "ip_revision": "7",
+        "xci_name": "Project_Design_blk_mem_gen_0_1",
+        "xci_path": "ip\\Project_Design_blk_mem_gen_0_1\\Project_Design_blk_mem_gen_0_1.xci",
+        "inst_hier_path": "blk_mem_gen_1",
+        "parameters": {
+          "Memory_Type": {
+            "value": "Single_Port_RAM"
+          },
+          "Use_RSTA_Pin": {
+            "value": "true"
+          },
+          "Write_Depth_A": {
+            "value": "32"
+          },
+          "Write_Width_A": {
+            "value": "126"
+          },
+          "use_bram_block": {
+            "value": "Stand_Alone"
+          }
+        }
+      },
+      "DataIn_MEMControl1": {
+        "vlnv": "xilinx.com:module_ref:CADA_MEMControl:1.0",
+        "ip_revision": "1",
+        "xci_name": "Project_Design_DataIn_MEMControl_0",
+        "xci_path": "ip\\Project_Design_DataIn_MEMControl_0\\Project_Design_DataIn_MEMControl_0.xci",
+        "inst_hier_path": "DataIn_MEMControl1",
+        "parameters": {
+          "Data_bitWidth": {
+            "value": "1728"
+          },
+          "addr_BW": {
+            "value": "5"
+          }
+        },
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "CADA_MEMControl",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "rst",
+                "value_src": "constant"
+              }
+            }
+          },
+          "rst": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "valid": {
+            "direction": "I"
+          },
+          "DataIn": {
+            "direction": "I",
+            "left": "1727",
+            "right": "0"
+          },
+          "DataOut": {
+            "direction": "O",
+            "left": "1727",
+            "right": "0"
+          },
+          "addrOut": {
+            "direction": "O",
+            "left": "4",
+            "right": "0"
+          },
+          "writeEn": {
+            "direction": "I"
+          },
+          "startAddr": {
+            "direction": "I",
+            "left": "4",
+            "right": "0"
+          },
+          "strideInterval": {
+            "direction": "I",
+            "left": "3",
+            "right": "0"
+          },
+          "startLatency": {
+            "direction": "I",
+            "left": "15",
+            "right": "0"
+          },
+          "endLatency": {
+            "direction": "I",
+            "left": "15",
+            "right": "0"
+          },
+          "MEMin": {
+            "direction": "I",
+            "left": "1727",
+            "right": "0"
+          },
+          "MEMout": {
+            "direction": "O",
+            "left": "1727",
+            "right": "0"
+          },
+          "MWMWen": {
+            "direction": "O"
+          },
+          "MEMEn": {
+            "direction": "O"
+          }
+        }
+      },
+      "blk_mem_gen_3": {
+        "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+        "ip_revision": "7",
+        "xci_name": "Project_Design_blk_mem_gen_2_0",
+        "xci_path": "ip\\Project_Design_blk_mem_gen_2_0\\Project_Design_blk_mem_gen_2_0.xci",
+        "inst_hier_path": "blk_mem_gen_3",
+        "parameters": {
+          "Memory_Type": {
+            "value": "Single_Port_RAM"
+          },
+          "Use_RSTA_Pin": {
+            "value": "true"
+          },
+          "Write_Depth_A": {
+            "value": "32"
+          },
+          "Write_Width_A": {
+            "value": "1728"
+          },
+          "use_bram_block": {
+            "value": "Stand_Alone"
+          }
+        }
+      },
+      "blk_mem_gen_4": {
+        "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+        "ip_revision": "7",
+        "xci_name": "Project_Design_blk_mem_gen_3_0",
+        "xci_path": "ip\\Project_Design_blk_mem_gen_3_0\\Project_Design_blk_mem_gen_3_0.xci",
+        "inst_hier_path": "blk_mem_gen_4",
+        "parameters": {
+          "Memory_Type": {
+            "value": "Single_Port_RAM"
+          },
+          "Use_RSTA_Pin": {
+            "value": "true"
+          },
+          "Write_Depth_A": {
+            "value": "32"
+          },
+          "Write_Width_A": {
+            "value": "1728"
+          },
+          "use_bram_block": {
+            "value": "Stand_Alone"
+          }
+        }
+      }
+    },
+    "nets": {
+      "ArrayTop_0_dataOut": {
+        "ports": [
+          "ArrayTop_0/dataOut",
+          "DataIn_MEMControl1/DataIn"
+        ]
+      },
+      "CADA_LaneSplit_0_dataOut1": {
+        "ports": [
+          "CADA_LaneSplit_0/dataOut1",
+          "ArrayTop_0/configIn"
+        ]
+      },
+      "CADA_LaneSplit_0_dataOut2": {
+        "ports": [
+          "CADA_LaneSplit_0/dataOut2",
+          "ArrayTop_0/controlIn"
+        ]
+      },
+      "CADA_MEMControl_0_DataOut": {
+        "ports": [
+          "CADAConfig_MEMControl/DataOut",
+          "CADA_LaneSplit_0/dataIn"
+        ]
+      },
+      "CADA_MEMControl_0_MEMEn": {
+        "ports": [
+          "CADAConfig_MEMControl/MEMEn",
+          "blk_mem_gen_0/ena",
+          "ena"
+        ]
+      },
+      "CADA_MEMControl_0_MEMout": {
+        "ports": [
+          "CADAConfig_MEMControl/MEMout",
+          "blk_mem_gen_0/dina"
+        ]
+      },
+      "CADA_MEMControl_0_MWMWen": {
+        "ports": [
+          "CADAConfig_MEMControl/MWMWen",
+          "blk_mem_gen_0/wea"
+        ]
+      },
+      "CADA_MEMControl_0_addrOut": {
+        "ports": [
+          "CADAConfig_MEMControl/addrOut",
+          "blk_mem_gen_0/addra"
+        ]
+      },
+      "CADA_MEMControl_1_DataOut": {
+        "ports": [
+          "DataIn_MEMControl/DataOut",
+          "ArrayTop_0/dataIn"
+        ]
+      },
+      "CADA_MEMControl_2_DataOut": {
+        "ports": [
+          "gControlIn_MEMControl/DataOut",
+          "ArrayTop_0/gControlIn"
+        ]
+      },
+      "CADA_MEMControl_2_MEMEn": {
+        "ports": [
+          "gControlIn_MEMControl/MEMEn",
+          "blk_mem_gen_1/ena"
+        ]
+      },
+      "CADA_MEMControl_2_MEMout": {
+        "ports": [
+          "gControlIn_MEMControl/MEMout",
+          "blk_mem_gen_1/dina"
+        ]
+      },
+      "CADA_MEMControl_2_MWMWen": {
+        "ports": [
+          "gControlIn_MEMControl/MWMWen",
+          "blk_mem_gen_1/wea"
+        ]
+      },
+      "CADA_MEMControl_2_addrOut": {
+        "ports": [
+          "gControlIn_MEMControl/addrOut",
+          "blk_mem_gen_1/addra"
+        ]
+      },
+      "ComputeDataIn_1": {
+        "ports": [
+          "ComputeDataIn",
+          "DataIn_MEMControl/DataIn"
+        ]
+      },
+      "DataIn_MEMControl1_MEMEn": {
+        "ports": [
+          "DataIn_MEMControl1/MEMEn",
+          "blk_mem_gen_3/ena"
+        ]
+      },
+      "DataIn_MEMControl1_MEMout": {
+        "ports": [
+          "DataIn_MEMControl1/MEMout",
+          "blk_mem_gen_3/dina"
+        ]
+      },
+      "DataIn_MEMControl1_MWMWen": {
+        "ports": [
+          "DataIn_MEMControl1/MWMWen",
+          "blk_mem_gen_3/wea"
+        ]
+      },
+      "DataIn_MEMControl1_addrOut": {
+        "ports": [
+          "DataIn_MEMControl1/addrOut",
+          "blk_mem_gen_3/addra"
+        ]
+      },
+      "DataIn_MEMControl_MEMEn": {
+        "ports": [
+          "DataIn_MEMControl/MEMEn",
+          "blk_mem_gen_4/ena"
+        ]
+      },
+      "DataIn_MEMControl_MEMout": {
+        "ports": [
+          "DataIn_MEMControl/MEMout",
+          "blk_mem_gen_4/dina"
+        ]
+      },
+      "DataIn_MEMControl_MWMWen": {
+        "ports": [
+          "DataIn_MEMControl/MWMWen",
+          "blk_mem_gen_4/wea"
+        ]
+      },
+      "DataIn_MEMControl_addrOut": {
+        "ports": [
+          "DataIn_MEMControl/addrOut",
+          "blk_mem_gen_4/addra"
+        ]
+      },
+      "blk_mem_gen_0_douta": {
+        "ports": [
+          "blk_mem_gen_0/douta",
+          "CADAConfig_MEMControl/MEMin"
+        ]
+      },
+      "blk_mem_gen_1_douta": {
+        "ports": [
+          "blk_mem_gen_1/douta",
+          "gControlIn_MEMControl/MEMin"
+        ]
+      },
+      "blk_mem_gen_3_douta": {
+        "ports": [
+          "blk_mem_gen_3/douta",
+          "DataIn_MEMControl1/MEMin"
+        ]
+      },
+      "blk_mem_gen_4_douta": {
+        "ports": [
+          "blk_mem_gen_4/douta",
+          "DataIn_MEMControl/MEMin"
+        ]
+      },
+      "clk_1": {
+        "ports": [
+          "clk",
+          "CADAConfig_MEMControl/clk",
+          "blk_mem_gen_0/clka",
+          "ArrayTop_0/clk",
+          "blk_mem_gen_1/clka",
+          "blk_mem_gen_3/clka",
+          "blk_mem_gen_4/clka"
+        ]
+      },
+      "endLatency_1": {
+        "ports": [
+          "endLatency",
+          "CADAConfig_MEMControl/endLatency"
+        ]
+      },
+      "gControlIn_1": {
+        "ports": [
+          "gControlIn",
+          "gControlIn_MEMControl/DataIn"
+        ]
+      },
+      "inputData_1": {
+        "ports": [
+          "inputData",
+          "CADAConfig_MEMControl/DataIn"
+        ]
+      },
+      "rst_1": {
+        "ports": [
+          "rst",
+          "CADAConfig_MEMControl/rst",
+          "blk_mem_gen_0/rsta",
+          "ArrayTop_0/rst",
+          "blk_mem_gen_1/rsta",
+          "blk_mem_gen_3/rsta",
+          "blk_mem_gen_4/rsta"
+        ]
+      },
+      "startAddr_1": {
+        "ports": [
+          "startAddr",
+          "CADAConfig_MEMControl/startAddr"
+        ]
+      },
+      "startLatency_1": {
+        "ports": [
+          "startLatency",
+          "CADAConfig_MEMControl/startLatency"
+        ]
+      },
+      "strideInterval_1": {
+        "ports": [
+          "strideInterval",
+          "CADAConfig_MEMControl/strideInterval"
+        ]
+      },
+      "valid_1": {
+        "ports": [
+          "valid",
+          "CADAConfig_MEMControl/valid"
+        ]
+      },
+      "writeEn_1": {
+        "ports": [
+          "writeEn",
+          "CADAConfig_MEMControl/writeEn"
+        ]
+      }
+    }
+  }
+}

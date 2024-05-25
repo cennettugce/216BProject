@@ -1,0 +1,17 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../EE216BClass.srcs/sources_1/new/EntityLib.v" \
+"../../../../EE216BClass.srcs/sources_1/new/ArrayTop.v" \
+"../../../../EE216BClass.ip_user_files/bd/MEM_Design/ip/MEM_Design_blk_mem_gen_0_0/sim/MEM_Design_blk_mem_gen_0_0.v" \
+"../../../../EE216BClass.ip_user_files/bd/MEM_Design/ip/MEM_Design_CADA_MEMControl_0_0/sim/MEM_Design_CADA_MEMControl_0_0.v" \
+"../../../../EE216BClass.ip_user_files/bd/MEM_Design/ip/MEM_Design_ArrayTop_0_0/sim/MEM_Design_ArrayTop_0_0.v" \
+"../../../../EE216BClass.ip_user_files/bd/MEM_Design/ip/MEM_Design_CADA_LaneSplit_0_0/sim/MEM_Design_CADA_LaneSplit_0_0.v" \
+"../../../../EE216BClass.ip_user_files/bd/MEM_Design/sim/MEM_Design.v" \
+"../../../../EE216BClass.gen/sources_1/bd/MEM_Design/hdl/MEM_Design_wrapper.v" \
+"../../../../EE216BClass.srcs/sim_1/new/Hw3Hw_TB.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

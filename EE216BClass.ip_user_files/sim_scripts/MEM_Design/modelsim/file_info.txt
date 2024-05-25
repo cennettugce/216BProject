@@ -1,0 +1,9 @@
+xpm_memory.sv,systemverilog,xpm,../../../../../../../../../../Xilinx/Vivado/2023.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv,
+xpm_VCOMP.vhd,vhdl,xpm,../../../../../../../../../../Xilinx/Vivado/2023.2/data/ip/xpm/xpm_VCOMP.vhd,
+blk_mem_gen_v8_4.v,verilog,blk_mem_gen_v8_4_7,../../../../EE216BClass.gen/sources_1/bd/MEM_Design/ipshared/3c0c/simulation/blk_mem_gen_v8_4.v,
+MEM_Design_blk_mem_gen_0_0.v,verilog,xil_defaultlib,../../../bd/MEM_Design/ip/MEM_Design_blk_mem_gen_0_0/sim/MEM_Design_blk_mem_gen_0_0.v,
+MEM_Design_CADA_MEMControl_0_0.v,verilog,xil_defaultlib,../../../bd/MEM_Design/ip/MEM_Design_CADA_MEMControl_0_0/sim/MEM_Design_CADA_MEMControl_0_0.v,
+MEM_Design_ArrayTop_0_0.v,verilog,xil_defaultlib,../../../bd/MEM_Design/ip/MEM_Design_ArrayTop_0_0/sim/MEM_Design_ArrayTop_0_0.v,
+MEM_Design_CADA_LaneSplit_0_0.v,verilog,xil_defaultlib,../../../bd/MEM_Design/ip/MEM_Design_CADA_LaneSplit_0_0/sim/MEM_Design_CADA_LaneSplit_0_0.v,
+MEM_Design.v,verilog,xil_defaultlib,../../../bd/MEM_Design/sim/MEM_Design.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

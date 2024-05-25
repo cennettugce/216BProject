@@ -1,0 +1,49 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.957826",
+   "Default View_TopLeft":"-395,-343",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.5.8 2022-09-21 7111 VDI=41 GEI=38 GUI=JA:10.0
+#  -string -flagsOSRD
+preplace port port-id_clk -pg 1 -lvl 0 -x -100 -y -240 -defaultsOSRD
+preplace port port-id_rst -pg 1 -lvl 0 -x -100 -y -80 -defaultsOSRD
+preplace port port-id_valid -pg 1 -lvl 0 -x -100 -y 230 -defaultsOSRD
+preplace port port-id_writeEn -pg 1 -lvl 0 -x -100 -y 330 -defaultsOSRD
+preplace port port-id_ena -pg 1 -lvl 4 -x 1020 -y 430 -defaultsOSRD
+preplace portBus startAddr -pg 1 -lvl 0 -x -100 -y 350 -defaultsOSRD
+preplace portBus strideInterval -pg 1 -lvl 0 -x -100 -y -260 -defaultsOSRD
+preplace portBus endLatency -pg 1 -lvl 0 -x -100 -y 430 -defaultsOSRD
+preplace portBus startLatency -pg 1 -lvl 0 -x -100 -y 450 -defaultsOSRD
+preplace portBus inputData -pg 1 -lvl 0 -x -100 -y 100 -defaultsOSRD
+preplace portBus ComputeDataIn -pg 1 -lvl 0 -x -100 -y -160 -defaultsOSRD
+preplace portBus gControlIn -pg 1 -lvl 0 -x -100 -y -130 -defaultsOSRD
+preplace portBus dataOut -pg 1 -lvl 4 -x 1020 -y -70 -defaultsOSRD
+preplace inst blk_mem_gen_0 -pg 1 -lvl 3 -x 840 -y 130 -defaultsOSRD
+preplace inst CADA_MEMControl_0 -pg 1 -lvl 1 -x 140 -y 130 -defaultsOSRD
+preplace inst ArrayTop_0 -pg 1 -lvl 3 -x 840 -y -120 -defaultsOSRD
+preplace inst CADA_LaneSplit_0 -pg 1 -lvl 2 -x 480 -y -160 -defaultsOSRD
+preplace netloc ArrayTop_0_dataOut 1 3 1 1000 -120n
+preplace netloc CADA_LaneSplit_0_dataOut1 1 2 1 650 -170n
+preplace netloc CADA_LaneSplit_0_dataOut2 1 2 1 630 -150n
+preplace netloc CADA_MEMControl_0_DataOut 1 1 1 320 -160n
+preplace netloc CADA_MEMControl_0_MEMEn 1 1 3 N 170 680 430 N
+preplace netloc CADA_MEMControl_0_MEMout 1 1 2 N 130 630
+preplace netloc CADA_MEMControl_0_MWMWen 1 1 2 N 150 630
+preplace netloc CADA_MEMControl_0_addrOut 1 1 2 330 80 N
+preplace netloc ComputeDataIn_1 1 0 3 NJ -160 300J -240 680
+preplace netloc blk_mem_gen_0_douta 1 0 3 -20 280 300 140 N
+preplace netloc clk_1 1 0 3 -50 -30 N -30 660
+preplace netloc endLatency_1 1 0 1 -30 200n
+preplace netloc gControlIn_1 1 0 3 NJ -130 310J -230 640
+preplace netloc inputData_1 1 0 1 N 100
+preplace netloc rst_1 1 0 3 -80 -20 N -20 670
+preplace netloc startAddr_1 1 0 1 -50 140n
+preplace netloc startLatency_1 1 0 1 -40 180n
+preplace netloc strideInterval_1 1 0 1 -60 -260n
+preplace netloc valid_1 1 0 1 -80 80n
+preplace netloc writeEn_1 1 0 1 -70 120n
+levelinfo -pg 1 -100 140 480 840 1020
+pagesize -pg 1 -db -bbox -sgen -310 -280 1170 470
+"
+}
+0
