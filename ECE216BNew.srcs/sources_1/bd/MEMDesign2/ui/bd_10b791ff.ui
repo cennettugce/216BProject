@@ -1,0 +1,80 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.519766",
+   "Default View_TopLeft":"-194,-123",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.5.8 2022-09-21 7111 VDI=41 GEI=38 GUI=JA:10.0
+#  -string -flagsOSRD
+preplace port port-id_clk -pg 1 -lvl 0 -x -20 -y 520 -defaultsOSRD
+preplace port port-id_clk_data -pg 1 -lvl 0 -x -20 -y 50 -defaultsOSRD
+preplace port port-id_ena -pg 1 -lvl 5 -x 1710 -y 810 -defaultsOSRD
+preplace port port-id_rst -pg 1 -lvl 0 -x -20 -y 110 -defaultsOSRD
+preplace port port-id_valid -pg 1 -lvl 0 -x -20 -y 590 -defaultsOSRD
+preplace port port-id_valid_1 -pg 1 -lvl 0 -x -20 -y 140 -defaultsOSRD
+preplace port port-id_writeEn -pg 1 -lvl 0 -x -20 -y 650 -defaultsOSRD
+preplace port port-id_writeEn_1 -pg 1 -lvl 0 -x -20 -y 200 -defaultsOSRD
+preplace portBus DataIn_1 -pg 1 -lvl 0 -x -20 -y 170 -defaultsOSRD
+preplace portBus dataIn -pg 1 -lvl 0 -x -20 -y 620 -defaultsOSRD
+preplace portBus dataOut -pg 1 -lvl 5 -x 1710 -y 430 -defaultsOSRD
+preplace portBus endLatency -pg 1 -lvl 0 -x -20 -y 770 -defaultsOSRD
+preplace portBus endLatency_1 -pg 1 -lvl 0 -x -20 -y 320 -defaultsOSRD
+preplace portBus gControlIn -pg 1 -lvl 0 -x -20 -y 20 -defaultsOSRD
+preplace portBus startAddr -pg 1 -lvl 0 -x -20 -y 680 -defaultsOSRD
+preplace portBus startAddr_1 -pg 1 -lvl 0 -x -20 -y 230 -defaultsOSRD
+preplace portBus startLatency -pg 1 -lvl 0 -x -20 -y 740 -defaultsOSRD
+preplace portBus startLatency_1 -pg 1 -lvl 0 -x -20 -y 290 -defaultsOSRD
+preplace portBus strideInterval -pg 1 -lvl 0 -x -20 -y 710 -defaultsOSRD
+preplace portBus strideInterval_1 -pg 1 -lvl 0 -x -20 -y 260 -defaultsOSRD
+preplace inst ArrayTop_0 -pg 1 -lvl 3 -x 1240 -y 570 -defaultsOSRD
+preplace inst CADA_LaneSplit_0 -pg 1 -lvl 2 -x 560 -y 450 -defaultsOSRD
+preplace inst CADA_MEMControl_0 -pg 1 -lvl 1 -x 210 -y 670 -defaultsOSRD
+preplace inst CADA_MEMControl_1 -pg 1 -lvl 1 -x 210 -y 220 -defaultsOSRD
+preplace inst blk_mem_gen_0 -pg 1 -lvl 3 -x 1240 -y 820 -defaultsOSRD
+preplace inst blk_mem_gen_1 -pg 1 -lvl 2 -x 560 -y 250 -defaultsOSRD
+preplace inst mem_to_array_1_0 -pg 1 -lvl 2 -x 560 -y 80 -defaultsOSRD
+preplace inst blk_mem_gen_2 -pg 1 -lvl 4 -x 1570 -y 170 -defaultsOSRD
+preplace inst CADA_MEMControl_2 -pg 1 -lvl 3 -x 1240 -y 180 -defaultsOSRD
+preplace netloc ArrayTop_0_dataOut 1 3 2 NJ 570 1690
+preplace netloc CADA_LaneSplit_0_dataOut1 1 2 1 1040 440n
+preplace netloc CADA_LaneSplit_0_dataOut2 1 2 1 1030 460n
+preplace netloc CADA_MEMControl_0_DataOut 1 1 1 400 450n
+preplace netloc CADA_MEMControl_0_MEMEn 1 1 4 NJ 710 980 950 NJ 950 1690
+preplace netloc CADA_MEMControl_0_MEMout 1 1 2 NJ 670 1000
+preplace netloc CADA_MEMControl_0_MWMWen 1 1 2 NJ 690 990
+preplace netloc CADA_MEMControl_0_addrOut 1 1 2 NJ 650 1010
+preplace netloc CADA_MEMControl_1_DataOut 1 1 1 370J 80n
+preplace netloc CADA_MEMControl_1_MEMEn 1 1 1 370 260n
+preplace netloc CADA_MEMControl_1_MEMout 1 1 1 370 220n
+preplace netloc CADA_MEMControl_1_MWMWen 1 1 1 360 240n
+preplace netloc CADA_MEMControl_1_addrOut 1 1 1 N 200
+preplace netloc DataIn_1_1 1 0 1 0J 170n
+preplace netloc blk_mem_gen_0_douta 1 0 3 60 830 NJ 830 NJ
+preplace netloc blk_mem_gen_1_douta 1 0 2 60 70 380J
+preplace netloc clk_1 1 0 3 20 520 NJ 520 1050
+preplace netloc clk_data_1 1 0 4 50 50 400 10 1080 340 1410
+preplace netloc dataIn_1 1 0 1 0J 620n
+preplace netloc endLatency_1 1 0 1 20J 740n
+preplace netloc endLatency_1_1 1 0 1 10J 290n
+preplace netloc gControlIn_1 1 0 3 40J 0 NJ 0 1070J
+preplace netloc mem_to_array_1_0_to_array 1 2 1 1060 80n
+preplace netloc rst_1 1 0 4 40 60 390 20 1020 350 1440
+preplace netloc startAddr_1 1 0 1 NJ 680
+preplace netloc startAddr_1_1 1 0 1 NJ 230
+preplace netloc startLatency_1 1 0 1 0J 720n
+preplace netloc startLatency_1_1 1 0 1 0J 270n
+preplace netloc strideInterval_1 1 0 1 0J 700n
+preplace netloc strideInterval_1_1 1 0 1 0J 250n
+preplace netloc valid_1 1 0 1 10J 590n
+preplace netloc valid_1_1 1 0 1 10J 140n
+preplace netloc writeEn_1 1 0 1 40J 650n
+preplace netloc writeEn_1_1 1 0 1 0J 200n
+preplace netloc CADA_MEMControl_2_MWMWen 1 3 1 1390 200n
+preplace netloc CADA_MEMControl_2_MEMEn 1 3 1 1430 200n
+preplace netloc CADA_MEMControl_2_MEMout 1 3 1 1400 160n
+preplace netloc CADA_MEMControl_2_addrOut 1 3 1 1390 120n
+preplace netloc blk_mem_gen_2_douta 1 2 2 1090 330 1420J
+levelinfo -pg 1 -20 210 560 1240 1570 1710
+pagesize -pg 1 -db -bbox -sgen -200 -220 1860 960
+"
+}
+

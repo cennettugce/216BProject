@@ -1,0 +1,704 @@
+/*
+
+AMD Vivado v2023.2 (64-bit) [Major: 2023, Minor: 2]
+SW Build: 4029153 on Fri Oct 13 20:14:34 MDT 2023
+IP Build: 4028589 on Sat Oct 14 00:45:43 MDT 2023
+IP Build: 4028589 on Sat Oct 14 00:45:43 MDT 2023
+
+Process ID (PID): 20520
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Sat May 25 23:36:10 PDT 2024
+Time zone: 	Pacific Standard Time (America/Los_Angeles)
+
+OS: Windows 11
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 12
+
+Screen size: 1920x1080
+Local screen bounds: x = 0, y = 0, width = 1920, height = 1080
+Screen resolution (DPI): 125
+Available screens: 1
+Default font: family=Segoe UI,name=Segoe UI,style=plain,size=15
+Scale size: 19
+OS font scaling: 125%
+Anti-Alias Enabled: false
+
+Java version: 	17.0.7 64-bit
+JavaFX version: 17.0.1
+Java home: 	E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2/tps/win64/jre17.0.7_7
+Java executable: 	E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2/tps/win64/jre17.0.7_7/bin/java.exe
+Java arguments: 	[-Dsun.java2d.pmoffscreen=false, -Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2, -Dsun.java2d.xrender=false, -Dsun.java2d.d3d=false, -Dsun.awt.nopixfmt=true, -Dsun.java2d.dpiaware=true, -Dsun.java2d.uiScale.enabled=false, -Dswing.aatext=true, -XX:-UsePerfData, -Djdk.map.althashing.threshold=512, -XX:StringTableSize=4072, -XX:+UseStringDeduplication, -XX:MaxGCPauseMillis=200, -XX:+ParallelRefProcEnabled, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/java.awt.event=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.base/java.nio=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.table=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED, --add-exports=java.base/sun.security.action=ALL-UNNAMED, --add-exports=java.desktop/sun.font=ALL-UNNAMED, -XX:NewSize=80m, -XX:MaxNewSize=80m, -Xms512m, -Xmx4072m, -Xss10m]
+Java initial memory (-Xms): 	512 MB
+Java maximum memory (-Xmx):	 3 GB
+
+User name: 	vikia
+User home directory: C:/Users/vikia
+User working directory: E:/GitHub Projects/216BProject
+User country: 	IN
+User language: 	en
+User locale: 	en_IN
+
+RDI_BASEROOT: E:/UCLA/Spring_24/216B/Xilinx/Vivado
+HDI_APPROOT: E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2
+RDI_DATADIR: E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2/data
+RDI_BINDIR: E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2/bin
+
+Vivado preferences file: C:/Users/vikia/AppData/Roaming/Xilinx/Vivado/2023.2/vivado.xml
+Vivado preferences directory: C:/Users/vikia/AppData/Roaming/Xilinx/Vivado/2023.2/
+Vivado layouts directory: C:/Users/vikia/AppData/Roaming/Xilinx/Vivado/2023.2/data/layouts
+PlanAhead jar file: 	E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2/lib/classes/planAhead.jar
+Vivado log file: 	E:/GitHub Projects/216BProject/vivado.log
+Vivado journal file: 	E:/GitHub Projects/216BProject/vivado.jou
+Engine tmp dir: 	E:/GitHub Projects/216BProject/.Xil/Vivado-20520-Vicky-089f
+Non-Default Parameters:	[]
+
+Xilinx & AMD Environment Variables
+--------------------------------------------------------------------------------------------
+AMDRMSDKPATH: C:\Program Files\AMD\RyzenMasterSDK\
+RDI_APPROOT: E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2
+RDI_ARGS:  -gui_launcher_event rodinguilauncherevent18872 "E:\GitHub Projects\216BProject\ECE216BNew.xpr"
+RDI_ARGS_FUNCTION: RDI_EXEC_DEFAULT
+RDI_BASEROOT: E:/UCLA/Spring_24/216B/Xilinx/Vivado
+RDI_BINDIR: E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2/bin
+RDI_BINROOT: E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2/bin
+RDI_BUILD: yes
+RDI_CHECK_PROG: True
+RDI_DATADIR: E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2/data
+RDI_INSTALLROOT: E:/UCLA/Spring_24/216B/Xilinx
+RDI_INSTALLVER: 2023.2
+RDI_INSTALLVERSION: 2023.2
+RDI_ISE_PLATFORM: nt64
+RDI_JAVACEFROOT: E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2/tps/win64/java-cef-95.0.4638.69
+RDI_JAVAFXROOT: E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2/tps/win64/javafx-sdk-17.0.1
+RDI_JAVAROOT: E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2/tps/win64/jre17.0.7_7
+RDI_JAVA_VERSION: 17.0.7_7
+RDI_LIBDIR: E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2/lib/win64.o
+RDI_MINGW_LIB: E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2\tps\mingw\6.2.0\win64.o\nt\bin;E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2\tps\mingw\6.2.0\win64.o\nt\libexec\gcc\x86_64-w64-mingw32\6.2.0
+RDI_OPT_EXT: .o
+RDI_PLATFORM: win64
+RDI_PREPEND_PATH: E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2/ids_lite/ISE/bin/nt64;E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2/ids_lite/ISE/lib/nt64
+RDI_PROG: E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/vivado.exe
+RDI_PROGNAME: vivado.exe
+RDI_PYTHON3: E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2\tps\win64\python-3.8.3
+RDI_PYTHON3_VERSION: 3.8.3
+RDI_PYTHONHOME: E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2\tps\win64\python-3.8.3
+RDI_PYTHONPATH: E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2\tps\win64\python-3.8.3;E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2\tps\win64\python-3.8.3\bin;E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2\tps\win64\python-3.8.3\lib;E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2\tps\win64\python-3.8.3\lib\site-packages
+RDI_PYTHON_LD_LIBPATH: E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2\tps\win64\python-3.8.3\lib
+RDI_SESSION_INFO: E:\GitHubProjects\216BProject:VICKY-089F-25-05-2024_23-35-34.51
+RDI_SHARED_DATA: E:/UCLA/Spring_24/216B/Xilinx/SharedData/2023.2/data
+RDI_TPS_ROOT: E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2/tps/win64
+RDI_USE_JDK17: True
+RDI_VERBOSE: False
+XILINX: E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2/ids_lite/ISE
+XILINX_DSP: E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2/ids_lite/ISE
+XILINX_HLS: E:/UCLA/Spring_24/216B/Xilinx/Vitis_HLS/2023.2
+XILINX_PLANAHEAD: E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2
+XILINX_VIVADO: E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2
+XILINX_VIVADO_HLS: E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2
+_RDI_BINROOT: E:\UCLA\Spring_24\216B\Xilinx\Vivado\2023.2\bin
+_RDI_CWD: E:\GitHub Projects\216BProject
+
+
+GUI allocated memory:	512 MB
+GUI max memory:		4,072 MB
+Engine allocated memory: 818 MB
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// Opening Vivado Project: E:\GitHub Projects\216BProject\ECE216BNew.xpr. Version: Vivado v2023.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// Tcl Message: open_project {E:/GitHub Projects/216BProject/ECE216BNew.xpr} 
+// HMemoryUtils.trashcanNow. Engine heap size: 869 MB. GUI used memory: 69 MB. Current time: 5/25/24, 11:36:11 PM PDT
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 105 MB (+108107kb) [00:00:32]
+// [Engine Memory]: 1,066 MB (+966650kb) [00:00:32]
+// [GUI Memory]: 121 MB (+10352kb) [00:00:36]
+// WARNING: HEventQueue.dispatchEvent() is taking  7627 ms.
+// Tcl Message: open_project {E:/GitHub Projects/216BProject/ECE216BNew.xpr} 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 76 MB. Current time: 5/25/24, 11:36:28 PM PDT
+// [Engine Memory]: 1,136 MB (+16894kb) [00:00:38]
+// Tcl Message: open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:20 . Memory (MB): peak = 1475.430 ; gain = 149.973 
+// Project name: ECE216BNew; location: E:/GitHub Projects/216BProject; part: xc7z020clg400-2
+dismissDialog("Open Project"); // bq (Open Project Progress)
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// [GUI Memory]: 147 MB (+21021kb) [00:00:54]
+// TclEventType: DG_GRAPH_STALE
+// Elapsed Time for: 'L.f': 20s
+// Elapsed Time for: 'L.f': 22s
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed Time for: 'L.f': 24s
+// [GUI Memory]: 160 MB (+5725kb) [00:20:58]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,156 MB. GUI used memory: 82 MB. Current time: 5/26/24, 12:06:29 AM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,156 MB. GUI used memory: 83 MB. Current time: 5/26/24, 12:36:32 AM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,156 MB. GUI used memory: 63 MB. Current time: 5/26/24, 3:37:34 PM PDT
+// Elapsed time: 57688 seconds
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B (PAResourceCommand.PACommandNames_ADD_SOURCES, Sources_add_sources)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+selectButton("NEXT", "Next >"); // JButton (NEXT)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (PAResourceQtoS.SrcChooserPanel_CREATE_FILE)
+// Elapsed time: 12 seconds
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "mem_to_array_1"); // Q (PAResourceAtoD.CreateSrcFileDialog_FILE_NAME)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (RDIResource.BaseDialog_OK)
+dismissDialog("Create Source File"); // m (dialog1)
+selectButton("FINISH", "Finish"); // JButton (FINISH)
+// 'f' command handler elapsed time: 23 seconds
+dismissDialog("Add Sources"); // c (dialog0)
+// Tcl Message: close [ open {E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/new/mem_to_array_1.v} w ] 
+// Tcl Message: add_files {{E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/new/mem_to_array_1.v}} 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+dismissDialog("Add Sources"); // bq (Add Sources  Progress)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (RDIResource.BaseDialog_OK)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,173 MB. GUI used memory: 66 MB. Current time: 5/26/24, 3:38:26 PM PDT
+// WARNING: HEventQueue.dispatchEvent() is taking  4598 ms.
+selectButton("OptionPane.button", "Yes"); // JButton (OptionPane.button)
+// WARNING: HEventQueue.dispatchEvent() is taking  2992 ms.
+dismissDialog("Define Module"); // p (dialog2)
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 4025 ms. Increasing delay to 3000 ms.
+// TclEventType: FILE_SET_CHANGE
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 4326 ms. Increasing delay to 12978 ms.
+// Elapsed Time for: 'L.f': 16h:02m:12s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 16h:02m:19s
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed Time for: 'L.f': 16h:02m:21s
+// TclEventType: DG_GRAPH_STALE
+// Elapsed Time for: 'L.f': 16h:02m:23s
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 21 ms. Decreasing delay to 2021 ms.
+// Elapsed Time for: 'L.f': 16h:02m:27s
+// PAPropertyPanels.initPanels (mem_to_array_1.v) elapsed time: 0.2s
+// Elapsed time: 20 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mem_to_array_1 (mem_to_array_1.v)]", 51, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mem_to_array_1 (mem_to_array_1.v)]", 51, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mem_to_array_1 (mem_to_array_1.v)]", 51, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectCodeEditor("mem_to_array_1.v", 166, 10); // ad (mem_to_array_1.v)
+selectCodeEditor("mem_to_array_1.v", 204, 430); // ad (mem_to_array_1.v)
+// Elapsed time: 10 seconds
+selectCodeEditor("mem_to_array_1.v", 318, 438); // ad (mem_to_array_1.v)
+// Elapsed time: 35 seconds
+selectCodeEditor("mem_to_array_1.v", 415, 423); // ad (mem_to_array_1.v)
+selectCodeEditor("mem_to_array_1.v", 420, 434); // ad (mem_to_array_1.v)
+selectCodeEditor("mem_to_array_1.v", 419, 453); // ad (mem_to_array_1.v)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mem_to_array (mem_to_array.v)]", 50, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mem_to_array (mem_to_array.v)]", 50, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectCodeEditor("mem_to_array.v", 3, 309); // ad (mem_to_array.v)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,197 MB. GUI used memory: 68 MB. Current time: 5/26/24, 3:40:01 PM PDT
+typeControlKey((HResource) null, "mem_to_array.v", 'c'); // ad (mem_to_array.v)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mem_to_array_1.v", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// [Engine Memory]: 1,197 MB (+4286kb) [16:04:14]
+typeControlKey((HResource) null, "mem_to_array_1.v", 'v'); // ad (mem_to_array_1.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 16h:04m:15s
+// Elapsed Time for: 'L.f': 16h:04m:19s
+// Elapsed time: 38 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MEM_Design (MEM_Design.bd)]", 3); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MEM_Design (MEM_Design.bd)]", 3, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MEM_Design (MEM_Design.bd)]", 3, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+// Tcl Message: open_bd_design {E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/bd/MEM_Design/MEM_Design.bd} 
+// TclEventType: LOAD_FEATURE
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: Reading block design file <E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/bd/MEM_Design/MEM_Design.bd>... 
+selectButton(RDIResource.ProgressDialog_CANCEL, "Cancel"); // a (RDIResource.ProgressDialog_CANCEL)
+// Tcl Message: INFO: [Common 17-41] Interrupt caught. Command should exit soon. 
+// Tcl Message: ERROR: [Ip 78-89] Error in evaluating command source [rdi::utils::find_approot_file scripts/xguifrmwork/init.tcl]  -      while executing "source [rdi::utils::find_approot_file scripts/xguifrmwork/init.tcl]" 
+// Tcl Message: 1 
+// Tcl Message: ERROR: [Ip 78-89] Error in evaluating command ::xgui::utils::init_utils ::xilinx.com:bd_rule:ai_engine:1.0 ai_engine - 1     while executing "catch {uplevel 1 [list rdi::tcl::unknown {*}$args]} result"     (procedure "::unknown" line 40)     invoked from within "::xgui::utils::init_utils ::xilinx.com:bd_rule:ai_engine:1.0 ai_engine" 
+// Tcl Message: 1 
+// Tcl Message: 1 
+// Tcl Message: ERROR: [Ip 78-89] Error in evaluating command ::xgui::utils::init_utils ::xilinx.com:bd_rule:aurora:1.0 aurora - 1     while executing "catch {uplevel 1 [list rdi::tcl::unknown {*}$args]} result"     (procedure "::unknown" line 40)     invoked from within "::xgui::utils::init_utils ::xilinx.com:bd_rule:aurora:1.0 aurora" 
+// Tcl Message: 1 
+// Tcl Message: 1 
+// Tcl Message: ERROR: [Ip 78-89] Error in evaluating command ::xgui::utils::init_utils ::xilinx.com:bd_rule:axi4:1.0 axi4 - 1     while executing "catch {uplevel 1 [list rdi::tcl::unknown {*}$args]} result"     (procedure "::unknown" line 40)     invoked from within "::xgui::utils::init_utils ::xilinx.com:bd_rule:axi4:1.0 axi4" 
+// Tcl Message: 1 
+// Tcl Message: 1 
+// Tcl Message: ERROR: [Ip 78-89] Error in evaluating command ::xgui::utils::init_utils ::xilinx.com:bd_rule:axi_chip2chip:1.0 axi_chip2chip - 1     while executing "catch {uplevel 1 [list rdi::tcl::unknown {*}$args]} result"     (procedure "::unknown" line 40)     invoked from within "::xgui::utils::init_utils ::xilinx.com:bd_rule:axi_chip2chip:1.0 axi_chip2chip" 
+// Tcl Message: 1 
+// Tcl Message: 1 
+// Tcl Message: ERROR: [Ip 78-89] Error in evaluating command ::xgui::utils::init_utils ::xilinx.com:bd_rule:axi_ethernet:1.0 axi_ethernet - 1     while executing "catch {uplevel 1 [list rdi::tcl::unknown {*}$args]} result"     (procedure "::unknown" line 40)     invoked from within "::xgui::utils::init_utils ::xilinx.com:bd_rule:axi_ethernet:1.0 axi_ethernet" 
+// Tcl Message: 1 
+// Tcl Message: 1 
+// Tcl Message: ERROR: [Ip 78-89] Error in evaluating command ::xgui::utils::init_utils ::xilinx.com:bd_rule:axi_noc2:1.0 axi_noc2 - 1     while executing "catch {uplevel 1 [list rdi::tcl::unknown {*}$args]} result"     (procedure "::unknown" line 40)     invoked from within "::xgui::utils::init_utils ::xilinx.com:bd_rule:axi_noc2:1.0 axi_noc2" 
+// Tcl Message: 1 
+// Tcl Message: 1 
+// Tcl Message: ERROR: [Ip 78-89] Error in evaluating command ::xgui::utils::init_utils ::xilinx.com:bd_rule:axi_noc:1.0 axi_noc - 1     while executing "catch {uplevel 1 [list rdi::tcl::unknown {*}$args]} result"     (procedure "::unknown" line 40)     invoked from within "::xgui::utils::init_utils ::xilinx.com:bd_rule:axi_noc:1.0 axi_noc" 
+// Tcl Message: 1 
+// Tcl Message: 1 
+// Tcl Message: ERROR: [Ip 78-89] Error in evaluating command ::xgui::utils::init_utils ::xilinx.com:bd_rule:board:1.0 board - 1     while executing "catch {uplevel 1 [list rdi::tcl::unknown {*}$args]} result"     (procedure "::unknown" line 40)     invoked from within "::xgui::utils::init_utils ::xilinx.com:bd_rule:board:1.0 board" 
+// Tcl Message: 1 
+// Tcl Message: 1 
+// Tcl Message: ERROR: [Ip 78-89] Error in evaluating command ::xgui::utils::init_utils ::xilinx.com:bd_rule:cips:1.0 cips - 1     while executing "catch {uplevel 1 [list rdi::tcl::unknown {*}$args]} result"     (procedure "::unknown" line 40)     invoked from within "::xgui::utils::init_utils ::xilinx.com:bd_rule:cips:1.0 cips" 
+// Tcl Message: 1 
+// Tcl Message: 1 
+// Tcl Message: ERROR: [Ip 78-89] Error in evaluating command ::xgui::utils::init_utils ::xilinx.com:bd_rule:clkrst:1.0 clkrst - 1     while executing "catch {uplevel 1 [list rdi::tcl::unknown {*}$args]} result"     (procedure "::unknown" line 40)     invoked from within "::xgui::utils::init_utils ::xilinx.com:bd_rule:clkrst:1.0 clkrst" 
+// Tcl Message: 1 
+// Tcl Message: 1 
+// Tcl Message: ERROR: [Ip 78-89] Error in evaluating command ::xgui::utils::init_utils ::xilinx.com:bd_rule:cpri:1.0 cpri - 1     while executing "catch {uplevel 1 [list rdi::tcl::unknown {*}$args]} result"     (procedure "::unknown" line 40)     invoked from within "::xgui::utils::init_utils ::xilinx.com:bd_rule:cpri:1.0 cpri" 
+// Tcl Message: 1 
+// Tcl Message: 1 
+// Tcl Message: ERROR: [Ip 78-89] Error in evaluating command ::xgui::utils::init_utils ::xilinx.com:bd_rule:dcmac:1.0 dcmac - 1     while executing "catch {uplevel 1 [list rdi::tcl::unknown {*}$args]} result"     (procedure "::unknown" line 40)     invoked from within "::xgui::utils::init_utils ::xilinx.com:bd_rule:dcmac:1.0 dcmac" 
+// Tcl Message: 1 
+// Tcl Message: 1 
+// Tcl Message: ERROR: [Ip 78-89] Error in evaluating command ::xgui::utils::init_utils ::xilinx.com:bd_rule:ethernet_1_10_25g:1.0 ethernet_1_10_25g - 1     while executing "catch {uplevel 1 [list rdi::tcl::unknown {*}$args]} result"     (procedure "::unknown" line 40)     invoked from within "::xgui::utils::init_utils ::xilinx.com:bd_rule:ethernet_1_10_25g:1.0 ethernet_1_10_25g" 
+// Tcl Message: 1 
+// Tcl Message: 1 
+// Tcl Message: ERROR: [Ip 78-89] Error in evaluating command ::xgui::utils::init_utils ::xilinx.com:bd_rule:gig_ethernet_pcs_pma:1.0 gig_ethernet_pcs_pma - 1     while executing "catch {uplevel 1 [list rdi::tcl::unknown {*}$args]} result"     (procedure "::unknown" line 40)     invoked from within "::xgui::utils::init_utils ::xilinx.com:bd_rule:gig_ethernet_pcs_pma:1.0 gig_ethernet_pcs_pma" 
+// Tcl Message: 1 
+// Tcl Message: 1 
+// Tcl Message: ERROR: [Ip 78-89] Error in evaluating command ::xgui::utils::init_utils ::xilinx.com:bd_rule:gt_ips:1.0 gt_ips - 1     while executing "catch {uplevel 1 [list rdi::tcl::unknown {*}$args]} result"     (procedure "::unknown" line 40)     invoked from within "::xgui::utils::init_utils ::xilinx.com:bd_rule:gt_ips:1.0 gt_ips" 
+// Tcl Message: 1 
+// Tcl Message: 1 
+// Tcl Message: ERROR: [Ip 78-89] Error in evaluating command ::xgui::utils::init_utils ::xilinx.com:bd_rule:gt_tx_rx:1.0 gt_tx_rx - 1     while executing "catch {uplevel 1 [list rdi::tcl::unknown {*}$args]} result"     (procedure "::unknown" line 40)     invoked from within "::xgui::utils::init_utils ::xilinx.com:bd_rule:gt_tx_rx:1.0 gt_tx_rx" 
+// Tcl Message: 1 
+// Tcl Message: 1 
+// Tcl Message: ERROR: [Ip 78-89] Error in evaluating command ::xgui::utils::init_utils ::xilinx.com:bd_rule:hdmi_gt_controller:1.0 hdmi_gt_controller - 1     while executing "catch {uplevel 1 [list rdi::tcl::unknown {*}$args]} result"     (procedure "::unknown" line 40)     invoked from within "::xgui::utils::init_utils ::xilinx.com:bd_rule:hdmi_gt_controller:1.0 hdmi_gt_controller" 
+// Tcl Message: 1 
+// Tcl Message: 1 
+// Tcl Message: ERROR: [Ip 78-89] Error in evaluating command ::xgui::utils::init_utils ::xilinx.com:bd_rule:ilknf:1.0 ilknf - 1     while executing "catch {uplevel 1 [list rdi::tcl::unknown {*}$args]} result"     (procedure "::unknown" line 40)     invoked from within "::xgui::utils::init_utils ::xilinx.com:bd_rule:ilknf:1.0 ilknf" 
+// Tcl Message: 1 
+// Tcl Message: 1 
+// Tcl Message: ERROR: [Ip 78-89] Error in evaluating command ::xgui::utils::init_utils ::xilinx.com:bd_rule:jesd204c:1.0 jesd204c - 1     while executing "catch {uplevel 1 [list rdi::tcl::unknown {*}$args]} result"     (procedure "::unknown" line 40)     invoked from within "::xgui::utils::init_utils ::xilinx.com:bd_rule:jesd204c:1.0 jesd204c" 
+// Tcl Message: 1 
+// Tcl Message: 1 
+// Tcl Message: ERROR: [Ip 78-89] Error in evaluating command ::xgui::utils::init_utils ::xilinx.com:bd_rule:l_ethernet:1.0 l_ethernet - 1     while executing "catch {uplevel 1 [list rdi::tcl::unknown {*}$args]} result"     (procedure "::unknown" line 40)     invoked from within "::xgui::utils::init_utils ::xilinx.com:bd_rule:l_ethernet:1.0 l_ethernet" 
+// Tcl Message: 1 
+// Tcl Message: 1 
+// Tcl Message: ERROR: [Ip 78-89] Error in evaluating command ::xgui::utils::init_utils ::xilinx.com:bd_rule:microblaze:1.0 microblaze - 1     while executing "catch {uplevel 1 [list rdi::tcl::unknown {*}$args]} result"     (procedure "::unknown" line 40)     invoked from within "::xgui::utils::init_utils ::xilinx.com:bd_rule:microblaze:1.0 microblaze" 
+// Tcl Message: 1 
+// Tcl Message: 1 
+// Tcl Message: ERROR: [Ip 78-89] Error in evaluating command ::xgui::utils::init_utils ::xilinx.com:bd_rule:microblaze_riscv:1.0 microblaze_riscv - 1     while executing "catch {uplevel 1 [list rdi::tcl::unknown {*}$args]} result"     (procedure "::unknown" line 40)     invoked from within "::xgui::utils::init_utils ::xilinx.com:bd_rule:microblaze_riscv:1.0 microblaze_riscv" 
+// Tcl Message: 1 
+// Tcl Message: 1 
+// Tcl Message: ERROR: [Ip 78-89] Error in evaluating command ::xgui::utils::init_utils ::xilinx.com:bd_rule:mrmac:1.0 mrmac - 1     while executing "catch {uplevel 1 [list rdi::tcl::unknown {*}$args]} result"     (procedure "::unknown" line 40)     invoked from within "::xgui::utils::init_utils ::xilinx.com:bd_rule:mrmac:1.0 mrmac" 
+// Tcl Message: 1 
+// Tcl Message: 1 
+// Tcl Message: ERROR: [Ip 78-89] Error in evaluating command ::xgui::utils::init_utils ::xilinx.com:bd_rule:oran_radio_if:1.0 oran_radio_if - 1     while executing "catch {uplevel 1 [list rdi::tcl::unknown {*}$args]} result"     (procedure "::unknown" line 40)     invoked from within "::xgui::utils::init_utils ::xilinx.com:bd_rule:oran_radio_if:1.0 oran_radio_if" 
+// Tcl Message: 1 
+// Tcl Message: 1 
+// Tcl Message: ERROR: [Ip 78-89] Error in evaluating command ::xgui::utils::init_utils ::xilinx.com:bd_rule:pcie4_uscale_plus:1.0 pcie4_uscale_plus - 1     while executing "catch {uplevel 1 [list rdi::tcl::unknown {*}$args]} result"     (procedure "::unknown" line 40)     invoked from within "::xgui::utils::init_utils ::xilinx.com:bd_rule:pcie4_uscale_plus:1.0 pcie4_uscale_plus" 
+// Tcl Message: 1 
+// Tcl Message: 1 
+// Tcl Message: ERROR: [Ip 78-89] Error in evaluating command ::xgui::utils::init_utils ::xilinx.com:bd_rule:pcie4c_uscale_plus:1.0 pcie4c_uscale_plus - 1     while executing "catch {uplevel 1 [list rdi::tcl::unknown {*}$args]} result"     (procedure "::unknown" line 40)     invoked from within "::xgui::utils::init_utils ::xilinx.com:bd_rule:pcie4c_uscale_plus:1.0 pcie4c_uscale_plus" 
+// Tcl Message: 1 
+// Tcl Message: 1 
+// Tcl Message: ERROR: [Ip 78-89] Error in evaluating command ::xgui::utils::init_utils ::xilinx.com:bd_rule:pcie_dma_versal:1.0 pcie_dma_versal - 1     while executing "catch {uplevel 1 [list rdi::tcl::unknown {*}$args]} result"     (procedure "::unknown" line 40)     invoked from within "::xgui::utils::init_utils ::xilinx.com:bd_rule:pcie_dma_versal:1.0 pcie_dma_versal" 
+// Tcl Message: 1 
+// Tcl Message: 1 
+// Tcl Message: ERROR: [Ip 78-89] Error in evaluating command ::xgui::utils::init_utils ::xilinx.com:bd_rule:pcie_phy_versal:1.0 pcie_phy_versal - 1     while executing "catch {uplevel 1 [list rdi::tcl::unknown {*}$args]} result"     (procedure "::unknown" line 40)     invoked from within "::xgui::utils::init_utils ::xilinx.com:bd_rule:pcie_phy_versal:1.0 pcie_phy_versal" 
+// Tcl Message: 1 
+// Tcl Message: 1 
+// Tcl Message: ERROR: [Ip 78-89] Error in evaluating command ::xgui::utils::init_utils ::xilinx.com:bd_rule:pcie_versal:1.0 pcie_versal - 1     while executing "catch {uplevel 1 [list rdi::tcl::unknown {*}$args]} result"     (procedure "::unknown" line 40)     invoked from within "::xgui::utils::init_utils ::xilinx.com:bd_rule:pcie_versal:1.0 pcie_versal" 
+// Tcl Message: 1 
+// Tcl Message: 1 
+// Tcl Message: ERROR: [Ip 78-89] Error in evaluating command ::xgui::utils::init_utils ::xilinx.com:bd_rule:ps_wizard:1.0 ps_wizard - 1     while executing "catch {uplevel 1 [list rdi::tcl::unknown {*}$args]} result"     (procedure "::unknown" line 40)     invoked from within "::xgui::utils::init_utils ::xilinx.com:bd_rule:ps_wizard:1.0 ps_wizard" 
+// Tcl Message: 1 
+// Tcl Message: 1 
+// Tcl Message: ERROR: [Ip 78-89] Error in evaluating command ::xgui::utils::init_utils ::xilinx.com:bd_rule:qdma:1.0 qdma - 1     while executing "catch {uplevel 1 [list rdi::tcl::unknown {*}$args]} result"     (procedure "::unknown" line 40)     invoked from within "::xgui::utils::init_utils ::xilinx.com:bd_rule:qdma:1.0 qdma" 
+// Tcl Message: 1 
+// Tcl Message: 1 
+// Tcl Message: ERROR: [Ip 78-89] Error in evaluating command ::xgui::utils::init_utils ::xilinx.com:bd_rule:quadsgmii:1.0 quadsgmii - 1     while executing "catch {uplevel 1 [list rdi::tcl::unknown {*}$args]} result"     (procedure "::unknown" line 40)     invoked from within "::xgui::utils::init_utils ::xilinx.com:bd_rule:quadsgmii:1.0 quadsgmii" 
+// Tcl Message: 1 
+// Tcl Message: 1 
+// Tcl Message: ERROR: [Ip 78-89] Error in evaluating command ::xgui::utils::init_utils ::xilinx.com:bd_rule:tmr:1.0 tmr - 1     while executing "catch {uplevel 1 [list rdi::tcl::unknown {*}$args]} result"     (procedure "::unknown" line 40)     invoked from within "::xgui::utils::init_utils ::xilinx.com:bd_rule:tmr:1.0 tmr" 
+// Tcl Message: 1 
+// Tcl Message: 1 
+// Tcl Message: ERROR: [Ip 78-89] Error in evaluating command ::xgui::utils::init_utils ::xilinx.com:bd_rule:usxgmii:1.0 usxgmii - 1     while executing "catch {uplevel 1 [list rdi::tcl::unknown {*}$args]} result"     (procedure "::unknown" line 40)     invoked from within "::xgui::utils::init_utils ::xilinx.com:bd_rule:usxgmii:1.0 usxgmii" 
+// Tcl Message: 1 
+// Tcl Message: 1 
+// Tcl Message: ERROR: [Ip 78-89] Error in evaluating command ::xgui::utils::init_utils ::xilinx.com:bd_rule:v_vid_gt_bridge:2.0 v_vid_gt_bridge - 1     while executing "catch {uplevel 1 [list rdi::tcl::unknown {*}$args]} result"     (procedure "::unknown" line 40)     invoked from within "::xgui::utils::init_utils ::xilinx.com:bd_rule:v_vid_gt_bridge:2.0 v_vid_gt_bridge" 
+// Tcl Message: 1 
+// Tcl Message: 1 
+// Tcl Message: ERROR: [Ip 78-89] Error in evaluating command ::xgui::utils::init_utils ::xilinx.com:bd_rule:versal_cips:1.0 versal_cips - 1     while executing "catch {uplevel 1 [list rdi::tcl::unknown {*}$args]} result"     (procedure "::unknown" line 40)     invoked from within "::xgui::utils::init_utils ::xilinx.com:bd_rule:versal_cips:1.0 versal_cips" 
+// Tcl Message: 1 
+// Tcl Message: 1 
+// Tcl Message: ERROR: [Ip 78-89] Error in evaluating command ::xgui::utils::init_utils ::xilinx.com:bd_rule:versal_dp_rx_ss:1.0 versal_dp_rx_ss - 1     while executing "catch {uplevel 1 [list rdi::tcl::unknown {*}$args]} result"     (procedure "::unknown" line 40)     invoked from within "::xgui::utils::init_utils ::xilinx.com:bd_rule:versal_dp_rx_ss:1.0 versal_dp_rx_ss" 
+// Tcl Message: 1 
+// Tcl Message: 1 
+// Tcl Message: ERROR: [Ip 78-89] Error in evaluating command ::xgui::utils::init_utils ::xilinx.com:bd_rule:versal_dp_tx_ss:1.0 versal_dp_tx_ss - 1     while executing "catch {uplevel 1 [list rdi::tcl::unknown {*}$args]} result"     (procedure "::unknown" line 40)     invoked from within "::xgui::utils::init_utils ::xilinx.com:bd_rule:versal_dp_tx_ss:1.0 versal_dp_tx_ss" 
+// Tcl Message: 1 
+// Tcl Message: 1 
+// Tcl Message: ERROR: [Ip 78-89] Error in evaluating command ::xgui::utils::init_utils ::xilinx.com:bd_rule:versal_hdmi_rx_ss:1.0 versal_hdmi_rx_ss - 1     while executing "catch {uplevel 1 [list rdi::tcl::unknown {*}$args]} result"     (procedure "::unknown" line 40)     invoked from within "::xgui::utils::init_utils ::xilinx.com:bd_rule:versal_hdmi_rx_ss:1.0 versal_hdmi_rx_ss" 
+// Tcl Message: 1 
+// Tcl Message: 1 
+// Tcl Message: ERROR: [Ip 78-89] Error in evaluating command ::xgui::utils::init_utils ::xilinx.com:bd_rule:versal_hdmi_tx_ss:1.0 versal_hdmi_tx_ss - 1     while executing "catch {uplevel 1 [list rdi::tcl::unknown {*}$args]} result"     (procedure "::unknown" line 40)     invoked from within "::xgui::utils::init_utils ::xilinx.com:bd_rule:versal_hdmi_tx_ss:1.0 versal_hdmi_tx_ss" 
+// Tcl Message: 1 
+// Tcl Message: 1 
+// Tcl Message: ERROR: [Ip 78-89] Error in evaluating command ::xgui::utils::init_utils ::xilinx.com:bd_rule:xdma:1.0 xdma - 1     while executing "catch {uplevel 1 [list rdi::tcl::unknown {*}$args]} result"     (procedure "::unknown" line 40)     invoked from within "::xgui::utils::init_utils ::xilinx.com:bd_rule:xdma:1.0 xdma" 
+// Tcl Message: 1 
+// Tcl Message: 1 
+// Tcl Message: ERROR: [Ip 78-89] Error in evaluating command ::xgui::utils::init_utils ::xilinx.com:bd_rule:xxv_ethernet:1.0 xxv_ethernet - 1     while executing "catch {uplevel 1 [list rdi::tcl::unknown {*}$args]} result"     (procedure "::unknown" line 40)     invoked from within "::xgui::utils::init_utils ::xilinx.com:bd_rule:xxv_ethernet:1.0 xxv_ethernet" 
+// Tcl Message: 1 
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// Tcl Message: Adding component instance block -- xilinx.com:module_ref:ArrayTop:1.0 - ArrayTop_0 
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// Tcl Message: INFO: [BD 41-1808] Open Block Design has been cancelled. 
+// Tcl Message: open_bd_design: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 1557.617 ; gain = 0.000 
+// Tcl Message: INFO: [Common 17-344] 'open_bd_design' was cancelled 
+// CommandFailedException: ERROR: [Common 17-69] Command failed:  
+dismissDialog("Open Block Design"); // bq (Open Block Design Progress)
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (PAResourceAtoD.CmdMsgDialog_OK)
+dismissDialog("Critical Messages"); // a (dialog3)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MEMDesign_wrapper (MEMDesign_wrapper.v)]", 1); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MEMDesign_wrapper (MEMDesign_wrapper.v), MEMDesign_i : MEMDesign (MEMDesign.bd)]", 2, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MEMDesign_wrapper (MEMDesign_wrapper.v), MEMDesign_i : MEMDesign (MEMDesign.bd)]", 2, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// Tcl Message: open_bd_design {E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/bd/MEMDesign/MEMDesign.bd} 
+// Tcl Message: Reading block design file <E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/bd/MEMDesign/MEMDesign.bd>... Adding component instance block -- xilinx.com:ip:blk_mem_gen:8.4 - blk_mem_gen_0 
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_OPEN_DIAGRAM
+// Tcl Message: Adding component instance block -- xilinx.com:module_ref:CADA_MEMControl:1.0 - CADA_MEMControl_0 Adding component instance block -- xilinx.com:module_ref:ArrayTop:1.0 - ArrayTop_0 Adding component instance block -- xilinx.com:module_ref:CADA_LaneSplit:1.0 - CADA_LaneSplit_0 Adding component instance block -- xilinx.com:ip:blk_mem_gen:8.4 - blk_mem_gen_1 Adding component instance block -- xilinx.com:module_ref:CADA_MEMControl:1.0 - CADA_MEMControl_1 Adding component instance block -- xilinx.com:module_ref:mem_to_array:1.0 - mem_to_array_0 Successfully read diagram <MEMDesign> from block design file <E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/bd/MEMDesign/MEMDesign.bd> 
+// TclEventType: RSB_OPEN_DIAGRAM
+// WARNING: HEventQueue.dispatchEvent() is taking  2301 ms.
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "unselect_objects"); // fS (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // t (PAResourceOtoP.PAViews_PROJECT_SUMMARY, PlanAheadTabProject Summary)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,233 MB. GUI used memory: 73 MB. Current time: 5/26/24, 3:41:07 PM PDT
+dismissDialog("Open Block Design"); // bq (Open Block Design Progress)
+// [Engine Memory]: 1,285 MB (+29839kb) [16:05:17]
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "select_objects [get_bd_cells /mem_to_array_0]"); // fS (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RUN_DELETE
+// Tcl Message: delete_bd_objs [get_bd_nets CADA_MEMControl_1_MEMout] [get_bd_nets mem_to_array_0_out] [get_bd_cells mem_to_array_0] 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_SCRIPT_TASK
+dismissDialog("Confirm Delete"); // bq (Confirm Delete Progress)
+// Elapsed Time for: 'L.f': 16h:04m:49s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 16h:04m:51s
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed Time for: 'L.f': 16h:04m:53s
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 537, 87, 1065, 411, false, false, false, true, false); // fS (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem) - Popup Trigger
+selectMenuItem(PAResourceQtoS.SystemBuilderMenu_ADD_MODULE, "Add Module..."); // ao (PAResourceQtoS.SystemBuilderMenu_ADD_MODULE, Add Module...)
+// HOptionPane Warning: 'Module references are still updating. Please try again after Sources | Hierarchy view is up-to-date. (Add Module)'
+selectButton("OptionPane.button", "OK"); // JButton (OptionPane.button)
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 577, 78, 1065, 411, false, false, false, true, false); // fS (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem) - Popup Trigger
+selectMenuItem(PAResourceQtoS.SystemBuilderMenu_ADD_MODULE, "Add Module..."); // ao (PAResourceQtoS.SystemBuilderMenu_ADD_MODULE, Add Module...)
+// HOptionPane Warning: 'Module references are still updating. Please try again after Sources | Hierarchy view is up-to-date. (Add Module)'
+selectButton("OptionPane.button", "OK"); // JButton (OptionPane.button)
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aa
+// Elapsed Time for: 'L.f': 16h:05m:03s
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 720, 83, 1065, 411, false, false, false, true, false); // fS (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem) - Popup Trigger
+selectMenu(PAResourceQtoS.SystemBuilderView_PINNING, "Pinning"); // al (PAResourceQtoS.SystemBuilderView_PINNING, Pinning)
+selectMenuItem(PAResourceQtoS.SystemBuilderMenu_ADD_MODULE, "Add Module..."); // ao (PAResourceQtoS.SystemBuilderMenu_ADD_MODULE, Add Module...)
+setText("PAResourceQtoS.RSBAddModuleDialog_MODULES_SEARCH_FIELD", "mem_to"); // OverlayTextField (PAResourceQtoS.RSBAddModuleDialog_MODULES_SEARCH_FIELD)
+selectList(PAResourceQtoS.RSBAddModuleDialog_MODULE_LIST, "mem_to_array_1 (mem_to_array_1.v)", 1); // cd (PAResourceQtoS.RSBAddModuleDialog_MODULE_LIST)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (RDIResource.BaseDialog_OK)
+dismissDialog("Add Module"); // ca (dialog4)
+// TclEventType: PACKAGER_UNLOAD_CORE
+// Tcl Message: create_bd_cell -type module -reference mem_to_array_1 mem_to_array_1_0 
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: BDCELL_LOCK_CHANGE
+// TclEventType: LOAD_FEATURE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: RSB_REMOVE_ADDRNETWORK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_ADD_OBJECT
+dismissDialog("Add Module"); // bq (Add Module Progress)
+// Elapsed Time for: 'L.f': 16h:05m:17s
+// Tcl Command: 'set_property location {2 627 142} [get_bd_cells mem_to_array_1_0]'
+// TclEventType: RSB_CANVAS_LOCATION
+// Tcl Message: set_property location {2 627 142} [get_bd_cells mem_to_array_1_0] 
+// Elapsed Time for: 'L.f': 16h:05m:19s
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_pins CADA_MEMControl_1/MEMout] [get_bd_pins mem_to_array_1_0/from_mem] 
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_pins mem_to_array_1_0/to_array] [get_bd_pins ArrayTop_0/dataIn] 
+// Elapsed time: 21 seconds
+selectButton(PAResourceQtoS.SystemBuilderView_ADD_IP, "System_RSB_ADD_IP"); // B (PAResourceQtoS.SystemBuilderView_ADD_IP, System_RSB_ADD_IP)
+selectButton(PAResourceCommand.PACommandNames_AUTO_CONNECT_PORTS, "System_auto_connect_ports"); // B (PAResourceCommand.PACommandNames_AUTO_CONNECT_PORTS, System_auto_connect_ports)
+selectButton(PAResourceCommand.PACommandNames_REGENERATE_LAYOUT, "System_regenerate_rsb_layout"); // B (PAResourceCommand.PACommandNames_REGENERATE_LAYOUT, System_regenerate_rsb_layout)
+// Run Command: PAResourceCommand.PACommandNames_REGENERATE_LAYOUT
+// Tcl Command: 'regenerate_bd_layout'
+// TclEventType: RSB_LAYOUT_STATE
+// TclEventType: RSB_REGENERATE_LAYOUT
+// Tcl Message: regenerate_bd_layout 
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "unselect_objects"); // fS (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mem_to_array_1.v", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectCodeEditor("mem_to_array_1.v", 131, 141); // ad (mem_to_array_1.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 16h:06m:27s
+// Elapsed time: 31 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "System", 0); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// Elapsed Time for: 'L.f': 16h:06m:29s
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "select_objects [get_bd_pins /mem_to_array_1_0/to_array]"); // fS (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "select_objects [get_bd_cells /mem_to_array_1_0]"); // fS (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+// Run Command: PAResourceCommand.PACommandNames_ROTATE_RSB_BLOCK_RIGHT
+// Run Command: RDIResourceCommand.RDICommands_UNDO
+typeControlKey(null, null, 'z');
+// TclEventType: RSB_LAYOUT_STATE
+// Tcl Message: undo 
+// Tcl Message: INFO: [Common 17-17] undo 'regenerate_bd_layout' 
+selectButton(PAResourceCommand.PACommandNames_REGENERATE_LAYOUT, "System_regenerate_rsb_layout"); // B (PAResourceCommand.PACommandNames_REGENERATE_LAYOUT, System_regenerate_rsb_layout)
+// Run Command: PAResourceCommand.PACommandNames_REGENERATE_LAYOUT
+// Tcl Command: 'regenerate_bd_layout'
+// TclEventType: RSB_LAYOUT_STATE
+// TclEventType: RSB_REGENERATE_LAYOUT
+// Tcl Message: regenerate_bd_layout 
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mem_to_array_1.v", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "System", 0); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "unselect_objects"); // fS (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "select_objects [get_bd_pins /mem_to_array_1_0/to_array]"); // fS (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+// Elapsed time: 21 seconds
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "select_objects [get_bd_pins /mem_to_array_1_0/to_array]"); // fS (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "select_objects [get_bd_pins /mem_to_array_1_0/to_array]"); // fS (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+// [GUI Memory]: 171 MB (+4076kb) [16:07:45]
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "select_objects [get_bd_pins /mem_to_array_1_0/to_array]"); // fS (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "select_objects [get_bd_pins /mem_to_array_1_0/to_array]"); // fS (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "select_objects [get_bd_pins /mem_to_array_1_0/to_array]"); // fS (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "select_objects [get_bd_cells /mem_to_array_1_0]"); // fS (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "select_objects [get_bd_cells /mem_to_array_1_0]"); // fS (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+// [GUI Memory]: 181 MB (+1377kb) [16:07:49]
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "select_objects [get_bd_cells /mem_to_array_1_0]"); // fS (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// TclEventType: IP_LOCK_CHANGE
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (RDIResource.BaseDialog_CANCEL)
+dismissDialog("Re-customize Module Reference"); // m (dialog5)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mem_to_array_1.v", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// Run Command: PAResourceCommand.PACommandNames_SAVE_RSB_DESIGN
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// Tcl Message: save_bd_design 
+// Tcl Message: Wrote  : <E:\GitHub Projects\216BProject\ECE216BNew.srcs\sources_1\bd\MEMDesign\MEMDesign.bd>  Wrote  : <E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/bd/MEMDesign/ui/bd_b733f973.ui>  
+// TclEventType: RSB_SAVE_DIAGRAM
+dismissDialog("Save Design"); // bq (Save Design Progress)
+// Elapsed Time for: 'L.f': 16h:07m:23s
+// TclEventType: DG_GRAPH_STALE
+// Elapsed Time for: 'L.f': 16h:07m:25s
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "System", 0); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 16h:07m:29s
+// Tcl Message: update_compile_order -fileset sources_1 
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "select_objects [get_bd_cells /mem_to_array_1_0]"); // fS (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: No error 
+// Elapsed Time for: 'L.f': 16h:07m:32s
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: delete_bd_objs [get_bd_nets CADA_MEMControl_1_MEMout] [get_bd_nets mem_to_array_1_0_to_array] [get_bd_cells mem_to_array_1_0] 
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 547, 76, 1065, 411, false, false, false, true, false); // fS (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem) - Popup Trigger
+selectMenu(PAResourceQtoS.SystemBuilderView_PINNING, "Pinning"); // al (PAResourceQtoS.SystemBuilderView_PINNING, Pinning)
+selectMenu(PAResourceQtoS.SystemBuilderView_PINNING, "Pinning"); // al (PAResourceQtoS.SystemBuilderView_PINNING, Pinning)
+selectMenuItem(PAResourceQtoS.SystemBuilderMenu_ADD_MODULE, "Add Module..."); // ao (PAResourceQtoS.SystemBuilderMenu_ADD_MODULE, Add Module...)
+// HOptionPane Warning: 'Module references are still updating. Please try again after Sources | Hierarchy view is up-to-date. (Add Module)'
+selectButton("OptionPane.button", "OK"); // JButton (OptionPane.button)
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 617, 79, 1065, 411, false, false, false, true, false); // fS (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem) - Popup Trigger
+selectMenuItem(PAResourceQtoS.SystemBuilderMenu_ADD_MODULE, "Add Module..."); // ao (PAResourceQtoS.SystemBuilderMenu_ADD_MODULE, Add Module...)
+// HOptionPane Warning: 'Module references are still updating. Please try again after Sources | Hierarchy view is up-to-date. (Add Module)'
+selectButton("OptionPane.button", "OK"); // JButton (OptionPane.button)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 16h:07m:39s
+// Tcl Message: update_compile_order -fileset sources_1 
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 642, 59, 1065, 411, false, false, false, true, false); // fS (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem) - Popup Trigger
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mem_to_array_1.v", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "System", 0); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// Elapsed Time for: 'L.f': 16h:07m:47s
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 562, 65, 1065, 411, false, false, false, true, false); // fS (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem) - Popup Trigger
+selectMenuItem(PAResourceQtoS.SystemBuilderMenu_ADD_MODULE, "Add Module..."); // ao (PAResourceQtoS.SystemBuilderMenu_ADD_MODULE, Add Module...)
+// HOptionPane Warning: 'Module references are still updating. Please try again after Sources | Hierarchy view is up-to-date. (Add Module)'
+selectButton("OptionPane.button", "OK"); // JButton (OptionPane.button)
+// Elapsed Time for: 'L.f': 16h:07m:53s
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 647, 111, 1065, 411, false, false, false, true, false); // fS (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem) - Popup Trigger
+selectMenuItem(PAResourceQtoS.SystemBuilderMenu_ADD_MODULE, "Add Module..."); // ao (PAResourceQtoS.SystemBuilderMenu_ADD_MODULE, Add Module...)
+setText("PAResourceQtoS.RSBAddModuleDialog_MODULES_SEARCH_FIELD", "mem_to"); // OverlayTextField (PAResourceQtoS.RSBAddModuleDialog_MODULES_SEARCH_FIELD)
+selectList(PAResourceQtoS.RSBAddModuleDialog_MODULE_LIST, "mem_to_array_1 (mem_to_array_1.v)", 1); // cd (PAResourceQtoS.RSBAddModuleDialog_MODULE_LIST)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (RDIResource.BaseDialog_OK)
+dismissDialog("Add Module"); // ca (dialog6)
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: RSB_REMOVE_ADDRNETWORK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_ADD_OBJECT
+// Tcl Message: create_bd_cell -type module -reference mem_to_array_1 mem_to_array_1_0 
+// Elapsed Time for: 'L.f': 16h:08m:01s
+// [GUI Memory]: 203 MB (+13325kb) [16:08:39]
+// Elapsed Time for: 'L.f': 16h:08m:03s
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_pins mem_to_array_1_0/from_mem] [get_bd_pins CADA_MEMControl_1/MEMout] 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,311 MB. GUI used memory: 79 MB. Current time: 5/26/24, 3:44:31 PM PDT
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_pins mem_to_array_1_0/to_array] [get_bd_pins ArrayTop_0/dataIn] 
+selectButton(PAResourceCommand.PACommandNames_REGENERATE_LAYOUT, "System_regenerate_rsb_layout"); // B (PAResourceCommand.PACommandNames_REGENERATE_LAYOUT, System_regenerate_rsb_layout)
+// Run Command: PAResourceCommand.PACommandNames_REGENERATE_LAYOUT
+// Tcl Command: 'regenerate_bd_layout'
+// TclEventType: RSB_LAYOUT_STATE
+// TclEventType: RSB_REGENERATE_LAYOUT
+// Tcl Message: regenerate_bd_layout 
+// Elapsed time: 20 seconds
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "unselect_objects"); // fS (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+// Elapsed time: 539 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MEMDesign_wrapper (MEMDesign_wrapper.v), MEMDesign_i : MEMDesign (MEMDesign.bd)]", 2); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MEMDesign_wrapper (MEMDesign_wrapper.v), MEMDesign_i : MEMDesign (MEMDesign.bd)]", 2); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+// Elapsed time: 85 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MEMDesign_wrapper (MEMDesign_wrapper.v), MEMDesign_i : MEMDesign (MEMDesign.bd)]", 2, true, false, false, false, true, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Popup Trigger - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MEMDesign_wrapper (MEMDesign_wrapper.v), MEMDesign_i : MEMDesign (MEMDesign.bd)]", 2, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MEMDesign_wrapper (MEMDesign_wrapper.v), MEMDesign_i : MEMDesign (MEMDesign.bd)]", 2, true, false, false, false, true, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_OPEN_FILE_WITH, "Open With"); // al (PAResourceCommand.PACommandNames_OPEN_FILE_WITH, Open With)
+selectMenuItem(PAResourceCommand.PACommandNames_VIEW_INST_TEMPL, "View Instantiation Template"); // ao (PAResourceCommand.PACommandNames_VIEW_INST_TEMPL, view_inst_templ_menu)
+// Run Command: PAResourceCommand.PACommandNames_VIEW_INST_TEMPL
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: make_wrapper -files [get_files {{E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/bd/MEMDesign/MEMDesign.bd}}] -fileset [get_filesets sources_1] -inst_template 
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: Wrote  : <E:\GitHub Projects\216BProject\ECE216BNew.srcs\sources_1\bd\MEMDesign\MEMDesign.bd>  Wrote  : <E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/bd/MEMDesign/ui/bd_b733f973.ui>  
+selectButton(RDIResource.ProgressDialog_CANCEL, "Cancel"); // a (RDIResource.ProgressDialog_CANCEL)
+// Tcl Message: INFO: [Common 17-365] Interrupt caught but 'make_wrapper' cannot be canceled. Please wait for command to finish. 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,385 MB. GUI used memory: 77 MB. Current time: 5/26/24, 3:55:36 PM PDT
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_SCRIPT_TASK
+// [Engine Memory]: 1,551 MB (+211921kb) [16:19:55]
+// Tcl Message: Verilog Output written to : e:/GitHub Projects/216BProject/ECE216BNew.gen/sources_1/bd/MEMDesign/synth/MEMDesign.v 
+// Tcl Message: Verilog Output written to : e:/GitHub Projects/216BProject/ECE216BNew.gen/sources_1/bd/MEMDesign/sim/MEMDesign.v Verilog Output written to : e:/GitHub Projects/216BProject/ECE216BNew.gen/sources_1/bd/MEMDesign/hdl/MEMDesign_wrapper.v 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: OPEN_FILE_TO_VIEW
+// Tcl Message: make_wrapper: Time (s): cpu = 00:00:02 ; elapsed = 00:00:15 . Memory (MB): peak = 1847.566 ; gain = 241.102 
+// Tcl Message: INFO: [Common 17-681] Processing pending cancel. 
+// Elapsed time: 12 seconds
+dismissDialog("View Instantiation Template"); // bq (View Instantiation Template Progress)
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 16h:19m:20s
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (PAResourceAtoD.CmdMsgDialog_OK)
+dismissDialog("Critical Messages"); // a (dialog7)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MEMDesign_wrapper (MEMDesign_wrapper.v), MEMDesign_i : MEMDesign (MEMDesign.bd)]", 2, true, false, false, false, true, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Popup Trigger - Node
+selectCodeEditor("MEMDesign_wrapper.v", 217, 55); // ad (MEMDesign_wrapper.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 16h:19m:30s
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed Time for: 'L.f': 16h:19m:32s
+// Elapsed Time for: 'L.f': 16h:19m:34s
+// Elapsed time: 463 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MEMDesign_wrapper (MEMDesign_wrapper.v), MEMDesign_i : MEMDesign (MEMDesign.bd)]", 2); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MEMDesign_wrapper (MEMDesign_wrapper.v), MEMDesign_i : MEMDesign (MEMDesign.bd), MEMDesign (MEMDesign.v)]", 3, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MEMDesign_wrapper (MEMDesign_wrapper.v), MEMDesign_i : MEMDesign (MEMDesign.bd), MEMDesign (MEMDesign.v), CADA_MEMControl_0 : MEMDesign_CADA_MEMControl_0_0 (Module Reference Wrapper)]", 6, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+// Elapsed time: 1312 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MEMDesign_wrapper (MEMDesign_wrapper.v)]", 1, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MEMDesign_wrapper.v", 3); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,566 MB. GUI used memory: 78 MB. Current time: 5/26/24, 4:25:39 PM PDT
+// Elapsed time: 16 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 63); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 64); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Hw3Hw_TB (Hw3Hw_TB.v)]", 65, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Hw3Hw_TB (Hw3Hw_TB.v)]", 65, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Hw3Hw_TB (Hw3Hw_TB.v)]", 65, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Hw3Hw_TB (Hw3Hw_TB.v)]", 65, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+// Elapsed time: 45 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Hw3Hw_TB (Hw3Hw_TB.v)]", 65, true, false, false, false, true, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_OPEN_FILE_WITH, "Open With"); // al (PAResourceCommand.PACommandNames_OPEN_FILE_WITH, Open With)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // al (PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, Hierarchy Update)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // al (PAResourceQtoS.SrcMenu_IP_HIERARCHY, IP Hierarchy)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // al (PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, Hierarchy Update)
+selectCodeEditor("Hw3Hw_TB.v", 198, 244); // ad (Hw3Hw_TB.v)
+typeControlKey((HResource) null, "Hw3Hw_TB.v", 'c'); // ad (Hw3Hw_TB.v)
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B (PAResourceCommand.PACommandNames_ADD_SOURCES, Sources_add_sources)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+selectRadioButton(PAResourceAtoD.AddSrcWizard_SPECIFY_SIMULATION_SPECIFIC_HDL_FILES, "Add or create simulation sources"); // a (PAResourceAtoD.AddSrcWizard_SPECIFY_SIMULATION_SPECIFIC_HDL_FILES)
+selectButton("NEXT", "Next >"); // JButton (NEXT)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (PAResourceQtoS.SrcChooserPanel_CREATE_FILE)
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "tb2"); // Q (PAResourceAtoD.CreateSrcFileDialog_FILE_NAME)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (RDIResource.BaseDialog_OK)
+dismissDialog("Create Source File"); // m (dialog9)

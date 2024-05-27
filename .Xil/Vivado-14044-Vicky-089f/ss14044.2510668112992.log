@@ -1,0 +1,208 @@
+srcscan starts
+INFO: analyzing module ArrayTop (VERI-9002)
+E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/new/ArrayTop.v(8): WARNING: empty port in module declaration (VERI-1294)
+INFO: analyzing module VSTop (VERI-9002)
+INFO: analyzing module DSE_Solution_L0 (VERI-9002)
+E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/new/ArrayTop.v(3184): INFO: undeclared symbol 'n0_HA_IN_1_Wsel', assumed default net type 'wire' (VERI-2561)
+E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/new/ArrayTop.v(3199): INFO: undeclared symbol 'n0_HA_IN_2_Wsel', assumed default net type 'wire' (VERI-2561)
+E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/new/ArrayTop.v(3214): INFO: undeclared symbol 'n0_HA_IN_3_Wsel', assumed default net type 'wire' (VERI-2561)
+INFO: analyzing module DSE_Solution_L1 (VERI-9002)
+INFO: analyzing module DSE_Solution_L2 (VERI-9002)
+INFO: analyzing module DSE_Solution_L3 (VERI-9002)
+INFO: analyzing module DSE_Solution_L4 (VERI-9002)
+INFO: analyzing module DSE_Solution_L5 (VERI-9002)
+INFO: analyzing module K5_E216B_3x3ConvTree_RTL_TB (VERI-9002)
+E:/GitHub Projects/216BProject/ECE216BNew.srcs/sim_1/new/E216BTB.v(39): WARNING: empty statement in sequential block (VERI-1988)
+INFO: analyzing module CADA_ADD (VERI-9002)
+INFO: analyzing module CADA_Mult (VERI-9002)
+INFO: analyzing module HA_ADD (VERI-9002)
+INFO: analyzing module HA_Mult (VERI-9002)
+INFO: analyzing module HA_Reg (VERI-9002)
+INFO: analyzing module HA_CSTR (VERI-9002)
+INFO: analyzing module HA_CONST (VERI-9002)
+INFO: analyzing module HA_CReg (VERI-9002)
+INFO: analyzing module CADA_IN (VERI-9002)
+INFO: analyzing module HA_IN (VERI-9002)
+INFO: analyzing module HA_OUT (VERI-9002)
+INFO: analyzing module HA_5BM (VERI-9002)
+INFO: analyzing module HA_32IM (VERI-9002)
+INFO: analyzing module HA_28IM (VERI-9002)
+INFO: analyzing module HA_27IM (VERI-9002)
+INFO: analyzing module HA_26IM (VERI-9002)
+INFO: analyzing module HA_25IM (VERI-9002)
+INFO: analyzing module HA_24IM (VERI-9002)
+INFO: analyzing module HA_23IM (VERI-9002)
+INFO: analyzing module HA_22IM (VERI-9002)
+INFO: analyzing module HA_21IM (VERI-9002)
+INFO: analyzing module HA_20IM (VERI-9002)
+INFO: analyzing module HA_19IM (VERI-9002)
+INFO: analyzing module HA_18IM (VERI-9002)
+INFO: analyzing module HA_17IM (VERI-9002)
+INFO: analyzing module HA_16IM (VERI-9002)
+INFO: analyzing module HA_15IM (VERI-9002)
+INFO: analyzing module HA_14IM (VERI-9002)
+INFO: analyzing module HA_13IM (VERI-9002)
+INFO: analyzing module HA_12IM (VERI-9002)
+INFO: analyzing module HA_11IM (VERI-9002)
+INFO: analyzing module HA_10IM (VERI-9002)
+INFO: analyzing module HA_9IM (VERI-9002)
+INFO: analyzing module HA_4BM (VERI-9002)
+INFO: analyzing module HA_8IM (VERI-9002)
+INFO: analyzing module HA_7IM (VERI-9002)
+INFO: analyzing module HA_6IM (VERI-9002)
+INFO: analyzing module HA_5IM (VERI-9002)
+INFO: analyzing module HA_3BM (VERI-9002)
+INFO: analyzing module HA_4IM (VERI-9002)
+INFO: analyzing module HA_3IM (VERI-9002)
+INFO: analyzing module HA_2BM (VERI-9002)
+INFO: analyzing module HA_2IM (VERI-9002)
+INFO: analyzing module HA_1BM (VERI-9002)
+INFO: analyzing module HA_AXI_Driver (VERI-9002)
+INFO: analyzing module Array_top (VERI-9002)
+E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/new/EntityLib.v(1491): INFO: undeclared symbol 'sgContro', assumed default net type 'wire' (VERI-2561)
+INFO: analyzing module HA_GND (VERI-9002)
+INFO: analyzing module HA_WIN (VERI-9002)
+INFO: analyzing module HA_INW (VERI-9002)
+INFO: analyzing module HA_TW (VERI-9002)
+INFO: analyzing module HA_OW (VERI-9002)
+INFO: analyzing module HA_WOUT (VERI-9002)
+INFO: analyzing module CADA_MEMTop (VERI-9002)
+INFO: analyzing module CADA_LaneMerge (VERI-9002)
+INFO: analyzing module CADA_LaneSplit (VERI-9002)
+INFO: analyzing module CADA_MEMControl (VERI-9002)
+INFO: analyzing module Hw3Hw_TB (VERI-9002)
+E:/GitHub Projects/216BProject/ECE216BNew.srcs/sim_1/new/Hw3Hw_TB.v(35): WARNING: empty statement in sequential block (VERI-1988)
+INFO: analyzing module MEMDesign_wrapper (VERI-9002)
+INFO: analyzing module MEM_TB (VERI-9002)
+E:/GitHub Projects/216BProject/ECE216BNew.srcs/sim_1/new/MEMTB.v(29): WARNING: empty statement in sequential block (VERI-1988)
+INFO: analyzing module mem_to_array (VERI-9002)
+Listing tops:
+VeriTop library:xil_defaultlib mod:K5_E216B_3x3ConvTree_RTL_TB
+VeriTop library:xil_defaultlib mod:HA_ADD
+VeriTop library:xil_defaultlib mod:HA_Mult
+VeriTop library:xil_defaultlib mod:HA_CSTR
+VeriTop library:xil_defaultlib mod:HA_CONST
+VeriTop library:xil_defaultlib mod:HA_IN
+VeriTop library:xil_defaultlib mod:HA_OUT
+VeriTop library:xil_defaultlib mod:HA_5BM
+VeriTop library:xil_defaultlib mod:HA_32IM
+VeriTop library:xil_defaultlib mod:HA_28IM
+VeriTop library:xil_defaultlib mod:HA_27IM
+VeriTop library:xil_defaultlib mod:HA_26IM
+VeriTop library:xil_defaultlib mod:HA_25IM
+VeriTop library:xil_defaultlib mod:HA_24IM
+VeriTop library:xil_defaultlib mod:HA_23IM
+VeriTop library:xil_defaultlib mod:HA_22IM
+VeriTop library:xil_defaultlib mod:HA_21IM
+VeriTop library:xil_defaultlib mod:HA_20IM
+VeriTop library:xil_defaultlib mod:HA_19IM
+VeriTop library:xil_defaultlib mod:HA_18IM
+VeriTop library:xil_defaultlib mod:HA_17IM
+VeriTop library:xil_defaultlib mod:HA_16IM
+VeriTop library:xil_defaultlib mod:HA_15IM
+VeriTop library:xil_defaultlib mod:HA_14IM
+VeriTop library:xil_defaultlib mod:HA_13IM
+VeriTop library:xil_defaultlib mod:HA_12IM
+VeriTop library:xil_defaultlib mod:HA_11IM
+VeriTop library:xil_defaultlib mod:HA_10IM
+VeriTop library:xil_defaultlib mod:HA_9IM
+VeriTop library:xil_defaultlib mod:HA_4BM
+VeriTop library:xil_defaultlib mod:HA_8IM
+VeriTop library:xil_defaultlib mod:HA_7IM
+VeriTop library:xil_defaultlib mod:HA_6IM
+VeriTop library:xil_defaultlib mod:HA_5IM
+VeriTop library:xil_defaultlib mod:HA_3BM
+VeriTop library:xil_defaultlib mod:HA_3IM
+VeriTop library:xil_defaultlib mod:HA_2BM
+VeriTop library:xil_defaultlib mod:HA_1BM
+VeriTop library:xil_defaultlib mod:HA_AXI_Driver
+VeriTop library:xil_defaultlib mod:Array_top
+VeriTop library:xil_defaultlib mod:HA_GND
+VeriTop library:xil_defaultlib mod:HA_WIN
+VeriTop library:xil_defaultlib mod:HA_WOUT
+VeriTop library:xil_defaultlib mod:CADA_MEMTop
+VeriTop library:xil_defaultlib mod:CADA_LaneMerge
+VeriTop library:xil_defaultlib mod:CADA_LaneSplit
+VeriTop library:xil_defaultlib mod:CADA_MEMControl
+VeriTop library:xil_defaultlib mod:Hw3Hw_TB
+VeriTop library:xil_defaultlib mod:MEM_TB
+VeriTop library:xil_defaultlib mod:mem_to_array
+END of tops
+E:/GitHub Projects/216BProject/ECE216BNew.srcs/sim_1/new/E216BTB.v(21): INFO: compiling module 'K5_E216B_3x3ConvTree_RTL_TB_default' (VERI-1018)
+E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/new/EntityLib.v(71): INFO: compiling module 'HA_ADD_default' (VERI-1018)
+E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/new/EntityLib.v(116): INFO: compiling module 'HA_Mult_default' (VERI-1018)
+E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/new/EntityLib.v(153): INFO: compiling module 'HA_CSTR_default' (VERI-1018)
+E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/new/EntityLib.v(171): INFO: compiling module 'HA_CONST_default' (VERI-1018)
+E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/new/EntityLib.v(228): INFO: compiling module 'HA_IN_default' (VERI-1018)
+E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/new/EntityLib.v(248): INFO: compiling module 'HA_OUT_default' (VERI-1018)
+E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/new/EntityLib.v(268): INFO: compiling module 'HA_5BM_default' (VERI-1018)
+E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/new/EntityLib.v(311): INFO: compiling module 'HA_32IM_default' (VERI-1018)
+E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/new/EntityLib.v(354): INFO: compiling module 'HA_28IM_default' (VERI-1018)
+E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/new/EntityLib.v(394): INFO: compiling module 'HA_27IM_default' (VERI-1018)
+E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/new/EntityLib.v(433): INFO: compiling module 'HA_26IM_default' (VERI-1018)
+E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/new/EntityLib.v(471): INFO: compiling module 'HA_25IM_default' (VERI-1018)
+E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/new/EntityLib.v(508): INFO: compiling module 'HA_24IM_default' (VERI-1018)
+E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/new/EntityLib.v(544): INFO: compiling module 'HA_23IM_default' (VERI-1018)
+E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/new/EntityLib.v(579): INFO: compiling module 'HA_22IM_default' (VERI-1018)
+E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/new/EntityLib.v(613): INFO: compiling module 'HA_21IM_default' (VERI-1018)
+E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/new/EntityLib.v(646): INFO: compiling module 'HA_20IM_default' (VERI-1018)
+E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/new/EntityLib.v(678): INFO: compiling module 'HA_19IM_default' (VERI-1018)
+E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/new/EntityLib.v(709): INFO: compiling module 'HA_18IM_default' (VERI-1018)
+E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/new/EntityLib.v(739): INFO: compiling module 'HA_17IM_default' (VERI-1018)
+E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/new/EntityLib.v(768): INFO: compiling module 'HA_16IM_default' (VERI-1018)
+E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/new/EntityLib.v(794): INFO: compiling module 'HA_15IM_default' (VERI-1018)
+E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/new/EntityLib.v(821): INFO: compiling module 'HA_14IM_default' (VERI-1018)
+E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/new/EntityLib.v(847): INFO: compiling module 'HA_13IM_default' (VERI-1018)
+E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/new/EntityLib.v(871): INFO: compiling module 'HA_12IM_default' (VERI-1018)
+E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/new/EntityLib.v(895): INFO: compiling module 'HA_11IM_default' (VERI-1018)
+E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/new/EntityLib.v(918): INFO: compiling module 'HA_10IM_default' (VERI-1018)
+E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/new/EntityLib.v(939): INFO: compiling module 'HA_9IM_default' (VERI-1018)
+E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/new/EntityLib.v(959): INFO: compiling module 'HA_4BM_default' (VERI-1018)
+E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/new/EntityLib.v(986): INFO: compiling module 'HA_8IM_default' (VERI-1018)
+E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/new/EntityLib.v(1005): INFO: compiling module 'HA_7IM_default' (VERI-1018)
+E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/new/EntityLib.v(1023): INFO: compiling module 'HA_6IM_default' (VERI-1018)
+E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/new/EntityLib.v(1040): INFO: compiling module 'HA_5IM_default' (VERI-1018)
+E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/new/EntityLib.v(1056): INFO: compiling module 'HA_3BM_default' (VERI-1018)
+E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/new/EntityLib.v(1089): INFO: compiling module 'HA_3IM_default' (VERI-1018)
+E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/new/EntityLib.v(1103): INFO: compiling module 'HA_2BM_default' (VERI-1018)
+E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/new/EntityLib.v(1131): INFO: compiling module 'HA_1BM_default' (VERI-1018)
+E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/new/EntityLib.v(1143): INFO: compiling module 'HA_AXI_Driver_default' (VERI-1018)
+E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/new/EntityLib.v(1464): INFO: compiling module 'Array_top_default' (VERI-1018)
+E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/new/EntityLib.v(1495): INFO: compiling module 'HA_GND_default' (VERI-1018)
+E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/new/EntityLib.v(1502): INFO: compiling module 'HA_WIN_default' (VERI-1018)
+E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/new/EntityLib.v(1534): INFO: compiling module 'HA_WOUT_default' (VERI-1018)
+E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/new/EntityLib.v(1543): INFO: compiling module 'CADA_MEMTop_default' (VERI-1018)
+E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/new/EntityLib.v(1556): INFO: compiling module 'CADA_LaneMerge_default' (VERI-1018)
+E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/new/EntityLib.v(1563): INFO: compiling module 'CADA_LaneSplit_default' (VERI-1018)
+E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/new/EntityLib.v(1572): INFO: compiling module 'CADA_MEMControl_default' (VERI-1018)
+E:/GitHub Projects/216BProject/ECE216BNew.srcs/sim_1/new/Hw3Hw_TB.v(2): INFO: compiling module 'Hw3Hw_TB_default' (VERI-1018)
+E:/GitHub Projects/216BProject/ECE216BNew.gen/sources_1/bd/MEMDesign/hdl/MEMDesign_wrapper.v(55): WARNING: Module <MEMDesign> not found while processing module instance <MEMDesign_i> (VERI-1063)
+E:/GitHub Projects/216BProject/ECE216BNew.srcs/sim_1/new/MEMTB.v(2): INFO: compiling module 'MEM_TB_default' (VERI-1018)
+E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/new/mem_to_array.v(23): INFO: compiling module 'mem_to_array_default' (VERI-1018)
+ModName: CADA_ADD(DataIn_1_BW=16,DataIn_2_BW=16,DataOut_1_BW=16)
+ModName: CADA_IN(Data_BW=16)
+ModName: CADA_Mult(DataIn_1_BW=16,DataIn_2_BW=16,DataOut_1_BW=16,scaleDown=0)
+ModName: HA_2IM(Mux_BW=16)
+ModName: HA_4IM(Mux_BW=16)
+ModName: HA_CReg(Inst_BW=1)
+ModName: HA_CReg(Inst_BW=2)
+ModName: HA_CReg(Inst_BW=4)
+ModName: HA_INW(DataIn_1_BW=16)
+ModName: HA_OW(DataIn_1_BW=16)
+ModName: HA_OW(DataIn_1_BW=16,DataOut_1_BW=16)
+ModName: HA_Reg(DataIn_1_BW=16,DataOut_1_BW=16)
+ModName: HA_Reg(DataIn_1_BW=36,DataOut_1_BW=36)
+ModName: HA_Reg(DataIn_1_BW=4,DataOut_1_BW=4)
+ModName: HA_Reg(DataIn_1_BW=7,DataOut_1_BW=7)
+ModName: HA_TW(DataIn_1_BW=16)
+BaseName CADA_ADD has 1 entries
+BaseName CADA_IN has 1 entries
+BaseName CADA_Mult has 1 entries
+BaseName HA_2IM has 1 entries
+BaseName HA_4IM has 1 entries
+BaseName HA_CReg has 3 entries
+BaseName HA_INW has 1 entries
+BaseName HA_OW has 2 entries
+BaseName HA_Reg has 4 entries
+BaseName HA_TW has 1 entries
+srcscan exits with return value 0

@@ -1,0 +1,1147 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Sat May 25 11:37:05 2024
+# Process ID: 5144
+# Current directory: E:/GitHub Projects/216BProject
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent27288 E:\GitHub Projects\216BProject\ECE216BNew.xpr
+# Log file: E:/GitHub Projects/216BProject/vivado.log
+# Journal file: E:/GitHub Projects/216BProject\vivado.jou
+# Running On: Vicky-089f, OS: Windows, CPU Frequency: 2994 MHz, CPU Physical cores: 12, Host memory: 16495 MB
+#-----------------------------------------------------------
+start_gui
+open_project {E:/GitHub Projects/216BProject/ECE216BNew.xpr}
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.0 available at E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.1 available at E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.2 available at E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2/data/ip'.
+open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:17 . Memory (MB): peak = 1494.758 ; gain = 272.906
+update_compile_order -fileset sources_1
+open_bd_design {E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/bd/MEM_Design/MEM_Design.bd}
+Reading block design file <E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/bd/MEM_Design/MEM_Design.bd>...
+Adding component instance block -- xilinx.com:module_ref:ArrayTop:1.0 - ArrayTop_0
+Successfully read diagram <MEM_Design> from block design file <E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/bd/MEM_Design/MEM_Design.bd>
+open_bd_design: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 1537.156 ; gain = 4.891
+open_bd_design {E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/bd/MEMDesign/MEMDesign.bd}
+Reading block design file <E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/bd/MEMDesign/MEMDesign.bd>...
+Adding component instance block -- xilinx.com:ip:blk_mem_gen:8.4 - blk_mem_gen_0
+Adding component instance block -- xilinx.com:module_ref:CADA_MEMControl:1.0 - CADA_MEMControl_0
+Adding component instance block -- xilinx.com:module_ref:ArrayTop:1.0 - ArrayTop_0
+Adding component instance block -- xilinx.com:module_ref:CADA_LaneSplit:1.0 - CADA_LaneSplit_0
+Successfully read diagram <MEMDesign> from block design file <E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/bd/MEMDesign/MEMDesign.bd>
+regenerate_bd_layout
+copy_bd_objs /  [get_bd_cells {blk_mem_gen_0}]
+set_property location {2 550 -207} [get_bd_cells blk_mem_gen_1]
+copy_bd_objs /  [get_bd_cells {CADA_MEMControl_0}]
+set_property location {1 211 -189} [get_bd_cells CADA_MEMControl_1]
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+set_property -dict [list \
+  CONFIG.Write_Depth_A {16} \
+  CONFIG.Write_Width_A {144} \
+] [get_bd_cells blk_mem_gen_1]
+set_property CONFIG.Data_bitWidth {144} [get_bd_cells CADA_MEMControl_1]
+connect_bd_net [get_bd_pins CADA_MEMControl_1/DataOut] [get_bd_pins blk_mem_gen_1/dina]
+WARNING: [BD 41-1306] The connection to interface pin </blk_mem_gen_1/dina> is being overridden by the user with net <CADA_MEMControl_1_DataOut>. This pin will not be connected as a part of interface connection <BRAM_PORTA>.
+connect_bd_net [get_bd_pins CADA_MEMControl_1/addrOut] [get_bd_pins blk_mem_gen_1/addra]
+WARNING: [BD 41-1306] The connection to interface pin </blk_mem_gen_1/addra> is being overridden by the user with net <CADA_MEMControl_1_addrOut>. This pin will not be connected as a part of interface connection <BRAM_PORTA>.
+connect_bd_net [get_bd_pins CADA_MEMControl_1/MWMWen] [get_bd_pins blk_mem_gen_1/wea]
+WARNING: [BD 41-1306] The connection to interface pin </blk_mem_gen_1/wea> is being overridden by the user with net <CADA_MEMControl_1_MWMWen>. This pin will not be connected as a part of interface connection <BRAM_PORTA>.
+connect_bd_net [get_bd_pins CADA_MEMControl_1/MEMEn] [get_bd_pins blk_mem_gen_1/ena]
+WARNING: [BD 41-1306] The connection to interface pin </blk_mem_gen_1/ena> is being overridden by the user with net <CADA_MEMControl_1_MEMEn>. This pin will not be connected as a part of interface connection <BRAM_PORTA>.
+connect_bd_net [get_bd_pins blk_mem_gen_1/douta] [get_bd_pins CADA_MEMControl_1/MEMin]
+WARNING: [BD 41-1306] The connection to interface pin </blk_mem_gen_1/douta> is being overridden by the user with net <blk_mem_gen_1_douta>. This pin will not be connected as a part of interface connection <BRAM_PORTA>.
+save_bd_design
+Wrote  : <E:\GitHub Projects\216BProject\ECE216BNew.srcs\sources_1\bd\MEMDesign\MEMDesign.bd> 
+Wrote  : <E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/bd/MEMDesign/ui/bd_b733f973.ui> 
+connect_bd_net [get_bd_ports clk] [get_bd_pins CADA_MEMControl_1/clk]
+regenerate_bd_layout
+save_bd_design
+Wrote  : <E:\GitHub Projects\216BProject\ECE216BNew.srcs\sources_1\bd\MEMDesign\MEMDesign.bd> 
+Wrote  : <E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/bd/MEMDesign/ui/bd_b733f973.ui> 
+connect_bd_net [get_bd_ports rst] [get_bd_pins CADA_MEMControl_1/rst]
+startgroup
+create_bd_port -dir I valid_1
+connect_bd_net [get_bd_pins /CADA_MEMControl_1/valid] [get_bd_ports valid_1]
+endgroup
+startgroup
+create_bd_port -dir I -from 143 -to 0 DataIn_1
+connect_bd_net [get_bd_pins /CADA_MEMControl_1/DataIn] [get_bd_ports DataIn_1]
+endgroup
+startgroup
+create_bd_port -dir I writeEn_1
+connect_bd_net [get_bd_pins /CADA_MEMControl_1/writeEn] [get_bd_ports writeEn_1]
+endgroup
+startgroup
+create_bd_port -dir I -from 4 -to 0 startAddr_1
+connect_bd_net [get_bd_pins /CADA_MEMControl_1/startAddr] [get_bd_ports startAddr_1]
+endgroup
+startgroup
+create_bd_port -dir I -from 3 -to 0 strideInterval_1
+connect_bd_net [get_bd_pins /CADA_MEMControl_1/strideInterval] [get_bd_ports strideInterval_1]
+endgroup
+undo
+INFO: [Common 17-17] undo 'endgroup'
+INFO: [Common 17-17] undo 'connect_bd_net [get_bd_pins /CADA_MEMControl_1/strideInterval] [get_bd_ports strideInterval_1]'
+INFO: [Common 17-17] undo 'create_bd_port -dir I -from 3 -to 0 strideInterval_1'
+INFO: [Common 17-17] undo 'startgroup'
+startgroup
+create_bd_port -dir I -from 3 -to 0 strideInterval_1
+connect_bd_net [get_bd_pins /CADA_MEMControl_1/strideInterval] [get_bd_ports strideInterval_1]
+endgroup
+startgroup
+create_bd_port -dir I -from 15 -to 0 startLatency_1
+connect_bd_net [get_bd_pins /CADA_MEMControl_1/startLatency] [get_bd_ports startLatency_1]
+endgroup
+startgroup
+create_bd_port -dir I -from 15 -to 0 endLatency_1
+connect_bd_net [get_bd_pins /CADA_MEMControl_1/endLatency] [get_bd_ports endLatency_1]
+endgroup
+regenerate_bd_layout
+save_bd_design
+Wrote  : <E:\GitHub Projects\216BProject\ECE216BNew.srcs\sources_1\bd\MEMDesign\MEMDesign.bd> 
+Wrote  : <E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/bd/MEMDesign/ui/bd_b733f973.ui> 
+set_property location {2 549 248} [get_bd_cells blk_mem_gen_1]
+regenerate_bd_layout
+delete_bd_objs [get_bd_nets ComputeDataIn_1]
+regenerate_bd_layout
+delete_bd_objs [get_bd_ports ComputeDataIn]
+set_property location {2 527 329} [get_bd_cells CADA_LaneSplit_0]
+set_property location {2 528 310} [get_bd_cells CADA_LaneSplit_0]
+set_property location {2 527 319} [get_bd_cells CADA_LaneSplit_0]
+regenerate_bd_layout
+create_bd_cell -type module -reference mem_to_array mem_to_array_0
+WARNING: [IP_Flow 19-3571] IP 'MEMDesign_mem_to_array_0_0' is restricted:
+* Detected changes to module reference file(s).
+save_bd_design
+Wrote  : <E:\GitHub Projects\216BProject\ECE216BNew.srcs\sources_1\bd\MEMDesign\MEMDesign.bd> 
+Wrote  : <E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/bd/MEMDesign/ui/bd_b733f973.ui> 
+current_bd_design [get_bd_designs MEM_Design]
+update_compile_order -fileset sources_1
+current_bd_design [get_bd_designs MEMDesign]
+delete_bd_objs [get_bd_cells mem_to_array_0]
+update_compile_order -fileset sources_1
+create_bd_cell -type module -reference mem_to_array mem_to_array_0
+WARNING: [IP_Flow 19-3571] IP 'MEMDesign_mem_to_array_0_1' is restricted:
+* Detected changes to module reference file(s).
+delete_bd_objs [get_bd_cells mem_to_array_0]
+create_bd_cell -type module -reference mem_to_array mem_to_array_0
+WARNING: [IP_Flow 19-3571] IP 'MEMDesign_mem_to_array_0_2' is restricted:
+* Detected changes to module reference file(s).
+set_property location {3 834 106} [get_bd_cells mem_to_array_0]
+connect_bd_net [get_bd_pins CADA_MEMControl_1/MEMout] [get_bd_pins mem_to_array_0/in]
+connect_bd_net [get_bd_pins mem_to_array_0/out] [get_bd_pins ArrayTop_0/dataIn]
+save_bd_design
+Wrote  : <E:\GitHub Projects\216BProject\ECE216BNew.srcs\sources_1\bd\MEMDesign\MEMDesign.bd> 
+Wrote  : <E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/bd/MEMDesign/ui/bd_b733f973.ui> 
+regenerate_bd_layout
+update_compile_order -fileset sources_1
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+INFO: [IP_Flow 19-3484] Absolute path of file 'e:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/bd/MEMDesign/ip/MEMDesign_blk_mem_gen_0_1/layer1_im2col.coe' provided. It will be converted relative to IP Instance files '../../../../ECE216BNew.srcs/sources_1/bd/MEMDesign/ip/MEMDesign_blk_mem_gen_0_1/layer1_im2col.coe'
+INFO: [IP_Flow 19-3484] Absolute path of file 'e:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/bd/MEMDesign/ip/MEMDesign_blk_mem_gen_0_1/layer1_im2col.coe' provided. It will be converted relative to IP Instance files '../../../../ECE216BNew.srcs/sources_1/bd/MEMDesign/ip/MEMDesign_blk_mem_gen_0_1/layer1_im2col.coe'
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+INFO: [IP_Flow 19-3484] Absolute path of file 'e:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/bd/MEMDesign/ip/MEMDesign_blk_mem_gen_0_1/layer1_im2col.coe' provided. It will be converted relative to IP Instance files '../../../../ECE216BNew.srcs/sources_1/bd/MEMDesign/ip/MEMDesign_blk_mem_gen_0_1/layer1_im2col.coe'
+INFO: [IP_Flow 19-3484] Absolute path of file 'e:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/bd/MEMDesign/ip/MEMDesign_blk_mem_gen_0_1/layer1_im2col.coe' provided. It will be converted relative to IP Instance files '../../../../ECE216BNew.srcs/sources_1/bd/MEMDesign/ip/MEMDesign_blk_mem_gen_0_1/layer1_im2col.coe'
+startgroup
+set_property -dict [list \
+  CONFIG.Coe_File {e:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/bd/MEMDesign/ip/MEMDesign_blk_mem_gen_0_1/layer1_im2col.coe} \
+  CONFIG.Load_Init_File {true} \
+] [get_bd_cells blk_mem_gen_1]
+INFO: [IP_Flow 19-3484] Absolute path of file 'e:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/bd/MEMDesign/ip/MEMDesign_blk_mem_gen_0_1/layer1_im2col.coe' provided. It will be converted relative to IP Instance files 'layer1_im2col.coe'
+endgroup
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+regenerate_bd_layout
+regenerate_bd_layout
+validate_bd_design
+CRITICAL WARNING: [BD 41-1367] The port name 'in' of cell '/mem_to_array_0' is a reserved keyword in a Hardware Description Language. Please consider renaming the port.
+CRITICAL WARNING: [BD 41-1367] The port name 'out' of cell '/mem_to_array_0' is a reserved keyword in a Hardware Description Language. Please consider renaming the port.
+CRITICAL WARNING: [BD 41-759] The input pins (listed below) are either not connected or do not have a source port, and they don't have a tie-off specified. These pins are tied-off to all 0's to avoid error in Implementation flow.
+Please check your design and connect them as needed: 
+/mem_to_array_0/filter
+
+save_bd_design
+Wrote  : <E:\GitHub Projects\216BProject\ECE216BNew.srcs\sources_1\bd\MEMDesign\MEMDesign.bd> 
+Wrote  : <E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/bd/MEMDesign/ui/bd_b733f973.ui> 
+create_bd_cell -type module -reference mem_to_array mem_to_array_1
+WARNING: [IP_Flow 19-3571] IP 'MEMDesign_mem_to_array_1_0' is restricted:
+* Detected changes to module reference file(s).
+delete_bd_objs [get_bd_cells mem_to_array_1]
+create_bd_cell -type module -reference mem_to_array mem_to_array_1
+WARNING: [IP_Flow 19-3571] IP 'MEMDesign_mem_to_array_1_1' is restricted:
+* Detected changes to module reference file(s).
+startgroup
+make_bd_pins_external  [get_bd_cells mem_to_array_1]
+make_bd_intf_pins_external  [get_bd_cells mem_to_array_1]
+INFO: [BD 5-409] No interface pins to be made external for /mem_to_array_1
+endgroup
+undo
+INFO: [Common 17-17] undo 'endgroup'
+INFO: [Common 17-17] undo 'make_bd_intf_pins_external  [get_bd_cells mem_to_array_1]'
+INFO: [Common 17-17] undo 'make_bd_pins_external  [get_bd_cells mem_to_array_1]'
+INFO: [Common 17-17] undo 'startgroup'
+undo
+INFO: [Common 17-17] undo 'create_bd_cell -type module -reference mem_to_array mem_to_array_1'
+set_property source_mgmt_mode All [current_project]
+set_property source_mgmt_mode All [current_project]
+report_ip_status -name ip_status 
+save_bd_design
+Wrote  : <E:\GitHub Projects\216BProject\ECE216BNew.srcs\sources_1\bd\MEMDesign\MEMDesign.bd> 
+Wrote  : <E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/bd/MEMDesign/ui/bd_b733f973.ui> 
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [e:\GitHub Projects\216BProject\ECE216BNew.gen\sources_1\bd\MEMDesign\synth\MEMDesign.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\GitHub Projects\216BProject\ECE216BNew.gen\sources_1\bd\MEMDesign\hdl\MEMDesign_wrapper.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\GitHub Projects\216BProject\ECE216BNew.srcs\sources_1\new\mem_to_array.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [e:\GitHub Projects\216BProject\ECE216BNew.gen\sources_1\bd\MEMDesign\synth\MEMDesign.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\GitHub Projects\216BProject\ECE216BNew.gen\sources_1\bd\MEMDesign\hdl\MEMDesign_wrapper.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\GitHub Projects\216BProject\ECE216BNew.srcs\sources_1\new\mem_to_array.v:]
+generate_target all [get_files {{E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/bd/MEMDesign/MEMDesign.bd}}]
+CRITICAL WARNING: [BD 41-1367] The port name 'in' of cell '/mem_to_array_0' is a reserved keyword in a Hardware Description Language. Please consider renaming the port.
+CRITICAL WARNING: [BD 41-1367] The port name 'out' of cell '/mem_to_array_0' is a reserved keyword in a Hardware Description Language. Please consider renaming the port.
+CRITICAL WARNING: [BD 41-759] The input pins (listed below) are either not connected or do not have a source port, and they don't have a tie-off specified. These pins are tied-off to all 0's to avoid error in Implementation flow.
+Please check your design and connect them as needed: 
+/mem_to_array_0/filter
+
+Wrote  : <E:\GitHub Projects\216BProject\ECE216BNew.srcs\sources_1\bd\MEMDesign\MEMDesign.bd> 
+Wrote  : <E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/bd/MEMDesign/ui/bd_b733f973.ui> 
+CRITICAL WARNING: [BD 41-2383] Width mismatch when connecting input pin '/blk_mem_gen_1/addra'(4) to pin '/CADA_MEMControl_1/addrOut'(5) - Only lower order bits will be connected, and other input bits of this pin will be left unconnected.
+Verilog Output written to : e:/GitHub Projects/216BProject/ECE216BNew.gen/sources_1/bd/MEMDesign/synth/MEMDesign.v
+CRITICAL WARNING: [BD 41-2383] Width mismatch when connecting input pin '/blk_mem_gen_1/addra'(4) to pin '/CADA_MEMControl_1/addrOut'(5) - Only lower order bits will be connected, and other input bits of this pin will be left unconnected.
+Verilog Output written to : e:/GitHub Projects/216BProject/ECE216BNew.gen/sources_1/bd/MEMDesign/sim/MEMDesign.v
+Verilog Output written to : e:/GitHub Projects/216BProject/ECE216BNew.gen/sources_1/bd/MEMDesign/hdl/MEMDesign_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block blk_mem_gen_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block CADA_MEMControl_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block mem_to_array_0 .
+Exporting to file e:/GitHub Projects/216BProject/ECE216BNew.gen/sources_1/bd/MEMDesign/hw_handoff/MEMDesign.hwh
+Generated Hardware Definition File e:/GitHub Projects/216BProject/ECE216BNew.gen/sources_1/bd/MEMDesign/synth/MEMDesign.hwdef
+generate_target: Time (s): cpu = 00:00:02 ; elapsed = 00:00:27 . Memory (MB): peak = 2183.934 ; gain = 0.000
+create_ip_run [get_files -of_objects [get_fileset sources_1] {{E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/bd/MEMDesign/MEMDesign.bd}}]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [e:\GitHub Projects\216BProject\ECE216BNew.gen\sources_1\bd\MEMDesign\synth\MEMDesign.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\GitHub Projects\216BProject\ECE216BNew.gen\sources_1\bd\MEMDesign\hdl\MEMDesign_wrapper.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\GitHub Projects\216BProject\ECE216BNew.srcs\sources_1\new\mem_to_array.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [e:\GitHub Projects\216BProject\ECE216BNew.gen\sources_1\bd\MEMDesign\synth\MEMDesign.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\GitHub Projects\216BProject\ECE216BNew.gen\sources_1\bd\MEMDesign\hdl\MEMDesign_wrapper.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\GitHub Projects\216BProject\ECE216BNew.srcs\sources_1\new\mem_to_array.v:]
+current_bd_design [get_bd_designs MEM_Design]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [e:\GitHub Projects\216BProject\ECE216BNew.gen\sources_1\bd\MEMDesign\synth\MEMDesign.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\GitHub Projects\216BProject\ECE216BNew.gen\sources_1\bd\MEMDesign\hdl\MEMDesign_wrapper.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\GitHub Projects\216BProject\ECE216BNew.srcs\sources_1\new\mem_to_array.v:]
+launch_runs MEMDesign_CADA_MEMControl_0_1_synth_1
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: MEMDesign_CADA_MEMControl_0_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [e:\GitHub Projects\216BProject\ECE216BNew.gen\sources_1\bd\MEMDesign\synth\MEMDesign.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\GitHub Projects\216BProject\ECE216BNew.gen\sources_1\bd\MEMDesign\hdl\MEMDesign_wrapper.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\GitHub Projects\216BProject\ECE216BNew.srcs\sources_1\new\mem_to_array.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [e:\GitHub Projects\216BProject\ECE216BNew.gen\sources_1\bd\MEMDesign\synth\MEMDesign.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\GitHub Projects\216BProject\ECE216BNew.gen\sources_1\bd\MEMDesign\hdl\MEMDesign_wrapper.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\GitHub Projects\216BProject\ECE216BNew.srcs\sources_1\new\mem_to_array.v:]
+[Sat May 25 23:29:09 2024] Launched MEMDesign_CADA_MEMControl_0_1_synth_1...
+Run output will be captured here: E:/GitHub Projects/216BProject/ECE216BNew.runs/MEMDesign_CADA_MEMControl_0_1_synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:01 ; elapsed = 00:00:17 . Memory (MB): peak = 2183.934 ; gain = 0.000
+wait_on_run MEMDesign_CADA_MEMControl_0_1_synth_1
+[Sat May 25 23:29:10 2024] Waiting for MEMDesign_CADA_MEMControl_0_1_synth_1 to finish...
+[Sat May 25 23:29:15 2024] Waiting for MEMDesign_CADA_MEMControl_0_1_synth_1 to finish...
+[Sat May 25 23:29:20 2024] Waiting for MEMDesign_CADA_MEMControl_0_1_synth_1 to finish...
+[Sat May 25 23:29:25 2024] Waiting for MEMDesign_CADA_MEMControl_0_1_synth_1 to finish...
+[Sat May 25 23:29:35 2024] Waiting for MEMDesign_CADA_MEMControl_0_1_synth_1 to finish...
+[Sat May 25 23:29:45 2024] Waiting for MEMDesign_CADA_MEMControl_0_1_synth_1 to finish...
+[Sat May 25 23:29:55 2024] Waiting for MEMDesign_CADA_MEMControl_0_1_synth_1 to finish...
+[Sat May 25 23:30:05 2024] Waiting for MEMDesign_CADA_MEMControl_0_1_synth_1 to finish...
+[Sat May 25 23:30:25 2024] Waiting for MEMDesign_CADA_MEMControl_0_1_synth_1 to finish...
+[Sat May 25 23:30:45 2024] Waiting for MEMDesign_CADA_MEMControl_0_1_synth_1 to finish...
+[Sat May 25 23:31:05 2024] Waiting for MEMDesign_CADA_MEMControl_0_1_synth_1 to finish...
+
+*** Running vivado
+    with args -log MEMDesign_CADA_MEMControl_0_1.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source MEMDesign_CADA_MEMControl_0_1.tcl
+
+
+ECHO is off.
+ECHO is off.
+
+****** Vivado v2023.2 (64-bit)
+  **** SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+  **** IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+  **** SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source MEMDesign_CADA_MEMControl_0_1.tcl -notrace
+create_project: Time (s): cpu = 00:00:01 ; elapsed = 00:00:14 . Memory (MB): peak = 473.164 ; gain = 177.363
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2/data/ip'.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: MEMDesign_CADA_MEMControl_0_1
+Command: synth_design -top MEMDesign_CADA_MEMControl_0_1 -part xc7z020clg400-2 -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg400-2
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 33440
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:09 . Memory (MB): peak = 1346.445 ; gain = 439.426
+---------------------------------------------------------------------------------
+INFO: [Synth 8-11241] undeclared symbol 'sgContro', assumed default net type 'wire' [E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/new/EntityLib.v:1491]
+INFO: [Synth 8-6157] synthesizing module 'MEMDesign_CADA_MEMControl_0_1' [e:/GitHub Projects/216BProject/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_CADA_MEMControl_0_1/synth/MEMDesign_CADA_MEMControl_0_1.v:53]
+INFO: [Synth 8-6157] synthesizing module 'CADA_MEMControl' [E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/new/EntityLib.v:1572]
+	Parameter Data_bitWidth bound to: 144 - type: integer 
+	Parameter addr_BW bound to: 5 - type: integer 
+	Parameter stride_BW bound to: 4 - type: integer 
+	Parameter latency_BW bound to: 16 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'CADA_MEMControl' (0#1) [E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/new/EntityLib.v:1572]
+INFO: [Synth 8-6155] done synthesizing module 'MEMDesign_CADA_MEMControl_0_1' (0#1) [e:/GitHub Projects/216BProject/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_CADA_MEMControl_0_1/synth/MEMDesign_CADA_MEMControl_0_1.v:53]
+WARNING: [Synth 8-6014] Unused sequential element startLatency_r_reg was removed.  [E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/new/EntityLib.v:1618]
+WARNING: [Synth 8-6014] Unused sequential element endLatency_r_reg was removed.  [E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/new/EntityLib.v:1619]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:12 . Memory (MB): peak = 1457.691 ; gain = 550.672
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:12 . Memory (MB): peak = 1457.691 ; gain = 550.672
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:12 . Memory (MB): peak = 1457.691 ; gain = 550.672
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 1457.691 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1557.211 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+The system cannot find the path specified.
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.178 . Memory (MB): peak = 1557.242 ; gain = 0.031
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:07 ; elapsed = 00:00:24 . Memory (MB): peak = 1557.242 ; gain = 650.223
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:07 ; elapsed = 00:00:24 . Memory (MB): peak = 1557.242 ; gain = 650.223
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:07 ; elapsed = 00:00:24 . Memory (MB): peak = 1557.242 ; gain = 650.223
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'stateReg_reg' in module 'CADA_MEMControl'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  idle_s |                               00 |                               00
+                 start_s |                               01 |                               01
+                 valid_s |                               10 |                               10
+                   end_s |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'stateReg_reg' using encoding 'sequential' in module 'CADA_MEMControl'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:24 . Memory (MB): peak = 1557.242 ; gain = 650.223
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   16 Bit       Adders := 1     
+	   2 Input    5 Bit       Adders := 1     
++---Registers : 
+	              144 Bit    Registers := 2     
+	               16 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   4 Input   16 Bit        Muxes := 1     
+	   4 Input    5 Bit        Muxes := 1     
+	   4 Input    2 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 3     
+	   4 Input    1 Bit        Muxes := 7     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:08 ; elapsed = 00:00:27 . Memory (MB): peak = 1557.242 ; gain = 650.223
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:33 . Memory (MB): peak = 1557.242 ; gain = 650.223
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:33 . Memory (MB): peak = 1557.242 ; gain = 650.223
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:11 ; elapsed = 00:00:33 . Memory (MB): peak = 1557.242 ; gain = 650.223
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:13 ; elapsed = 00:00:39 . Memory (MB): peak = 1557.242 ; gain = 650.223
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:13 ; elapsed = 00:00:39 . Memory (MB): peak = 1557.242 ; gain = 650.223
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:13 ; elapsed = 00:00:39 . Memory (MB): peak = 1557.242 ; gain = 650.223
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:13 ; elapsed = 00:00:39 . Memory (MB): peak = 1557.242 ; gain = 650.223
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:13 ; elapsed = 00:00:39 . Memory (MB): peak = 1557.242 ; gain = 650.223
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:13 ; elapsed = 00:00:39 . Memory (MB): peak = 1557.242 ; gain = 650.223
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |CARRY4 |     8|
+|2     |LUT2   |     1|
+|3     |LUT3   |    19|
+|4     |LUT4   |    20|
+|5     |LUT5   |     4|
+|6     |LUT6   |     8|
+|7     |FDCE   |   317|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:13 ; elapsed = 00:00:39 . Memory (MB): peak = 1557.242 ; gain = 650.223
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:09 ; elapsed = 00:00:35 . Memory (MB): peak = 1557.242 ; gain = 550.672
+Synthesis Optimization Complete : Time (s): cpu = 00:00:13 ; elapsed = 00:00:40 . Memory (MB): peak = 1557.242 ; gain = 650.223
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 1557.242 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 8 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1557.242 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+The system cannot find the path specified.
+Synth Design complete | Checksum: fff35a58
+INFO: [Common 17-83] Releasing license: Synthesis
+26 Infos, 3 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:14 ; elapsed = 00:00:48 . Memory (MB): peak = 1557.242 ; gain = 1070.258
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 1557.242 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'E:/GitHub Projects/216BProject/ECE216BNew.runs/MEMDesign_CADA_MEMControl_0_1_synth_1/MEMDesign_CADA_MEMControl_0_1.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP MEMDesign_CADA_MEMControl_0_1, cache-ID = 34855d1e3c852d4d
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1557.242 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'E:/GitHub Projects/216BProject/ECE216BNew.runs/MEMDesign_CADA_MEMControl_0_1_synth_1/MEMDesign_CADA_MEMControl_0_1.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file MEMDesign_CADA_MEMControl_0_1_utilization_synth.rpt -pb MEMDesign_CADA_MEMControl_0_1_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat May 25 23:30:58 2024...
+[Sat May 25 23:31:05 2024] MEMDesign_CADA_MEMControl_0_1_synth_1 finished
+wait_on_runs: Time (s): cpu = 00:00:01 ; elapsed = 00:01:56 . Memory (MB): peak = 2183.934 ; gain = 0.000
+launch_runs MEMDesign_blk_mem_gen_0_1_synth_1
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: MEMDesign_blk_mem_gen_0_1
+[Sat May 25 23:31:06 2024] Launched MEMDesign_blk_mem_gen_0_1_synth_1...
+Run output will be captured here: E:/GitHub Projects/216BProject/ECE216BNew.runs/MEMDesign_blk_mem_gen_0_1_synth_1/runme.log
+wait_on_run MEMDesign_blk_mem_gen_0_1_synth_1
+[Sat May 25 23:31:06 2024] Waiting for MEMDesign_blk_mem_gen_0_1_synth_1 to finish...
+[Sat May 25 23:31:11 2024] Waiting for MEMDesign_blk_mem_gen_0_1_synth_1 to finish...
+[Sat May 25 23:31:16 2024] Waiting for MEMDesign_blk_mem_gen_0_1_synth_1 to finish...
+[Sat May 25 23:31:21 2024] Waiting for MEMDesign_blk_mem_gen_0_1_synth_1 to finish...
+[Sat May 25 23:31:31 2024] Waiting for MEMDesign_blk_mem_gen_0_1_synth_1 to finish...
+[Sat May 25 23:31:41 2024] Waiting for MEMDesign_blk_mem_gen_0_1_synth_1 to finish...
+[Sat May 25 23:31:51 2024] Waiting for MEMDesign_blk_mem_gen_0_1_synth_1 to finish...
+[Sat May 25 23:32:01 2024] Waiting for MEMDesign_blk_mem_gen_0_1_synth_1 to finish...
+[Sat May 25 23:32:21 2024] Waiting for MEMDesign_blk_mem_gen_0_1_synth_1 to finish...
+
+*** Running vivado
+    with args -log MEMDesign_blk_mem_gen_0_1.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source MEMDesign_blk_mem_gen_0_1.tcl
+
+
+ECHO is off.
+ECHO is off.
+
+****** Vivado v2023.2 (64-bit)
+  **** SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+  **** IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+  **** SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source MEMDesign_blk_mem_gen_0_1.tcl -notrace
+create_project: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 474.559 ; gain = 177.750
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: MEMDesign_blk_mem_gen_0_1
+Command: synth_design -top MEMDesign_blk_mem_gen_0_1 -part xc7z020clg400-2 -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg400-2
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 2212
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:09 . Memory (MB): peak = 1349.164 ; gain = 439.203
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'MEMDesign_blk_mem_gen_0_1' [e:/GitHub Projects/216BProject/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_blk_mem_gen_0_1/synth/MEMDesign_blk_mem_gen_0_1.vhd:72]
+	Parameter C_FAMILY bound to: zynq - type: string 
+	Parameter C_XDEVICEFAMILY bound to: zynq - type: string 
+	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
+	Parameter C_INTERFACE_TYPE bound to: 0 - type: integer 
+	Parameter C_AXI_TYPE bound to: 1 - type: integer 
+	Parameter C_AXI_SLAVE_TYPE bound to: 0 - type: integer 
+	Parameter C_USE_BRAM_BLOCK bound to: 0 - type: integer 
+	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
+	Parameter C_CTRL_ECC_ALGO bound to: NONE - type: string 
+	Parameter C_HAS_AXI_ID bound to: 0 - type: integer 
+	Parameter C_AXI_ID_WIDTH bound to: 4 - type: integer 
+	Parameter C_MEM_TYPE bound to: 0 - type: integer 
+	Parameter C_BYTE_SIZE bound to: 9 - type: integer 
+	Parameter C_ALGORITHM bound to: 1 - type: integer 
+	Parameter C_PRIM_TYPE bound to: 1 - type: integer 
+	Parameter C_LOAD_INIT_FILE bound to: 1 - type: integer 
+	Parameter C_INIT_FILE_NAME bound to: MEMDesign_blk_mem_gen_0_1.mif - type: string 
+	Parameter C_INIT_FILE bound to: NONE - type: string 
+	Parameter C_USE_DEFAULT_DATA bound to: 0 - type: integer 
+	Parameter C_DEFAULT_DATA bound to: 0 - type: string 
+	Parameter C_HAS_RSTA bound to: 1 - type: integer 
+	Parameter C_RST_PRIORITY_A bound to: CE - type: string 
+	Parameter C_RSTRAM_A bound to: 0 - type: integer 
+	Parameter C_INITA_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENA bound to: 1 - type: integer 
+	Parameter C_HAS_REGCEA bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEA bound to: 0 - type: integer 
+	Parameter C_WEA_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_A bound to: WRITE_FIRST - type: string 
+	Parameter C_WRITE_WIDTH_A bound to: 144 - type: integer 
+	Parameter C_READ_WIDTH_A bound to: 144 - type: integer 
+	Parameter C_WRITE_DEPTH_A bound to: 16 - type: integer 
+	Parameter C_READ_DEPTH_A bound to: 16 - type: integer 
+	Parameter C_ADDRA_WIDTH bound to: 4 - type: integer 
+	Parameter C_HAS_RSTB bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_B bound to: CE - type: string 
+	Parameter C_RSTRAM_B bound to: 0 - type: integer 
+	Parameter C_INITB_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENB bound to: 0 - type: integer 
+	Parameter C_HAS_REGCEB bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEB bound to: 0 - type: integer 
+	Parameter C_WEB_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_B bound to: WRITE_FIRST - type: string 
+	Parameter C_WRITE_WIDTH_B bound to: 144 - type: integer 
+	Parameter C_READ_WIDTH_B bound to: 144 - type: integer 
+	Parameter C_WRITE_DEPTH_B bound to: 16 - type: integer 
+	Parameter C_READ_DEPTH_B bound to: 16 - type: integer 
+	Parameter C_ADDRB_WIDTH bound to: 4 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_A bound to: 1 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_MUX_PIPELINE_STAGES bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_INPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_USE_SOFTECC bound to: 0 - type: integer 
+	Parameter C_USE_ECC bound to: 0 - type: integer 
+	Parameter C_EN_ECC_PIPE bound to: 0 - type: integer 
+	Parameter C_READ_LATENCY_A bound to: 1 - type: integer 
+	Parameter C_READ_LATENCY_B bound to: 1 - type: integer 
+	Parameter C_HAS_INJECTERR bound to: 0 - type: integer 
+	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
+	Parameter C_COMMON_CLK bound to: 0 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_COLL bound to: 0 - type: integer 
+	Parameter C_EN_SLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_USE_URAM bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRA_CHG bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRB_CHG bound to: 0 - type: integer 
+	Parameter C_EN_DEEPSLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SHUTDOWN_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SAFETY_CKT bound to: 1 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_RANGE bound to: 0 - type: integer 
+	Parameter C_COUNT_36K_BRAM bound to: 2 - type: string 
+	Parameter C_COUNT_18K_BRAM bound to: 0 - type: string 
+	Parameter C_EST_POWER_SUMMARY bound to: Estimated Power for IP     :     13.9643 mW - type: string 
+INFO: [Synth 8-3491] module 'blk_mem_gen_v8_4_7' declared at 'e:/GitHub Projects/216BProject/ECE216BNew.gen/sources_1/bd/MEMDesign/ipshared/3c0c/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd:195208' bound to instance 'U0' of component 'blk_mem_gen_v8_4_7' [e:/GitHub Projects/216BProject/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_blk_mem_gen_0_1/synth/MEMDesign_blk_mem_gen_0_1.vhd:239]
+INFO: [Synth 8-256] done synthesizing module 'MEMDesign_blk_mem_gen_0_1' (0#1) [e:/GitHub Projects/216BProject/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_blk_mem_gen_0_1/synth/MEMDesign_blk_mem_gen_0_1.vhd:72]
+WARNING: [Synth 8-7129] Port CLKB in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[143] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[142] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[141] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[140] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[139] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[138] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[137] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[136] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[135] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[134] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[133] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[132] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[131] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[130] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[129] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[128] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[127] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[126] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[125] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[124] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[123] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[122] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[121] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[120] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[119] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[118] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[117] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[116] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[115] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[114] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[113] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[112] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[111] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[110] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[109] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[108] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[107] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[106] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[105] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[104] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[103] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[102] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[101] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[100] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[99] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[98] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[97] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[96] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[95] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[94] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[93] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[92] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[91] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[90] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[89] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[88] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[87] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[86] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[85] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[84] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[83] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[82] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[81] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[80] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[79] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[78] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[77] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[76] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[75] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[74] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[73] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[72] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[71] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[70] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[69] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[68] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[67] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[66] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[65] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[64] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[63] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[62] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[61] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[60] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[59] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[58] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[57] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[56] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[55] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[54] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[53] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[52] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[51] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[50] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[49] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[48] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[47] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[46] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[45] in module blk_mem_output_block is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:12 ; elapsed = 00:00:26 . Memory (MB): peak = 1702.941 ; gain = 792.980
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:12 ; elapsed = 00:00:26 . Memory (MB): peak = 1702.941 ; gain = 792.980
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:26 . Memory (MB): peak = 1702.941 ; gain = 792.980
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.030 . Memory (MB): peak = 1702.941 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 2 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [e:/GitHub Projects/216BProject/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_blk_mem_gen_0_1/MEMDesign_blk_mem_gen_0_1_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [e:/GitHub Projects/216BProject/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_blk_mem_gen_0_1/MEMDesign_blk_mem_gen_0_1_ooc.xdc] for cell 'U0'
+Parsing XDC File [E:/GitHub Projects/216BProject/ECE216BNew.runs/MEMDesign_blk_mem_gen_0_1_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [E:/GitHub Projects/216BProject/ECE216BNew.runs/MEMDesign_blk_mem_gen_0_1_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1702.941 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+The system cannot find the path specified.
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.073 . Memory (MB): peak = 1702.941 ; gain = 0.000
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:18 ; elapsed = 00:00:37 . Memory (MB): peak = 1702.941 ; gain = 792.980
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:18 ; elapsed = 00:00:37 . Memory (MB): peak = 1702.941 ; gain = 792.980
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for U0. (constraint file  {E:/GitHub Projects/216BProject/ECE216BNew.runs/MEMDesign_blk_mem_gen_0_1_synth_1/dont_touch.xdc}, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:37 . Memory (MB): peak = 1702.941 ; gain = 792.980
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:18 ; elapsed = 00:00:38 . Memory (MB): peak = 1702.941 ; gain = 792.980
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 2     
++---Registers : 
+	                5 Bit    Registers := 2     
+	                1 Bit    Registers := 12    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:39 . Memory (MB): peak = 1702.941 ; gain = 792.980
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:23 ; elapsed = 00:00:46 . Memory (MB): peak = 1702.941 ; gain = 792.980
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:46 . Memory (MB): peak = 1702.941 ; gain = 792.980
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:23 ; elapsed = 00:00:46 . Memory (MB): peak = 1702.941 ; gain = 792.980
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:26 ; elapsed = 00:00:52 . Memory (MB): peak = 1702.941 ; gain = 792.980
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:26 ; elapsed = 00:00:52 . Memory (MB): peak = 1702.941 ; gain = 792.980
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:26 ; elapsed = 00:00:52 . Memory (MB): peak = 1702.941 ; gain = 792.980
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:26 ; elapsed = 00:00:52 . Memory (MB): peak = 1702.941 ; gain = 792.980
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:26 ; elapsed = 00:00:52 . Memory (MB): peak = 1702.941 ; gain = 792.980
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:26 ; elapsed = 00:00:52 . Memory (MB): peak = 1702.941 ; gain = 792.980
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++-------------------+-----------------------------------------------------------------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name        | RTL Name                                                                                                              | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++-------------------+-----------------------------------------------------------------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|blk_mem_gen_v8_4_7 | inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/SAFETY_CKT_GEN.RSTA_SHFT_REG_reg[4] | 4      | 1     | NO           | NO                 | YES               | 1      | 0       | 
++-------------------+-----------------------------------------------------------------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |LUT2     |     3|
+|2     |LUT4     |     1|
+|3     |RAMB36E1 |     2|
+|5     |SRL16E   |     1|
+|6     |FDRE     |     6|
++------+---------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:26 ; elapsed = 00:00:52 . Memory (MB): peak = 1702.941 ; gain = 792.980
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 414 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:12 ; elapsed = 00:00:48 . Memory (MB): peak = 1702.941 ; gain = 792.980
+Synthesis Optimization Complete : Time (s): cpu = 00:00:26 ; elapsed = 00:00:52 . Memory (MB): peak = 1702.941 ; gain = 792.980
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.017 . Memory (MB): peak = 1702.941 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 2 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1702.941 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+The system cannot find the path specified.
+Synth Design complete | Checksum: 269296a9
+INFO: [Common 17-83] Releasing license: Synthesis
+22 Infos, 101 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:28 ; elapsed = 00:00:58 . Memory (MB): peak = 1702.941 ; gain = 1213.113
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1702.941 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'E:/GitHub Projects/216BProject/ECE216BNew.runs/MEMDesign_blk_mem_gen_0_1_synth_1/MEMDesign_blk_mem_gen_0_1.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP MEMDesign_blk_mem_gen_0_1, cache-ID = 7950241bcca5a5d5
+INFO: [Coretcl 2-1174] Renamed 8 cell refs.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1702.941 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'E:/GitHub Projects/216BProject/ECE216BNew.runs/MEMDesign_blk_mem_gen_0_1_synth_1/MEMDesign_blk_mem_gen_0_1.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file MEMDesign_blk_mem_gen_0_1_utilization_synth.rpt -pb MEMDesign_blk_mem_gen_0_1_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat May 25 23:32:19 2024...
+[Sat May 25 23:32:21 2024] MEMDesign_blk_mem_gen_0_1_synth_1 finished
+wait_on_runs: Time (s): cpu = 00:00:01 ; elapsed = 00:01:15 . Memory (MB): peak = 2183.934 ; gain = 0.000
+launch_runs MEMDesign_mem_to_array_0_2_synth_1
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: MEMDesign_mem_to_array_0_2
+[Sat May 25 23:32:21 2024] Launched MEMDesign_mem_to_array_0_2_synth_1...
+Run output will be captured here: E:/GitHub Projects/216BProject/ECE216BNew.runs/MEMDesign_mem_to_array_0_2_synth_1/runme.log
+wait_on_run MEMDesign_mem_to_array_0_2_synth_1
+[Sat May 25 23:32:22 2024] Waiting for MEMDesign_mem_to_array_0_2_synth_1 to finish...
+[Sat May 25 23:32:27 2024] Waiting for MEMDesign_mem_to_array_0_2_synth_1 to finish...
+[Sat May 25 23:32:32 2024] Waiting for MEMDesign_mem_to_array_0_2_synth_1 to finish...
+[Sat May 25 23:32:37 2024] Waiting for MEMDesign_mem_to_array_0_2_synth_1 to finish...
+[Sat May 25 23:32:47 2024] Waiting for MEMDesign_mem_to_array_0_2_synth_1 to finish...
+
+*** Running vivado
+    with args -log MEMDesign_mem_to_array_0_2.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source MEMDesign_mem_to_array_0_2.tcl
+
+
+ECHO is off.
+ECHO is off.
+
+****** Vivado v2023.2 (64-bit)
+  **** SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+  **** IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+  **** SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source MEMDesign_mem_to_array_0_2.tcl -notrace
+create_project: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 474.152 ; gain = 178.078
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2/data/ip'.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: MEMDesign_mem_to_array_0_2
+Command: synth_design -top MEMDesign_mem_to_array_0_2 -part xc7z020clg400-2 -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg400-2
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 34836
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 1347.641 ; gain = 439.418
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'MEMDesign_mem_to_array_0_2' [e:/GitHub Projects/216BProject/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_mem_to_array_0_2/synth/MEMDesign_mem_to_array_0_2.v:53]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [e:/GitHub Projects/216BProject/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_mem_to_array_0_2/synth/MEMDesign_mem_to_array_0_2.v:68]
+INFO: [Synth 8-6157] synthesizing module 'mem_to_array' [E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/new/mem_to_array.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'mem_to_array' (0#1) [E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/new/mem_to_array.v:23]
+ERROR: [Synth 8-11365] for the instance 'inst' of module 'mem_to_array' declared at 'E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/new/mem_to_array.v:23', named port connection 'in' does not exist [e:/GitHub Projects/216BProject/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_mem_to_array_0_2/synth/MEMDesign_mem_to_array_0_2.v:69]
+ERROR: [Synth 8-11365] for the instance 'inst' of module 'mem_to_array' declared at 'E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/new/mem_to_array.v:23', named port connection 'filter' does not exist [e:/GitHub Projects/216BProject/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_mem_to_array_0_2/synth/MEMDesign_mem_to_array_0_2.v:70]
+ERROR: [Synth 8-11365] for the instance 'inst' of module 'mem_to_array' declared at 'E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/new/mem_to_array.v:23', named port connection 'out' does not exist [e:/GitHub Projects/216BProject/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_mem_to_array_0_2/synth/MEMDesign_mem_to_array_0_2.v:71]
+ERROR: [Synth 8-6156] failed synthesizing module 'MEMDesign_mem_to_array_0_2' [e:/GitHub Projects/216BProject/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_mem_to_array_0_2/synth/MEMDesign_mem_to_array_0_2.v:53]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:09 . Memory (MB): peak = 1456.469 ; gain = 548.246
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+INFO: [Common 17-83] Releasing license: Synthesis
+13 Infos, 1 Warnings, 0 Critical Warnings and 5 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Synthesis failed - please see the console or run log file for details
+INFO: [Common 17-206] Exiting Vivado at Sat May 25 23:32:49 2024...
+[Sat May 25 23:32:52 2024] MEMDesign_mem_to_array_0_2_synth_1 finished
+ERROR: [Vivado 12-13638] Failed runs(s) : 'MEMDesign_mem_to_array_0_2_synth_1'
+wait_on_runs: Time (s): cpu = 00:00:01 ; elapsed = 00:00:30 . Memory (MB): peak = 2183.934 ; gain = 0.000
+ERROR: [Common 17-39] 'wait_on_runs' failed due to earlier errors.
+ERROR: [Vivado 12-4146] Open Elaborated Design failed due to the following error:
+ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'wait_on_runs' failed due to earlier errors.
+
+
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [e:\GitHub Projects\216BProject\ECE216BNew.gen\sources_1\bd\MEMDesign\synth\MEMDesign.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\GitHub Projects\216BProject\ECE216BNew.gen\sources_1\bd\MEMDesign\hdl\MEMDesign_wrapper.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\GitHub Projects\216BProject\ECE216BNew.srcs\sources_1\new\mem_to_array.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [e:\GitHub Projects\216BProject\ECE216BNew.gen\sources_1\bd\MEMDesign\synth\MEMDesign.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\GitHub Projects\216BProject\ECE216BNew.gen\sources_1\bd\MEMDesign\hdl\MEMDesign_wrapper.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\GitHub Projects\216BProject\ECE216BNew.srcs\sources_1\new\mem_to_array.v:]
+reset_run MEMDesign_mem_to_array_0_2_synth_1
+launch_runs MEMDesign_mem_to_array_0_2_synth_1
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: MEMDesign_mem_to_array_0_2
+[Sat May 25 23:34:25 2024] Launched MEMDesign_mem_to_array_0_2_synth_1...
+Run output will be captured here: E:/GitHub Projects/216BProject/ECE216BNew.runs/MEMDesign_mem_to_array_0_2_synth_1/runme.log
+wait_on_run MEMDesign_mem_to_array_0_2_synth_1
+[Sat May 25 23:34:25 2024] Waiting for MEMDesign_mem_to_array_0_2_synth_1 to finish...
+[Sat May 25 23:34:30 2024] Waiting for MEMDesign_mem_to_array_0_2_synth_1 to finish...
+[Sat May 25 23:34:35 2024] Waiting for MEMDesign_mem_to_array_0_2_synth_1 to finish...
+[Sat May 25 23:34:40 2024] Waiting for MEMDesign_mem_to_array_0_2_synth_1 to finish...
+[Sat May 25 23:34:50 2024] Waiting for MEMDesign_mem_to_array_0_2_synth_1 to finish...
+
+*** Running vivado
+    with args -log MEMDesign_mem_to_array_0_2.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source MEMDesign_mem_to_array_0_2.tcl
+
+
+ECHO is off.
+ECHO is off.
+
+****** Vivado v2023.2 (64-bit)
+  **** SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+  **** IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+  **** SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source MEMDesign_mem_to_array_0_2.tcl -notrace
+create_project: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 473.070 ; gain = 181.898
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2/data/ip'.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: MEMDesign_mem_to_array_0_2
+Command: synth_design -top MEMDesign_mem_to_array_0_2 -part xc7z020clg400-2 -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg400-2
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 37520
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 1345.324 ; gain = 438.941
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'MEMDesign_mem_to_array_0_2' [e:/GitHub Projects/216BProject/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_mem_to_array_0_2/synth/MEMDesign_mem_to_array_0_2.v:53]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [e:/GitHub Projects/216BProject/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_mem_to_array_0_2/synth/MEMDesign_mem_to_array_0_2.v:68]
+INFO: [Synth 8-6157] synthesizing module 'mem_to_array' [E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/new/mem_to_array.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'mem_to_array' (0#1) [E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/new/mem_to_array.v:23]
+ERROR: [Synth 8-11365] for the instance 'inst' of module 'mem_to_array' declared at 'E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/new/mem_to_array.v:23', named port connection 'in' does not exist [e:/GitHub Projects/216BProject/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_mem_to_array_0_2/synth/MEMDesign_mem_to_array_0_2.v:69]
+ERROR: [Synth 8-11365] for the instance 'inst' of module 'mem_to_array' declared at 'E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/new/mem_to_array.v:23', named port connection 'filter' does not exist [e:/GitHub Projects/216BProject/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_mem_to_array_0_2/synth/MEMDesign_mem_to_array_0_2.v:70]
+ERROR: [Synth 8-11365] for the instance 'inst' of module 'mem_to_array' declared at 'E:/GitHub Projects/216BProject/ECE216BNew.srcs/sources_1/new/mem_to_array.v:23', named port connection 'out' does not exist [e:/GitHub Projects/216BProject/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_mem_to_array_0_2/synth/MEMDesign_mem_to_array_0_2.v:71]
+ERROR: [Synth 8-6156] failed synthesizing module 'MEMDesign_mem_to_array_0_2' [e:/GitHub Projects/216BProject/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_mem_to_array_0_2/synth/MEMDesign_mem_to_array_0_2.v:53]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:08 . Memory (MB): peak = 1455.312 ; gain = 548.930
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+INFO: [Common 17-83] Releasing license: Synthesis
+13 Infos, 1 Warnings, 0 Critical Warnings and 5 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Synthesis failed - please see the console or run log file for details
+INFO: [Common 17-206] Exiting Vivado at Sat May 25 23:34:52 2024...
+[Sat May 25 23:34:55 2024] MEMDesign_mem_to_array_0_2_synth_1 finished
+ERROR: [Vivado 12-13638] Failed runs(s) : 'MEMDesign_mem_to_array_0_2_synth_1'
+wait_on_runs: Time (s): cpu = 00:00:02 ; elapsed = 00:00:30 . Memory (MB): peak = 2183.934 ; gain = 0.000
+ERROR: [Common 17-39] 'wait_on_runs' failed due to earlier errors.
+ERROR: [Vivado 12-4146] Open Elaborated Design failed due to the following error:
+ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'wait_on_runs' failed due to earlier errors.
+
+
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat May 25 23:35:17 2024...

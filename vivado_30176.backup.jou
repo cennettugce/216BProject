@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Sun May 26 21:53:39 2024
+# Process ID: 30176
+# Current directory: E:/GitHub Projects/216BProject
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent39232 E:\GitHub Projects\216BProject\ECE216BNew.xpr
+# Log file: E:/GitHub Projects/216BProject/vivado.log
+# Journal file: E:/GitHub Projects/216BProject\vivado.jou
+# Running On: Vicky-089f, OS: Windows, CPU Frequency: 2994 MHz, CPU Physical cores: 12, Host memory: 16495 MB
+#-----------------------------------------------------------
+start_gui
+open_project {E:/GitHub Projects/216BProject/ECE216BNew.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config {E:/GitHub Projects/216BProject/Hw3Hw_TB_behav.wcfg}
+source tb2.tcl
+relaunch_sim
+relaunch_sim
