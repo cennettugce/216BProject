@@ -1,0 +1,1562 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Mon May 27 01:42:04 2024" VIVADOVERSION="2023.2">
+
+  <SYSTEMINFO ARCH="zynq" DEVICE="7z020" NAME="Project_Design" PACKAGE="clg400" SPEEDGRADE="-2"/>
+
+  <EXTERNALPORTS>
+    <PORT DIR="I" LEFT="1727" NAME="ComputeDataIn" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_ComputeDataIn">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="DataIn_MEMControl" PORT="DataIn"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="clk" SIGIS="undef" SIGNAME="External_Ports_clk">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="CADAConfig_MEMControl" PORT="clk"/>
+        <CONNECTION INSTANCE="blk_mem_gen_0" PORT="clka"/>
+        <CONNECTION INSTANCE="blk_mem_gen_1" PORT="clka"/>
+        <CONNECTION INSTANCE="blk_mem_gen_4" PORT="clka"/>
+        <CONNECTION INSTANCE="ArrayTop_0" PORT="clk"/>
+        <CONNECTION INSTANCE="gControlIn_MEMControl" PORT="clk"/>
+        <CONNECTION INSTANCE="DataIn_MEMControl" PORT="clk"/>
+        <CONNECTION INSTANCE="blk_mem_gen_5" PORT="clka"/>
+        <CONNECTION INSTANCE="DataIn_MEMControl1" PORT="clk"/>
+        <CONNECTION INSTANCE="output_mapper_0" PORT="clk"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="143" NAME="dataOut" RIGHT="0" SIGIS="undef" SIGNAME="ArrayTop_0_dataOut">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="ArrayTop_0" PORT="dataOut"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="ena" SIGIS="undef" SIGNAME="CADAConfig_MEMControl_MEMEn">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="CADAConfig_MEMControl" PORT="MEMEn"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" LEFT="15" NAME="endLatency" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_endLatency">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="CADAConfig_MEMControl" PORT="endLatency"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" LEFT="15" NAME="endLatency1" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_endLatency1">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="gControlIn_MEMControl" PORT="endLatency"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" LEFT="15" NAME="endLatency2" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_endLatency2">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="DataIn_MEMControl" PORT="endLatency"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" LEFT="15" NAME="endLatency3" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_endLatency3">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="DataIn_MEMControl1" PORT="endLatency"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" LEFT="125" NAME="gControlIn" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_gControlIn">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="gControlIn_MEMControl" PORT="DataIn"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" LEFT="42" NAME="inputData" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_inputData">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="CADAConfig_MEMControl" PORT="DataIn"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="rst" SIGIS="undef" SIGNAME="External_Ports_rst">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="CADAConfig_MEMControl" PORT="rst"/>
+        <CONNECTION INSTANCE="blk_mem_gen_0" PORT="rsta"/>
+        <CONNECTION INSTANCE="blk_mem_gen_1" PORT="rsta"/>
+        <CONNECTION INSTANCE="blk_mem_gen_4" PORT="rsta"/>
+        <CONNECTION INSTANCE="ArrayTop_0" PORT="rst"/>
+        <CONNECTION INSTANCE="gControlIn_MEMControl" PORT="rst"/>
+        <CONNECTION INSTANCE="DataIn_MEMControl" PORT="rst"/>
+        <CONNECTION INSTANCE="DataIn_MEMControl1" PORT="rst"/>
+        <CONNECTION INSTANCE="blk_mem_gen_5" PORT="rsta"/>
+        <CONNECTION INSTANCE="output_mapper_0" PORT="reset"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" LEFT="4" NAME="startAddr" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_startAddr">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="CADAConfig_MEMControl" PORT="startAddr"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" LEFT="4" NAME="startAddr1" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_startAddr1">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="gControlIn_MEMControl" PORT="startAddr"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" LEFT="7" NAME="startAddr2" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_startAddr2">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="DataIn_MEMControl" PORT="startAddr"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" LEFT="15" NAME="startLatency" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_startLatency">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="CADAConfig_MEMControl" PORT="startLatency"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" LEFT="15" NAME="startLatency1" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_startLatency1">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="gControlIn_MEMControl" PORT="startLatency"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" LEFT="15" NAME="startLatency2" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_startLatency2">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="DataIn_MEMControl" PORT="startLatency"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" LEFT="15" NAME="startLatency3" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_startLatency3">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="DataIn_MEMControl1" PORT="startLatency"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" LEFT="3" NAME="strideInterval" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_strideInterval">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="CADAConfig_MEMControl" PORT="strideInterval"/>
+        <CONNECTION INSTANCE="DataIn_MEMControl" PORT="strideInterval"/>
+        <CONNECTION INSTANCE="gControlIn_MEMControl" PORT="strideInterval"/>
+        <CONNECTION INSTANCE="DataIn_MEMControl1" PORT="strideInterval"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="valid" SIGIS="undef" SIGNAME="External_Ports_valid">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="CADAConfig_MEMControl" PORT="valid"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="valid1" SIGIS="undef" SIGNAME="External_Ports_valid1">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="gControlIn_MEMControl" PORT="valid"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="valid2" SIGIS="undef" SIGNAME="External_Ports_valid2">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="DataIn_MEMControl" PORT="valid"/>
+        <CONNECTION INSTANCE="output_mapper_0" PORT="valid"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="valid3" SIGIS="undef" SIGNAME="External_Ports_valid3">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="HA_1BM_0" PORT="DataIn_1"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="writeEn" SIGIS="undef" SIGNAME="External_Ports_writeEn">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="CADAConfig_MEMControl" PORT="writeEn"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="writeEn1" SIGIS="undef" SIGNAME="External_Ports_writeEn1">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="gControlIn_MEMControl" PORT="writeEn"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="writeEn2" SIGIS="undef" SIGNAME="External_Ports_writeEn2">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="DataIn_MEMControl" PORT="writeEn"/>
+        <CONNECTION INSTANCE="output_mapper_0" PORT="writeEn"/>
+      </CONNECTIONS>
+    </PORT>
+  </EXTERNALPORTS>
+
+  <EXTERNALINTERFACES/>
+
+  <MODULES>
+    <MODULE COREREVISION="1" FULLNAME="/ArrayTop_0" HWVERSION="1.0" INSTANCE="ArrayTop_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="ArrayTop" VLNV="xilinx.com:module_ref:ArrayTop:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="Project_Design_ArrayTop_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clk">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clk"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="6" NAME="configIn" RIGHT="0" SIGIS="undef" SIGNAME="CADA_LaneSplit_0_dataOut1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="CADA_LaneSplit_0" PORT="dataOut1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="35" NAME="controlIn" RIGHT="0" SIGIS="undef" SIGNAME="CADA_LaneSplit_0_dataOut2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="CADA_LaneSplit_0" PORT="dataOut2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="1727" NAME="dataIn" RIGHT="0" SIGIS="undef" SIGNAME="HA_1BM_1_DataOut_1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="HA_1BM_1" PORT="DataOut_1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="143" NAME="dataOut" RIGHT="0" SIGIS="undef" SIGNAME="ArrayTop_0_dataOut">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="dataOut"/>
+            <CONNECTION INSTANCE="output_mapper_0" PORT="dataIn"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="125" NAME="gControlIn" RIGHT="0" SIGIS="undef" SIGNAME="gControlIn_MEMControl_DataOut">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="gControlIn_MEMControl" PORT="DataOut"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="rst" POLARITY="ACTIVE_LOW" SIGIS="rst" SIGNAME="External_Ports_rst">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="rst"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/CADAConfig_MEMControl" HWVERSION="1.0" INSTANCE="CADAConfig_MEMControl" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="CADA_MEMControl" VLNV="xilinx.com:module_ref:CADA_MEMControl:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Data_bitWidth" VALUE="43"/>
+        <PARAMETER NAME="addr_BW" VALUE="5"/>
+        <PARAMETER NAME="latency_BW" VALUE="16"/>
+        <PARAMETER NAME="stride_BW" VALUE="4"/>
+        <PARAMETER NAME="Component_Name" VALUE="Project_Design_CADA_MEMControl_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="42" NAME="DataIn" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_inputData">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="inputData"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="42" NAME="DataOut" RIGHT="0" SIGIS="undef" SIGNAME="CADAConfig_MEMControl_DataOut">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="CADA_LaneSplit_0" PORT="dataIn"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="MEMEn" SIGIS="undef" SIGNAME="CADAConfig_MEMControl_MEMEn">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="blk_mem_gen_0" PORT="ena"/>
+            <CONNECTION INSTANCE="External_Ports" PORT="ena"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="42" NAME="MEMin" RIGHT="0" SIGIS="undef" SIGNAME="blk_mem_gen_0_douta">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="blk_mem_gen_0" PORT="douta"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="42" NAME="MEMout" RIGHT="0" SIGIS="undef" SIGNAME="CADAConfig_MEMControl_MEMout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="blk_mem_gen_0" PORT="dina"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="MWMWen" SIGIS="undef" SIGNAME="CADAConfig_MEMControl_MWMWen">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="blk_mem_gen_0" PORT="wea"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="4" NAME="addrOut" RIGHT="0" SIGIS="undef" SIGNAME="CADAConfig_MEMControl_addrOut">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="blk_mem_gen_0" PORT="addra"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clk">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clk"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="15" NAME="endLatency" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_endLatency">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="endLatency"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="rst" POLARITY="ACTIVE_LOW" SIGIS="rst" SIGNAME="External_Ports_rst">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="rst"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="4" NAME="startAddr" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_startAddr">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="startAddr"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="15" NAME="startLatency" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_startLatency">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="startLatency"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="3" NAME="strideInterval" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_strideInterval">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="strideInterval"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="valid" SIGIS="undef" SIGNAME="External_Ports_valid">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="valid"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="writeEn" SIGIS="undef" SIGNAME="External_Ports_writeEn">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="writeEn"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/CADA_LaneSplit_0" HWVERSION="1.0" INSTANCE="CADA_LaneSplit_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="CADA_LaneSplit" VLNV="xilinx.com:module_ref:CADA_LaneSplit:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="Project_Design_CADA_LaneSplit_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="42" NAME="dataIn" RIGHT="0" SIGIS="undef" SIGNAME="CADAConfig_MEMControl_DataOut">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="CADAConfig_MEMControl" PORT="DataOut"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="6" NAME="dataOut1" RIGHT="0" SIGIS="undef" SIGNAME="CADA_LaneSplit_0_dataOut1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ArrayTop_0" PORT="configIn"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="35" NAME="dataOut2" RIGHT="0" SIGIS="undef" SIGNAME="CADA_LaneSplit_0_dataOut2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ArrayTop_0" PORT="controlIn"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/DataIn_MEMControl" HWVERSION="1.0" INSTANCE="DataIn_MEMControl" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="CADA_MEMControl" VLNV="xilinx.com:module_ref:CADA_MEMControl:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Data_bitWidth" VALUE="1728"/>
+        <PARAMETER NAME="addr_BW" VALUE="8"/>
+        <PARAMETER NAME="latency_BW" VALUE="16"/>
+        <PARAMETER NAME="stride_BW" VALUE="4"/>
+        <PARAMETER NAME="Component_Name" VALUE="Project_Design_CADA_MEMControl_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="1727" NAME="DataIn" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_ComputeDataIn">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="ComputeDataIn"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="1727" NAME="DataOut" RIGHT="0" SIGIS="undef" SIGNAME="DataIn_MEMControl_DataOut">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="HA_1BM_1" PORT="DataIn_1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="MEMEn" SIGIS="undef" SIGNAME="DataIn_MEMControl_MEMEn">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="blk_mem_gen_4" PORT="ena"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="1727" NAME="MEMin" RIGHT="0" SIGIS="undef" SIGNAME="blk_mem_gen_4_douta">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="blk_mem_gen_4" PORT="douta"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="1727" NAME="MEMout" RIGHT="0" SIGIS="undef" SIGNAME="DataIn_MEMControl_MEMout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="blk_mem_gen_4" PORT="dina"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="MWMWen" SIGIS="undef" SIGNAME="DataIn_MEMControl_MWMWen">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="blk_mem_gen_4" PORT="wea"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="7" NAME="addrOut" RIGHT="0" SIGIS="undef" SIGNAME="DataIn_MEMControl_addrOut">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="blk_mem_gen_4" PORT="addra"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clk">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clk"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="15" NAME="endLatency" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_endLatency2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="endLatency2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="rst" POLARITY="ACTIVE_LOW" SIGIS="rst" SIGNAME="External_Ports_rst">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="rst"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="7" NAME="startAddr" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_startAddr2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="startAddr2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="15" NAME="startLatency" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_startLatency2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="startLatency2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="3" NAME="strideInterval" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_strideInterval">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="strideInterval"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="valid" SIGIS="undef" SIGNAME="External_Ports_valid2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="valid2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="writeEn" SIGIS="undef" SIGNAME="External_Ports_writeEn2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="writeEn2"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/DataIn_MEMControl1" HWVERSION="1.0" INSTANCE="DataIn_MEMControl1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="CADA_MEMControl" VLNV="xilinx.com:module_ref:CADA_MEMControl:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Data_bitWidth" VALUE="1728"/>
+        <PARAMETER NAME="addr_BW" VALUE="8"/>
+        <PARAMETER NAME="latency_BW" VALUE="16"/>
+        <PARAMETER NAME="stride_BW" VALUE="4"/>
+        <PARAMETER NAME="Component_Name" VALUE="Project_Design_DataIn_MEMControl_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="1727" NAME="DataIn" RIGHT="0" SIGIS="undef" SIGNAME="output_mapper_0_outDataOut">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="output_mapper_0" PORT="outDataOut"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="1727" NAME="DataOut" RIGHT="0" SIGIS="undef" SIGNAME="DataIn_MEMControl1_DataOut">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="HA_1BM_1" PORT="DataIn_2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="MEMEn" SIGIS="undef" SIGNAME="DataIn_MEMControl1_MEMEn">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="blk_mem_gen_5" PORT="ena"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="1727" NAME="MEMin" RIGHT="0" SIGIS="undef" SIGNAME="blk_mem_gen_5_douta">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="blk_mem_gen_5" PORT="douta"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="1727" NAME="MEMout" RIGHT="0" SIGIS="undef" SIGNAME="DataIn_MEMControl1_MEMout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="blk_mem_gen_5" PORT="dina"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="MWMWen" SIGIS="undef" SIGNAME="DataIn_MEMControl1_MWMWen">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="blk_mem_gen_5" PORT="wea"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="7" NAME="addrOut" RIGHT="0" SIGIS="undef" SIGNAME="DataIn_MEMControl1_addrOut">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="blk_mem_gen_5" PORT="addra"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clk">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clk"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="15" NAME="endLatency" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_endLatency3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="endLatency3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="rst" POLARITY="ACTIVE_LOW" SIGIS="rst" SIGNAME="External_Ports_rst">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="rst"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="7" NAME="startAddr" RIGHT="0" SIGIS="undef" SIGNAME="output_mapper_0_startAddr">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="output_mapper_0" PORT="startAddr"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="15" NAME="startLatency" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_startLatency3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="startLatency3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="3" NAME="strideInterval" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_strideInterval">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="strideInterval"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="valid" SIGIS="undef" SIGNAME="HA_1BM_0_DataOut_1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="HA_1BM_0" PORT="DataOut_1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="writeEn" SIGIS="undef" SIGNAME="output_mapper_0_condition">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="output_mapper_0" PORT="condition"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/HA_1BM_0" HWVERSION="1.0" INSTANCE="HA_1BM_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="HA_1BM" VLNV="xilinx.com:module_ref:HA_1BM:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Mux_BW" VALUE="1"/>
+        <PARAMETER NAME="Component_Name" VALUE="Project_Design_HA_1BM_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="0" NAME="DataIn_1" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_valid3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="valid3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="0" NAME="DataIn_2" RIGHT="0" SIGIS="undef" SIGNAME="output_mapper_0_condition">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="output_mapper_0" PORT="condition"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="0" NAME="DataOut_1" RIGHT="0" SIGIS="undef" SIGNAME="HA_1BM_0_DataOut_1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="DataIn_MEMControl1" PORT="valid"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="sel" SIGIS="undef" SIGNAME="output_mapper_0_condition">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="output_mapper_0" PORT="condition"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/HA_1BM_1" HWVERSION="1.0" INSTANCE="HA_1BM_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="HA_1BM" VLNV="xilinx.com:module_ref:HA_1BM:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Mux_BW" VALUE="1728"/>
+        <PARAMETER NAME="Component_Name" VALUE="Project_Design_HA_1BM_1_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="1727" NAME="DataIn_1" RIGHT="0" SIGIS="undef" SIGNAME="DataIn_MEMControl_DataOut">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="DataIn_MEMControl" PORT="DataOut"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="1727" NAME="DataIn_2" RIGHT="0" SIGIS="undef" SIGNAME="DataIn_MEMControl1_DataOut">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="DataIn_MEMControl1" PORT="DataOut"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="1727" NAME="DataOut_1" RIGHT="0" SIGIS="undef" SIGNAME="HA_1BM_1_DataOut_1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ArrayTop_0" PORT="dataIn"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="sel" SIGIS="undef" SIGNAME="output_mapper_0_done">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="output_mapper_0" PORT="done"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="7" FULLNAME="/blk_mem_gen_0" HWVERSION="8.4" INSTANCE="blk_mem_gen_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="MEMORY" MODTYPE="blk_mem_gen" VLNV="xilinx.com:ip:blk_mem_gen:8.4">
+      <DOCUMENTS>
+        <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/ipdoc?c=blk_mem_gen;v=v8_4;d=pg058-blk-mem-gen.pdf"/>
+      </DOCUMENTS>
+      <PARAMETERS>
+        <PARAMETER NAME="C_ADDRA_WIDTH" VALUE="5"/>
+        <PARAMETER NAME="C_ADDRB_WIDTH" VALUE="5"/>
+        <PARAMETER NAME="C_ALGORITHM" VALUE="1"/>
+        <PARAMETER NAME="C_AXI_ID_WIDTH" VALUE="4"/>
+        <PARAMETER NAME="C_AXI_SLAVE_TYPE" VALUE="0"/>
+        <PARAMETER NAME="C_AXI_TYPE" VALUE="1"/>
+        <PARAMETER NAME="C_BYTE_SIZE" VALUE="9"/>
+        <PARAMETER NAME="C_COMMON_CLK" VALUE="0"/>
+        <PARAMETER NAME="C_COUNT_18K_BRAM" VALUE="0"/>
+        <PARAMETER NAME="C_COUNT_36K_BRAM" VALUE="1"/>
+        <PARAMETER NAME="C_CTRL_ECC_ALGO" VALUE="NONE"/>
+        <PARAMETER NAME="C_DEFAULT_DATA" VALUE="0"/>
+        <PARAMETER NAME="C_DISABLE_WARN_BHV_COLL" VALUE="0"/>
+        <PARAMETER NAME="C_DISABLE_WARN_BHV_RANGE" VALUE="0"/>
+        <PARAMETER NAME="C_ELABORATION_DIR" VALUE="./"/>
+        <PARAMETER NAME="C_ENABLE_32BIT_ADDRESS" VALUE="0"/>
+        <PARAMETER NAME="C_EN_DEEPSLEEP_PIN" VALUE="0"/>
+        <PARAMETER NAME="C_EN_ECC_PIPE" VALUE="0"/>
+        <PARAMETER NAME="C_EN_RDADDRA_CHG" VALUE="0"/>
+        <PARAMETER NAME="C_EN_RDADDRB_CHG" VALUE="0"/>
+        <PARAMETER NAME="C_EN_SAFETY_CKT" VALUE="1"/>
+        <PARAMETER NAME="C_EN_SHUTDOWN_PIN" VALUE="0"/>
+        <PARAMETER NAME="C_EN_SLEEP_PIN" VALUE="0"/>
+        <PARAMETER NAME="C_EST_POWER_SUMMARY" VALUE="Estimated Power for IP     :     5.96135 mW"/>
+        <PARAMETER NAME="C_FAMILY" VALUE="zynq"/>
+        <PARAMETER NAME="C_HAS_AXI_ID" VALUE="0"/>
+        <PARAMETER NAME="C_HAS_ENA" VALUE="1"/>
+        <PARAMETER NAME="C_HAS_ENB" VALUE="0"/>
+        <PARAMETER NAME="C_HAS_INJECTERR" VALUE="0"/>
+        <PARAMETER NAME="C_HAS_MEM_OUTPUT_REGS_A" VALUE="1"/>
+        <PARAMETER NAME="C_HAS_MEM_OUTPUT_REGS_B" VALUE="0"/>
+        <PARAMETER NAME="C_HAS_MUX_OUTPUT_REGS_A" VALUE="0"/>
+        <PARAMETER NAME="C_HAS_MUX_OUTPUT_REGS_B" VALUE="0"/>
+        <PARAMETER NAME="C_HAS_REGCEA" VALUE="0"/>
+        <PARAMETER NAME="C_HAS_REGCEB" VALUE="0"/>
+        <PARAMETER NAME="C_HAS_RSTA" VALUE="1"/>
+        <PARAMETER NAME="C_HAS_RSTB" VALUE="0"/>
+        <PARAMETER NAME="C_HAS_SOFTECC_INPUT_REGS_A" VALUE="0"/>
+        <PARAMETER NAME="C_HAS_SOFTECC_OUTPUT_REGS_B" VALUE="0"/>
+        <PARAMETER NAME="C_INITA_VAL" VALUE="0"/>
+        <PARAMETER NAME="C_INITB_VAL" VALUE="0"/>
+        <PARAMETER NAME="C_INIT_FILE" VALUE="NONE"/>
+        <PARAMETER NAME="C_INIT_FILE_NAME" VALUE="no_coe_file_loaded"/>
+        <PARAMETER NAME="C_INTERFACE_TYPE" VALUE="0"/>
+        <PARAMETER NAME="C_LOAD_INIT_FILE" VALUE="0"/>
+        <PARAMETER NAME="C_MEM_TYPE" VALUE="0"/>
+        <PARAMETER NAME="C_MUX_PIPELINE_STAGES" VALUE="0"/>
+        <PARAMETER NAME="C_PRIM_TYPE" VALUE="1"/>
+        <PARAMETER NAME="C_READ_DEPTH_A" VALUE="32"/>
+        <PARAMETER NAME="C_READ_DEPTH_B" VALUE="32"/>
+        <PARAMETER NAME="C_READ_LATENCY_A" VALUE="1"/>
+        <PARAMETER NAME="C_READ_LATENCY_B" VALUE="1"/>
+        <PARAMETER NAME="C_READ_WIDTH_A" VALUE="43"/>
+        <PARAMETER NAME="C_READ_WIDTH_B" VALUE="43"/>
+        <PARAMETER NAME="C_RSTRAM_A" VALUE="0"/>
+        <PARAMETER NAME="C_RSTRAM_B" VALUE="0"/>
+        <PARAMETER NAME="C_RST_PRIORITY_A" VALUE="CE"/>
+        <PARAMETER NAME="C_RST_PRIORITY_B" VALUE="CE"/>
+        <PARAMETER NAME="C_SIM_COLLISION_CHECK" VALUE="ALL"/>
+        <PARAMETER NAME="C_USE_BRAM_BLOCK" VALUE="0"/>
+        <PARAMETER NAME="C_USE_BYTE_WEA" VALUE="0"/>
+        <PARAMETER NAME="C_USE_BYTE_WEB" VALUE="0"/>
+        <PARAMETER NAME="C_USE_DEFAULT_DATA" VALUE="0"/>
+        <PARAMETER NAME="C_USE_ECC" VALUE="0"/>
+        <PARAMETER NAME="C_USE_SOFTECC" VALUE="0"/>
+        <PARAMETER NAME="C_USE_URAM" VALUE="0"/>
+        <PARAMETER NAME="C_WEA_WIDTH" VALUE="1"/>
+        <PARAMETER NAME="C_WEB_WIDTH" VALUE="1"/>
+        <PARAMETER NAME="C_WRITE_DEPTH_A" VALUE="32"/>
+        <PARAMETER NAME="C_WRITE_DEPTH_B" VALUE="32"/>
+        <PARAMETER NAME="C_WRITE_MODE_A" VALUE="WRITE_FIRST"/>
+        <PARAMETER NAME="C_WRITE_MODE_B" VALUE="WRITE_FIRST"/>
+        <PARAMETER NAME="C_WRITE_WIDTH_A" VALUE="43"/>
+        <PARAMETER NAME="C_WRITE_WIDTH_B" VALUE="43"/>
+        <PARAMETER NAME="C_XDEVICEFAMILY" VALUE="zynq"/>
+        <PARAMETER NAME="AXI_ID_Width" VALUE="4"/>
+        <PARAMETER NAME="AXI_Slave_Type" VALUE="Memory_Slave"/>
+        <PARAMETER NAME="AXI_Type" VALUE="AXI4_Full"/>
+        <PARAMETER NAME="Additional_Inputs_for_Power_Estimation" VALUE="false"/>
+        <PARAMETER NAME="Algorithm" VALUE="Minimum_Area"/>
+        <PARAMETER NAME="Assume_Synchronous_Clk" VALUE="false"/>
+        <PARAMETER NAME="Byte_Size" VALUE="9"/>
+        <PARAMETER NAME="CTRL_ECC_ALGO" VALUE="NONE"/>
+        <PARAMETER NAME="Coe_File" VALUE="no_coe_file_loaded"/>
+        <PARAMETER NAME="Collision_Warnings" VALUE="ALL"/>
+        <PARAMETER NAME="Component_Name" VALUE="Project_Design_blk_mem_gen_0_0"/>
+        <PARAMETER NAME="Disable_Collision_Warnings" VALUE="false"/>
+        <PARAMETER NAME="Disable_Out_of_Range_Warnings" VALUE="false"/>
+        <PARAMETER NAME="ECC" VALUE="false"/>
+        <PARAMETER NAME="EN_DEEPSLEEP_PIN" VALUE="false"/>
+        <PARAMETER NAME="EN_ECC_PIPE" VALUE="false"/>
+        <PARAMETER NAME="EN_SAFETY_CKT" VALUE="true"/>
+        <PARAMETER NAME="EN_SHUTDOWN_PIN" VALUE="false"/>
+        <PARAMETER NAME="EN_SLEEP_PIN" VALUE="false"/>
+        <PARAMETER NAME="Enable_32bit_Address" VALUE="false"/>
+        <PARAMETER NAME="Enable_A" VALUE="Use_ENA_Pin"/>
+        <PARAMETER NAME="Enable_B" VALUE="Always_Enabled"/>
+        <PARAMETER NAME="Error_Injection_Type" VALUE="Single_Bit_Error_Injection"/>
+        <PARAMETER NAME="Fill_Remaining_Memory_Locations" VALUE="false"/>
+        <PARAMETER NAME="Interface_Type" VALUE="Native"/>
+        <PARAMETER NAME="Load_Init_File" VALUE="false"/>
+        <PARAMETER NAME="MEM_FILE" VALUE="NONE"/>
+        <PARAMETER NAME="Memory_Type" VALUE="Single_Port_RAM"/>
+        <PARAMETER NAME="Operating_Mode_A" VALUE="WRITE_FIRST"/>
+        <PARAMETER NAME="Operating_Mode_B" VALUE="WRITE_FIRST"/>
+        <PARAMETER NAME="Output_Reset_Value_A" VALUE="0"/>
+        <PARAMETER NAME="Output_Reset_Value_B" VALUE="0"/>
+        <PARAMETER NAME="PRIM_type_to_Implement" VALUE="BRAM"/>
+        <PARAMETER NAME="Pipeline_Stages" VALUE="0"/>
+        <PARAMETER NAME="Port_A_Clock" VALUE="100"/>
+        <PARAMETER NAME="Port_A_Enable_Rate" VALUE="100"/>
+        <PARAMETER NAME="Port_A_Write_Rate" VALUE="50"/>
+        <PARAMETER NAME="Port_B_Clock" VALUE="0"/>
+        <PARAMETER NAME="Port_B_Enable_Rate" VALUE="0"/>
+        <PARAMETER NAME="Port_B_Write_Rate" VALUE="0"/>
+        <PARAMETER NAME="Primitive" VALUE="8kx2"/>
+        <PARAMETER NAME="RD_ADDR_CHNG_A" VALUE="false"/>
+        <PARAMETER NAME="RD_ADDR_CHNG_B" VALUE="false"/>
+        <PARAMETER NAME="READ_LATENCY_A" VALUE="1"/>
+        <PARAMETER NAME="READ_LATENCY_B" VALUE="1"/>
+        <PARAMETER NAME="Read_Width_A" VALUE="43"/>
+        <PARAMETER NAME="Read_Width_B" VALUE="43"/>
+        <PARAMETER NAME="Register_PortA_Output_of_Memory_Core" VALUE="false"/>
+        <PARAMETER NAME="Register_PortA_Output_of_Memory_Primitives" VALUE="true"/>
+        <PARAMETER NAME="Register_PortB_Output_of_Memory_Core" VALUE="false"/>
+        <PARAMETER NAME="Register_PortB_Output_of_Memory_Primitives" VALUE="false"/>
+        <PARAMETER NAME="Remaining_Memory_Locations" VALUE="0"/>
+        <PARAMETER NAME="Reset_Memory_Latch_A" VALUE="false"/>
+        <PARAMETER NAME="Reset_Memory_Latch_B" VALUE="false"/>
+        <PARAMETER NAME="Reset_Priority_A" VALUE="CE"/>
+        <PARAMETER NAME="Reset_Priority_B" VALUE="CE"/>
+        <PARAMETER NAME="Reset_Type" VALUE="SYNC"/>
+        <PARAMETER NAME="Use_AXI_ID" VALUE="false"/>
+        <PARAMETER NAME="Use_Byte_Write_Enable" VALUE="false"/>
+        <PARAMETER NAME="Use_Error_Injection_Pins" VALUE="false"/>
+        <PARAMETER NAME="Use_REGCEA_Pin" VALUE="false"/>
+        <PARAMETER NAME="Use_REGCEB_Pin" VALUE="false"/>
+        <PARAMETER NAME="Use_RSTA_Pin" VALUE="true"/>
+        <PARAMETER NAME="Use_RSTB_Pin" VALUE="false"/>
+        <PARAMETER NAME="Write_Depth_A" VALUE="32"/>
+        <PARAMETER NAME="Write_Width_A" VALUE="43"/>
+        <PARAMETER NAME="Write_Width_B" VALUE="43"/>
+        <PARAMETER NAME="ecctype" VALUE="No_ECC"/>
+        <PARAMETER NAME="register_porta_input_of_softecc" VALUE="false"/>
+        <PARAMETER NAME="register_portb_output_of_softecc" VALUE="false"/>
+        <PARAMETER NAME="softecc" VALUE="false"/>
+        <PARAMETER NAME="use_bram_block" VALUE="Stand_Alone"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="4" NAME="addra" RIGHT="0" SIGIS="undef" SIGNAME="CADAConfig_MEMControl_addrOut">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="CADAConfig_MEMControl" PORT="addrOut"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="clka" SIGIS="clk" SIGNAME="External_Ports_clk">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clk"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="42" NAME="dina" RIGHT="0" SIGIS="undef" SIGNAME="CADAConfig_MEMControl_MEMout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="CADAConfig_MEMControl" PORT="MEMout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="42" NAME="douta" RIGHT="0" SIGIS="undef" SIGNAME="blk_mem_gen_0_douta">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="CADAConfig_MEMControl" PORT="MEMin"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="ena" SIGIS="undef" SIGNAME="CADAConfig_MEMControl_MEMEn">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="CADAConfig_MEMControl" PORT="MEMEn"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="rsta" SIGIS="rst" SIGNAME="External_Ports_rst">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="rst"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="rsta_busy" SIGIS="undef"/>
+        <PORT DIR="I" LEFT="0" NAME="wea" RIGHT="0" SIGIS="undef" SIGNAME="CADAConfig_MEMControl_MWMWen">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="CADAConfig_MEMControl" PORT="MWMWen"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES>
+        <BUSINTERFACE BUSNAME="__NOC__" NAME="BRAM_PORTA" TYPE="TARGET" VLNV="xilinx.com:interface:bram:1.0">
+          <PARAMETER NAME="MASTER_TYPE" VALUE="OTHER"/>
+          <PARAMETER NAME="MEM_ECC" VALUE="NONE"/>
+          <PARAMETER NAME="MEM_SIZE" VALUE="8192"/>
+          <PARAMETER NAME="MEM_WIDTH" VALUE="32"/>
+          <PARAMETER NAME="READ_LATENCY" VALUE="1"/>
+          <PARAMETER NAME="READ_WRITE_MODE" VALUE="READ_WRITE"/>
+          <PORTMAPS>
+            <PORTMAP LOGICAL="ADDR" PHYSICAL="addra"/>
+            <PORTMAP LOGICAL="CLK" PHYSICAL="clka"/>
+            <PORTMAP LOGICAL="DIN" PHYSICAL="dina"/>
+            <PORTMAP LOGICAL="DOUT" PHYSICAL="douta"/>
+            <PORTMAP LOGICAL="EN" PHYSICAL="ena"/>
+            <PORTMAP LOGICAL="RST" PHYSICAL="rsta"/>
+            <PORTMAP LOGICAL="WE" PHYSICAL="wea"/>
+          </PORTMAPS>
+        </BUSINTERFACE>
+      </BUSINTERFACES>
+    </MODULE>
+    <MODULE COREREVISION="7" FULLNAME="/blk_mem_gen_1" HWVERSION="8.4" INSTANCE="blk_mem_gen_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="MEMORY" MODTYPE="blk_mem_gen" VLNV="xilinx.com:ip:blk_mem_gen:8.4">
+      <DOCUMENTS>
+        <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/ipdoc?c=blk_mem_gen;v=v8_4;d=pg058-blk-mem-gen.pdf"/>
+      </DOCUMENTS>
+      <PARAMETERS>
+        <PARAMETER NAME="C_ADDRA_WIDTH" VALUE="5"/>
+        <PARAMETER NAME="C_ADDRB_WIDTH" VALUE="5"/>
+        <PARAMETER NAME="C_ALGORITHM" VALUE="1"/>
+        <PARAMETER NAME="C_AXI_ID_WIDTH" VALUE="4"/>
+        <PARAMETER NAME="C_AXI_SLAVE_TYPE" VALUE="0"/>
+        <PARAMETER NAME="C_AXI_TYPE" VALUE="1"/>
+        <PARAMETER NAME="C_BYTE_SIZE" VALUE="9"/>
+        <PARAMETER NAME="C_COMMON_CLK" VALUE="0"/>
+        <PARAMETER NAME="C_COUNT_18K_BRAM" VALUE="0"/>
+        <PARAMETER NAME="C_COUNT_36K_BRAM" VALUE="2"/>
+        <PARAMETER NAME="C_CTRL_ECC_ALGO" VALUE="NONE"/>
+        <PARAMETER NAME="C_DEFAULT_DATA" VALUE="0"/>
+        <PARAMETER NAME="C_DISABLE_WARN_BHV_COLL" VALUE="0"/>
+        <PARAMETER NAME="C_DISABLE_WARN_BHV_RANGE" VALUE="0"/>
+        <PARAMETER NAME="C_ELABORATION_DIR" VALUE="./"/>
+        <PARAMETER NAME="C_ENABLE_32BIT_ADDRESS" VALUE="0"/>
+        <PARAMETER NAME="C_EN_DEEPSLEEP_PIN" VALUE="0"/>
+        <PARAMETER NAME="C_EN_ECC_PIPE" VALUE="0"/>
+        <PARAMETER NAME="C_EN_RDADDRA_CHG" VALUE="0"/>
+        <PARAMETER NAME="C_EN_RDADDRB_CHG" VALUE="0"/>
+        <PARAMETER NAME="C_EN_SAFETY_CKT" VALUE="1"/>
+        <PARAMETER NAME="C_EN_SHUTDOWN_PIN" VALUE="0"/>
+        <PARAMETER NAME="C_EN_SLEEP_PIN" VALUE="0"/>
+        <PARAMETER NAME="C_EST_POWER_SUMMARY" VALUE="Estimated Power for IP     :     13.3307 mW"/>
+        <PARAMETER NAME="C_FAMILY" VALUE="zynq"/>
+        <PARAMETER NAME="C_HAS_AXI_ID" VALUE="0"/>
+        <PARAMETER NAME="C_HAS_ENA" VALUE="1"/>
+        <PARAMETER NAME="C_HAS_ENB" VALUE="0"/>
+        <PARAMETER NAME="C_HAS_INJECTERR" VALUE="0"/>
+        <PARAMETER NAME="C_HAS_MEM_OUTPUT_REGS_A" VALUE="1"/>
+        <PARAMETER NAME="C_HAS_MEM_OUTPUT_REGS_B" VALUE="0"/>
+        <PARAMETER NAME="C_HAS_MUX_OUTPUT_REGS_A" VALUE="0"/>
+        <PARAMETER NAME="C_HAS_MUX_OUTPUT_REGS_B" VALUE="0"/>
+        <PARAMETER NAME="C_HAS_REGCEA" VALUE="0"/>
+        <PARAMETER NAME="C_HAS_REGCEB" VALUE="0"/>
+        <PARAMETER NAME="C_HAS_RSTA" VALUE="1"/>
+        <PARAMETER NAME="C_HAS_RSTB" VALUE="0"/>
+        <PARAMETER NAME="C_HAS_SOFTECC_INPUT_REGS_A" VALUE="0"/>
+        <PARAMETER NAME="C_HAS_SOFTECC_OUTPUT_REGS_B" VALUE="0"/>
+        <PARAMETER NAME="C_INITA_VAL" VALUE="0"/>
+        <PARAMETER NAME="C_INITB_VAL" VALUE="0"/>
+        <PARAMETER NAME="C_INIT_FILE" VALUE="NONE"/>
+        <PARAMETER NAME="C_INIT_FILE_NAME" VALUE="no_coe_file_loaded"/>
+        <PARAMETER NAME="C_INTERFACE_TYPE" VALUE="0"/>
+        <PARAMETER NAME="C_LOAD_INIT_FILE" VALUE="0"/>
+        <PARAMETER NAME="C_MEM_TYPE" VALUE="0"/>
+        <PARAMETER NAME="C_MUX_PIPELINE_STAGES" VALUE="0"/>
+        <PARAMETER NAME="C_PRIM_TYPE" VALUE="1"/>
+        <PARAMETER NAME="C_READ_DEPTH_A" VALUE="32"/>
+        <PARAMETER NAME="C_READ_DEPTH_B" VALUE="32"/>
+        <PARAMETER NAME="C_READ_LATENCY_A" VALUE="1"/>
+        <PARAMETER NAME="C_READ_LATENCY_B" VALUE="1"/>
+        <PARAMETER NAME="C_READ_WIDTH_A" VALUE="126"/>
+        <PARAMETER NAME="C_READ_WIDTH_B" VALUE="126"/>
+        <PARAMETER NAME="C_RSTRAM_A" VALUE="0"/>
+        <PARAMETER NAME="C_RSTRAM_B" VALUE="0"/>
+        <PARAMETER NAME="C_RST_PRIORITY_A" VALUE="CE"/>
+        <PARAMETER NAME="C_RST_PRIORITY_B" VALUE="CE"/>
+        <PARAMETER NAME="C_SIM_COLLISION_CHECK" VALUE="ALL"/>
+        <PARAMETER NAME="C_USE_BRAM_BLOCK" VALUE="0"/>
+        <PARAMETER NAME="C_USE_BYTE_WEA" VALUE="0"/>
+        <PARAMETER NAME="C_USE_BYTE_WEB" VALUE="0"/>
+        <PARAMETER NAME="C_USE_DEFAULT_DATA" VALUE="0"/>
+        <PARAMETER NAME="C_USE_ECC" VALUE="0"/>
+        <PARAMETER NAME="C_USE_SOFTECC" VALUE="0"/>
+        <PARAMETER NAME="C_USE_URAM" VALUE="0"/>
+        <PARAMETER NAME="C_WEA_WIDTH" VALUE="1"/>
+        <PARAMETER NAME="C_WEB_WIDTH" VALUE="1"/>
+        <PARAMETER NAME="C_WRITE_DEPTH_A" VALUE="32"/>
+        <PARAMETER NAME="C_WRITE_DEPTH_B" VALUE="32"/>
+        <PARAMETER NAME="C_WRITE_MODE_A" VALUE="WRITE_FIRST"/>
+        <PARAMETER NAME="C_WRITE_MODE_B" VALUE="WRITE_FIRST"/>
+        <PARAMETER NAME="C_WRITE_WIDTH_A" VALUE="126"/>
+        <PARAMETER NAME="C_WRITE_WIDTH_B" VALUE="126"/>
+        <PARAMETER NAME="C_XDEVICEFAMILY" VALUE="zynq"/>
+        <PARAMETER NAME="AXI_ID_Width" VALUE="4"/>
+        <PARAMETER NAME="AXI_Slave_Type" VALUE="Memory_Slave"/>
+        <PARAMETER NAME="AXI_Type" VALUE="AXI4_Full"/>
+        <PARAMETER NAME="Additional_Inputs_for_Power_Estimation" VALUE="false"/>
+        <PARAMETER NAME="Algorithm" VALUE="Minimum_Area"/>
+        <PARAMETER NAME="Assume_Synchronous_Clk" VALUE="false"/>
+        <PARAMETER NAME="Byte_Size" VALUE="9"/>
+        <PARAMETER NAME="CTRL_ECC_ALGO" VALUE="NONE"/>
+        <PARAMETER NAME="Coe_File" VALUE="no_coe_file_loaded"/>
+        <PARAMETER NAME="Collision_Warnings" VALUE="ALL"/>
+        <PARAMETER NAME="Component_Name" VALUE="Project_Design_blk_mem_gen_0_1"/>
+        <PARAMETER NAME="Disable_Collision_Warnings" VALUE="false"/>
+        <PARAMETER NAME="Disable_Out_of_Range_Warnings" VALUE="false"/>
+        <PARAMETER NAME="ECC" VALUE="false"/>
+        <PARAMETER NAME="EN_DEEPSLEEP_PIN" VALUE="false"/>
+        <PARAMETER NAME="EN_ECC_PIPE" VALUE="false"/>
+        <PARAMETER NAME="EN_SAFETY_CKT" VALUE="true"/>
+        <PARAMETER NAME="EN_SHUTDOWN_PIN" VALUE="false"/>
+        <PARAMETER NAME="EN_SLEEP_PIN" VALUE="false"/>
+        <PARAMETER NAME="Enable_32bit_Address" VALUE="false"/>
+        <PARAMETER NAME="Enable_A" VALUE="Use_ENA_Pin"/>
+        <PARAMETER NAME="Enable_B" VALUE="Always_Enabled"/>
+        <PARAMETER NAME="Error_Injection_Type" VALUE="Single_Bit_Error_Injection"/>
+        <PARAMETER NAME="Fill_Remaining_Memory_Locations" VALUE="false"/>
+        <PARAMETER NAME="Interface_Type" VALUE="Native"/>
+        <PARAMETER NAME="Load_Init_File" VALUE="false"/>
+        <PARAMETER NAME="MEM_FILE" VALUE="NONE"/>
+        <PARAMETER NAME="Memory_Type" VALUE="Single_Port_RAM"/>
+        <PARAMETER NAME="Operating_Mode_A" VALUE="WRITE_FIRST"/>
+        <PARAMETER NAME="Operating_Mode_B" VALUE="WRITE_FIRST"/>
+        <PARAMETER NAME="Output_Reset_Value_A" VALUE="0"/>
+        <PARAMETER NAME="Output_Reset_Value_B" VALUE="0"/>
+        <PARAMETER NAME="PRIM_type_to_Implement" VALUE="BRAM"/>
+        <PARAMETER NAME="Pipeline_Stages" VALUE="0"/>
+        <PARAMETER NAME="Port_A_Clock" VALUE="100"/>
+        <PARAMETER NAME="Port_A_Enable_Rate" VALUE="100"/>
+        <PARAMETER NAME="Port_A_Write_Rate" VALUE="50"/>
+        <PARAMETER NAME="Port_B_Clock" VALUE="0"/>
+        <PARAMETER NAME="Port_B_Enable_Rate" VALUE="0"/>
+        <PARAMETER NAME="Port_B_Write_Rate" VALUE="0"/>
+        <PARAMETER NAME="Primitive" VALUE="8kx2"/>
+        <PARAMETER NAME="RD_ADDR_CHNG_A" VALUE="false"/>
+        <PARAMETER NAME="RD_ADDR_CHNG_B" VALUE="false"/>
+        <PARAMETER NAME="READ_LATENCY_A" VALUE="1"/>
+        <PARAMETER NAME="READ_LATENCY_B" VALUE="1"/>
+        <PARAMETER NAME="Read_Width_A" VALUE="126"/>
+        <PARAMETER NAME="Read_Width_B" VALUE="126"/>
+        <PARAMETER NAME="Register_PortA_Output_of_Memory_Core" VALUE="false"/>
+        <PARAMETER NAME="Register_PortA_Output_of_Memory_Primitives" VALUE="true"/>
+        <PARAMETER NAME="Register_PortB_Output_of_Memory_Core" VALUE="false"/>
+        <PARAMETER NAME="Register_PortB_Output_of_Memory_Primitives" VALUE="false"/>
+        <PARAMETER NAME="Remaining_Memory_Locations" VALUE="0"/>
+        <PARAMETER NAME="Reset_Memory_Latch_A" VALUE="false"/>
+        <PARAMETER NAME="Reset_Memory_Latch_B" VALUE="false"/>
+        <PARAMETER NAME="Reset_Priority_A" VALUE="CE"/>
+        <PARAMETER NAME="Reset_Priority_B" VALUE="CE"/>
+        <PARAMETER NAME="Reset_Type" VALUE="SYNC"/>
+        <PARAMETER NAME="Use_AXI_ID" VALUE="false"/>
+        <PARAMETER NAME="Use_Byte_Write_Enable" VALUE="false"/>
+        <PARAMETER NAME="Use_Error_Injection_Pins" VALUE="false"/>
+        <PARAMETER NAME="Use_REGCEA_Pin" VALUE="false"/>
+        <PARAMETER NAME="Use_REGCEB_Pin" VALUE="false"/>
+        <PARAMETER NAME="Use_RSTA_Pin" VALUE="true"/>
+        <PARAMETER NAME="Use_RSTB_Pin" VALUE="false"/>
+        <PARAMETER NAME="Write_Depth_A" VALUE="32"/>
+        <PARAMETER NAME="Write_Width_A" VALUE="126"/>
+        <PARAMETER NAME="Write_Width_B" VALUE="126"/>
+        <PARAMETER NAME="ecctype" VALUE="No_ECC"/>
+        <PARAMETER NAME="register_porta_input_of_softecc" VALUE="false"/>
+        <PARAMETER NAME="register_portb_output_of_softecc" VALUE="false"/>
+        <PARAMETER NAME="softecc" VALUE="false"/>
+        <PARAMETER NAME="use_bram_block" VALUE="Stand_Alone"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="4" NAME="addra" RIGHT="0" SIGIS="undef" SIGNAME="gControlIn_MEMControl_addrOut">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="gControlIn_MEMControl" PORT="addrOut"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="clka" SIGIS="clk" SIGNAME="External_Ports_clk">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clk"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="125" NAME="dina" RIGHT="0" SIGIS="undef" SIGNAME="gControlIn_MEMControl_MEMout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="gControlIn_MEMControl" PORT="MEMout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="125" NAME="douta" RIGHT="0" SIGIS="undef" SIGNAME="blk_mem_gen_1_douta">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="gControlIn_MEMControl" PORT="MEMin"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="ena" SIGIS="undef" SIGNAME="gControlIn_MEMControl_MEMEn">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="gControlIn_MEMControl" PORT="MEMEn"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="rsta" SIGIS="rst" SIGNAME="External_Ports_rst">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="rst"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="rsta_busy" SIGIS="undef"/>
+        <PORT DIR="I" LEFT="0" NAME="wea" RIGHT="0" SIGIS="undef" SIGNAME="gControlIn_MEMControl_MWMWen">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="gControlIn_MEMControl" PORT="MWMWen"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES>
+        <BUSINTERFACE BUSNAME="__NOC__" NAME="BRAM_PORTA" TYPE="TARGET" VLNV="xilinx.com:interface:bram:1.0">
+          <PARAMETER NAME="MASTER_TYPE" VALUE="OTHER"/>
+          <PARAMETER NAME="MEM_ECC" VALUE="NONE"/>
+          <PARAMETER NAME="MEM_SIZE" VALUE="8192"/>
+          <PARAMETER NAME="MEM_WIDTH" VALUE="32"/>
+          <PARAMETER NAME="READ_LATENCY" VALUE="1"/>
+          <PARAMETER NAME="READ_WRITE_MODE" VALUE="READ_WRITE"/>
+          <PORTMAPS>
+            <PORTMAP LOGICAL="ADDR" PHYSICAL="addra"/>
+            <PORTMAP LOGICAL="CLK" PHYSICAL="clka"/>
+            <PORTMAP LOGICAL="DIN" PHYSICAL="dina"/>
+            <PORTMAP LOGICAL="DOUT" PHYSICAL="douta"/>
+            <PORTMAP LOGICAL="EN" PHYSICAL="ena"/>
+            <PORTMAP LOGICAL="RST" PHYSICAL="rsta"/>
+            <PORTMAP LOGICAL="WE" PHYSICAL="wea"/>
+          </PORTMAPS>
+        </BUSINTERFACE>
+      </BUSINTERFACES>
+    </MODULE>
+    <MODULE COREREVISION="7" FULLNAME="/blk_mem_gen_4" HWVERSION="8.4" INSTANCE="blk_mem_gen_4" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="MEMORY" MODTYPE="blk_mem_gen" VLNV="xilinx.com:ip:blk_mem_gen:8.4">
+      <DOCUMENTS>
+        <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/ipdoc?c=blk_mem_gen;v=v8_4;d=pg058-blk-mem-gen.pdf"/>
+      </DOCUMENTS>
+      <PARAMETERS>
+        <PARAMETER NAME="C_ADDRA_WIDTH" VALUE="8"/>
+        <PARAMETER NAME="C_ADDRB_WIDTH" VALUE="8"/>
+        <PARAMETER NAME="C_ALGORITHM" VALUE="1"/>
+        <PARAMETER NAME="C_AXI_ID_WIDTH" VALUE="4"/>
+        <PARAMETER NAME="C_AXI_SLAVE_TYPE" VALUE="0"/>
+        <PARAMETER NAME="C_AXI_TYPE" VALUE="1"/>
+        <PARAMETER NAME="C_BYTE_SIZE" VALUE="9"/>
+        <PARAMETER NAME="C_COMMON_CLK" VALUE="0"/>
+        <PARAMETER NAME="C_COUNT_18K_BRAM" VALUE="0"/>
+        <PARAMETER NAME="C_COUNT_36K_BRAM" VALUE="24"/>
+        <PARAMETER NAME="C_CTRL_ECC_ALGO" VALUE="NONE"/>
+        <PARAMETER NAME="C_DEFAULT_DATA" VALUE="0"/>
+        <PARAMETER NAME="C_DISABLE_WARN_BHV_COLL" VALUE="0"/>
+        <PARAMETER NAME="C_DISABLE_WARN_BHV_RANGE" VALUE="0"/>
+        <PARAMETER NAME="C_ELABORATION_DIR" VALUE="./"/>
+        <PARAMETER NAME="C_ENABLE_32BIT_ADDRESS" VALUE="0"/>
+        <PARAMETER NAME="C_EN_DEEPSLEEP_PIN" VALUE="0"/>
+        <PARAMETER NAME="C_EN_ECC_PIPE" VALUE="0"/>
+        <PARAMETER NAME="C_EN_RDADDRA_CHG" VALUE="0"/>
+        <PARAMETER NAME="C_EN_RDADDRB_CHG" VALUE="0"/>
+        <PARAMETER NAME="C_EN_SAFETY_CKT" VALUE="1"/>
+        <PARAMETER NAME="C_EN_SHUTDOWN_PIN" VALUE="0"/>
+        <PARAMETER NAME="C_EN_SLEEP_PIN" VALUE="0"/>
+        <PARAMETER NAME="C_EST_POWER_SUMMARY" VALUE="Estimated Power for IP     :     167.5716 mW"/>
+        <PARAMETER NAME="C_FAMILY" VALUE="zynq"/>
+        <PARAMETER NAME="C_HAS_AXI_ID" VALUE="0"/>
+        <PARAMETER NAME="C_HAS_ENA" VALUE="1"/>
+        <PARAMETER NAME="C_HAS_ENB" VALUE="0"/>
+        <PARAMETER NAME="C_HAS_INJECTERR" VALUE="0"/>
+        <PARAMETER NAME="C_HAS_MEM_OUTPUT_REGS_A" VALUE="1"/>
+        <PARAMETER NAME="C_HAS_MEM_OUTPUT_REGS_B" VALUE="0"/>
+        <PARAMETER NAME="C_HAS_MUX_OUTPUT_REGS_A" VALUE="0"/>
+        <PARAMETER NAME="C_HAS_MUX_OUTPUT_REGS_B" VALUE="0"/>
+        <PARAMETER NAME="C_HAS_REGCEA" VALUE="0"/>
+        <PARAMETER NAME="C_HAS_REGCEB" VALUE="0"/>
+        <PARAMETER NAME="C_HAS_RSTA" VALUE="1"/>
+        <PARAMETER NAME="C_HAS_RSTB" VALUE="0"/>
+        <PARAMETER NAME="C_HAS_SOFTECC_INPUT_REGS_A" VALUE="0"/>
+        <PARAMETER NAME="C_HAS_SOFTECC_OUTPUT_REGS_B" VALUE="0"/>
+        <PARAMETER NAME="C_INITA_VAL" VALUE="0"/>
+        <PARAMETER NAME="C_INITB_VAL" VALUE="0"/>
+        <PARAMETER NAME="C_INIT_FILE" VALUE="NONE"/>
+        <PARAMETER NAME="C_INIT_FILE_NAME" VALUE="no_coe_file_loaded"/>
+        <PARAMETER NAME="C_INTERFACE_TYPE" VALUE="0"/>
+        <PARAMETER NAME="C_LOAD_INIT_FILE" VALUE="0"/>
+        <PARAMETER NAME="C_MEM_TYPE" VALUE="0"/>
+        <PARAMETER NAME="C_MUX_PIPELINE_STAGES" VALUE="0"/>
+        <PARAMETER NAME="C_PRIM_TYPE" VALUE="1"/>
+        <PARAMETER NAME="C_READ_DEPTH_A" VALUE="256"/>
+        <PARAMETER NAME="C_READ_DEPTH_B" VALUE="256"/>
+        <PARAMETER NAME="C_READ_LATENCY_A" VALUE="1"/>
+        <PARAMETER NAME="C_READ_LATENCY_B" VALUE="1"/>
+        <PARAMETER NAME="C_READ_WIDTH_A" VALUE="1728"/>
+        <PARAMETER NAME="C_READ_WIDTH_B" VALUE="1728"/>
+        <PARAMETER NAME="C_RSTRAM_A" VALUE="0"/>
+        <PARAMETER NAME="C_RSTRAM_B" VALUE="0"/>
+        <PARAMETER NAME="C_RST_PRIORITY_A" VALUE="CE"/>
+        <PARAMETER NAME="C_RST_PRIORITY_B" VALUE="CE"/>
+        <PARAMETER NAME="C_SIM_COLLISION_CHECK" VALUE="ALL"/>
+        <PARAMETER NAME="C_USE_BRAM_BLOCK" VALUE="0"/>
+        <PARAMETER NAME="C_USE_BYTE_WEA" VALUE="0"/>
+        <PARAMETER NAME="C_USE_BYTE_WEB" VALUE="0"/>
+        <PARAMETER NAME="C_USE_DEFAULT_DATA" VALUE="0"/>
+        <PARAMETER NAME="C_USE_ECC" VALUE="0"/>
+        <PARAMETER NAME="C_USE_SOFTECC" VALUE="0"/>
+        <PARAMETER NAME="C_USE_URAM" VALUE="0"/>
+        <PARAMETER NAME="C_WEA_WIDTH" VALUE="1"/>
+        <PARAMETER NAME="C_WEB_WIDTH" VALUE="1"/>
+        <PARAMETER NAME="C_WRITE_DEPTH_A" VALUE="256"/>
+        <PARAMETER NAME="C_WRITE_DEPTH_B" VALUE="256"/>
+        <PARAMETER NAME="C_WRITE_MODE_A" VALUE="WRITE_FIRST"/>
+        <PARAMETER NAME="C_WRITE_MODE_B" VALUE="WRITE_FIRST"/>
+        <PARAMETER NAME="C_WRITE_WIDTH_A" VALUE="1728"/>
+        <PARAMETER NAME="C_WRITE_WIDTH_B" VALUE="1728"/>
+        <PARAMETER NAME="C_XDEVICEFAMILY" VALUE="zynq"/>
+        <PARAMETER NAME="AXI_ID_Width" VALUE="4"/>
+        <PARAMETER NAME="AXI_Slave_Type" VALUE="Memory_Slave"/>
+        <PARAMETER NAME="AXI_Type" VALUE="AXI4_Full"/>
+        <PARAMETER NAME="Additional_Inputs_for_Power_Estimation" VALUE="false"/>
+        <PARAMETER NAME="Algorithm" VALUE="Minimum_Area"/>
+        <PARAMETER NAME="Assume_Synchronous_Clk" VALUE="false"/>
+        <PARAMETER NAME="Byte_Size" VALUE="9"/>
+        <PARAMETER NAME="CTRL_ECC_ALGO" VALUE="NONE"/>
+        <PARAMETER NAME="Coe_File" VALUE="no_coe_file_loaded"/>
+        <PARAMETER NAME="Collision_Warnings" VALUE="ALL"/>
+        <PARAMETER NAME="Component_Name" VALUE="Project_Design_blk_mem_gen_3_0"/>
+        <PARAMETER NAME="Disable_Collision_Warnings" VALUE="false"/>
+        <PARAMETER NAME="Disable_Out_of_Range_Warnings" VALUE="false"/>
+        <PARAMETER NAME="ECC" VALUE="false"/>
+        <PARAMETER NAME="EN_DEEPSLEEP_PIN" VALUE="false"/>
+        <PARAMETER NAME="EN_ECC_PIPE" VALUE="false"/>
+        <PARAMETER NAME="EN_SAFETY_CKT" VALUE="true"/>
+        <PARAMETER NAME="EN_SHUTDOWN_PIN" VALUE="false"/>
+        <PARAMETER NAME="EN_SLEEP_PIN" VALUE="false"/>
+        <PARAMETER NAME="Enable_32bit_Address" VALUE="false"/>
+        <PARAMETER NAME="Enable_A" VALUE="Use_ENA_Pin"/>
+        <PARAMETER NAME="Enable_B" VALUE="Always_Enabled"/>
+        <PARAMETER NAME="Error_Injection_Type" VALUE="Single_Bit_Error_Injection"/>
+        <PARAMETER NAME="Fill_Remaining_Memory_Locations" VALUE="false"/>
+        <PARAMETER NAME="Interface_Type" VALUE="Native"/>
+        <PARAMETER NAME="Load_Init_File" VALUE="false"/>
+        <PARAMETER NAME="MEM_FILE" VALUE="NONE"/>
+        <PARAMETER NAME="Memory_Type" VALUE="Single_Port_RAM"/>
+        <PARAMETER NAME="Operating_Mode_A" VALUE="WRITE_FIRST"/>
+        <PARAMETER NAME="Operating_Mode_B" VALUE="WRITE_FIRST"/>
+        <PARAMETER NAME="Output_Reset_Value_A" VALUE="0"/>
+        <PARAMETER NAME="Output_Reset_Value_B" VALUE="0"/>
+        <PARAMETER NAME="PRIM_type_to_Implement" VALUE="BRAM"/>
+        <PARAMETER NAME="Pipeline_Stages" VALUE="0"/>
+        <PARAMETER NAME="Port_A_Clock" VALUE="100"/>
+        <PARAMETER NAME="Port_A_Enable_Rate" VALUE="100"/>
+        <PARAMETER NAME="Port_A_Write_Rate" VALUE="50"/>
+        <PARAMETER NAME="Port_B_Clock" VALUE="0"/>
+        <PARAMETER NAME="Port_B_Enable_Rate" VALUE="0"/>
+        <PARAMETER NAME="Port_B_Write_Rate" VALUE="0"/>
+        <PARAMETER NAME="Primitive" VALUE="8kx2"/>
+        <PARAMETER NAME="RD_ADDR_CHNG_A" VALUE="false"/>
+        <PARAMETER NAME="RD_ADDR_CHNG_B" VALUE="false"/>
+        <PARAMETER NAME="READ_LATENCY_A" VALUE="1"/>
+        <PARAMETER NAME="READ_LATENCY_B" VALUE="1"/>
+        <PARAMETER NAME="Read_Width_A" VALUE="1728"/>
+        <PARAMETER NAME="Read_Width_B" VALUE="1728"/>
+        <PARAMETER NAME="Register_PortA_Output_of_Memory_Core" VALUE="false"/>
+        <PARAMETER NAME="Register_PortA_Output_of_Memory_Primitives" VALUE="true"/>
+        <PARAMETER NAME="Register_PortB_Output_of_Memory_Core" VALUE="false"/>
+        <PARAMETER NAME="Register_PortB_Output_of_Memory_Primitives" VALUE="false"/>
+        <PARAMETER NAME="Remaining_Memory_Locations" VALUE="0"/>
+        <PARAMETER NAME="Reset_Memory_Latch_A" VALUE="false"/>
+        <PARAMETER NAME="Reset_Memory_Latch_B" VALUE="false"/>
+        <PARAMETER NAME="Reset_Priority_A" VALUE="CE"/>
+        <PARAMETER NAME="Reset_Priority_B" VALUE="CE"/>
+        <PARAMETER NAME="Reset_Type" VALUE="SYNC"/>
+        <PARAMETER NAME="Use_AXI_ID" VALUE="false"/>
+        <PARAMETER NAME="Use_Byte_Write_Enable" VALUE="false"/>
+        <PARAMETER NAME="Use_Error_Injection_Pins" VALUE="false"/>
+        <PARAMETER NAME="Use_REGCEA_Pin" VALUE="false"/>
+        <PARAMETER NAME="Use_REGCEB_Pin" VALUE="false"/>
+        <PARAMETER NAME="Use_RSTA_Pin" VALUE="true"/>
+        <PARAMETER NAME="Use_RSTB_Pin" VALUE="false"/>
+        <PARAMETER NAME="Write_Depth_A" VALUE="256"/>
+        <PARAMETER NAME="Write_Width_A" VALUE="1728"/>
+        <PARAMETER NAME="Write_Width_B" VALUE="1728"/>
+        <PARAMETER NAME="ecctype" VALUE="No_ECC"/>
+        <PARAMETER NAME="register_porta_input_of_softecc" VALUE="false"/>
+        <PARAMETER NAME="register_portb_output_of_softecc" VALUE="false"/>
+        <PARAMETER NAME="softecc" VALUE="false"/>
+        <PARAMETER NAME="use_bram_block" VALUE="Stand_Alone"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="7" NAME="addra" RIGHT="0" SIGIS="undef" SIGNAME="DataIn_MEMControl_addrOut">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="DataIn_MEMControl" PORT="addrOut"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="clka" SIGIS="clk" SIGNAME="External_Ports_clk">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clk"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="1727" NAME="dina" RIGHT="0" SIGIS="undef" SIGNAME="DataIn_MEMControl_MEMout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="DataIn_MEMControl" PORT="MEMout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="1727" NAME="douta" RIGHT="0" SIGIS="undef" SIGNAME="blk_mem_gen_4_douta">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="DataIn_MEMControl" PORT="MEMin"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="ena" SIGIS="undef" SIGNAME="DataIn_MEMControl_MEMEn">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="DataIn_MEMControl" PORT="MEMEn"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="rsta" SIGIS="rst" SIGNAME="External_Ports_rst">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="rst"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="rsta_busy" SIGIS="undef"/>
+        <PORT DIR="I" LEFT="0" NAME="wea" RIGHT="0" SIGIS="undef" SIGNAME="DataIn_MEMControl_MWMWen">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="DataIn_MEMControl" PORT="MWMWen"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES>
+        <BUSINTERFACE BUSNAME="__NOC__" NAME="BRAM_PORTA" TYPE="TARGET" VLNV="xilinx.com:interface:bram:1.0">
+          <PARAMETER NAME="MASTER_TYPE" VALUE="OTHER"/>
+          <PARAMETER NAME="MEM_ECC" VALUE="NONE"/>
+          <PARAMETER NAME="MEM_SIZE" VALUE="8192"/>
+          <PARAMETER NAME="MEM_WIDTH" VALUE="32"/>
+          <PARAMETER NAME="READ_LATENCY" VALUE="1"/>
+          <PARAMETER NAME="READ_WRITE_MODE" VALUE="READ_WRITE"/>
+          <PORTMAPS>
+            <PORTMAP LOGICAL="ADDR" PHYSICAL="addra"/>
+            <PORTMAP LOGICAL="CLK" PHYSICAL="clka"/>
+            <PORTMAP LOGICAL="DIN" PHYSICAL="dina"/>
+            <PORTMAP LOGICAL="DOUT" PHYSICAL="douta"/>
+            <PORTMAP LOGICAL="EN" PHYSICAL="ena"/>
+            <PORTMAP LOGICAL="RST" PHYSICAL="rsta"/>
+            <PORTMAP LOGICAL="WE" PHYSICAL="wea"/>
+          </PORTMAPS>
+        </BUSINTERFACE>
+      </BUSINTERFACES>
+    </MODULE>
+    <MODULE COREREVISION="7" FULLNAME="/blk_mem_gen_5" HWVERSION="8.4" INSTANCE="blk_mem_gen_5" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="MEMORY" MODTYPE="blk_mem_gen" VLNV="xilinx.com:ip:blk_mem_gen:8.4">
+      <DOCUMENTS>
+        <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/ipdoc?c=blk_mem_gen;v=v8_4;d=pg058-blk-mem-gen.pdf"/>
+      </DOCUMENTS>
+      <PARAMETERS>
+        <PARAMETER NAME="C_ADDRA_WIDTH" VALUE="8"/>
+        <PARAMETER NAME="C_ADDRB_WIDTH" VALUE="8"/>
+        <PARAMETER NAME="C_ALGORITHM" VALUE="1"/>
+        <PARAMETER NAME="C_AXI_ID_WIDTH" VALUE="4"/>
+        <PARAMETER NAME="C_AXI_SLAVE_TYPE" VALUE="0"/>
+        <PARAMETER NAME="C_AXI_TYPE" VALUE="1"/>
+        <PARAMETER NAME="C_BYTE_SIZE" VALUE="9"/>
+        <PARAMETER NAME="C_COMMON_CLK" VALUE="0"/>
+        <PARAMETER NAME="C_COUNT_18K_BRAM" VALUE="0"/>
+        <PARAMETER NAME="C_COUNT_36K_BRAM" VALUE="24"/>
+        <PARAMETER NAME="C_CTRL_ECC_ALGO" VALUE="NONE"/>
+        <PARAMETER NAME="C_DEFAULT_DATA" VALUE="0"/>
+        <PARAMETER NAME="C_DISABLE_WARN_BHV_COLL" VALUE="0"/>
+        <PARAMETER NAME="C_DISABLE_WARN_BHV_RANGE" VALUE="0"/>
+        <PARAMETER NAME="C_ELABORATION_DIR" VALUE="./"/>
+        <PARAMETER NAME="C_ENABLE_32BIT_ADDRESS" VALUE="0"/>
+        <PARAMETER NAME="C_EN_DEEPSLEEP_PIN" VALUE="0"/>
+        <PARAMETER NAME="C_EN_ECC_PIPE" VALUE="0"/>
+        <PARAMETER NAME="C_EN_RDADDRA_CHG" VALUE="0"/>
+        <PARAMETER NAME="C_EN_RDADDRB_CHG" VALUE="0"/>
+        <PARAMETER NAME="C_EN_SAFETY_CKT" VALUE="1"/>
+        <PARAMETER NAME="C_EN_SHUTDOWN_PIN" VALUE="0"/>
+        <PARAMETER NAME="C_EN_SLEEP_PIN" VALUE="0"/>
+        <PARAMETER NAME="C_EST_POWER_SUMMARY" VALUE="Estimated Power for IP     :     167.5716 mW"/>
+        <PARAMETER NAME="C_FAMILY" VALUE="zynq"/>
+        <PARAMETER NAME="C_HAS_AXI_ID" VALUE="0"/>
+        <PARAMETER NAME="C_HAS_ENA" VALUE="1"/>
+        <PARAMETER NAME="C_HAS_ENB" VALUE="0"/>
+        <PARAMETER NAME="C_HAS_INJECTERR" VALUE="0"/>
+        <PARAMETER NAME="C_HAS_MEM_OUTPUT_REGS_A" VALUE="1"/>
+        <PARAMETER NAME="C_HAS_MEM_OUTPUT_REGS_B" VALUE="0"/>
+        <PARAMETER NAME="C_HAS_MUX_OUTPUT_REGS_A" VALUE="0"/>
+        <PARAMETER NAME="C_HAS_MUX_OUTPUT_REGS_B" VALUE="0"/>
+        <PARAMETER NAME="C_HAS_REGCEA" VALUE="0"/>
+        <PARAMETER NAME="C_HAS_REGCEB" VALUE="0"/>
+        <PARAMETER NAME="C_HAS_RSTA" VALUE="1"/>
+        <PARAMETER NAME="C_HAS_RSTB" VALUE="0"/>
+        <PARAMETER NAME="C_HAS_SOFTECC_INPUT_REGS_A" VALUE="0"/>
+        <PARAMETER NAME="C_HAS_SOFTECC_OUTPUT_REGS_B" VALUE="0"/>
+        <PARAMETER NAME="C_INITA_VAL" VALUE="0"/>
+        <PARAMETER NAME="C_INITB_VAL" VALUE="0"/>
+        <PARAMETER NAME="C_INIT_FILE" VALUE="NONE"/>
+        <PARAMETER NAME="C_INIT_FILE_NAME" VALUE="no_coe_file_loaded"/>
+        <PARAMETER NAME="C_INTERFACE_TYPE" VALUE="0"/>
+        <PARAMETER NAME="C_LOAD_INIT_FILE" VALUE="0"/>
+        <PARAMETER NAME="C_MEM_TYPE" VALUE="0"/>
+        <PARAMETER NAME="C_MUX_PIPELINE_STAGES" VALUE="0"/>
+        <PARAMETER NAME="C_PRIM_TYPE" VALUE="1"/>
+        <PARAMETER NAME="C_READ_DEPTH_A" VALUE="256"/>
+        <PARAMETER NAME="C_READ_DEPTH_B" VALUE="256"/>
+        <PARAMETER NAME="C_READ_LATENCY_A" VALUE="1"/>
+        <PARAMETER NAME="C_READ_LATENCY_B" VALUE="1"/>
+        <PARAMETER NAME="C_READ_WIDTH_A" VALUE="1728"/>
+        <PARAMETER NAME="C_READ_WIDTH_B" VALUE="1728"/>
+        <PARAMETER NAME="C_RSTRAM_A" VALUE="0"/>
+        <PARAMETER NAME="C_RSTRAM_B" VALUE="0"/>
+        <PARAMETER NAME="C_RST_PRIORITY_A" VALUE="CE"/>
+        <PARAMETER NAME="C_RST_PRIORITY_B" VALUE="CE"/>
+        <PARAMETER NAME="C_SIM_COLLISION_CHECK" VALUE="ALL"/>
+        <PARAMETER NAME="C_USE_BRAM_BLOCK" VALUE="0"/>
+        <PARAMETER NAME="C_USE_BYTE_WEA" VALUE="0"/>
+        <PARAMETER NAME="C_USE_BYTE_WEB" VALUE="0"/>
+        <PARAMETER NAME="C_USE_DEFAULT_DATA" VALUE="0"/>
+        <PARAMETER NAME="C_USE_ECC" VALUE="0"/>
+        <PARAMETER NAME="C_USE_SOFTECC" VALUE="0"/>
+        <PARAMETER NAME="C_USE_URAM" VALUE="0"/>
+        <PARAMETER NAME="C_WEA_WIDTH" VALUE="1"/>
+        <PARAMETER NAME="C_WEB_WIDTH" VALUE="1"/>
+        <PARAMETER NAME="C_WRITE_DEPTH_A" VALUE="256"/>
+        <PARAMETER NAME="C_WRITE_DEPTH_B" VALUE="256"/>
+        <PARAMETER NAME="C_WRITE_MODE_A" VALUE="WRITE_FIRST"/>
+        <PARAMETER NAME="C_WRITE_MODE_B" VALUE="WRITE_FIRST"/>
+        <PARAMETER NAME="C_WRITE_WIDTH_A" VALUE="1728"/>
+        <PARAMETER NAME="C_WRITE_WIDTH_B" VALUE="1728"/>
+        <PARAMETER NAME="C_XDEVICEFAMILY" VALUE="zynq"/>
+        <PARAMETER NAME="AXI_ID_Width" VALUE="4"/>
+        <PARAMETER NAME="AXI_Slave_Type" VALUE="Memory_Slave"/>
+        <PARAMETER NAME="AXI_Type" VALUE="AXI4_Full"/>
+        <PARAMETER NAME="Additional_Inputs_for_Power_Estimation" VALUE="false"/>
+        <PARAMETER NAME="Algorithm" VALUE="Minimum_Area"/>
+        <PARAMETER NAME="Assume_Synchronous_Clk" VALUE="false"/>
+        <PARAMETER NAME="Byte_Size" VALUE="9"/>
+        <PARAMETER NAME="CTRL_ECC_ALGO" VALUE="NONE"/>
+        <PARAMETER NAME="Coe_File" VALUE="no_coe_file_loaded"/>
+        <PARAMETER NAME="Collision_Warnings" VALUE="ALL"/>
+        <PARAMETER NAME="Component_Name" VALUE="Project_Design_blk_mem_gen_4_0"/>
+        <PARAMETER NAME="Disable_Collision_Warnings" VALUE="false"/>
+        <PARAMETER NAME="Disable_Out_of_Range_Warnings" VALUE="false"/>
+        <PARAMETER NAME="ECC" VALUE="false"/>
+        <PARAMETER NAME="EN_DEEPSLEEP_PIN" VALUE="false"/>
+        <PARAMETER NAME="EN_ECC_PIPE" VALUE="false"/>
+        <PARAMETER NAME="EN_SAFETY_CKT" VALUE="true"/>
+        <PARAMETER NAME="EN_SHUTDOWN_PIN" VALUE="false"/>
+        <PARAMETER NAME="EN_SLEEP_PIN" VALUE="false"/>
+        <PARAMETER NAME="Enable_32bit_Address" VALUE="false"/>
+        <PARAMETER NAME="Enable_A" VALUE="Use_ENA_Pin"/>
+        <PARAMETER NAME="Enable_B" VALUE="Always_Enabled"/>
+        <PARAMETER NAME="Error_Injection_Type" VALUE="Single_Bit_Error_Injection"/>
+        <PARAMETER NAME="Fill_Remaining_Memory_Locations" VALUE="false"/>
+        <PARAMETER NAME="Interface_Type" VALUE="Native"/>
+        <PARAMETER NAME="Load_Init_File" VALUE="false"/>
+        <PARAMETER NAME="MEM_FILE" VALUE="NONE"/>
+        <PARAMETER NAME="Memory_Type" VALUE="Single_Port_RAM"/>
+        <PARAMETER NAME="Operating_Mode_A" VALUE="WRITE_FIRST"/>
+        <PARAMETER NAME="Operating_Mode_B" VALUE="WRITE_FIRST"/>
+        <PARAMETER NAME="Output_Reset_Value_A" VALUE="0"/>
+        <PARAMETER NAME="Output_Reset_Value_B" VALUE="0"/>
+        <PARAMETER NAME="PRIM_type_to_Implement" VALUE="BRAM"/>
+        <PARAMETER NAME="Pipeline_Stages" VALUE="0"/>
+        <PARAMETER NAME="Port_A_Clock" VALUE="100"/>
+        <PARAMETER NAME="Port_A_Enable_Rate" VALUE="100"/>
+        <PARAMETER NAME="Port_A_Write_Rate" VALUE="50"/>
+        <PARAMETER NAME="Port_B_Clock" VALUE="0"/>
+        <PARAMETER NAME="Port_B_Enable_Rate" VALUE="0"/>
+        <PARAMETER NAME="Port_B_Write_Rate" VALUE="0"/>
+        <PARAMETER NAME="Primitive" VALUE="8kx2"/>
+        <PARAMETER NAME="RD_ADDR_CHNG_A" VALUE="false"/>
+        <PARAMETER NAME="RD_ADDR_CHNG_B" VALUE="false"/>
+        <PARAMETER NAME="READ_LATENCY_A" VALUE="1"/>
+        <PARAMETER NAME="READ_LATENCY_B" VALUE="1"/>
+        <PARAMETER NAME="Read_Width_A" VALUE="1728"/>
+        <PARAMETER NAME="Read_Width_B" VALUE="1728"/>
+        <PARAMETER NAME="Register_PortA_Output_of_Memory_Core" VALUE="false"/>
+        <PARAMETER NAME="Register_PortA_Output_of_Memory_Primitives" VALUE="true"/>
+        <PARAMETER NAME="Register_PortB_Output_of_Memory_Core" VALUE="false"/>
+        <PARAMETER NAME="Register_PortB_Output_of_Memory_Primitives" VALUE="false"/>
+        <PARAMETER NAME="Remaining_Memory_Locations" VALUE="0"/>
+        <PARAMETER NAME="Reset_Memory_Latch_A" VALUE="false"/>
+        <PARAMETER NAME="Reset_Memory_Latch_B" VALUE="false"/>
+        <PARAMETER NAME="Reset_Priority_A" VALUE="CE"/>
+        <PARAMETER NAME="Reset_Priority_B" VALUE="CE"/>
+        <PARAMETER NAME="Reset_Type" VALUE="SYNC"/>
+        <PARAMETER NAME="Use_AXI_ID" VALUE="false"/>
+        <PARAMETER NAME="Use_Byte_Write_Enable" VALUE="false"/>
+        <PARAMETER NAME="Use_Error_Injection_Pins" VALUE="false"/>
+        <PARAMETER NAME="Use_REGCEA_Pin" VALUE="false"/>
+        <PARAMETER NAME="Use_REGCEB_Pin" VALUE="false"/>
+        <PARAMETER NAME="Use_RSTA_Pin" VALUE="true"/>
+        <PARAMETER NAME="Use_RSTB_Pin" VALUE="false"/>
+        <PARAMETER NAME="Write_Depth_A" VALUE="256"/>
+        <PARAMETER NAME="Write_Width_A" VALUE="1728"/>
+        <PARAMETER NAME="Write_Width_B" VALUE="1728"/>
+        <PARAMETER NAME="ecctype" VALUE="No_ECC"/>
+        <PARAMETER NAME="register_porta_input_of_softecc" VALUE="false"/>
+        <PARAMETER NAME="register_portb_output_of_softecc" VALUE="false"/>
+        <PARAMETER NAME="softecc" VALUE="false"/>
+        <PARAMETER NAME="use_bram_block" VALUE="Stand_Alone"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="7" NAME="addra" RIGHT="0" SIGIS="undef" SIGNAME="DataIn_MEMControl1_addrOut">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="DataIn_MEMControl1" PORT="addrOut"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="clka" SIGIS="clk" SIGNAME="External_Ports_clk">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clk"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="1727" NAME="dina" RIGHT="0" SIGIS="undef" SIGNAME="DataIn_MEMControl1_MEMout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="DataIn_MEMControl1" PORT="MEMout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="1727" NAME="douta" RIGHT="0" SIGIS="undef" SIGNAME="blk_mem_gen_5_douta">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="DataIn_MEMControl1" PORT="MEMin"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="ena" SIGIS="undef" SIGNAME="DataIn_MEMControl1_MEMEn">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="DataIn_MEMControl1" PORT="MEMEn"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="rsta" SIGIS="rst" SIGNAME="External_Ports_rst">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="rst"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="rsta_busy" SIGIS="undef"/>
+        <PORT DIR="I" LEFT="0" NAME="wea" RIGHT="0" SIGIS="undef" SIGNAME="DataIn_MEMControl1_MWMWen">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="DataIn_MEMControl1" PORT="MWMWen"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES>
+        <BUSINTERFACE BUSNAME="__NOC__" NAME="BRAM_PORTA" TYPE="TARGET" VLNV="xilinx.com:interface:bram:1.0">
+          <PARAMETER NAME="MASTER_TYPE" VALUE="OTHER"/>
+          <PARAMETER NAME="MEM_ECC" VALUE="NONE"/>
+          <PARAMETER NAME="MEM_SIZE" VALUE="8192"/>
+          <PARAMETER NAME="MEM_WIDTH" VALUE="32"/>
+          <PARAMETER NAME="READ_LATENCY" VALUE="1"/>
+          <PARAMETER NAME="READ_WRITE_MODE" VALUE="READ_WRITE"/>
+          <PORTMAPS>
+            <PORTMAP LOGICAL="ADDR" PHYSICAL="addra"/>
+            <PORTMAP LOGICAL="CLK" PHYSICAL="clka"/>
+            <PORTMAP LOGICAL="DIN" PHYSICAL="dina"/>
+            <PORTMAP LOGICAL="DOUT" PHYSICAL="douta"/>
+            <PORTMAP LOGICAL="EN" PHYSICAL="ena"/>
+            <PORTMAP LOGICAL="RST" PHYSICAL="rsta"/>
+            <PORTMAP LOGICAL="WE" PHYSICAL="wea"/>
+          </PORTMAPS>
+        </BUSINTERFACE>
+      </BUSINTERFACES>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/gControlIn_MEMControl" HWVERSION="1.0" INSTANCE="gControlIn_MEMControl" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="CADA_MEMControl" VLNV="xilinx.com:module_ref:CADA_MEMControl:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Data_bitWidth" VALUE="126"/>
+        <PARAMETER NAME="addr_BW" VALUE="5"/>
+        <PARAMETER NAME="latency_BW" VALUE="16"/>
+        <PARAMETER NAME="stride_BW" VALUE="4"/>
+        <PARAMETER NAME="Component_Name" VALUE="Project_Design_CADA_MEMControl_1_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="125" NAME="DataIn" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_gControlIn">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="gControlIn"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="125" NAME="DataOut" RIGHT="0" SIGIS="undef" SIGNAME="gControlIn_MEMControl_DataOut">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ArrayTop_0" PORT="gControlIn"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="MEMEn" SIGIS="undef" SIGNAME="gControlIn_MEMControl_MEMEn">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="blk_mem_gen_1" PORT="ena"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="125" NAME="MEMin" RIGHT="0" SIGIS="undef" SIGNAME="blk_mem_gen_1_douta">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="blk_mem_gen_1" PORT="douta"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="125" NAME="MEMout" RIGHT="0" SIGIS="undef" SIGNAME="gControlIn_MEMControl_MEMout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="blk_mem_gen_1" PORT="dina"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="MWMWen" SIGIS="undef" SIGNAME="gControlIn_MEMControl_MWMWen">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="blk_mem_gen_1" PORT="wea"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="4" NAME="addrOut" RIGHT="0" SIGIS="undef" SIGNAME="gControlIn_MEMControl_addrOut">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="blk_mem_gen_1" PORT="addra"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clk">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clk"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="15" NAME="endLatency" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_endLatency1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="endLatency1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="rst" POLARITY="ACTIVE_LOW" SIGIS="rst" SIGNAME="External_Ports_rst">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="rst"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="4" NAME="startAddr" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_startAddr1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="startAddr1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="15" NAME="startLatency" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_startLatency1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="startLatency1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="3" NAME="strideInterval" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_strideInterval">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="strideInterval"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="valid" SIGIS="undef" SIGNAME="External_Ports_valid1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="valid1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="writeEn" SIGIS="undef" SIGNAME="External_Ports_writeEn1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="writeEn1"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/output_mapper_0" HWVERSION="1.0" INSTANCE="output_mapper_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="output_mapper" VLNV="xilinx.com:module_ref:output_mapper:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="Project_Design_output_mapper_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clk">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clk"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="condition" SIGIS="undef" SIGNAME="output_mapper_0_condition">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="HA_1BM_0" PORT="DataIn_2"/>
+            <CONNECTION INSTANCE="HA_1BM_0" PORT="sel"/>
+            <CONNECTION INSTANCE="DataIn_MEMControl1" PORT="writeEn"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="143" NAME="dataIn" RIGHT="0" SIGIS="undef" SIGNAME="ArrayTop_0_dataOut">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ArrayTop_0" PORT="dataOut"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="done" SIGIS="undef" SIGNAME="output_mapper_0_done">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="HA_1BM_1" PORT="sel"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="1727" NAME="outDataOut" RIGHT="0" SIGIS="undef" SIGNAME="output_mapper_0_outDataOut">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="DataIn_MEMControl1" PORT="DataIn"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="reset" POLARITY="ACTIVE_LOW" SIGIS="rst" SIGNAME="External_Ports_rst">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="rst"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="7" NAME="startAddr" RIGHT="0" SIGIS="undef" SIGNAME="output_mapper_0_startAddr">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="DataIn_MEMControl1" PORT="startAddr"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="valid" SIGIS="undef" SIGNAME="External_Ports_valid2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="valid2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="writeEn" SIGIS="undef" SIGNAME="External_Ports_writeEn2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="writeEn2"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+  </MODULES>
+
+</EDKSYSTEM>

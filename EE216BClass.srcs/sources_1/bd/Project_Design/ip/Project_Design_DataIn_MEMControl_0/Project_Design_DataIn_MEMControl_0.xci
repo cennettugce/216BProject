@@ -9,14 +9,14 @@
     "parameters": {
       "component_parameters": {
         "Data_bitWidth": [ { "value": "1728", "value_src": "user", "resolve_type": "user", "format": "long", "usage": "all" } ],
-        "addr_BW": [ { "value": "5", "value_src": "user", "resolve_type": "user", "format": "long", "usage": "all" } ],
+        "addr_BW": [ { "value": "8", "value_src": "user", "resolve_type": "user", "format": "long", "usage": "all" } ],
         "stride_BW": [ { "value": "4", "resolve_type": "user", "format": "long", "usage": "all" } ],
         "latency_BW": [ { "value": "16", "resolve_type": "user", "format": "long", "usage": "all" } ],
         "Component_Name": [ { "value": "Project_Design_DataIn_MEMControl_0", "resolve_type": "user", "usage": "all" } ]
       },
       "model_parameters": {
         "Data_bitWidth": [ { "value": "1728", "resolve_type": "generated", "format": "long", "usage": "all" } ],
-        "addr_BW": [ { "value": "5", "resolve_type": "generated", "format": "long", "usage": "all" } ],
+        "addr_BW": [ { "value": "8", "resolve_type": "generated", "format": "long", "usage": "all" } ],
         "stride_BW": [ { "value": "4", "resolve_type": "generated", "format": "long", "usage": "all" } ],
         "latency_BW": [ { "value": "16", "resolve_type": "generated", "format": "long", "usage": "all" } ]
       },
@@ -51,9 +51,9 @@
         "valid": [ { "direction": "in" } ],
         "DataIn": [ { "direction": "in", "size_left": "1727", "size_right": "0" } ],
         "DataOut": [ { "direction": "out", "size_left": "1727", "size_right": "0" } ],
-        "addrOut": [ { "direction": "out", "size_left": "4", "size_right": "0" } ],
+        "addrOut": [ { "direction": "out", "size_left": "7", "size_right": "0" } ],
         "writeEn": [ { "direction": "in" } ],
-        "startAddr": [ { "direction": "in", "size_left": "4", "size_right": "0" } ],
+        "startAddr": [ { "direction": "in", "size_left": "7", "size_right": "0" } ],
         "strideInterval": [ { "direction": "in", "size_left": "3", "size_right": "0" } ],
         "startLatency": [ { "direction": "in", "size_left": "15", "size_right": "0" } ],
         "endLatency": [ { "direction": "in", "size_left": "15", "size_right": "0" } ],
