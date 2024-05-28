@@ -4,8 +4,8 @@
 -- Tool Version: Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
 -- Date        : Fri May 24 23:25:15 2024
 -- Host        : Vicky-089f running 64-bit major release  (build 9200)
--- Command     : write_vhdl -force -mode synth_stub {e:/GitHub
---               Projects/216BProject/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_blk_mem_gen_0_0/MEMDesign_blk_mem_gen_0_0_stub.vhdl}
+-- Command     : write_vhdl -force -mode synth_stub -rename_top MEMDesign_blk_mem_gen_0_0 -prefix
+--               MEMDesign_blk_mem_gen_0_0_ MEMDesign_blk_mem_gen_0_0_stub.vhdl
 -- Design      : MEMDesign_blk_mem_gen_0_0
 -- Purpose     : Stub declaration of top-level module interface
 -- Device      : xc7z020clg400-2

@@ -703,8 +703,8 @@
         "ports": [
           "clk",
           "blk_mem_gen_0/clka",
-          "ArrayTop_0/clk",
-          "CADA_MEMControl_0/clk"
+          "CADA_MEMControl_0/clk",
+          "ArrayTop_0/clk"
         ]
       },
       "clk_data_1": {
@@ -750,11 +750,11 @@
         "ports": [
           "rst",
           "blk_mem_gen_0/rsta",
-          "ArrayTop_0/rst",
           "CADA_MEMControl_0/rst",
           "CADA_MEMControl_1/rst",
           "blk_mem_gen_1/rsta",
-          "blk_mem_gen_2/rsta"
+          "blk_mem_gen_2/rsta",
+          "ArrayTop_0/rst"
         ]
       },
       "startAddr_1": {

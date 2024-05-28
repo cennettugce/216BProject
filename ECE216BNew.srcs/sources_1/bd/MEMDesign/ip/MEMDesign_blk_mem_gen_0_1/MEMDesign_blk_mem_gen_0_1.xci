@@ -2,7 +2,7 @@
   "schema": "xilinx.com:schema:json_instance:1.0",
   "ip_inst": {
     "xci_name": "MEMDesign_blk_mem_gen_0_1",
-    "cell_name": "blk_mem_gen_1",
+    "cell_name": "LAYER_1_INPUT_BLOCKRAM",
     "component_reference": "xilinx.com:ip:blk_mem_gen:8.4",
     "ip_revision": "7",
     "gen_directory": "../../../../../../ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_blk_mem_gen_0_1",

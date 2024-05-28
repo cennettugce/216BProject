@@ -2,7 +2,7 @@
   "schema": "xilinx.com:schema:json_instance:1.0",
   "ip_inst": {
     "xci_name": "MEMDesign_mem_to_array_1_0_2",
-    "cell_name": "mem_to_array_1_0",
+    "cell_name": "LAYER_1_MEM_TO_ARRAY",
     "component_reference": "xilinx.com:module_ref:mem_to_array_1:1.0",
     "ip_revision": "1",
     "gen_directory": "../../../../../../ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_mem_to_array_1_0_2",

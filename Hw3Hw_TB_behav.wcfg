@@ -3,87 +3,306 @@
    <wave_state>
    </wave_state>
    <db_ref_list>
-      <db_ref path="Hw3Hw_TB_behav.wdb" id="1">
+      <db_ref path="tb2_behav.wdb" id="1">
          <top_modules>
-            <top_module name="Hw3Hw_TB" />
             <top_module name="glbl" />
+            <top_module name="tb2" />
          </top_modules>
       </db_ref>
    </db_ref_list>
    <zoom_setting>
-      <ZoomStartTime time="52.550 ns"></ZoomStartTime>
-      <ZoomEndTime time="84.251 ns"></ZoomEndTime>
-      <Cursor1Time time="112.550 ns"></Cursor1Time>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,000.001 ns"></ZoomEndTime>
+      <Cursor1Time time="135.545 ns"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
       <NameColumnWidth column_width="325"></NameColumnWidth>
-      <ValueColumnWidth column_width="136"></ValueColumnWidth>
+      <ValueColumnWidth column_width="116"></ValueColumnWidth>
    </column_width_setting>
-   <WVObjectSize size="16" />
-   <wvobject fp_name="/Hw3Hw_TB/clk" type="logic">
+   <WVObjectSize size="71" />
+   <wvobject fp_name="/tb2/clk" type="logic">
       <obj_property name="ElementShortName">clk</obj_property>
       <obj_property name="ObjectShortName">clk</obj_property>
    </wvobject>
-   <wvobject fp_name="/Hw3Hw_TB/rst" type="logic">
+   <wvobject fp_name="/tb2/clk_data" type="logic">
+      <obj_property name="ElementShortName">clk_data</obj_property>
+      <obj_property name="ObjectShortName">clk_data</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/rst" type="logic">
       <obj_property name="ElementShortName">rst</obj_property>
       <obj_property name="ObjectShortName">rst</obj_property>
    </wvobject>
-   <wvobject fp_name="/Hw3Hw_TB/valid" type="logic">
+   <wvobject fp_name="/tb2/valid" type="logic">
       <obj_property name="ElementShortName">valid</obj_property>
       <obj_property name="ObjectShortName">valid</obj_property>
    </wvobject>
-   <wvobject fp_name="/Hw3Hw_TB/writeEnable" type="logic">
+   <wvobject fp_name="/tb2/valid_1" type="logic">
+      <obj_property name="ElementShortName">valid_1</obj_property>
+      <obj_property name="ObjectShortName">valid_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/valid_2" type="logic">
+      <obj_property name="ElementShortName">valid_2</obj_property>
+      <obj_property name="ObjectShortName">valid_2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/valid_3" type="logic">
+      <obj_property name="ElementShortName">valid_3</obj_property>
+      <obj_property name="ObjectShortName">valid_3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/valid_4" type="logic">
+      <obj_property name="ElementShortName">valid_4</obj_property>
+      <obj_property name="ObjectShortName">valid_4</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/writeEnable" type="logic">
       <obj_property name="ElementShortName">writeEnable</obj_property>
       <obj_property name="ObjectShortName">writeEnable</obj_property>
    </wvobject>
-   <wvobject fp_name="/Hw3Hw_TB/dataOut" type="array">
+   <wvobject fp_name="/tb2/writeEnable_1" type="logic">
+      <obj_property name="ElementShortName">writeEnable_1</obj_property>
+      <obj_property name="ObjectShortName">writeEnable_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/writeEnable_4" type="logic">
+      <obj_property name="ElementShortName">writeEnable_4</obj_property>
+      <obj_property name="ObjectShortName">writeEnable_4</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/dataOut" type="array">
       <obj_property name="ElementShortName">dataOut[143:0]</obj_property>
       <obj_property name="ObjectShortName">dataOut[143:0]</obj_property>
    </wvobject>
-   <wvobject fp_name="/Hw3Hw_TB/inputData" type="array">
+   <wvobject fp_name="/tb2/inputData" type="array">
       <obj_property name="ElementShortName">inputData[42:0]</obj_property>
       <obj_property name="ObjectShortName">inputData[42:0]</obj_property>
    </wvobject>
-   <wvobject fp_name="/Hw3Hw_TB/endLatency" type="array">
+   <wvobject fp_name="/tb2/endLatency" type="array">
       <obj_property name="ElementShortName">endLatency[15:0]</obj_property>
       <obj_property name="ObjectShortName">endLatency[15:0]</obj_property>
    </wvobject>
-   <wvobject fp_name="/Hw3Hw_TB/startLatency" type="array">
+   <wvobject fp_name="/tb2/startLatency" type="array">
       <obj_property name="ElementShortName">startLatency[15:0]</obj_property>
       <obj_property name="ObjectShortName">startLatency[15:0]</obj_property>
    </wvobject>
-   <wvobject fp_name="/Hw3Hw_TB/startAddr" type="array">
+   <wvobject fp_name="/tb2/endLatency_1" type="array">
+      <obj_property name="ElementShortName">endLatency_1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">endLatency_1[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/startLatency_1" type="array">
+      <obj_property name="ElementShortName">startLatency_1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">startLatency_1[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/endLatency_2" type="array">
+      <obj_property name="ElementShortName">endLatency_2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">endLatency_2[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/startLatency_2" type="array">
+      <obj_property name="ElementShortName">startLatency_2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">startLatency_2[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/endLatency_3" type="array">
+      <obj_property name="ElementShortName">endLatency_3[15:0]</obj_property>
+      <obj_property name="ObjectShortName">endLatency_3[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/startLatency_3" type="array">
+      <obj_property name="ElementShortName">startLatency_3[15:0]</obj_property>
+      <obj_property name="ObjectShortName">startLatency_3[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/endLatency_4" type="array">
+      <obj_property name="ElementShortName">endLatency_4[15:0]</obj_property>
+      <obj_property name="ObjectShortName">endLatency_4[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/startLatency_4" type="array">
+      <obj_property name="ElementShortName">startLatency_4[15:0]</obj_property>
+      <obj_property name="ObjectShortName">startLatency_4[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/startAddr" type="array">
       <obj_property name="ElementShortName">startAddr[4:0]</obj_property>
       <obj_property name="ObjectShortName">startAddr[4:0]</obj_property>
    </wvobject>
-   <wvobject fp_name="/Hw3Hw_TB/stride" type="array">
+   <wvobject fp_name="/tb2/startAddr_1" type="array">
+      <obj_property name="ElementShortName">startAddr_1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">startAddr_1[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/startAddr_4" type="array">
+      <obj_property name="ElementShortName">startAddr_4[4:0]</obj_property>
+      <obj_property name="ObjectShortName">startAddr_4[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/stride" type="array">
       <obj_property name="ElementShortName">stride[3:0]</obj_property>
       <obj_property name="ObjectShortName">stride[3:0]</obj_property>
    </wvobject>
-   <wvobject fp_name="/Hw3Hw_TB/ena" type="logic">
+   <wvobject fp_name="/tb2/stride_1" type="array">
+      <obj_property name="ElementShortName">stride_1[2:0]</obj_property>
+      <obj_property name="ObjectShortName">stride_1[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/ena" type="logic">
       <obj_property name="ElementShortName">ena</obj_property>
       <obj_property name="ObjectShortName">ena</obj_property>
    </wvobject>
-   <wvobject fp_name="/Hw3Hw_TB/configIn" type="array">
+   <wvobject fp_name="/tb2/configIn" type="array">
       <obj_property name="ElementShortName">configIn[6:0]</obj_property>
       <obj_property name="ObjectShortName">configIn[6:0]</obj_property>
    </wvobject>
-   <wvobject fp_name="/Hw3Hw_TB/controlIn" type="array">
+   <wvobject fp_name="/tb2/controlIn" type="array">
       <obj_property name="ElementShortName">controlIn[35:0]</obj_property>
       <obj_property name="ObjectShortName">controlIn[35:0]</obj_property>
    </wvobject>
-   <wvobject fp_name="/Hw3Hw_TB/dataIn" type="array">
+   <wvobject fp_name="/tb2/dataIn" type="array">
       <obj_property name="ElementShortName">dataIn[1727:0]</obj_property>
       <obj_property name="ObjectShortName">dataIn[1727:0]</obj_property>
-      <obj_property name="Radix">BINARYRADIX</obj_property>
    </wvobject>
-   <wvobject fp_name="/Hw3Hw_TB/gcontrolIn" type="array">
+   <wvobject fp_name="/tb2/gcontrolIn" type="array">
       <obj_property name="ElementShortName">gcontrolIn[125:0]</obj_property>
       <obj_property name="ObjectShortName">gcontrolIn[125:0]</obj_property>
    </wvobject>
-   <wvobject fp_name="/Hw3Hw_TB/selectedChannel" type="array">
+   <wvobject fp_name="/tb2/selectedChannel" type="array">
       <obj_property name="ElementShortName">selectedChannel[15:0]</obj_property>
       <obj_property name="ObjectShortName">selectedChannel[15:0]</obj_property>
-      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/EE216B_MEM_i/MEMDesign_i/ARRAYTOP/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/EE216B_MEM_i/MEMDesign_i/ARRAYTOP/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/EE216B_MEM_i/MEMDesign_i/ARRAYTOP/dataOut" type="array">
+      <obj_property name="ElementShortName">dataOut[143:0]</obj_property>
+      <obj_property name="ObjectShortName">dataOut[143:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/EE216B_MEM_i/MEMDesign_i/ARRAYTOP/dataIn" type="array">
+      <obj_property name="ElementShortName">dataIn[1727:0]</obj_property>
+      <obj_property name="ObjectShortName">dataIn[1727:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/EE216B_MEM_i/MEMDesign_i/ARRAYTOP/configIn" type="array">
+      <obj_property name="ElementShortName">configIn[6:0]</obj_property>
+      <obj_property name="ObjectShortName">configIn[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/EE216B_MEM_i/MEMDesign_i/ARRAYTOP/controlIn" type="array">
+      <obj_property name="ElementShortName">controlIn[35:0]</obj_property>
+      <obj_property name="ObjectShortName">controlIn[35:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/EE216B_MEM_i/MEMDesign_i/ARRAYTOP/gControlIn" type="array">
+      <obj_property name="ElementShortName">gControlIn[125:0]</obj_property>
+      <obj_property name="ObjectShortName">gControlIn[125:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/EE216B_MEM_i/MEMDesign_i/GCONTROLIN_MEM_CONTROL/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/EE216B_MEM_i/MEMDesign_i/GCONTROLIN_MEM_CONTROL/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/EE216B_MEM_i/MEMDesign_i/GCONTROLIN_MEM_CONTROL/valid" type="logic">
+      <obj_property name="ElementShortName">valid</obj_property>
+      <obj_property name="ObjectShortName">valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/EE216B_MEM_i/MEMDesign_i/GCONTROLIN_MEM_CONTROL/DataIn" type="array">
+      <obj_property name="ElementShortName">DataIn[125:0]</obj_property>
+      <obj_property name="ObjectShortName">DataIn[125:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/EE216B_MEM_i/MEMDesign_i/GCONTROLIN_MEM_CONTROL/DataOut" type="array">
+      <obj_property name="ElementShortName">DataOut[125:0]</obj_property>
+      <obj_property name="ObjectShortName">DataOut[125:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/EE216B_MEM_i/MEMDesign_i/GCONTROLIN_MEM_CONTROL/addrOut" type="array">
+      <obj_property name="ElementShortName">addrOut[4:0]</obj_property>
+      <obj_property name="ObjectShortName">addrOut[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/EE216B_MEM_i/MEMDesign_i/GCONTROLIN_MEM_CONTROL/writeEn" type="logic">
+      <obj_property name="ElementShortName">writeEn</obj_property>
+      <obj_property name="ObjectShortName">writeEn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/EE216B_MEM_i/MEMDesign_i/GCONTROLIN_MEM_CONTROL/startAddr" type="array">
+      <obj_property name="ElementShortName">startAddr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">startAddr[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/EE216B_MEM_i/MEMDesign_i/GCONTROLIN_MEM_CONTROL/strideInterval" type="array">
+      <obj_property name="ElementShortName">strideInterval[2:0]</obj_property>
+      <obj_property name="ObjectShortName">strideInterval[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/EE216B_MEM_i/MEMDesign_i/GCONTROLIN_MEM_CONTROL/startLatency" type="array">
+      <obj_property name="ElementShortName">startLatency[15:0]</obj_property>
+      <obj_property name="ObjectShortName">startLatency[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/EE216B_MEM_i/MEMDesign_i/GCONTROLIN_MEM_CONTROL/endLatency" type="array">
+      <obj_property name="ElementShortName">endLatency[15:0]</obj_property>
+      <obj_property name="ObjectShortName">endLatency[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/EE216B_MEM_i/MEMDesign_i/GCONTROLIN_MEM_CONTROL/MEMin" type="array">
+      <obj_property name="ElementShortName">MEMin[125:0]</obj_property>
+      <obj_property name="ObjectShortName">MEMin[125:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/EE216B_MEM_i/MEMDesign_i/GCONTROLIN_MEM_CONTROL/MEMout" type="array">
+      <obj_property name="ElementShortName">MEMout[125:0]</obj_property>
+      <obj_property name="ObjectShortName">MEMout[125:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/EE216B_MEM_i/MEMDesign_i/GCONTROLIN_MEM_CONTROL/MWMWen" type="logic">
+      <obj_property name="ElementShortName">MWMWen</obj_property>
+      <obj_property name="ObjectShortName">MWMWen</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/EE216B_MEM_i/MEMDesign_i/GCONTROLIN_MEM_CONTROL/MEMEn" type="logic">
+      <obj_property name="ElementShortName">MEMEn</obj_property>
+      <obj_property name="ObjectShortName">MEMEn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/EE216B_MEM_i/MEMDesign_i/GCONTROLIN_BRAM/clka" type="logic">
+      <obj_property name="ElementShortName">clka</obj_property>
+      <obj_property name="ObjectShortName">clka</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/EE216B_MEM_i/MEMDesign_i/GCONTROLIN_BRAM/rsta" type="logic">
+      <obj_property name="ElementShortName">rsta</obj_property>
+      <obj_property name="ObjectShortName">rsta</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/EE216B_MEM_i/MEMDesign_i/GCONTROLIN_BRAM/ena" type="logic">
+      <obj_property name="ElementShortName">ena</obj_property>
+      <obj_property name="ObjectShortName">ena</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/EE216B_MEM_i/MEMDesign_i/GCONTROLIN_BRAM/wea" type="array">
+      <obj_property name="ElementShortName">wea[0:0]</obj_property>
+      <obj_property name="ObjectShortName">wea[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/EE216B_MEM_i/MEMDesign_i/GCONTROLIN_BRAM/addra" type="array">
+      <obj_property name="ElementShortName">addra[4:0]</obj_property>
+      <obj_property name="ObjectShortName">addra[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/EE216B_MEM_i/MEMDesign_i/GCONTROLIN_BRAM/dina" type="array">
+      <obj_property name="ElementShortName">dina[125:0]</obj_property>
+      <obj_property name="ObjectShortName">dina[125:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/EE216B_MEM_i/MEMDesign_i/GCONTROLIN_BRAM/douta" type="array">
+      <obj_property name="ElementShortName">douta[125:0]</obj_property>
+      <obj_property name="ObjectShortName">douta[125:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/EE216B_MEM_i/MEMDesign_i/GCONTROLIN_BRAM/rsta_busy" type="logic">
+      <obj_property name="ElementShortName">rsta_busy</obj_property>
+      <obj_property name="ObjectShortName">rsta_busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/EE216B_MEM_i/MEMDesign_i/ARRAYTOP/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/EE216B_MEM_i/MEMDesign_i/ARRAYTOP/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/EE216B_MEM_i/MEMDesign_i/ARRAYTOP/dataOut" type="array">
+      <obj_property name="ElementShortName">dataOut[143:0]</obj_property>
+      <obj_property name="ObjectShortName">dataOut[143:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/EE216B_MEM_i/MEMDesign_i/ARRAYTOP/dataIn" type="array">
+      <obj_property name="ElementShortName">dataIn[1727:0]</obj_property>
+      <obj_property name="ObjectShortName">dataIn[1727:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/EE216B_MEM_i/MEMDesign_i/ARRAYTOP/configIn" type="array">
+      <obj_property name="ElementShortName">configIn[6:0]</obj_property>
+      <obj_property name="ObjectShortName">configIn[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/EE216B_MEM_i/MEMDesign_i/ARRAYTOP/controlIn" type="array">
+      <obj_property name="ElementShortName">controlIn[35:0]</obj_property>
+      <obj_property name="ObjectShortName">controlIn[35:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/EE216B_MEM_i/MEMDesign_i/ARRAYTOP/gControlIn" type="array">
+      <obj_property name="ElementShortName">gControlIn[125:0]</obj_property>
+      <obj_property name="ObjectShortName">gControlIn[125:0]</obj_property>
    </wvobject>
 </wave_config>

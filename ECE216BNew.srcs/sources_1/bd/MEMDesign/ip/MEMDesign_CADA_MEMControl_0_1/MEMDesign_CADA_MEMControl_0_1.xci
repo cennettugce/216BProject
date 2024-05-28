@@ -2,7 +2,7 @@
   "schema": "xilinx.com:schema:json_instance:1.0",
   "ip_inst": {
     "xci_name": "MEMDesign_CADA_MEMControl_0_1",
-    "cell_name": "CADA_MEMControl_1",
+    "cell_name": "LAYER_1_INPUT_DATA_MEMCONTROL",
     "component_reference": "xilinx.com:module_ref:CADA_MEMControl:1.0",
     "ip_revision": "1",
     "gen_directory": "../../../../../../ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_CADA_MEMControl_0_1",

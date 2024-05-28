@@ -1,10 +1,195 @@
 Vivado Simulator v2023.2
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
-Running: E:/UCLA/Spring_24/216B/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_7 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb2_behav xil_defaultlib.tb2 xil_defaultlib.glbl -log elaborate.log 
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_7 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb2_behav xil_defaultlib.tb2 xil_defaultlib.glbl -log elaborate.log 
 Using 2 slave threads.
 Starting static elaboration
 Pass Through NonSizing Optimizer
-WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 144 for port 'DataIn_1' [E:/GitHub Projects/216BProject/ECE216BNew.srcs/sim_1/new/tb2.v:38]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 144 for port 'DataIn_1' [C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sim_1/new/tb2.v:23]
 Completed static elaboration
-INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/ArrayTop.v" Line 1. Module ArrayTop doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=7,DataOut_1_BW=7) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=4,DataOut_1_BW=4) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=7,DataOut_1_BW=7) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=4,DataOut_1_BW=4) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=7,DataOut_1_BW=7) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=4,DataOut_1_BW=4) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=7,DataOut_1_BW=7) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=4,DataOut_1_BW=4) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=7,DataOut_1_BW=7) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=4,DataOut_1_BW=4) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=7,DataOut_1_BW=7) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=4,DataOut_1_BW=4) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=7,DataOut_1_BW=7) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=4,DataOut_1_BW=4) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=7,DataOut_1_BW=7) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=4,DataOut_1_BW=4) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=7,DataOut_1_BW=7) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=4,DataOut_1_BW=4) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=7,DataOut_1_BW=7) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=16,DataOut_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=7,DataOut_1_BW=7) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=16,DataOut_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=7,DataOut_1_BW=7) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=4,DataOut_1_BW=4) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=7,DataOut_1_BW=7) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=36,DataOut_1_BW=36) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/ArrayTop.v" Line 3132. Module VSTop doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/ArrayTop.v" Line 3339. Module DSE_Solution_L0 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 207. Module CADA_IN(Data_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 207. Module CADA_IN(Data_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 207. Module CADA_IN(Data_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1526. Module HA_OW(DataIn_1_BW=16,DataOut_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=16,DataOut_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 31. Module CADA_ADD(DataIn_1_BW=16,DataIn_2_BW=16,DataOut_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=16,DataOut_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 54. Module CADA_Mult(DataIn_1_BW=16,DataIn_2_BW=16,DataOut_1_BW=16,scaleDown=0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1119. Module HA_2IM(Mux_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1119. Module HA_2IM(Mux_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 189. Module HA_CReg(Inst_BW=2) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/ArrayTop.v" Line 3526. Module DSE_Solution_L1 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1510. Module HA_INW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1510. Module HA_INW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1510. Module HA_INW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1510. Module HA_INW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1510. Module HA_INW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1526. Module HA_OW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1526. Module HA_OW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1518. Module HA_TW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1518. Module HA_TW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1119. Module HA_2IM(Mux_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1119. Module HA_2IM(Mux_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1075. Module HA_4IM(Mux_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 189. Module HA_CReg(Inst_BW=4) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/ArrayTop.v" Line 3691. Module DSE_Solution_L2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1510. Module HA_INW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1510. Module HA_INW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1510. Module HA_INW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1526. Module HA_OW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1526. Module HA_OW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1526. Module HA_OW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1526. Module HA_OW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1526. Module HA_OW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1518. Module HA_TW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1518. Module HA_TW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1119. Module HA_2IM(Mux_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 189. Module HA_CReg(Inst_BW=1) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/ArrayTop.v" Line 3850. Module DSE_Solution_L3 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1510. Module HA_INW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1526. Module HA_OW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1526. Module HA_OW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1526. Module HA_OW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1518. Module HA_TW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/ArrayTop.v" Line 3922. Module DSE_Solution_L4 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1510. Module HA_INW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1526. Module HA_OW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1518. Module HA_TW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/ArrayTop.v" Line 3966. Module DSE_Solution_L5 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1510. Module HA_INW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1526. Module HA_OW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1518. Module HA_TW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/ArrayTop.v" Line 3132. Module VSTop doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/ArrayTop.v" Line 3339. Module DSE_Solution_L0 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 207. Module CADA_IN(Data_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 207. Module CADA_IN(Data_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 207. Module CADA_IN(Data_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1526. Module HA_OW(DataIn_1_BW=16,DataOut_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=16,DataOut_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 31. Module CADA_ADD(DataIn_1_BW=16,DataIn_2_BW=16,DataOut_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=16,DataOut_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 54. Module CADA_Mult(DataIn_1_BW=16,DataIn_2_BW=16,DataOut_1_BW=16,scaleDown=0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1119. Module HA_2IM(Mux_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1119. Module HA_2IM(Mux_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 189. Module HA_CReg(Inst_BW=2) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/ArrayTop.v" Line 3526. Module DSE_Solution_L1 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1510. Module HA_INW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1510. Module HA_INW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1510. Module HA_INW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1510. Module HA_INW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1510. Module HA_INW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+INFO: [Common 17-14] Message 'XSIM 43-4099' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.HA_Reg(DataIn_1_BW=7,DataOut_1_B...
+Compiling module xil_defaultlib.HA_Reg(DataIn_1_BW=4,DataOut_1_B...
+Compiling module xil_defaultlib.HA_Reg(DataIn_1_BW=16,DataOut_1_...
+Compiling module xil_defaultlib.HA_Reg(DataIn_1_BW=36,DataOut_1_...
+Compiling module xil_defaultlib.CADA_IN(Data_BW=16)
+Compiling module xil_defaultlib.HA_OW(DataIn_1_BW=16,DataOut_1_B...
+Compiling module xil_defaultlib.CADA_ADD(DataIn_1_BW=16,DataIn_2...
+Compiling module xil_defaultlib.CADA_Mult(DataIn_1_BW=16,DataIn_...
+Compiling module xil_defaultlib.HA_2IM(Mux_BW=16)
+Compiling module xil_defaultlib.HA_CReg(Inst_BW=2)
+Compiling module xil_defaultlib.DSE_Solution_L0
+Compiling module xil_defaultlib.HA_INW(DataIn_1_BW=16)
+Compiling module xil_defaultlib.HA_OW(DataIn_1_BW=16)
+Compiling module xil_defaultlib.HA_TW(DataIn_1_BW=16)
+Compiling module xil_defaultlib.HA_4IM(Mux_BW=16)
+Compiling module xil_defaultlib.HA_CReg(Inst_BW=4)
+Compiling module xil_defaultlib.DSE_Solution_L1
+Compiling module xil_defaultlib.HA_CReg(Inst_BW=1)
+Compiling module xil_defaultlib.DSE_Solution_L2
+Compiling module xil_defaultlib.DSE_Solution_L3
+Compiling module xil_defaultlib.DSE_Solution_L4
+Compiling module xil_defaultlib.DSE_Solution_L5
+Compiling module xil_defaultlib.VSTop
+Compiling module xil_defaultlib.ArrayTop
+Compiling module xil_defaultlib.MEMDesign_ArrayTop_0_0
+Compiling module xil_defaultlib.CADA_LaneSplit
+Compiling module xil_defaultlib.MEMDesign_CADA_LaneSplit_0_0
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_output_stage(...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_output_stage(...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7(C_FAMILY="zyn...
+Compiling module xil_defaultlib.MEMDesign_blk_mem_gen_0_0
+Compiling module xil_defaultlib.CADA_MEMControl
+Compiling module xil_defaultlib.MEMDesign_CADA_MEMControl_0_0
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_output_stage(...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_output_stage(...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7(C_FAMILY="zyn...
+Compiling module xil_defaultlib.MEMDesign_CONFIG_BLOCKRAM_0
+Compiling module xil_defaultlib.CADA_MEMControl(Data_bitWidth=12...
+Compiling module xil_defaultlib.MEMDesign_CONFIG_MEMCONTROL_0
+Compiling module xil_defaultlib.HA_1BM(Mux_BW=1)
+Compiling module xil_defaultlib.MEMDesign_HA_1BM_0_0
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_output_stage(...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_output_stage(...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7(C_FAMILY="zyn...
+Compiling module xil_defaultlib.MEMDesign_blk_mem_gen_0_1
+Compiling module xil_defaultlib.CADA_MEMControl(Data_bitWidth=14...
+Compiling module xil_defaultlib.MEMDesign_CADA_MEMControl_0_1
+Compiling module xil_defaultlib.mem_to_array_1
+Compiling module xil_defaultlib.MEMDesign_mem_to_array_1_0_2
+Compiling module xil_defaultlib.output_mapper
+Compiling module xil_defaultlib.MEMDesign_output_mapper_0_0
+Compiling module xil_defaultlib.HA_1BM(Mux_BW=64)
+Compiling module xil_defaultlib.MEMDesign_HA_1BM_0_2
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_output_stage(...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_output_stage(...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7(C_FAMILY="zyn...
+Compiling module xil_defaultlib.MEMDesign_blk_mem_gen_1_0
+Compiling module xil_defaultlib.CADA_MEMControl(Data_bitWidth=64...
+Compiling module xil_defaultlib.MEMDesign_CADA_MEMControl_1_0
+Compiling module xil_defaultlib.mem_to_array_2
+Compiling module xil_defaultlib.MEMDesign_mem_to_array_2_0_0
+Compiling module xil_defaultlib.output_mapper_2
+Compiling module xil_defaultlib.MEMDesign_output_mapper_2_0_0
+Compiling module xil_defaultlib.MEMDesign_HA_1BM_1_0
+Compiling module xil_defaultlib.MEMDesign_LAYER_2_BLOCKRAM_0
+Compiling module xil_defaultlib.MEMDesign_LAYER_2_INPUT_DATA_MEM...
+Compiling module xil_defaultlib.MEMDesign_LAYER_2_VALID_MUX_1
+Compiling module xil_defaultlib.HA_1BM(Mux_BW=1728)
+Compiling module xil_defaultlib.MEMDesign_HA_1BM_2_0
+Compiling module xil_defaultlib.MEMDesign
+Compiling module xil_defaultlib.MEMDesign_wrapper
+Compiling module xil_defaultlib.tb2
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb2_behav
