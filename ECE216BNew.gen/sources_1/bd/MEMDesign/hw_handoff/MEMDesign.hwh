@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Wed May 29 19:51:29 2024" VIVADOVERSION="2023.2">
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Wed May 29 21:00:44 2024" VIVADOVERSION="2023.2">
 
   <SYSTEMINFO ARCH="zynq" DEVICE="7z020" NAME="MEMDesign" PACKAGE="clg400" SPEEDGRADE="-2"/>
 
@@ -75,12 +75,7 @@
         <CONNECTION INSTANCE="GCONTROLIN_MEM_CONTROL" PORT="DataIn"/>
       </CONNECTIONS>
     </PORT>
-    <PORT DIR="O" LEFT="63" NAME="outDataOut" RIGHT="0" SIGIS="undef" SIGNAME="LAYER_2_OUTPUT_MAPPER_outDataOut">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="LAYER_2_OUTPUT_MAPPER" PORT="outDataOut"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="O" LEFT="63" NAME="outputmapper1out" RIGHT="0" SIGIS="undef" SIGNAME="LAYER_1_OUTPUT_MAPPER_outDataOut">
+    <PORT DIR="O" LEFT="63" NAME="outDataOut" RIGHT="0" SIGIS="undef" SIGNAME="LAYER_1_OUTPUT_MAPPER_outDataOut">
       <CONNECTIONS>
         <CONNECTION INSTANCE="LAYER_1_OUTPUT_MAPPER" PORT="outDataOut"/>
       </CONNECTIONS>
@@ -1257,7 +1252,7 @@
         <PORT DIR="O" LEFT="63" NAME="outDataOut" RIGHT="0" SIGIS="undef" SIGNAME="LAYER_1_OUTPUT_MAPPER_outDataOut">
           <CONNECTIONS>
             <CONNECTION INSTANCE="LAYER_2_INPUT_DATA_MEMCONTROL" PORT="DataIn"/>
-            <CONNECTION INSTANCE="External_Ports" PORT="outputmapper1out"/>
+            <CONNECTION INSTANCE="External_Ports" PORT="outDataOut"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="I" NAME="reset" POLARITY="ACTIVE_LOW" SIGIS="rst" SIGNAME="External_Ports_rst">
@@ -1674,7 +1669,6 @@
         <PORT DIR="O" LEFT="63" NAME="outDataOut" RIGHT="0" SIGIS="undef" SIGNAME="LAYER_2_OUTPUT_MAPPER_outDataOut">
           <CONNECTIONS>
             <CONNECTION INSTANCE="LAYER_3_INPUT_DATA_MEMCONTROL" PORT="DataIn"/>
-            <CONNECTION INSTANCE="External_Ports" PORT="outDataOut"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="I" NAME="reset" POLARITY="ACTIVE_LOW" SIGIS="rst" SIGNAME="External_Ports_rst">

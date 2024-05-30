@@ -3,16 +3,16 @@
 # SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
 # IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
 # SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
-# Start of session at: Mon May 27 20:56:26 2024
-# Process ID: 48756
-# Current directory: C:/Users/Keith/Documents/UCLA/216B/vignesh_proj
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent48372 C:\Users\Keith\Documents\UCLA\216B\vignesh_proj\ECE216BNew.xpr
-# Log file: C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/vivado.log
-# Journal file: C:/Users/Keith/Documents/UCLA/216B/vignesh_proj\vivado.jou
+# Start of session at: Wed May 29 21:10:42 2024
+# Process ID: 26728
+# Current directory: C:/Users/Keith/Documents/UCLA/216B/216BProject-keith
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12504 C:\Users\Keith\Documents\UCLA\216B\216BProject-keith\ECE216BNew.xpr
+# Log file: C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/vivado.log
+# Journal file: C:/Users/Keith/Documents/UCLA/216B/216BProject-keith\vivado.jou
 # Running On: DESKTOP-TUIN670, OS: Windows, CPU Frequency: 3792 MHz, CPU Physical cores: 8, Host memory: 17094 MB
 #-----------------------------------------------------------
 start_gui
-open_project C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.xpr
+open_project C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.xpr
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
@@ -74,59 +74,1254 @@ Finished scanning sources
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.2/data/ip'.
-WARNING: [IP_Flow 19-3664] IP 'MEMDesign_blk_mem_gen_0_1' generated file not found 'c:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_blk_mem_gen_0_1/MEMDesign_blk_mem_gen_0_1.dcp'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'MEMDesign_blk_mem_gen_0_1' generated file not found 'c:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_blk_mem_gen_0_1/MEMDesign_blk_mem_gen_0_1_stub.v'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'MEMDesign_blk_mem_gen_0_1' generated file not found 'c:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_blk_mem_gen_0_1/MEMDesign_blk_mem_gen_0_1_stub.vhdl'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'MEMDesign_blk_mem_gen_0_1' generated file not found 'c:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_blk_mem_gen_0_1/MEMDesign_blk_mem_gen_0_1_sim_netlist.v'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'MEMDesign_blk_mem_gen_0_1' generated file not found 'c:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_blk_mem_gen_0_1/MEMDesign_blk_mem_gen_0_1_sim_netlist.vhdl'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'MEMDesign_mem_to_array_1_0_2' generated file not found 'c:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_mem_to_array_1_0_2/MEMDesign_mem_to_array_1_0_2.dcp'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'MEMDesign_mem_to_array_1_0_2' generated file not found 'c:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_mem_to_array_1_0_2/MEMDesign_mem_to_array_1_0_2_stub.v'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'MEMDesign_mem_to_array_1_0_2' generated file not found 'c:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_mem_to_array_1_0_2/MEMDesign_mem_to_array_1_0_2_stub.vhdl'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'MEMDesign_mem_to_array_1_0_2' generated file not found 'c:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_mem_to_array_1_0_2/MEMDesign_mem_to_array_1_0_2_sim_netlist.v'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'MEMDesign_mem_to_array_1_0_2' generated file not found 'c:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_mem_to_array_1_0_2/MEMDesign_mem_to_array_1_0_2_sim_netlist.vhdl'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'MEMDesign_output_mapper_0_0' generated file not found 'c:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_output_mapper_0_0/MEMDesign_output_mapper_0_0.dcp'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'MEMDesign_output_mapper_0_0' generated file not found 'c:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_output_mapper_0_0/MEMDesign_output_mapper_0_0_stub.v'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'MEMDesign_output_mapper_0_0' generated file not found 'c:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_output_mapper_0_0/MEMDesign_output_mapper_0_0_stub.vhdl'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'MEMDesign_output_mapper_0_0' generated file not found 'c:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_output_mapper_0_0/MEMDesign_output_mapper_0_0_sim_netlist.v'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'MEMDesign_output_mapper_0_0' generated file not found 'c:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_output_mapper_0_0/MEMDesign_output_mapper_0_0_sim_netlist.vhdl'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'MEMDesign_CADA_MEMControl_1_0' generated file not found 'c:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_CADA_MEMControl_1_0/MEMDesign_CADA_MEMControl_1_0.dcp'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'MEMDesign_CADA_MEMControl_1_0' generated file not found 'c:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_CADA_MEMControl_1_0/MEMDesign_CADA_MEMControl_1_0_stub.v'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'MEMDesign_CADA_MEMControl_1_0' generated file not found 'c:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_CADA_MEMControl_1_0/MEMDesign_CADA_MEMControl_1_0_stub.vhdl'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'MEMDesign_CADA_MEMControl_1_0' generated file not found 'c:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_CADA_MEMControl_1_0/MEMDesign_CADA_MEMControl_1_0_sim_netlist.v'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'MEMDesign_CADA_MEMControl_1_0' generated file not found 'c:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_CADA_MEMControl_1_0/MEMDesign_CADA_MEMControl_1_0_sim_netlist.vhdl'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'MEMDesign_blk_mem_gen_1_0' generated file not found 'c:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_blk_mem_gen_1_0/MEMDesign_blk_mem_gen_1_0.dcp'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'MEMDesign_blk_mem_gen_1_0' generated file not found 'c:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_blk_mem_gen_1_0/MEMDesign_blk_mem_gen_1_0_stub.v'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'MEMDesign_blk_mem_gen_1_0' generated file not found 'c:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_blk_mem_gen_1_0/MEMDesign_blk_mem_gen_1_0_stub.vhdl'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'MEMDesign_blk_mem_gen_1_0' generated file not found 'c:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_blk_mem_gen_1_0/MEMDesign_blk_mem_gen_1_0_sim_netlist.v'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'MEMDesign_blk_mem_gen_1_0' generated file not found 'c:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_blk_mem_gen_1_0/MEMDesign_blk_mem_gen_1_0_sim_netlist.vhdl'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'MEMDesign_mem_to_array_2_0_0' generated file not found 'c:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_mem_to_array_2_0_0/MEMDesign_mem_to_array_2_0_0.dcp'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'MEMDesign_mem_to_array_2_0_0' generated file not found 'c:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_mem_to_array_2_0_0/MEMDesign_mem_to_array_2_0_0_stub.v'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'MEMDesign_mem_to_array_2_0_0' generated file not found 'c:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_mem_to_array_2_0_0/MEMDesign_mem_to_array_2_0_0_stub.vhdl'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'MEMDesign_mem_to_array_2_0_0' generated file not found 'c:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_mem_to_array_2_0_0/MEMDesign_mem_to_array_2_0_0_sim_netlist.v'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'MEMDesign_mem_to_array_2_0_0' generated file not found 'c:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_mem_to_array_2_0_0/MEMDesign_mem_to_array_2_0_0_sim_netlist.vhdl'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'MEMDesign_HA_1BM_2_0' generated file not found 'c:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_HA_1BM_2_0/MEMDesign_HA_1BM_2_0.dcp'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'MEMDesign_HA_1BM_2_0' generated file not found 'c:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_HA_1BM_2_0/MEMDesign_HA_1BM_2_0_stub.v'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'MEMDesign_HA_1BM_2_0' generated file not found 'c:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_HA_1BM_2_0/MEMDesign_HA_1BM_2_0_stub.vhdl'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'MEMDesign_HA_1BM_2_0' generated file not found 'c:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_HA_1BM_2_0/MEMDesign_HA_1BM_2_0_sim_netlist.v'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'MEMDesign_HA_1BM_2_0' generated file not found 'c:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_HA_1BM_2_0/MEMDesign_HA_1BM_2_0_sim_netlist.vhdl'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'MEMDesign_output_mapper_2_0_0' generated file not found 'c:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_output_mapper_2_0_0/MEMDesign_output_mapper_2_0_0.dcp'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'MEMDesign_output_mapper_2_0_0' generated file not found 'c:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_output_mapper_2_0_0/MEMDesign_output_mapper_2_0_0_stub.v'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'MEMDesign_output_mapper_2_0_0' generated file not found 'c:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_output_mapper_2_0_0/MEMDesign_output_mapper_2_0_0_stub.vhdl'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'MEMDesign_output_mapper_2_0_0' generated file not found 'c:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_output_mapper_2_0_0/MEMDesign_output_mapper_2_0_0_sim_netlist.v'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'MEMDesign_output_mapper_2_0_0' generated file not found 'c:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_output_mapper_2_0_0/MEMDesign_output_mapper_2_0_0_sim_netlist.vhdl'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'MEMDesign_LAYER_2_INPUT_DATA_MEMCONTROL_0' generated file not found 'c:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_LAYER_2_INPUT_DATA_MEMCONTROL_0/MEMDesign_LAYER_2_INPUT_DATA_MEMCONTROL_0.dcp'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'MEMDesign_LAYER_2_INPUT_DATA_MEMCONTROL_0' generated file not found 'c:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_LAYER_2_INPUT_DATA_MEMCONTROL_0/MEMDesign_LAYER_2_INPUT_DATA_MEMCONTROL_0_stub.v'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'MEMDesign_LAYER_2_INPUT_DATA_MEMCONTROL_0' generated file not found 'c:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_LAYER_2_INPUT_DATA_MEMCONTROL_0/MEMDesign_LAYER_2_INPUT_DATA_MEMCONTROL_0_stub.vhdl'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'MEMDesign_LAYER_2_INPUT_DATA_MEMCONTROL_0' generated file not found 'c:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_LAYER_2_INPUT_DATA_MEMCONTROL_0/MEMDesign_LAYER_2_INPUT_DATA_MEMCONTROL_0_sim_netlist.v'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'MEMDesign_LAYER_2_INPUT_DATA_MEMCONTROL_0' generated file not found 'c:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_LAYER_2_INPUT_DATA_MEMCONTROL_0/MEMDesign_LAYER_2_INPUT_DATA_MEMCONTROL_0_sim_netlist.vhdl'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'MEMDesign_LAYER_2_BLOCKRAM_0' generated file not found 'c:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_LAYER_2_BLOCKRAM_0/MEMDesign_LAYER_2_BLOCKRAM_0.dcp'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'MEMDesign_LAYER_2_BLOCKRAM_0' generated file not found 'c:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_LAYER_2_BLOCKRAM_0/MEMDesign_LAYER_2_BLOCKRAM_0_stub.v'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'MEMDesign_LAYER_2_BLOCKRAM_0' generated file not found 'c:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_LAYER_2_BLOCKRAM_0/MEMDesign_LAYER_2_BLOCKRAM_0_stub.vhdl'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'MEMDesign_LAYER_2_BLOCKRAM_0' generated file not found 'c:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_LAYER_2_BLOCKRAM_0/MEMDesign_LAYER_2_BLOCKRAM_0_sim_netlist.v'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'MEMDesign_LAYER_2_BLOCKRAM_0' generated file not found 'c:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_LAYER_2_BLOCKRAM_0/MEMDesign_LAYER_2_BLOCKRAM_0_sim_netlist.vhdl'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'MEMDesign_HA_1BM_0_2' generated file not found 'c:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_HA_1BM_0_2/MEMDesign_HA_1BM_0_2.dcp'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'MEMDesign_HA_1BM_0_2' generated file not found 'c:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_HA_1BM_0_2/MEMDesign_HA_1BM_0_2_stub.v'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'MEMDesign_HA_1BM_0_2' generated file not found 'c:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_HA_1BM_0_2/MEMDesign_HA_1BM_0_2_stub.vhdl'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'MEMDesign_HA_1BM_0_2' generated file not found 'c:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_HA_1BM_0_2/MEMDesign_HA_1BM_0_2_sim_netlist.v'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'MEMDesign_HA_1BM_0_2' generated file not found 'c:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_HA_1BM_0_2/MEMDesign_HA_1BM_0_2_sim_netlist.vhdl'. Please regenerate to continue.
-open_project: Time (s): cpu = 00:00:21 ; elapsed = 00:00:10 . Memory (MB): peak = 1562.000 ; gain = 402.223
+WARNING: [IP_Flow 19-3664] IP 'MEMDesign_blk_mem_gen_0_1' generated file not found 'c:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_blk_mem_gen_0_1/MEMDesign_blk_mem_gen_0_1.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'MEMDesign_blk_mem_gen_0_1' generated file not found 'c:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_blk_mem_gen_0_1/MEMDesign_blk_mem_gen_0_1_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'MEMDesign_blk_mem_gen_0_1' generated file not found 'c:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_blk_mem_gen_0_1/MEMDesign_blk_mem_gen_0_1_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'MEMDesign_blk_mem_gen_0_1' generated file not found 'c:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_blk_mem_gen_0_1/MEMDesign_blk_mem_gen_0_1_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'MEMDesign_blk_mem_gen_0_1' generated file not found 'c:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_blk_mem_gen_0_1/MEMDesign_blk_mem_gen_0_1_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'MEMDesign_output_mapper_0_0' generated file not found 'c:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_output_mapper_0_0/MEMDesign_output_mapper_0_0.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'MEMDesign_output_mapper_0_0' generated file not found 'c:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_output_mapper_0_0/MEMDesign_output_mapper_0_0_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'MEMDesign_output_mapper_0_0' generated file not found 'c:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_output_mapper_0_0/MEMDesign_output_mapper_0_0_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'MEMDesign_output_mapper_0_0' generated file not found 'c:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_output_mapper_0_0/MEMDesign_output_mapper_0_0_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'MEMDesign_output_mapper_0_0' generated file not found 'c:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_output_mapper_0_0/MEMDesign_output_mapper_0_0_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'MEMDesign_blk_mem_gen_1_0' generated file not found 'c:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_blk_mem_gen_1_0/MEMDesign_blk_mem_gen_1_0.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'MEMDesign_blk_mem_gen_1_0' generated file not found 'c:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_blk_mem_gen_1_0/MEMDesign_blk_mem_gen_1_0_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'MEMDesign_blk_mem_gen_1_0' generated file not found 'c:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_blk_mem_gen_1_0/MEMDesign_blk_mem_gen_1_0_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'MEMDesign_blk_mem_gen_1_0' generated file not found 'c:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_blk_mem_gen_1_0/MEMDesign_blk_mem_gen_1_0_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'MEMDesign_blk_mem_gen_1_0' generated file not found 'c:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_blk_mem_gen_1_0/MEMDesign_blk_mem_gen_1_0_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'MEMDesign_LAYER_2_BLOCKRAM_0' generated file not found 'c:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_LAYER_2_BLOCKRAM_0/MEMDesign_LAYER_2_BLOCKRAM_0.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'MEMDesign_LAYER_2_BLOCKRAM_0' generated file not found 'c:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_LAYER_2_BLOCKRAM_0/MEMDesign_LAYER_2_BLOCKRAM_0_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'MEMDesign_LAYER_2_BLOCKRAM_0' generated file not found 'c:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_LAYER_2_BLOCKRAM_0/MEMDesign_LAYER_2_BLOCKRAM_0_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'MEMDesign_LAYER_2_BLOCKRAM_0' generated file not found 'c:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_LAYER_2_BLOCKRAM_0/MEMDesign_LAYER_2_BLOCKRAM_0_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'MEMDesign_LAYER_2_BLOCKRAM_0' generated file not found 'c:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_LAYER_2_BLOCKRAM_0/MEMDesign_LAYER_2_BLOCKRAM_0_sim_netlist.vhdl'. Please regenerate to continue.
+open_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:09 . Memory (MB): peak = 1486.980 ; gain = 352.121
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb2'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13660] Precompiled IP simulation library mode is enabled (default). The design IP libraries will be referenced from the compiled library path. Please note that if the precompiled version of the library is not found from the path or the IP is in locked state, then the library source files for these IPs will be compiled locally as part of the compile order.
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2023.2/data/xsim/xsim.ini' copied to run dir:'C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb2' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.sim/sim_1/behav/xsim/layer1_im2col.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.sim/sim_1/behav/xsim/MEMDesign_blk_mem_gen_0_1.mif'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb2_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CADA_ADD
+INFO: [VRFC 10-311] analyzing module CADA_Mult
+INFO: [VRFC 10-311] analyzing module HA_ADD
+INFO: [VRFC 10-311] analyzing module HA_Mult
+INFO: [VRFC 10-311] analyzing module HA_Reg
+INFO: [VRFC 10-311] analyzing module HA_CSTR
+INFO: [VRFC 10-311] analyzing module HA_CONST
+INFO: [VRFC 10-311] analyzing module HA_CReg
+INFO: [VRFC 10-311] analyzing module CADA_IN
+INFO: [VRFC 10-311] analyzing module HA_IN
+INFO: [VRFC 10-311] analyzing module HA_OUT
+INFO: [VRFC 10-311] analyzing module HA_5BM
+INFO: [VRFC 10-311] analyzing module HA_32IM
+INFO: [VRFC 10-311] analyzing module HA_28IM
+INFO: [VRFC 10-311] analyzing module HA_27IM
+INFO: [VRFC 10-311] analyzing module HA_26IM
+INFO: [VRFC 10-311] analyzing module HA_25IM
+INFO: [VRFC 10-311] analyzing module HA_24IM
+INFO: [VRFC 10-311] analyzing module HA_23IM
+INFO: [VRFC 10-311] analyzing module HA_22IM
+INFO: [VRFC 10-311] analyzing module HA_21IM
+INFO: [VRFC 10-311] analyzing module HA_20IM
+INFO: [VRFC 10-311] analyzing module HA_19IM
+INFO: [VRFC 10-311] analyzing module HA_18IM
+INFO: [VRFC 10-311] analyzing module HA_17IM
+INFO: [VRFC 10-311] analyzing module HA_16IM
+INFO: [VRFC 10-311] analyzing module HA_15IM
+INFO: [VRFC 10-311] analyzing module HA_14IM
+INFO: [VRFC 10-311] analyzing module HA_13IM
+INFO: [VRFC 10-311] analyzing module HA_12IM
+INFO: [VRFC 10-311] analyzing module HA_11IM
+INFO: [VRFC 10-311] analyzing module HA_10IM
+INFO: [VRFC 10-311] analyzing module HA_9IM
+INFO: [VRFC 10-311] analyzing module HA_4BM
+INFO: [VRFC 10-311] analyzing module HA_8IM
+INFO: [VRFC 10-311] analyzing module HA_7IM
+INFO: [VRFC 10-311] analyzing module HA_6IM
+INFO: [VRFC 10-311] analyzing module HA_5IM
+INFO: [VRFC 10-311] analyzing module HA_3BM
+INFO: [VRFC 10-311] analyzing module HA_4IM
+INFO: [VRFC 10-311] analyzing module HA_3IM
+INFO: [VRFC 10-311] analyzing module HA_2BM
+INFO: [VRFC 10-311] analyzing module HA_2IM
+INFO: [VRFC 10-311] analyzing module HA_1BM
+INFO: [VRFC 10-311] analyzing module HA_AXI_Driver
+INFO: [VRFC 10-311] analyzing module Array_top
+INFO: [VRFC 10-311] analyzing module HA_GND
+INFO: [VRFC 10-311] analyzing module HA_WIN
+INFO: [VRFC 10-311] analyzing module HA_INW
+INFO: [VRFC 10-311] analyzing module HA_TW
+INFO: [VRFC 10-311] analyzing module HA_OW
+INFO: [VRFC 10-311] analyzing module HA_WOUT
+INFO: [VRFC 10-311] analyzing module CADA_MEMTop
+INFO: [VRFC 10-311] analyzing module CADA_LaneMerge
+INFO: [VRFC 10-311] analyzing module CADA_LaneSplit
+INFO: [VRFC 10-311] analyzing module CADA_MEMControl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/ArrayTop.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ArrayTop
+WARNING: [VRFC 10-2379] empty port in module declaration [C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/ArrayTop.v:9]
+INFO: [VRFC 10-311] analyzing module VSTop
+INFO: [VRFC 10-311] analyzing module DSE_Solution_L0
+INFO: [VRFC 10-311] analyzing module DSE_Solution_L1
+INFO: [VRFC 10-311] analyzing module DSE_Solution_L2
+INFO: [VRFC 10-311] analyzing module DSE_Solution_L3
+INFO: [VRFC 10-311] analyzing module DSE_Solution_L4
+INFO: [VRFC 10-311] analyzing module DSE_Solution_L5
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/mem_to_array_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem_to_array_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/output_mapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module output_mapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/mem_to_array_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem_to_array_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/output_mapper_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module output_mapper_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.ip_user_files/bd/MEMDesign/ip/MEMDesign_blk_mem_gen_0_0/sim/MEMDesign_blk_mem_gen_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMDesign_blk_mem_gen_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.ip_user_files/bd/MEMDesign/ip/MEMDesign_CADA_MEMControl_0_0/sim/MEMDesign_CADA_MEMControl_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMDesign_CADA_MEMControl_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.ip_user_files/bd/MEMDesign/ip/MEMDesign_ArrayTop_0_0/sim/MEMDesign_ArrayTop_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMDesign_ArrayTop_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.ip_user_files/bd/MEMDesign/ip/MEMDesign_CADA_LaneSplit_0_0/sim/MEMDesign_CADA_LaneSplit_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMDesign_CADA_LaneSplit_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.ip_user_files/bd/MEMDesign/ip/MEMDesign_blk_mem_gen_0_1/sim/MEMDesign_blk_mem_gen_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMDesign_blk_mem_gen_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.ip_user_files/bd/MEMDesign/ip/MEMDesign_CADA_MEMControl_0_1/sim/MEMDesign_CADA_MEMControl_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMDesign_CADA_MEMControl_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.ip_user_files/bd/MEMDesign/ip/MEMDesign_mem_to_array_1_0_2/sim/MEMDesign_mem_to_array_1_0_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMDesign_mem_to_array_1_0_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.ip_user_files/bd/MEMDesign/ip/MEMDesign_HA_1BM_0_0/sim/MEMDesign_HA_1BM_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMDesign_HA_1BM_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.ip_user_files/bd/MEMDesign/ip/MEMDesign_output_mapper_0_0/sim/MEMDesign_output_mapper_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMDesign_output_mapper_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.ip_user_files/bd/MEMDesign/ip/MEMDesign_HA_1BM_1_0/sim/MEMDesign_HA_1BM_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMDesign_HA_1BM_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.ip_user_files/bd/MEMDesign/ip/MEMDesign_CADA_MEMControl_1_0/sim/MEMDesign_CADA_MEMControl_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMDesign_CADA_MEMControl_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.ip_user_files/bd/MEMDesign/ip/MEMDesign_blk_mem_gen_1_0/sim/MEMDesign_blk_mem_gen_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMDesign_blk_mem_gen_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.ip_user_files/bd/MEMDesign/ip/MEMDesign_mem_to_array_2_0_0/sim/MEMDesign_mem_to_array_2_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMDesign_mem_to_array_2_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.ip_user_files/bd/MEMDesign/ip/MEMDesign_HA_1BM_2_0/sim/MEMDesign_HA_1BM_2_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMDesign_HA_1BM_2_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.ip_user_files/bd/MEMDesign/ip/MEMDesign_output_mapper_2_0_0/sim/MEMDesign_output_mapper_2_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMDesign_output_mapper_2_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.ip_user_files/bd/MEMDesign/ip/MEMDesign_LAYER_2_VALID_MUX_1/sim/MEMDesign_LAYER_2_VALID_MUX_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMDesign_LAYER_2_VALID_MUX_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.ip_user_files/bd/MEMDesign/ip/MEMDesign_LAYER_2_INPUT_DATA_MEMCONTROL_0/sim/MEMDesign_LAYER_2_INPUT_DATA_MEMCONTROL_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMDesign_LAYER_2_INPUT_DATA_MEMCONTROL_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.ip_user_files/bd/MEMDesign/ip/MEMDesign_LAYER_2_BLOCKRAM_0/sim/MEMDesign_LAYER_2_BLOCKRAM_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMDesign_LAYER_2_BLOCKRAM_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.ip_user_files/bd/MEMDesign/ip/MEMDesign_HA_1BM_0_2/sim/MEMDesign_HA_1BM_0_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMDesign_HA_1BM_0_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.ip_user_files/bd/MEMDesign/ip/MEMDesign_CONFIG_BLOCKRAM_0/sim/MEMDesign_CONFIG_BLOCKRAM_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMDesign_CONFIG_BLOCKRAM_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.ip_user_files/bd/MEMDesign/ip/MEMDesign_CONFIG_MEMCONTROL_0/sim/MEMDesign_CONFIG_MEMCONTROL_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMDesign_CONFIG_MEMCONTROL_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.ip_user_files/bd/MEMDesign/sim/MEMDesign.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMDesign
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.gen/sources_1/bd/MEMDesign/hdl/MEMDesign_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMDesign_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sim_1/new/tb2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb2
+WARNING: [VRFC 10-2096] empty statement in sequential block [C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sim_1/new/tb2.v:61]
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1537.457 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '5' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_7 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb2_behav xil_defaultlib.tb2 xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_7 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb2_behav xil_defaultlib.tb2 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 144 for port 'DataIn_1' [C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sim_1/new/tb2.v:25]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/ArrayTop.v" Line 1. Module ArrayTop doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=7,DataOut_1_BW=7) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=4,DataOut_1_BW=4) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=7,DataOut_1_BW=7) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=4,DataOut_1_BW=4) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=7,DataOut_1_BW=7) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=4,DataOut_1_BW=4) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=7,DataOut_1_BW=7) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=4,DataOut_1_BW=4) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=7,DataOut_1_BW=7) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=4,DataOut_1_BW=4) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=7,DataOut_1_BW=7) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=4,DataOut_1_BW=4) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=7,DataOut_1_BW=7) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=4,DataOut_1_BW=4) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=7,DataOut_1_BW=7) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=4,DataOut_1_BW=4) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=7,DataOut_1_BW=7) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=4,DataOut_1_BW=4) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=7,DataOut_1_BW=7) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=16,DataOut_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=7,DataOut_1_BW=7) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=16,DataOut_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=7,DataOut_1_BW=7) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=4,DataOut_1_BW=4) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=7,DataOut_1_BW=7) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=36,DataOut_1_BW=36) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/ArrayTop.v" Line 3132. Module VSTop doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/ArrayTop.v" Line 3339. Module DSE_Solution_L0 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 207. Module CADA_IN(Data_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 207. Module CADA_IN(Data_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 207. Module CADA_IN(Data_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1526. Module HA_OW(DataIn_1_BW=16,DataOut_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=16,DataOut_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 31. Module CADA_ADD(DataIn_1_BW=16,DataIn_2_BW=16,DataOut_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=16,DataOut_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 54. Module CADA_Mult(DataIn_1_BW=16,DataIn_2_BW=16,DataOut_1_BW=16,scaleDown=0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1119. Module HA_2IM(Mux_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1119. Module HA_2IM(Mux_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 189. Module HA_CReg(Inst_BW=2) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/ArrayTop.v" Line 3526. Module DSE_Solution_L1 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1510. Module HA_INW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1510. Module HA_INW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1510. Module HA_INW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1510. Module HA_INW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1510. Module HA_INW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1526. Module HA_OW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1526. Module HA_OW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1518. Module HA_TW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1518. Module HA_TW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1119. Module HA_2IM(Mux_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1119. Module HA_2IM(Mux_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1075. Module HA_4IM(Mux_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 189. Module HA_CReg(Inst_BW=4) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/ArrayTop.v" Line 3691. Module DSE_Solution_L2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1510. Module HA_INW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1510. Module HA_INW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1510. Module HA_INW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1526. Module HA_OW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1526. Module HA_OW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1526. Module HA_OW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1526. Module HA_OW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1526. Module HA_OW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1518. Module HA_TW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1518. Module HA_TW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1119. Module HA_2IM(Mux_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 189. Module HA_CReg(Inst_BW=1) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/ArrayTop.v" Line 3850. Module DSE_Solution_L3 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1510. Module HA_INW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1526. Module HA_OW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1526. Module HA_OW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1526. Module HA_OW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1518. Module HA_TW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/ArrayTop.v" Line 3922. Module DSE_Solution_L4 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1510. Module HA_INW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1526. Module HA_OW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1518. Module HA_TW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/ArrayTop.v" Line 3966. Module DSE_Solution_L5 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1510. Module HA_INW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1526. Module HA_OW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1518. Module HA_TW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/ArrayTop.v" Line 3132. Module VSTop doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/ArrayTop.v" Line 3339. Module DSE_Solution_L0 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 207. Module CADA_IN(Data_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 207. Module CADA_IN(Data_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 207. Module CADA_IN(Data_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1526. Module HA_OW(DataIn_1_BW=16,DataOut_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=16,DataOut_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 31. Module CADA_ADD(DataIn_1_BW=16,DataIn_2_BW=16,DataOut_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=16,DataOut_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 54. Module CADA_Mult(DataIn_1_BW=16,DataIn_2_BW=16,DataOut_1_BW=16,scaleDown=0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1119. Module HA_2IM(Mux_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1119. Module HA_2IM(Mux_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 189. Module HA_CReg(Inst_BW=2) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/ArrayTop.v" Line 3526. Module DSE_Solution_L1 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1510. Module HA_INW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1510. Module HA_INW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1510. Module HA_INW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1510. Module HA_INW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1510. Module HA_INW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+INFO: [Common 17-14] Message 'XSIM 43-4099' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.HA_Reg(DataIn_1_BW=7,DataOut_1_B...
+Compiling module xil_defaultlib.HA_Reg(DataIn_1_BW=4,DataOut_1_B...
+Compiling module xil_defaultlib.HA_Reg(DataIn_1_BW=16,DataOut_1_...
+Compiling module xil_defaultlib.HA_Reg(DataIn_1_BW=36,DataOut_1_...
+Compiling module xil_defaultlib.CADA_IN(Data_BW=16)
+Compiling module xil_defaultlib.HA_OW(DataIn_1_BW=16,DataOut_1_B...
+Compiling module xil_defaultlib.CADA_ADD(DataIn_1_BW=16,DataIn_2...
+Compiling module xil_defaultlib.CADA_Mult(DataIn_1_BW=16,DataIn_...
+Compiling module xil_defaultlib.HA_2IM(Mux_BW=16)
+Compiling module xil_defaultlib.HA_CReg(Inst_BW=2)
+Compiling module xil_defaultlib.DSE_Solution_L0
+Compiling module xil_defaultlib.HA_INW(DataIn_1_BW=16)
+Compiling module xil_defaultlib.HA_OW(DataIn_1_BW=16)
+Compiling module xil_defaultlib.HA_TW(DataIn_1_BW=16)
+Compiling module xil_defaultlib.HA_4IM(Mux_BW=16)
+Compiling module xil_defaultlib.HA_CReg(Inst_BW=4)
+Compiling module xil_defaultlib.DSE_Solution_L1
+Compiling module xil_defaultlib.HA_CReg(Inst_BW=1)
+Compiling module xil_defaultlib.DSE_Solution_L2
+Compiling module xil_defaultlib.DSE_Solution_L3
+Compiling module xil_defaultlib.DSE_Solution_L4
+Compiling module xil_defaultlib.DSE_Solution_L5
+Compiling module xil_defaultlib.VSTop
+Compiling module xil_defaultlib.ArrayTop
+Compiling module xil_defaultlib.MEMDesign_ArrayTop_0_0
+Compiling module xil_defaultlib.CADA_LaneSplit
+Compiling module xil_defaultlib.MEMDesign_CADA_LaneSplit_0_0
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_output_stage(...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_output_stage(...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7(C_FAMILY="zyn...
+Compiling module xil_defaultlib.MEMDesign_blk_mem_gen_0_0
+Compiling module xil_defaultlib.CADA_MEMControl
+Compiling module xil_defaultlib.MEMDesign_CADA_MEMControl_0_0
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_output_stage(...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_output_stage(...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7(C_FAMILY="zyn...
+Compiling module xil_defaultlib.MEMDesign_CONFIG_BLOCKRAM_0
+Compiling module xil_defaultlib.CADA_MEMControl(Data_bitWidth=12...
+Compiling module xil_defaultlib.MEMDesign_CONFIG_MEMCONTROL_0
+Compiling module xil_defaultlib.HA_1BM(Mux_BW=1)
+Compiling module xil_defaultlib.MEMDesign_HA_1BM_0_0
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_output_stage(...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_output_stage(...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7(C_FAMILY="zyn...
+Compiling module xil_defaultlib.MEMDesign_blk_mem_gen_0_1
+Compiling module xil_defaultlib.CADA_MEMControl(Data_bitWidth=14...
+Compiling module xil_defaultlib.MEMDesign_CADA_MEMControl_0_1
+Compiling module xil_defaultlib.mem_to_array_1
+Compiling module xil_defaultlib.MEMDesign_mem_to_array_1_0_2
+Compiling module xil_defaultlib.output_mapper
+Compiling module xil_defaultlib.MEMDesign_output_mapper_0_0
+Compiling module xil_defaultlib.HA_1BM(Mux_BW=64)
+Compiling module xil_defaultlib.MEMDesign_HA_1BM_0_2
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_output_stage(...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_output_stage(...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7(C_FAMILY="zyn...
+Compiling module xil_defaultlib.MEMDesign_blk_mem_gen_1_0
+Compiling module xil_defaultlib.CADA_MEMControl(Data_bitWidth=64...
+Compiling module xil_defaultlib.MEMDesign_CADA_MEMControl_1_0
+Compiling module xil_defaultlib.mem_to_array_2
+Compiling module xil_defaultlib.MEMDesign_mem_to_array_2_0_0
+Compiling module xil_defaultlib.output_mapper_2
+Compiling module xil_defaultlib.MEMDesign_output_mapper_2_0_0
+Compiling module xil_defaultlib.MEMDesign_HA_1BM_1_0
+Compiling module xil_defaultlib.MEMDesign_LAYER_2_BLOCKRAM_0
+Compiling module xil_defaultlib.MEMDesign_LAYER_2_INPUT_DATA_MEM...
+Compiling module xil_defaultlib.MEMDesign_LAYER_2_VALID_MUX_1
+Compiling module xil_defaultlib.HA_1BM(Mux_BW=1728)
+Compiling module xil_defaultlib.MEMDesign_HA_1BM_2_0
+Compiling module xil_defaultlib.MEMDesign
+Compiling module xil_defaultlib.MEMDesign_wrapper
+Compiling module xil_defaultlib.tb2
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb2_behav
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:12 . Memory (MB): peak = 1541.223 ; gain = 3.766
+INFO: [USF-XSim-69] 'elaborate' step finished in '12' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb2_behav -key {Behavioral:sim_1:Functional:tb2} -tclbatch {tb2.tcl} -protoinst "protoinst_files/MEMDesign.protoinst" -view {C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/Hw3Hw_TB_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/MEMDesign.protoinst
+Time resolution is 1 ps
+open_wave_config C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/Hw3Hw_TB_behav.wcfg
+source tb2.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Block Memory Generator module tb2.EE216B_MEM_i.MEMDesign_i.CONFIG_BLOCKRAM.inst.\native_mem_module.blk_mem_gen_v8_4_7_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module tb2.EE216B_MEM_i.MEMDesign_i.GCONTROLIN_BRAM.inst.\native_mem_module.blk_mem_gen_v8_4_7_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb2.EE216B_MEM_i.MEMDesign_i.LAYER_1_INPUT_BLOCKRAM.inst.\native_mem_module.blk_mem_gen_v8_4_7_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module tb2.EE216B_MEM_i.MEMDesign_i.LAYER_2_BLOCKRAM.inst.\native_mem_module.blk_mem_gen_v8_4_7_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module tb2.EE216B_MEM_i.MEMDesign_i.LAYER_3_BLOCKRAM.inst.\native_mem_module.blk_mem_gen_v8_4_7_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb2_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:09 ; elapsed = 00:00:33 . Memory (MB): peak = 1608.168 ; gain = 84.555
+update_compile_order -fileset sources_1
+current_wave_config {Hw3Hw_TB_behav.wcfg}
+Hw3Hw_TB_behav.wcfg
+add_wave {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_2_OUTPUT_MAPPER/reset}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_2_OUTPUT_MAPPER/clk}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_2_OUTPUT_MAPPER/valid}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_2_OUTPUT_MAPPER/writeEn}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_2_OUTPUT_MAPPER/dataIn}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_2_OUTPUT_MAPPER/outDataOut}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_2_OUTPUT_MAPPER/startAddr}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_2_OUTPUT_MAPPER/done}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_2_OUTPUT_MAPPER/writeOut}} 
+restart
+INFO: [Wavedata 42-604] Simulation restarted
+run 1 us
+Block Memory Generator module tb2.EE216B_MEM_i.MEMDesign_i.CONFIG_BLOCKRAM.inst.\native_mem_module.blk_mem_gen_v8_4_7_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module tb2.EE216B_MEM_i.MEMDesign_i.GCONTROLIN_BRAM.inst.\native_mem_module.blk_mem_gen_v8_4_7_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb2.EE216B_MEM_i.MEMDesign_i.LAYER_1_INPUT_BLOCKRAM.inst.\native_mem_module.blk_mem_gen_v8_4_7_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module tb2.EE216B_MEM_i.MEMDesign_i.LAYER_2_BLOCKRAM.inst.\native_mem_module.blk_mem_gen_v8_4_7_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module tb2.EE216B_MEM_i.MEMDesign_i.LAYER_3_BLOCKRAM.inst.\native_mem_module.blk_mem_gen_v8_4_7_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+current_wave_config {Hw3Hw_TB_behav.wcfg}
+Hw3Hw_TB_behav.wcfg
+add_wave {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_1_OUTPUT_MAPPER/inst/reset}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_1_OUTPUT_MAPPER/inst/clk}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_1_OUTPUT_MAPPER/inst/valid}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_1_OUTPUT_MAPPER/inst/writeEn}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_1_OUTPUT_MAPPER/inst/dataIn}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_1_OUTPUT_MAPPER/inst/outDataOut}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_1_OUTPUT_MAPPER/inst/startAddr}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_1_OUTPUT_MAPPER/inst/done}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_1_OUTPUT_MAPPER/inst/writeOut}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_1_OUTPUT_MAPPER/inst/count}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_1_OUTPUT_MAPPER/inst/dataOut}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_1_OUTPUT_MAPPER/inst/start}} 
+restart
+INFO: [Wavedata 42-604] Simulation restarted
+run 1 us
+Block Memory Generator module tb2.EE216B_MEM_i.MEMDesign_i.CONFIG_BLOCKRAM.inst.\native_mem_module.blk_mem_gen_v8_4_7_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module tb2.EE216B_MEM_i.MEMDesign_i.GCONTROLIN_BRAM.inst.\native_mem_module.blk_mem_gen_v8_4_7_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb2.EE216B_MEM_i.MEMDesign_i.LAYER_1_INPUT_BLOCKRAM.inst.\native_mem_module.blk_mem_gen_v8_4_7_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module tb2.EE216B_MEM_i.MEMDesign_i.LAYER_2_BLOCKRAM.inst.\native_mem_module.blk_mem_gen_v8_4_7_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module tb2.EE216B_MEM_i.MEMDesign_i.LAYER_3_BLOCKRAM.inst.\native_mem_module.blk_mem_gen_v8_4_7_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+open_bd_design {C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/bd/MEMDesign/MEMDesign.bd}
+Reading block design file <C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/bd/MEMDesign/MEMDesign.bd>...
+Adding component instance block -- xilinx.com:ip:blk_mem_gen:8.4 - CONFIG_BLOCKRAM
+Adding component instance block -- xilinx.com:module_ref:CADA_MEMControl:1.0 - CONFIG_MEMCONTROL
+Adding component instance block -- xilinx.com:module_ref:ArrayTop:1.0 - ARRAYTOP
+Adding component instance block -- xilinx.com:module_ref:CADA_LaneSplit:1.0 - CADA_LaneSplit_0
+Adding component instance block -- xilinx.com:ip:blk_mem_gen:8.4 - LAYER_1_INPUT_BLOCKRAM
+Adding component instance block -- xilinx.com:module_ref:CADA_MEMControl:1.0 - LAYER_1_INPUT_DATA_MEMCONTROL
+Adding component instance block -- xilinx.com:module_ref:mem_to_array_1:1.0 - LAYER_1_MEM_TO_ARRAY
+Adding component instance block -- xilinx.com:module_ref:HA_1BM:1.0 - LAYER_1_CLK_MUX
+Adding component instance block -- xilinx.com:module_ref:output_mapper:1.0 - LAYER_1_OUTPUT_MAPPER
+Adding component instance block -- xilinx.com:module_ref:HA_1BM:1.0 - LAYER_2_VALID_MUX
+Adding component instance block -- xilinx.com:module_ref:CADA_MEMControl:1.0 - LAYER_2_INPUT_DATA_MEMCONTROL
+Adding component instance block -- xilinx.com:ip:blk_mem_gen:8.4 - LAYER_2_BLOCKRAM
+Adding component instance block -- xilinx.com:module_ref:mem_to_array_2:1.0 - LAYER_2_MEM_TO_ARRAY
+Adding component instance block -- xilinx.com:module_ref:HA_1BM:1.0 - LAYER_DATA_MUX
+Adding component instance block -- xilinx.com:module_ref:output_mapper_2:1.0 - LAYER_2_OUTPUT_MAPPER
+Adding component instance block -- xilinx.com:module_ref:HA_1BM:1.0 - LAYER_3_VALID_MUX
+Adding component instance block -- xilinx.com:module_ref:CADA_MEMControl:1.0 - LAYER_3_INPUT_DATA_MEMCONTROL
+Adding component instance block -- xilinx.com:ip:blk_mem_gen:8.4 - LAYER_3_BLOCKRAM
+Adding component instance block -- xilinx.com:module_ref:HA_1BM:1.0 - LAYER_2_3_INPUT_MUX
+Adding component instance block -- xilinx.com:ip:blk_mem_gen:8.4 - GCONTROLIN_BRAM
+Adding component instance block -- xilinx.com:module_ref:CADA_MEMControl:1.0 - GCONTROLIN_MEM_CONTROL
+Successfully read diagram <MEMDesign> from block design file <C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/bd/MEMDesign/MEMDesign.bd>
+restart
+INFO: [Wavedata 42-604] Simulation restarted
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb2'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13660] Precompiled IP simulation library mode is enabled (default). The design IP libraries will be referenced from the compiled library path. Please note that if the precompiled version of the library is not found from the path or the IP is in locked state, then the library source files for these IPs will be compiled locally as part of the compile order.
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2023.2/data/xsim/xsim.ini' copied to run dir:'C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb2' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.sim/sim_1/behav/xsim/layer1_im2col.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.sim/sim_1/behav/xsim/MEMDesign_blk_mem_gen_0_1.mif'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb2_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CADA_ADD
+INFO: [VRFC 10-311] analyzing module CADA_Mult
+INFO: [VRFC 10-311] analyzing module HA_ADD
+INFO: [VRFC 10-311] analyzing module HA_Mult
+INFO: [VRFC 10-311] analyzing module HA_Reg
+INFO: [VRFC 10-311] analyzing module HA_CSTR
+INFO: [VRFC 10-311] analyzing module HA_CONST
+INFO: [VRFC 10-311] analyzing module HA_CReg
+INFO: [VRFC 10-311] analyzing module CADA_IN
+INFO: [VRFC 10-311] analyzing module HA_IN
+INFO: [VRFC 10-311] analyzing module HA_OUT
+INFO: [VRFC 10-311] analyzing module HA_5BM
+INFO: [VRFC 10-311] analyzing module HA_32IM
+INFO: [VRFC 10-311] analyzing module HA_28IM
+INFO: [VRFC 10-311] analyzing module HA_27IM
+INFO: [VRFC 10-311] analyzing module HA_26IM
+INFO: [VRFC 10-311] analyzing module HA_25IM
+INFO: [VRFC 10-311] analyzing module HA_24IM
+INFO: [VRFC 10-311] analyzing module HA_23IM
+INFO: [VRFC 10-311] analyzing module HA_22IM
+INFO: [VRFC 10-311] analyzing module HA_21IM
+INFO: [VRFC 10-311] analyzing module HA_20IM
+INFO: [VRFC 10-311] analyzing module HA_19IM
+INFO: [VRFC 10-311] analyzing module HA_18IM
+INFO: [VRFC 10-311] analyzing module HA_17IM
+INFO: [VRFC 10-311] analyzing module HA_16IM
+INFO: [VRFC 10-311] analyzing module HA_15IM
+INFO: [VRFC 10-311] analyzing module HA_14IM
+INFO: [VRFC 10-311] analyzing module HA_13IM
+INFO: [VRFC 10-311] analyzing module HA_12IM
+INFO: [VRFC 10-311] analyzing module HA_11IM
+INFO: [VRFC 10-311] analyzing module HA_10IM
+INFO: [VRFC 10-311] analyzing module HA_9IM
+INFO: [VRFC 10-311] analyzing module HA_4BM
+INFO: [VRFC 10-311] analyzing module HA_8IM
+INFO: [VRFC 10-311] analyzing module HA_7IM
+INFO: [VRFC 10-311] analyzing module HA_6IM
+INFO: [VRFC 10-311] analyzing module HA_5IM
+INFO: [VRFC 10-311] analyzing module HA_3BM
+INFO: [VRFC 10-311] analyzing module HA_4IM
+INFO: [VRFC 10-311] analyzing module HA_3IM
+INFO: [VRFC 10-311] analyzing module HA_2BM
+INFO: [VRFC 10-311] analyzing module HA_2IM
+INFO: [VRFC 10-311] analyzing module HA_1BM
+INFO: [VRFC 10-311] analyzing module HA_AXI_Driver
+INFO: [VRFC 10-311] analyzing module Array_top
+INFO: [VRFC 10-311] analyzing module HA_GND
+INFO: [VRFC 10-311] analyzing module HA_WIN
+INFO: [VRFC 10-311] analyzing module HA_INW
+INFO: [VRFC 10-311] analyzing module HA_TW
+INFO: [VRFC 10-311] analyzing module HA_OW
+INFO: [VRFC 10-311] analyzing module HA_WOUT
+INFO: [VRFC 10-311] analyzing module CADA_MEMTop
+INFO: [VRFC 10-311] analyzing module CADA_LaneMerge
+INFO: [VRFC 10-311] analyzing module CADA_LaneSplit
+INFO: [VRFC 10-311] analyzing module CADA_MEMControl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/ArrayTop.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ArrayTop
+WARNING: [VRFC 10-2379] empty port in module declaration [C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/ArrayTop.v:9]
+INFO: [VRFC 10-311] analyzing module VSTop
+INFO: [VRFC 10-311] analyzing module DSE_Solution_L0
+INFO: [VRFC 10-311] analyzing module DSE_Solution_L1
+INFO: [VRFC 10-311] analyzing module DSE_Solution_L2
+INFO: [VRFC 10-311] analyzing module DSE_Solution_L3
+INFO: [VRFC 10-311] analyzing module DSE_Solution_L4
+INFO: [VRFC 10-311] analyzing module DSE_Solution_L5
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/mem_to_array_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem_to_array_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/output_mapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module output_mapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/mem_to_array_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem_to_array_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/output_mapper_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module output_mapper_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.ip_user_files/bd/MEMDesign/ip/MEMDesign_blk_mem_gen_0_0/sim/MEMDesign_blk_mem_gen_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMDesign_blk_mem_gen_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.ip_user_files/bd/MEMDesign/ip/MEMDesign_CADA_MEMControl_0_0/sim/MEMDesign_CADA_MEMControl_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMDesign_CADA_MEMControl_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.ip_user_files/bd/MEMDesign/ip/MEMDesign_ArrayTop_0_0/sim/MEMDesign_ArrayTop_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMDesign_ArrayTop_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.ip_user_files/bd/MEMDesign/ip/MEMDesign_CADA_LaneSplit_0_0/sim/MEMDesign_CADA_LaneSplit_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMDesign_CADA_LaneSplit_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.ip_user_files/bd/MEMDesign/ip/MEMDesign_blk_mem_gen_0_1/sim/MEMDesign_blk_mem_gen_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMDesign_blk_mem_gen_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.ip_user_files/bd/MEMDesign/ip/MEMDesign_CADA_MEMControl_0_1/sim/MEMDesign_CADA_MEMControl_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMDesign_CADA_MEMControl_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.ip_user_files/bd/MEMDesign/ip/MEMDesign_mem_to_array_1_0_2/sim/MEMDesign_mem_to_array_1_0_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMDesign_mem_to_array_1_0_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.ip_user_files/bd/MEMDesign/ip/MEMDesign_HA_1BM_0_0/sim/MEMDesign_HA_1BM_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMDesign_HA_1BM_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.ip_user_files/bd/MEMDesign/ip/MEMDesign_output_mapper_0_0/sim/MEMDesign_output_mapper_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMDesign_output_mapper_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.ip_user_files/bd/MEMDesign/ip/MEMDesign_HA_1BM_1_0/sim/MEMDesign_HA_1BM_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMDesign_HA_1BM_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.ip_user_files/bd/MEMDesign/ip/MEMDesign_CADA_MEMControl_1_0/sim/MEMDesign_CADA_MEMControl_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMDesign_CADA_MEMControl_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.ip_user_files/bd/MEMDesign/ip/MEMDesign_blk_mem_gen_1_0/sim/MEMDesign_blk_mem_gen_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMDesign_blk_mem_gen_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.ip_user_files/bd/MEMDesign/ip/MEMDesign_mem_to_array_2_0_0/sim/MEMDesign_mem_to_array_2_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMDesign_mem_to_array_2_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.ip_user_files/bd/MEMDesign/ip/MEMDesign_HA_1BM_2_0/sim/MEMDesign_HA_1BM_2_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMDesign_HA_1BM_2_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.ip_user_files/bd/MEMDesign/ip/MEMDesign_output_mapper_2_0_0/sim/MEMDesign_output_mapper_2_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMDesign_output_mapper_2_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.ip_user_files/bd/MEMDesign/ip/MEMDesign_LAYER_2_VALID_MUX_1/sim/MEMDesign_LAYER_2_VALID_MUX_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMDesign_LAYER_2_VALID_MUX_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.ip_user_files/bd/MEMDesign/ip/MEMDesign_LAYER_2_INPUT_DATA_MEMCONTROL_0/sim/MEMDesign_LAYER_2_INPUT_DATA_MEMCONTROL_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMDesign_LAYER_2_INPUT_DATA_MEMCONTROL_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.ip_user_files/bd/MEMDesign/ip/MEMDesign_LAYER_2_BLOCKRAM_0/sim/MEMDesign_LAYER_2_BLOCKRAM_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMDesign_LAYER_2_BLOCKRAM_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.ip_user_files/bd/MEMDesign/ip/MEMDesign_HA_1BM_0_2/sim/MEMDesign_HA_1BM_0_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMDesign_HA_1BM_0_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.ip_user_files/bd/MEMDesign/ip/MEMDesign_CONFIG_BLOCKRAM_0/sim/MEMDesign_CONFIG_BLOCKRAM_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMDesign_CONFIG_BLOCKRAM_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.ip_user_files/bd/MEMDesign/ip/MEMDesign_CONFIG_MEMCONTROL_0/sim/MEMDesign_CONFIG_MEMCONTROL_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMDesign_CONFIG_MEMCONTROL_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.ip_user_files/bd/MEMDesign/sim/MEMDesign.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMDesign
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.gen/sources_1/bd/MEMDesign/hdl/MEMDesign_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMDesign_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sim_1/new/tb2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb2
+WARNING: [VRFC 10-2096] empty statement in sequential block [C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sim_1/new/tb2.v:61]
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1667.340 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '5' seconds
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1667.340 ; gain = 0.000
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb2'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13660] Precompiled IP simulation library mode is enabled (default). The design IP libraries will be referenced from the compiled library path. Please note that if the precompiled version of the library is not found from the path or the IP is in locked state, then the library source files for these IPs will be compiled locally as part of the compile order.
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_7 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb2_behav xil_defaultlib.tb2 xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_7 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb2_behav xil_defaultlib.tb2 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 144 for port 'DataIn_1' [C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sim_1/new/tb2.v:25]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/ArrayTop.v" Line 1. Module ArrayTop doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=7,DataOut_1_BW=7) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=4,DataOut_1_BW=4) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=7,DataOut_1_BW=7) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=4,DataOut_1_BW=4) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=7,DataOut_1_BW=7) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=4,DataOut_1_BW=4) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=7,DataOut_1_BW=7) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=4,DataOut_1_BW=4) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=7,DataOut_1_BW=7) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=4,DataOut_1_BW=4) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=7,DataOut_1_BW=7) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=4,DataOut_1_BW=4) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=7,DataOut_1_BW=7) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=4,DataOut_1_BW=4) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=7,DataOut_1_BW=7) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=4,DataOut_1_BW=4) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=7,DataOut_1_BW=7) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=4,DataOut_1_BW=4) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=7,DataOut_1_BW=7) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=16,DataOut_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=7,DataOut_1_BW=7) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=16,DataOut_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=7,DataOut_1_BW=7) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=4,DataOut_1_BW=4) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=7,DataOut_1_BW=7) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=36,DataOut_1_BW=36) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/ArrayTop.v" Line 3132. Module VSTop doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/ArrayTop.v" Line 3339. Module DSE_Solution_L0 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 207. Module CADA_IN(Data_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 207. Module CADA_IN(Data_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 207. Module CADA_IN(Data_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1526. Module HA_OW(DataIn_1_BW=16,DataOut_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=16,DataOut_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 31. Module CADA_ADD(DataIn_1_BW=16,DataIn_2_BW=16,DataOut_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=16,DataOut_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 54. Module CADA_Mult(DataIn_1_BW=16,DataIn_2_BW=16,DataOut_1_BW=16,scaleDown=0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1119. Module HA_2IM(Mux_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1119. Module HA_2IM(Mux_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 189. Module HA_CReg(Inst_BW=2) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/ArrayTop.v" Line 3526. Module DSE_Solution_L1 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1510. Module HA_INW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1510. Module HA_INW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1510. Module HA_INW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1510. Module HA_INW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1510. Module HA_INW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1526. Module HA_OW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1526. Module HA_OW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1518. Module HA_TW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1518. Module HA_TW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1119. Module HA_2IM(Mux_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1119. Module HA_2IM(Mux_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1075. Module HA_4IM(Mux_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 189. Module HA_CReg(Inst_BW=4) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/ArrayTop.v" Line 3691. Module DSE_Solution_L2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1510. Module HA_INW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1510. Module HA_INW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1510. Module HA_INW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1526. Module HA_OW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1526. Module HA_OW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1526. Module HA_OW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1526. Module HA_OW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1526. Module HA_OW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1518. Module HA_TW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1518. Module HA_TW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1119. Module HA_2IM(Mux_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 189. Module HA_CReg(Inst_BW=1) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/ArrayTop.v" Line 3850. Module DSE_Solution_L3 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1510. Module HA_INW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1526. Module HA_OW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1526. Module HA_OW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1526. Module HA_OW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1518. Module HA_TW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/ArrayTop.v" Line 3922. Module DSE_Solution_L4 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1510. Module HA_INW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1526. Module HA_OW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1518. Module HA_TW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/ArrayTop.v" Line 3966. Module DSE_Solution_L5 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1510. Module HA_INW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1526. Module HA_OW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1518. Module HA_TW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/ArrayTop.v" Line 3132. Module VSTop doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/ArrayTop.v" Line 3339. Module DSE_Solution_L0 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 207. Module CADA_IN(Data_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 207. Module CADA_IN(Data_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 207. Module CADA_IN(Data_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1526. Module HA_OW(DataIn_1_BW=16,DataOut_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=16,DataOut_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 31. Module CADA_ADD(DataIn_1_BW=16,DataIn_2_BW=16,DataOut_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=16,DataOut_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 54. Module CADA_Mult(DataIn_1_BW=16,DataIn_2_BW=16,DataOut_1_BW=16,scaleDown=0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1119. Module HA_2IM(Mux_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1119. Module HA_2IM(Mux_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 189. Module HA_CReg(Inst_BW=2) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/ArrayTop.v" Line 3526. Module DSE_Solution_L1 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1510. Module HA_INW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1510. Module HA_INW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1510. Module HA_INW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1510. Module HA_INW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1510. Module HA_INW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+INFO: [Common 17-14] Message 'XSIM 43-4099' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.HA_Reg(DataIn_1_BW=7,DataOut_1_B...
+Compiling module xil_defaultlib.HA_Reg(DataIn_1_BW=4,DataOut_1_B...
+Compiling module xil_defaultlib.HA_Reg(DataIn_1_BW=16,DataOut_1_...
+Compiling module xil_defaultlib.HA_Reg(DataIn_1_BW=36,DataOut_1_...
+Compiling module xil_defaultlib.CADA_IN(Data_BW=16)
+Compiling module xil_defaultlib.HA_OW(DataIn_1_BW=16,DataOut_1_B...
+Compiling module xil_defaultlib.CADA_ADD(DataIn_1_BW=16,DataIn_2...
+Compiling module xil_defaultlib.CADA_Mult(DataIn_1_BW=16,DataIn_...
+Compiling module xil_defaultlib.HA_2IM(Mux_BW=16)
+Compiling module xil_defaultlib.HA_CReg(Inst_BW=2)
+Compiling module xil_defaultlib.DSE_Solution_L0
+Compiling module xil_defaultlib.HA_INW(DataIn_1_BW=16)
+Compiling module xil_defaultlib.HA_OW(DataIn_1_BW=16)
+Compiling module xil_defaultlib.HA_TW(DataIn_1_BW=16)
+Compiling module xil_defaultlib.HA_4IM(Mux_BW=16)
+Compiling module xil_defaultlib.HA_CReg(Inst_BW=4)
+Compiling module xil_defaultlib.DSE_Solution_L1
+Compiling module xil_defaultlib.HA_CReg(Inst_BW=1)
+Compiling module xil_defaultlib.DSE_Solution_L2
+Compiling module xil_defaultlib.DSE_Solution_L3
+Compiling module xil_defaultlib.DSE_Solution_L4
+Compiling module xil_defaultlib.DSE_Solution_L5
+Compiling module xil_defaultlib.VSTop
+Compiling module xil_defaultlib.ArrayTop
+Compiling module xil_defaultlib.MEMDesign_ArrayTop_0_0
+Compiling module xil_defaultlib.CADA_LaneSplit
+Compiling module xil_defaultlib.MEMDesign_CADA_LaneSplit_0_0
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_output_stage(...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_output_stage(...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7(C_FAMILY="zyn...
+Compiling module xil_defaultlib.MEMDesign_blk_mem_gen_0_0
+Compiling module xil_defaultlib.CADA_MEMControl
+Compiling module xil_defaultlib.MEMDesign_CADA_MEMControl_0_0
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_output_stage(...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_output_stage(...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7(C_FAMILY="zyn...
+Compiling module xil_defaultlib.MEMDesign_CONFIG_BLOCKRAM_0
+Compiling module xil_defaultlib.CADA_MEMControl(Data_bitWidth=12...
+Compiling module xil_defaultlib.MEMDesign_CONFIG_MEMCONTROL_0
+Compiling module xil_defaultlib.HA_1BM(Mux_BW=1)
+Compiling module xil_defaultlib.MEMDesign_HA_1BM_0_0
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_output_stage(...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_output_stage(...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7(C_FAMILY="zyn...
+Compiling module xil_defaultlib.MEMDesign_blk_mem_gen_0_1
+Compiling module xil_defaultlib.CADA_MEMControl(Data_bitWidth=14...
+Compiling module xil_defaultlib.MEMDesign_CADA_MEMControl_0_1
+Compiling module xil_defaultlib.mem_to_array_1
+Compiling module xil_defaultlib.MEMDesign_mem_to_array_1_0_2
+Compiling module xil_defaultlib.output_mapper
+Compiling module xil_defaultlib.MEMDesign_output_mapper_0_0
+Compiling module xil_defaultlib.HA_1BM(Mux_BW=64)
+Compiling module xil_defaultlib.MEMDesign_HA_1BM_0_2
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_output_stage(...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_output_stage(...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7(C_FAMILY="zyn...
+Compiling module xil_defaultlib.MEMDesign_blk_mem_gen_1_0
+Compiling module xil_defaultlib.CADA_MEMControl(Data_bitWidth=64...
+Compiling module xil_defaultlib.MEMDesign_CADA_MEMControl_1_0
+Compiling module xil_defaultlib.mem_to_array_2
+Compiling module xil_defaultlib.MEMDesign_mem_to_array_2_0_0
+Compiling module xil_defaultlib.output_mapper_2
+Compiling module xil_defaultlib.MEMDesign_output_mapper_2_0_0
+Compiling module xil_defaultlib.MEMDesign_HA_1BM_1_0
+Compiling module xil_defaultlib.MEMDesign_LAYER_2_BLOCKRAM_0
+Compiling module xil_defaultlib.MEMDesign_LAYER_2_INPUT_DATA_MEM...
+Compiling module xil_defaultlib.MEMDesign_LAYER_2_VALID_MUX_1
+Compiling module xil_defaultlib.HA_1BM(Mux_BW=1728)
+Compiling module xil_defaultlib.MEMDesign_HA_1BM_2_0
+Compiling module xil_defaultlib.MEMDesign
+Compiling module xil_defaultlib.MEMDesign_wrapper
+Compiling module xil_defaultlib.tb2
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb2_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:12 . Memory (MB): peak = 1667.340 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '12' seconds
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:12 . Memory (MB): peak = 1667.340 ; gain = 0.000
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/MEMDesign.protoinst
+Time resolution is 1 ps
+Block Memory Generator module tb2.EE216B_MEM_i.MEMDesign_i.CONFIG_BLOCKRAM.inst.\native_mem_module.blk_mem_gen_v8_4_7_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module tb2.EE216B_MEM_i.MEMDesign_i.GCONTROLIN_BRAM.inst.\native_mem_module.blk_mem_gen_v8_4_7_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb2.EE216B_MEM_i.MEMDesign_i.LAYER_1_INPUT_BLOCKRAM.inst.\native_mem_module.blk_mem_gen_v8_4_7_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module tb2.EE216B_MEM_i.MEMDesign_i.LAYER_2_BLOCKRAM.inst.\native_mem_module.blk_mem_gen_v8_4_7_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module tb2.EE216B_MEM_i.MEMDesign_i.LAYER_3_BLOCKRAM.inst.\native_mem_module.blk_mem_gen_v8_4_7_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+relaunch_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:20 . Memory (MB): peak = 1667.340 ; gain = 0.000
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb2'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13660] Precompiled IP simulation library mode is enabled (default). The design IP libraries will be referenced from the compiled library path. Please note that if the precompiled version of the library is not found from the path or the IP is in locked state, then the library source files for these IPs will be compiled locally as part of the compile order.
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb2_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb2'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13660] Precompiled IP simulation library mode is enabled (default). The design IP libraries will be referenced from the compiled library path. Please note that if the precompiled version of the library is not found from the path or the IP is in locked state, then the library source files for these IPs will be compiled locally as part of the compile order.
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_7 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb2_behav xil_defaultlib.tb2 xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_7 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb2_behav xil_defaultlib.tb2 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 144 for port 'DataIn_1' [C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sim_1/new/tb2.v:25]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/MEMDesign.protoinst
+Time resolution is 1 ps
+Block Memory Generator module tb2.EE216B_MEM_i.MEMDesign_i.CONFIG_BLOCKRAM.inst.\native_mem_module.blk_mem_gen_v8_4_7_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module tb2.EE216B_MEM_i.MEMDesign_i.GCONTROLIN_BRAM.inst.\native_mem_module.blk_mem_gen_v8_4_7_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb2.EE216B_MEM_i.MEMDesign_i.LAYER_1_INPUT_BLOCKRAM.inst.\native_mem_module.blk_mem_gen_v8_4_7_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module tb2.EE216B_MEM_i.MEMDesign_i.LAYER_2_BLOCKRAM.inst.\native_mem_module.blk_mem_gen_v8_4_7_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module tb2.EE216B_MEM_i.MEMDesign_i.LAYER_3_BLOCKRAM.inst.\native_mem_module.blk_mem_gen_v8_4_7_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1667.340 ; gain = 0.000
+open_bd_design {C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/bd/MEMDesign/MEMDesign.bd}
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+INFO: [IP_Flow 19-3484] Absolute path of file 'c:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/bd/MEMDesign/ip/MEMDesign_blk_mem_gen_0_1/layer1_im2col.coe' provided. It will be converted relative to IP Instance files '../../../../ECE216BNew.srcs/sources_1/bd/MEMDesign/ip/MEMDesign_blk_mem_gen_0_1/layer1_im2col.coe'
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Keith\Documents\UCLA\216B\216BProject-keith\ECE216BNew.srcs\sim_1\new\tb2.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Keith\Documents\UCLA\216B\216BProject-keith\ECE216BNew.srcs\sources_1\new\output_mapper.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+restart
+INFO: [Wavedata 42-604] Simulation restarted
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb2'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13660] Precompiled IP simulation library mode is enabled (default). The design IP libraries will be referenced from the compiled library path. Please note that if the precompiled version of the library is not found from the path or the IP is in locked state, then the library source files for these IPs will be compiled locally as part of the compile order.
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb2_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CADA_ADD
+INFO: [VRFC 10-311] analyzing module CADA_Mult
+INFO: [VRFC 10-311] analyzing module HA_ADD
+INFO: [VRFC 10-311] analyzing module HA_Mult
+INFO: [VRFC 10-311] analyzing module HA_Reg
+INFO: [VRFC 10-311] analyzing module HA_CSTR
+INFO: [VRFC 10-311] analyzing module HA_CONST
+INFO: [VRFC 10-311] analyzing module HA_CReg
+INFO: [VRFC 10-311] analyzing module CADA_IN
+INFO: [VRFC 10-311] analyzing module HA_IN
+INFO: [VRFC 10-311] analyzing module HA_OUT
+INFO: [VRFC 10-311] analyzing module HA_5BM
+INFO: [VRFC 10-311] analyzing module HA_32IM
+INFO: [VRFC 10-311] analyzing module HA_28IM
+INFO: [VRFC 10-311] analyzing module HA_27IM
+INFO: [VRFC 10-311] analyzing module HA_26IM
+INFO: [VRFC 10-311] analyzing module HA_25IM
+INFO: [VRFC 10-311] analyzing module HA_24IM
+INFO: [VRFC 10-311] analyzing module HA_23IM
+INFO: [VRFC 10-311] analyzing module HA_22IM
+INFO: [VRFC 10-311] analyzing module HA_21IM
+INFO: [VRFC 10-311] analyzing module HA_20IM
+INFO: [VRFC 10-311] analyzing module HA_19IM
+INFO: [VRFC 10-311] analyzing module HA_18IM
+INFO: [VRFC 10-311] analyzing module HA_17IM
+INFO: [VRFC 10-311] analyzing module HA_16IM
+INFO: [VRFC 10-311] analyzing module HA_15IM
+INFO: [VRFC 10-311] analyzing module HA_14IM
+INFO: [VRFC 10-311] analyzing module HA_13IM
+INFO: [VRFC 10-311] analyzing module HA_12IM
+INFO: [VRFC 10-311] analyzing module HA_11IM
+INFO: [VRFC 10-311] analyzing module HA_10IM
+INFO: [VRFC 10-311] analyzing module HA_9IM
+INFO: [VRFC 10-311] analyzing module HA_4BM
+INFO: [VRFC 10-311] analyzing module HA_8IM
+INFO: [VRFC 10-311] analyzing module HA_7IM
+INFO: [VRFC 10-311] analyzing module HA_6IM
+INFO: [VRFC 10-311] analyzing module HA_5IM
+INFO: [VRFC 10-311] analyzing module HA_3BM
+INFO: [VRFC 10-311] analyzing module HA_4IM
+INFO: [VRFC 10-311] analyzing module HA_3IM
+INFO: [VRFC 10-311] analyzing module HA_2BM
+INFO: [VRFC 10-311] analyzing module HA_2IM
+INFO: [VRFC 10-311] analyzing module HA_1BM
+INFO: [VRFC 10-311] analyzing module HA_AXI_Driver
+INFO: [VRFC 10-311] analyzing module Array_top
+INFO: [VRFC 10-311] analyzing module HA_GND
+INFO: [VRFC 10-311] analyzing module HA_WIN
+INFO: [VRFC 10-311] analyzing module HA_INW
+INFO: [VRFC 10-311] analyzing module HA_TW
+INFO: [VRFC 10-311] analyzing module HA_OW
+INFO: [VRFC 10-311] analyzing module HA_WOUT
+INFO: [VRFC 10-311] analyzing module CADA_MEMTop
+INFO: [VRFC 10-311] analyzing module CADA_LaneMerge
+INFO: [VRFC 10-311] analyzing module CADA_LaneSplit
+INFO: [VRFC 10-311] analyzing module CADA_MEMControl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/ArrayTop.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ArrayTop
+WARNING: [VRFC 10-2379] empty port in module declaration [C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/ArrayTop.v:9]
+INFO: [VRFC 10-311] analyzing module VSTop
+INFO: [VRFC 10-311] analyzing module DSE_Solution_L0
+INFO: [VRFC 10-311] analyzing module DSE_Solution_L1
+INFO: [VRFC 10-311] analyzing module DSE_Solution_L2
+INFO: [VRFC 10-311] analyzing module DSE_Solution_L3
+INFO: [VRFC 10-311] analyzing module DSE_Solution_L4
+INFO: [VRFC 10-311] analyzing module DSE_Solution_L5
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/mem_to_array_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem_to_array_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/output_mapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module output_mapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/mem_to_array_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem_to_array_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/output_mapper_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module output_mapper_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.ip_user_files/bd/MEMDesign/ip/MEMDesign_blk_mem_gen_0_0/sim/MEMDesign_blk_mem_gen_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMDesign_blk_mem_gen_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.ip_user_files/bd/MEMDesign/ip/MEMDesign_CADA_MEMControl_0_0/sim/MEMDesign_CADA_MEMControl_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMDesign_CADA_MEMControl_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.ip_user_files/bd/MEMDesign/ip/MEMDesign_ArrayTop_0_0/sim/MEMDesign_ArrayTop_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMDesign_ArrayTop_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.ip_user_files/bd/MEMDesign/ip/MEMDesign_CADA_LaneSplit_0_0/sim/MEMDesign_CADA_LaneSplit_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMDesign_CADA_LaneSplit_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.ip_user_files/bd/MEMDesign/ip/MEMDesign_blk_mem_gen_0_1/sim/MEMDesign_blk_mem_gen_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMDesign_blk_mem_gen_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.ip_user_files/bd/MEMDesign/ip/MEMDesign_CADA_MEMControl_0_1/sim/MEMDesign_CADA_MEMControl_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMDesign_CADA_MEMControl_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.ip_user_files/bd/MEMDesign/ip/MEMDesign_mem_to_array_1_0_2/sim/MEMDesign_mem_to_array_1_0_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMDesign_mem_to_array_1_0_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.ip_user_files/bd/MEMDesign/ip/MEMDesign_HA_1BM_0_0/sim/MEMDesign_HA_1BM_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMDesign_HA_1BM_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.ip_user_files/bd/MEMDesign/ip/MEMDesign_output_mapper_0_0/sim/MEMDesign_output_mapper_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMDesign_output_mapper_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.ip_user_files/bd/MEMDesign/ip/MEMDesign_HA_1BM_1_0/sim/MEMDesign_HA_1BM_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMDesign_HA_1BM_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.ip_user_files/bd/MEMDesign/ip/MEMDesign_CADA_MEMControl_1_0/sim/MEMDesign_CADA_MEMControl_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMDesign_CADA_MEMControl_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.ip_user_files/bd/MEMDesign/ip/MEMDesign_blk_mem_gen_1_0/sim/MEMDesign_blk_mem_gen_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMDesign_blk_mem_gen_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.ip_user_files/bd/MEMDesign/ip/MEMDesign_mem_to_array_2_0_0/sim/MEMDesign_mem_to_array_2_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMDesign_mem_to_array_2_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.ip_user_files/bd/MEMDesign/ip/MEMDesign_HA_1BM_2_0/sim/MEMDesign_HA_1BM_2_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMDesign_HA_1BM_2_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.ip_user_files/bd/MEMDesign/ip/MEMDesign_output_mapper_2_0_0/sim/MEMDesign_output_mapper_2_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMDesign_output_mapper_2_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.ip_user_files/bd/MEMDesign/ip/MEMDesign_LAYER_2_VALID_MUX_1/sim/MEMDesign_LAYER_2_VALID_MUX_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMDesign_LAYER_2_VALID_MUX_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.ip_user_files/bd/MEMDesign/ip/MEMDesign_LAYER_2_INPUT_DATA_MEMCONTROL_0/sim/MEMDesign_LAYER_2_INPUT_DATA_MEMCONTROL_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMDesign_LAYER_2_INPUT_DATA_MEMCONTROL_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.ip_user_files/bd/MEMDesign/ip/MEMDesign_LAYER_2_BLOCKRAM_0/sim/MEMDesign_LAYER_2_BLOCKRAM_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMDesign_LAYER_2_BLOCKRAM_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.ip_user_files/bd/MEMDesign/ip/MEMDesign_HA_1BM_0_2/sim/MEMDesign_HA_1BM_0_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMDesign_HA_1BM_0_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.ip_user_files/bd/MEMDesign/ip/MEMDesign_CONFIG_BLOCKRAM_0/sim/MEMDesign_CONFIG_BLOCKRAM_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMDesign_CONFIG_BLOCKRAM_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.ip_user_files/bd/MEMDesign/ip/MEMDesign_CONFIG_MEMCONTROL_0/sim/MEMDesign_CONFIG_MEMCONTROL_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMDesign_CONFIG_MEMCONTROL_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.ip_user_files/bd/MEMDesign/sim/MEMDesign.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMDesign
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.gen/sources_1/bd/MEMDesign/hdl/MEMDesign_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMDesign_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sim_1/new/tb2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb2
+WARNING: [VRFC 10-2096] empty statement in sequential block [C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sim_1/new/tb2.v:61]
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1706.043 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '6' seconds
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1706.043 ; gain = 0.000
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb2'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13660] Precompiled IP simulation library mode is enabled (default). The design IP libraries will be referenced from the compiled library path. Please note that if the precompiled version of the library is not found from the path or the IP is in locked state, then the library source files for these IPs will be compiled locally as part of the compile order.
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_7 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb2_behav xil_defaultlib.tb2 xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_7 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb2_behav xil_defaultlib.tb2 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 144 for port 'DataIn_1' [C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sim_1/new/tb2.v:25]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/ArrayTop.v" Line 1. Module ArrayTop doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=7,DataOut_1_BW=7) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=4,DataOut_1_BW=4) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=7,DataOut_1_BW=7) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=4,DataOut_1_BW=4) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=7,DataOut_1_BW=7) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=4,DataOut_1_BW=4) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=7,DataOut_1_BW=7) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=4,DataOut_1_BW=4) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=7,DataOut_1_BW=7) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=4,DataOut_1_BW=4) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=7,DataOut_1_BW=7) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=4,DataOut_1_BW=4) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=7,DataOut_1_BW=7) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=4,DataOut_1_BW=4) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=7,DataOut_1_BW=7) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=4,DataOut_1_BW=4) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=7,DataOut_1_BW=7) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=4,DataOut_1_BW=4) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=7,DataOut_1_BW=7) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=16,DataOut_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=7,DataOut_1_BW=7) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=16,DataOut_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=7,DataOut_1_BW=7) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=4,DataOut_1_BW=4) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=7,DataOut_1_BW=7) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=36,DataOut_1_BW=36) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/ArrayTop.v" Line 3132. Module VSTop doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/ArrayTop.v" Line 3339. Module DSE_Solution_L0 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 207. Module CADA_IN(Data_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 207. Module CADA_IN(Data_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 207. Module CADA_IN(Data_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1526. Module HA_OW(DataIn_1_BW=16,DataOut_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=16,DataOut_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 31. Module CADA_ADD(DataIn_1_BW=16,DataIn_2_BW=16,DataOut_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=16,DataOut_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 54. Module CADA_Mult(DataIn_1_BW=16,DataIn_2_BW=16,DataOut_1_BW=16,scaleDown=0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1119. Module HA_2IM(Mux_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1119. Module HA_2IM(Mux_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 189. Module HA_CReg(Inst_BW=2) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/ArrayTop.v" Line 3526. Module DSE_Solution_L1 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1510. Module HA_INW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1510. Module HA_INW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1510. Module HA_INW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1510. Module HA_INW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1510. Module HA_INW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1526. Module HA_OW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1526. Module HA_OW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1518. Module HA_TW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1518. Module HA_TW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1119. Module HA_2IM(Mux_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1119. Module HA_2IM(Mux_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1075. Module HA_4IM(Mux_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 189. Module HA_CReg(Inst_BW=4) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/ArrayTop.v" Line 3691. Module DSE_Solution_L2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1510. Module HA_INW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1510. Module HA_INW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1510. Module HA_INW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1526. Module HA_OW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1526. Module HA_OW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1526. Module HA_OW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1526. Module HA_OW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1526. Module HA_OW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1518. Module HA_TW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1518. Module HA_TW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1119. Module HA_2IM(Mux_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 189. Module HA_CReg(Inst_BW=1) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/ArrayTop.v" Line 3850. Module DSE_Solution_L3 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1510. Module HA_INW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1526. Module HA_OW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1526. Module HA_OW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1526. Module HA_OW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1518. Module HA_TW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/ArrayTop.v" Line 3922. Module DSE_Solution_L4 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1510. Module HA_INW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1526. Module HA_OW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1518. Module HA_TW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/ArrayTop.v" Line 3966. Module DSE_Solution_L5 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1510. Module HA_INW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1526. Module HA_OW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1518. Module HA_TW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/ArrayTop.v" Line 3132. Module VSTop doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/ArrayTop.v" Line 3339. Module DSE_Solution_L0 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 207. Module CADA_IN(Data_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 207. Module CADA_IN(Data_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 207. Module CADA_IN(Data_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1526. Module HA_OW(DataIn_1_BW=16,DataOut_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=16,DataOut_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 31. Module CADA_ADD(DataIn_1_BW=16,DataIn_2_BW=16,DataOut_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 133. Module HA_Reg(DataIn_1_BW=16,DataOut_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 54. Module CADA_Mult(DataIn_1_BW=16,DataIn_2_BW=16,DataOut_1_BW=16,scaleDown=0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1119. Module HA_2IM(Mux_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1119. Module HA_2IM(Mux_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 189. Module HA_CReg(Inst_BW=2) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/ArrayTop.v" Line 3526. Module DSE_Solution_L1 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1510. Module HA_INW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1510. Module HA_INW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1510. Module HA_INW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1510. Module HA_INW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/new/EntityLib.v" Line 1510. Module HA_INW(DataIn_1_BW=16) doesn't have a timescale but at least one module in design has a timescale.
+INFO: [Common 17-14] Message 'XSIM 43-4099' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.HA_Reg(DataIn_1_BW=7,DataOut_1_B...
+Compiling module xil_defaultlib.HA_Reg(DataIn_1_BW=4,DataOut_1_B...
+Compiling module xil_defaultlib.HA_Reg(DataIn_1_BW=16,DataOut_1_...
+Compiling module xil_defaultlib.HA_Reg(DataIn_1_BW=36,DataOut_1_...
+Compiling module xil_defaultlib.CADA_IN(Data_BW=16)
+Compiling module xil_defaultlib.HA_OW(DataIn_1_BW=16,DataOut_1_B...
+Compiling module xil_defaultlib.CADA_ADD(DataIn_1_BW=16,DataIn_2...
+Compiling module xil_defaultlib.CADA_Mult(DataIn_1_BW=16,DataIn_...
+Compiling module xil_defaultlib.HA_2IM(Mux_BW=16)
+Compiling module xil_defaultlib.HA_CReg(Inst_BW=2)
+Compiling module xil_defaultlib.DSE_Solution_L0
+Compiling module xil_defaultlib.HA_INW(DataIn_1_BW=16)
+Compiling module xil_defaultlib.HA_OW(DataIn_1_BW=16)
+Compiling module xil_defaultlib.HA_TW(DataIn_1_BW=16)
+Compiling module xil_defaultlib.HA_4IM(Mux_BW=16)
+Compiling module xil_defaultlib.HA_CReg(Inst_BW=4)
+Compiling module xil_defaultlib.DSE_Solution_L1
+Compiling module xil_defaultlib.HA_CReg(Inst_BW=1)
+Compiling module xil_defaultlib.DSE_Solution_L2
+Compiling module xil_defaultlib.DSE_Solution_L3
+Compiling module xil_defaultlib.DSE_Solution_L4
+Compiling module xil_defaultlib.DSE_Solution_L5
+Compiling module xil_defaultlib.VSTop
+Compiling module xil_defaultlib.ArrayTop
+Compiling module xil_defaultlib.MEMDesign_ArrayTop_0_0
+Compiling module xil_defaultlib.CADA_LaneSplit
+Compiling module xil_defaultlib.MEMDesign_CADA_LaneSplit_0_0
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_output_stage(...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_output_stage(...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7(C_FAMILY="zyn...
+Compiling module xil_defaultlib.MEMDesign_blk_mem_gen_0_0
+Compiling module xil_defaultlib.CADA_MEMControl
+Compiling module xil_defaultlib.MEMDesign_CADA_MEMControl_0_0
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_output_stage(...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_output_stage(...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7(C_FAMILY="zyn...
+Compiling module xil_defaultlib.MEMDesign_CONFIG_BLOCKRAM_0
+Compiling module xil_defaultlib.CADA_MEMControl(Data_bitWidth=12...
+Compiling module xil_defaultlib.MEMDesign_CONFIG_MEMCONTROL_0
+Compiling module xil_defaultlib.HA_1BM(Mux_BW=1)
+Compiling module xil_defaultlib.MEMDesign_HA_1BM_0_0
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_output_stage(...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_output_stage(...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7(C_FAMILY="zyn...
+Compiling module xil_defaultlib.MEMDesign_blk_mem_gen_0_1
+Compiling module xil_defaultlib.CADA_MEMControl(Data_bitWidth=14...
+Compiling module xil_defaultlib.MEMDesign_CADA_MEMControl_0_1
+Compiling module xil_defaultlib.mem_to_array_1
+Compiling module xil_defaultlib.MEMDesign_mem_to_array_1_0_2
+Compiling module xil_defaultlib.output_mapper
+Compiling module xil_defaultlib.MEMDesign_output_mapper_0_0
+Compiling module xil_defaultlib.HA_1BM(Mux_BW=64)
+Compiling module xil_defaultlib.MEMDesign_HA_1BM_0_2
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_output_stage(...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_output_stage(...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7(C_FAMILY="zyn...
+Compiling module xil_defaultlib.MEMDesign_blk_mem_gen_1_0
+Compiling module xil_defaultlib.CADA_MEMControl(Data_bitWidth=64...
+Compiling module xil_defaultlib.MEMDesign_CADA_MEMControl_1_0
+Compiling module xil_defaultlib.mem_to_array_2
+Compiling module xil_defaultlib.MEMDesign_mem_to_array_2_0_0
+Compiling module xil_defaultlib.output_mapper_2
+Compiling module xil_defaultlib.MEMDesign_output_mapper_2_0_0
+Compiling module xil_defaultlib.MEMDesign_HA_1BM_1_0
+Compiling module xil_defaultlib.MEMDesign_LAYER_2_BLOCKRAM_0
+Compiling module xil_defaultlib.MEMDesign_LAYER_2_INPUT_DATA_MEM...
+Compiling module xil_defaultlib.MEMDesign_LAYER_2_VALID_MUX_1
+Compiling module xil_defaultlib.HA_1BM(Mux_BW=1728)
+Compiling module xil_defaultlib.MEMDesign_HA_1BM_2_0
+Compiling module xil_defaultlib.MEMDesign
+Compiling module xil_defaultlib.MEMDesign_wrapper
+Compiling module xil_defaultlib.tb2
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb2_behav
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:12 . Memory (MB): peak = 1706.043 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '11' seconds
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:12 . Memory (MB): peak = 1706.043 ; gain = 0.000
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/MEMDesign.protoinst
+Time resolution is 1 ps
+Block Memory Generator module tb2.EE216B_MEM_i.MEMDesign_i.CONFIG_BLOCKRAM.inst.\native_mem_module.blk_mem_gen_v8_4_7_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module tb2.EE216B_MEM_i.MEMDesign_i.GCONTROLIN_BRAM.inst.\native_mem_module.blk_mem_gen_v8_4_7_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb2.EE216B_MEM_i.MEMDesign_i.LAYER_1_INPUT_BLOCKRAM.inst.\native_mem_module.blk_mem_gen_v8_4_7_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module tb2.EE216B_MEM_i.MEMDesign_i.LAYER_2_BLOCKRAM.inst.\native_mem_module.blk_mem_gen_v8_4_7_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module tb2.EE216B_MEM_i.MEMDesign_i.LAYER_3_BLOCKRAM.inst.\native_mem_module.blk_mem_gen_v8_4_7_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:19 . Memory (MB): peak = 1706.043 ; gain = 0.000
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Keith\Documents\UCLA\216B\216BProject-keith\ECE216BNew.srcs\sim_1\new\tb2.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Keith\Documents\UCLA\216B\216BProject-keith\ECE216BNew.srcs\sources_1\new\output_mapper.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+open_bd_design {C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/bd/MEMDesign/MEMDesign.bd}
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed May 29 21:33:18 2024...

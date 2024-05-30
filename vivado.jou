@@ -3,13 +3,34 @@
 # SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
 # IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
 # SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
-# Start of session at: Mon May 27 20:56:26 2024
-# Process ID: 48756
-# Current directory: C:/Users/Keith/Documents/UCLA/216B/vignesh_proj
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent48372 C:\Users\Keith\Documents\UCLA\216B\vignesh_proj\ECE216BNew.xpr
-# Log file: C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/vivado.log
-# Journal file: C:/Users/Keith/Documents/UCLA/216B/vignesh_proj\vivado.jou
+# Start of session at: Wed May 29 21:10:42 2024
+# Process ID: 26728
+# Current directory: C:/Users/Keith/Documents/UCLA/216B/216BProject-keith
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12504 C:\Users\Keith\Documents\UCLA\216B\216BProject-keith\ECE216BNew.xpr
+# Log file: C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/vivado.log
+# Journal file: C:/Users/Keith/Documents/UCLA/216B/216BProject-keith\vivado.jou
 # Running On: DESKTOP-TUIN670, OS: Windows, CPU Frequency: 3792 MHz, CPU Physical cores: 8, Host memory: 17094 MB
 #-----------------------------------------------------------
 start_gui
-open_project C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.xpr
+open_project C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.xpr
+launch_simulation
+open_wave_config C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/Hw3Hw_TB_behav.wcfg
+source tb2.tcl
+update_compile_order -fileset sources_1
+current_wave_config {Hw3Hw_TB_behav.wcfg}
+add_wave {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_2_OUTPUT_MAPPER/reset}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_2_OUTPUT_MAPPER/clk}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_2_OUTPUT_MAPPER/valid}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_2_OUTPUT_MAPPER/writeEn}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_2_OUTPUT_MAPPER/dataIn}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_2_OUTPUT_MAPPER/outDataOut}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_2_OUTPUT_MAPPER/startAddr}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_2_OUTPUT_MAPPER/done}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_2_OUTPUT_MAPPER/writeOut}} 
+restart
+run 1 us
+current_wave_config {Hw3Hw_TB_behav.wcfg}
+add_wave {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_1_OUTPUT_MAPPER/inst/reset}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_1_OUTPUT_MAPPER/inst/clk}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_1_OUTPUT_MAPPER/inst/valid}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_1_OUTPUT_MAPPER/inst/writeEn}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_1_OUTPUT_MAPPER/inst/dataIn}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_1_OUTPUT_MAPPER/inst/outDataOut}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_1_OUTPUT_MAPPER/inst/startAddr}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_1_OUTPUT_MAPPER/inst/done}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_1_OUTPUT_MAPPER/inst/writeOut}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_1_OUTPUT_MAPPER/inst/count}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_1_OUTPUT_MAPPER/inst/dataOut}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_1_OUTPUT_MAPPER/inst/start}} 
+restart
+run 1 us
+open_bd_design {C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/bd/MEMDesign/MEMDesign.bd}
+restart
+relaunch_sim
+relaunch_sim
+open_bd_design {C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/bd/MEMDesign/MEMDesign.bd}
+restart
+relaunch_sim
+open_bd_design {C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/bd/MEMDesign/MEMDesign.bd}
+close_sim

@@ -1,7 +1,7 @@
 {
   "design": {
     "design_info": {
-      "boundary_crc": "0x95271ED34C18CBAA",
+      "boundary_crc": "0x469A72296A5BA0D6",
       "device": "xc7z020clg400-2",
       "gen_directory": "../../../../ECE216BNew.gen/sources_1/bd/MEMDesign",
       "name": "MEMDesign",
@@ -173,11 +173,6 @@
         }
       },
       "outDataOut": {
-        "direction": "O",
-        "left": "63",
-        "right": "0"
-      },
-      "outputmapper1out": {
         "direction": "O",
         "left": "63",
         "right": "0"
@@ -1384,7 +1379,7 @@
         "ports": [
           "LAYER_1_OUTPUT_MAPPER/outDataOut",
           "LAYER_2_INPUT_DATA_MEMCONTROL/DataIn",
-          "outputmapper1out"
+          "outDataOut"
         ]
       },
       "LAYER_1_OUTPUT_MAPPER_startAddr": {
@@ -1447,8 +1442,7 @@
       "LAYER_2_OUTPUT_MAPPER_outDataOut": {
         "ports": [
           "LAYER_2_OUTPUT_MAPPER/outDataOut",
-          "LAYER_3_INPUT_DATA_MEMCONTROL/DataIn",
-          "outDataOut"
+          "LAYER_3_INPUT_DATA_MEMCONTROL/DataIn"
         ]
       },
       "LAYER_2_VALID_MUX1_DataOut_1": {

@@ -3,8 +3,7 @@
 module tb2();
 reg  clk, clk_data, rst, valid, valid_1, valid_2, valid_3, valid_4, writeEnable, writeEnable_1, writeEnable_4; 
 wire [143:0] dataOut; 
-wire [63:0] outDataOut; 
-wire [63:0] outputmapper1out;
+wire [63:0] outDataOut;
 reg [42:0] inputData; 
 reg [15:0] endLatency, startLatency, endLatency_1, startLatency_1, endLatency_2, startLatency_2, endLatency_3, startLatency_3, endLatency_4, startLatency_4;
 
@@ -53,7 +52,6 @@ MEMDesign_wrapper EE216B_MEM_i
         .writeEn(writeEnable),
         .writeEn_1(writeEnable_1),
         .writeEn_4(writeEnable_4),
-        .outputmapper1out(outputmapper1out),
         .outDataOut(outDataOut));
         
 always #1 clk = ~clk;
@@ -163,14 +161,15 @@ inputData = {configIn, controlIn};
 //inputData = {configIn, controlIn};
 //#2
 // This is your output channel 
+#20
 assign selectedChannel =  dataOut[31:16];
-#10
+#6
 startAddr = 5'd0;
 stride = 4'd1;
 
 writeEnable = 0;
-startLatency = 5;
-endLatency = 10;
+startLatency = 0;
+endLatency = 5;
 
 
 valid = 1;

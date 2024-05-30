@@ -1,0 +1,65 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Wed May 29 20:50:54 2024
+# Process ID: 22148
+# Current directory: C:/Users/Keith/Documents/UCLA/216B/216BProject-keith
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent23708 C:\Users\Keith\Documents\UCLA\216B\216BProject-keith\ECE216BNew.xpr
+# Log file: C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/vivado.log
+# Journal file: C:/Users/Keith/Documents/UCLA/216B/216BProject-keith\vivado.jou
+# Running On: DESKTOP-TUIN670, OS: Windows, CPU Frequency: 3792 MHz, CPU Physical cores: 8, Host memory: 17094 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.xpr
+update_module_reference MEMDesign_mem_to_array_2_0_0
+update_compile_order -fileset sources_1
+make_wrapper -files [get_files C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/bd/MEMDesign/MEMDesign.bd] -top
+generate_target Simulation [get_files C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/bd/MEMDesign/MEMDesign.bd]
+export_ip_user_files -of_objects [get_files C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/bd/MEMDesign/MEMDesign.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/bd/MEMDesign/MEMDesign.bd] -directory C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.ip_user_files -ipstatic_source_dir C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.cache/compile_simlib/modelsim} {questa=C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.cache/compile_simlib/questa} {riviera=C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.cache/compile_simlib/riviera} {activehdl=C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_simulation
+reset_simulation -simset sim_1 -mode behavioral
+launch_simulation
+launch_simulation
+open_wave_config C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/Hw3Hw_TB_behav.wcfg
+source tb2.tcl
+add_bp {C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sim_1/new/tb2.v} 62
+remove_bps -file {C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sim_1/new/tb2.v} -line 62
+relaunch_sim
+relaunch_sim
+current_wave_config {Hw3Hw_TB_behav.wcfg}
+add_wave {{/tb2/q1}} {{/tb2/q2}} {{/tb2/q3}} {{/tb2/q4}} 
+restart
+run 1 us
+open_bd_design {C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/bd/MEMDesign/MEMDesign.bd}
+update_module_reference MEMDesign_mem_to_array_2_0_0
+delete_bd_objs [get_bd_nets LAYER_2_OUTPUT_MAPPER_outDataOut]
+connect_bd_net [get_bd_pins LAYER_2_OUTPUT_MAPPER/outDataOut] [get_bd_pins LAYER_3_INPUT_DATA_MEMCONTROL/DataIn]
+connect_bd_net [get_bd_ports outDataOut] [get_bd_pins LAYER_1_OUTPUT_MAPPER/outDataOut]
+save_bd_design
+make_wrapper -files [get_files C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/bd/MEMDesign/MEMDesign.bd] -top
+relaunch_sim
+close_sim
+make_wrapper -files [get_files C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/bd/MEMDesign/MEMDesign.bd] -top
+open_bd_design {C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/bd/MEMDesign/MEMDesign.bd}
+make_wrapper -files [get_files C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/ECE216BNew.srcs/sources_1/bd/MEMDesign/MEMDesign.bd] -top
+reset_simulation -simset sim_1 -mode behavioral
+launch_simulation
+launch_simulation
+open_wave_config C:/Users/Keith/Documents/UCLA/216B/216BProject-keith/Hw3Hw_TB_behav.wcfg
+source tb2.tcl
+current_wave_config {Hw3Hw_TB_behav.wcfg}
+add_wave {{/tb2/q1}} {{/tb2/q2}} {{/tb2/q3}} {{/tb2/q4}} 
+restart
+run 1 us
+current_wave_config {Hw3Hw_TB_behav.wcfg}
+add_wave {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_1_OUTPUT_MAPPER/inst/reset}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_1_OUTPUT_MAPPER/inst/clk}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_1_OUTPUT_MAPPER/inst/valid}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_1_OUTPUT_MAPPER/inst/writeEn}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_1_OUTPUT_MAPPER/inst/dataIn}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_1_OUTPUT_MAPPER/inst/outDataOut}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_1_OUTPUT_MAPPER/inst/startAddr}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_1_OUTPUT_MAPPER/inst/done}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_1_OUTPUT_MAPPER/inst/writeOut}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_1_OUTPUT_MAPPER/inst/count}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_1_OUTPUT_MAPPER/inst/dataOut}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_1_OUTPUT_MAPPER/inst/start}} 
+current_wave_config {Hw3Hw_TB_behav.wcfg}
+add_wave {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_2_OUTPUT_MAPPER/inst/reset}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_2_OUTPUT_MAPPER/inst/clk}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_2_OUTPUT_MAPPER/inst/valid}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_2_OUTPUT_MAPPER/inst/writeEn}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_2_OUTPUT_MAPPER/inst/dataIn}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_2_OUTPUT_MAPPER/inst/outDataOut}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_2_OUTPUT_MAPPER/inst/startAddr}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_2_OUTPUT_MAPPER/inst/done}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_2_OUTPUT_MAPPER/inst/writeOut}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_2_OUTPUT_MAPPER/inst/count}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_2_OUTPUT_MAPPER/inst/dataOut}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_2_OUTPUT_MAPPER/inst/start}} 
+restart
+run 1 us
+relaunch_sim
+restart
+relaunch_sim

@@ -2,8 +2,8 @@
 //Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
-//Date        : Wed May 29 19:51:29 2024
-//Host        : DESKTOP-NQ2P1SN running 64-bit major release  (build 9200)
+//Date        : Wed May 29 21:00:44 2024
+//Host        : DESKTOP-TUIN670 running 64-bit major release  (build 9200)
 //Command     : generate_target MEMDesign.bd
 //Design      : MEMDesign
 //Purpose     : IP block netlist
@@ -25,7 +25,6 @@ module MEMDesign
     endLatency_4,
     gControlIn,
     outDataOut,
-    outputmapper1out,
     rst,
     startAddr,
     startAddr_1,
@@ -58,7 +57,6 @@ module MEMDesign
   input [15:0]endLatency_4;
   input [125:0]gControlIn;
   output [63:0]outDataOut;
-  output [63:0]outputmapper1out;
   input rst;
   input [4:0]startAddr;
   input [3:0]startAddr_1;
@@ -173,8 +171,7 @@ module MEMDesign
   assign endLatency_3_1 = endLatency_3[15:0];
   assign endLatency_4_1 = endLatency_4[15:0];
   assign gControlIn_1 = gControlIn[125:0];
-  assign outDataOut[63:0] = LAYER_2_OUTPUT_MAPPER_outDataOut;
-  assign outputmapper1out[63:0] = LAYER_1_OUTPUT_MAPPER_outDataOut;
+  assign outDataOut[63:0] = LAYER_1_OUTPUT_MAPPER_outDataOut;
   assign rst_1 = rst;
   assign startAddr_1_1 = startAddr_1[3:0];
   assign startAddr_4_1 = startAddr_4[4:0];
