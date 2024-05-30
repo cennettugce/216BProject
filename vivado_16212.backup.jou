@@ -1,0 +1,138 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Mon May 27 16:18:42 2024
+# Process ID: 16212
+# Current directory: C:/Users/Keith/Documents/UCLA/216B/vignesh_proj
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent46360 C:\Users\Keith\Documents\UCLA\216B\vignesh_proj\ECE216BNew.xpr
+# Log file: C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/vivado.log
+# Journal file: C:/Users/Keith/Documents/UCLA/216B/vignesh_proj\vivado.jou
+# Running On: DESKTOP-TUIN670, OS: Windows, CPU Frequency: 3792 MHz, CPU Physical cores: 8, Host memory: 17094 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/Hw3Hw_TB_behav.wcfg
+source tb2.tcl
+open_bd_design {C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/bd/MEMDesign/MEMDesign.bd}
+make_wrapper -files [get_files C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/bd/MEMDesign/MEMDesign.bd] -top
+generate_target all [get_files  C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/bd/MEMDesign/MEMDesign.bd]
+catch { config_ip_cache -export [get_ips -all MEMDesign_ArrayTop_0_0] }
+catch { config_ip_cache -export [get_ips -all MEMDesign_blk_mem_gen_0_1] }
+catch { config_ip_cache -export [get_ips -all MEMDesign_mem_to_array_1_0_2] }
+catch { config_ip_cache -export [get_ips -all MEMDesign_output_mapper_0_0] }
+catch { config_ip_cache -export [get_ips -all MEMDesign_HA_1BM_1_0] }
+catch { [ delete_ip_run [get_ips -all MEMDesign_HA_1BM_1_0] ] }
+catch { config_ip_cache -export [get_ips -all MEMDesign_CADA_MEMControl_1_0] }
+catch { config_ip_cache -export [get_ips -all MEMDesign_blk_mem_gen_1_0] }
+catch { config_ip_cache -export [get_ips -all MEMDesign_mem_to_array_2_0_0] }
+catch { config_ip_cache -export [get_ips -all MEMDesign_HA_1BM_2_0] }
+catch { config_ip_cache -export [get_ips -all MEMDesign_output_mapper_2_0_0] }
+catch { config_ip_cache -export [get_ips -all MEMDesign_HA_1BM_0_1] }
+catch { config_ip_cache -export [get_ips -all MEMDesign_HA_1BM_1_1] }
+catch { config_ip_cache -export [get_ips -all MEMDesign_HA_1BM_2_1] }
+catch { config_ip_cache -export [get_ips -all MEMDesign_HA_1BM_2_2] }
+export_ip_user_files -of_objects [get_files C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/bd/MEMDesign/MEMDesign.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/bd/MEMDesign/MEMDesign.bd]
+launch_runs MEMDesign_ArrayTop_0_0_synth_1 MEMDesign_CADA_LaneSplit_0_0_synth_1 MEMDesign_CADA_MEMControl_0_0_synth_1 MEMDesign_CADA_MEMControl_0_1_synth_1 MEMDesign_CADA_MEMControl_1_0_synth_1 MEMDesign_HA_1BM_0_0_synth_1 MEMDesign_HA_1BM_2_0_synth_1 MEMDesign_HA_1BM_2_1_synth_1 MEMDesign_HA_1BM_2_2_synth_1 MEMDesign_blk_mem_gen_0_1_synth_1 MEMDesign_blk_mem_gen_1_0_synth_1 MEMDesign_mem_to_array_1_0_2_synth_1 MEMDesign_mem_to_array_2_0_0_synth_1 MEMDesign_output_mapper_0_0_synth_1 MEMDesign_output_mapper_2_0_0_synth_1 -jobs 8
+wait_on_run MEMDesign_ArrayTop_0_0_synth_1
+wait_on_run MEMDesign_CADA_LaneSplit_0_0_synth_1
+wait_on_run MEMDesign_CADA_MEMControl_0_0_synth_1
+wait_on_run MEMDesign_CADA_MEMControl_0_1_synth_1
+wait_on_run MEMDesign_CADA_MEMControl_1_0_synth_1
+wait_on_run MEMDesign_HA_1BM_0_0_synth_1
+wait_on_run MEMDesign_HA_1BM_2_0_synth_1
+wait_on_run MEMDesign_HA_1BM_2_1_synth_1
+wait_on_run MEMDesign_HA_1BM_2_2_synth_1
+wait_on_run MEMDesign_blk_mem_gen_0_1_synth_1
+wait_on_run MEMDesign_blk_mem_gen_1_0_synth_1
+wait_on_run MEMDesign_mem_to_array_1_0_2_synth_1
+wait_on_run MEMDesign_mem_to_array_2_0_0_synth_1
+wait_on_run MEMDesign_output_mapper_0_0_synth_1
+wait_on_run MEMDesign_output_mapper_2_0_0_synth_1
+export_simulation -of_objects [get_files C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/bd/MEMDesign/MEMDesign.bd] -directory C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.ip_user_files -ipstatic_source_dir C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.cache/compile_simlib/modelsim} {questa=C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.cache/compile_simlib/questa} {riviera=C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.cache/compile_simlib/riviera} {activehdl=C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run MEMDesign_blk_mem_gen_0_1_synth_1
+reset_run MEMDesign_mem_to_array_1_0_2_synth_1
+reset_run MEMDesign_blk_mem_gen_1_0_synth_1
+reset_run MEMDesign_output_mapper_0_0_synth_1
+reset_run MEMDesign_mem_to_array_2_0_0_synth_1
+reset_run MEMDesign_output_mapper_2_0_0_synth_1
+reset_run MEMDesign_HA_1BM_2_2_synth_1
+reset_run MEMDesign_CADA_MEMControl_0_0_synth_1
+reset_run MEMDesign_ArrayTop_0_0_synth_1
+reset_run MEMDesign_CADA_LaneSplit_0_0_synth_1
+reset_run MEMDesign_CADA_MEMControl_0_1_synth_1
+reset_run MEMDesign_HA_1BM_0_0_synth_1
+reset_run MEMDesign_CADA_MEMControl_1_0_synth_1
+reset_run MEMDesign_HA_1BM_2_0_synth_1
+reset_run MEMDesign_HA_1BM_2_1_synth_1
+make_wrapper -files [get_files C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/bd/MEMDesign/MEMDesign.bd] -top
+close_sim
+launch_simulation
+open_wave_config C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/Hw3Hw_TB_behav.wcfg
+source tb2.tcl
+current_wave_config {Hw3Hw_TB_behav.wcfg}
+add_wave {{/tb2/EE216B_MEM_i/MEMDesign_i/ARRAYTOP/clk}} {{/tb2/EE216B_MEM_i/MEMDesign_i/ARRAYTOP/rst}} {{/tb2/EE216B_MEM_i/MEMDesign_i/ARRAYTOP/dataOut}} {{/tb2/EE216B_MEM_i/MEMDesign_i/ARRAYTOP/dataIn}} {{/tb2/EE216B_MEM_i/MEMDesign_i/ARRAYTOP/configIn}} {{/tb2/EE216B_MEM_i/MEMDesign_i/ARRAYTOP/controlIn}} {{/tb2/EE216B_MEM_i/MEMDesign_i/ARRAYTOP/gControlIn}} 
+restart
+run 1 us
+relaunch_sim
+update_module_reference MEMDesign_output_mapper_2_0_0
+make_wrapper -files [get_files C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/bd/MEMDesign/MEMDesign.bd] -top
+save_wave_config {C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/Hw3Hw_TB_behav.wcfg}
+close_sim
+generate_target Simulation [get_files C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/bd/MEMDesign/MEMDesign.bd]
+export_ip_user_files -of_objects [get_files C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/bd/MEMDesign/MEMDesign.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/bd/MEMDesign/MEMDesign.bd] -directory C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.ip_user_files -ipstatic_source_dir C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.cache/compile_simlib/modelsim} {questa=C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.cache/compile_simlib/questa} {riviera=C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.cache/compile_simlib/riviera} {activehdl=C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_simulation
+open_wave_config C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/Hw3Hw_TB_behav.wcfg
+source tb2.tcl
+relaunch_sim
+current_wave_config {Hw3Hw_TB_behav.wcfg}
+add_wave {{/tb2/EE216B_MEM_i/MEMDesign_i/output_mapper_2_0/reset}} {{/tb2/EE216B_MEM_i/MEMDesign_i/output_mapper_2_0/clk}} {{/tb2/EE216B_MEM_i/MEMDesign_i/output_mapper_2_0/valid}} {{/tb2/EE216B_MEM_i/MEMDesign_i/output_mapper_2_0/writeEn}} {{/tb2/EE216B_MEM_i/MEMDesign_i/output_mapper_2_0/dataIn}} {{/tb2/EE216B_MEM_i/MEMDesign_i/output_mapper_2_0/outDataOut}} {{/tb2/EE216B_MEM_i/MEMDesign_i/output_mapper_2_0/startAddr}} {{/tb2/EE216B_MEM_i/MEMDesign_i/output_mapper_2_0/done}} {{/tb2/EE216B_MEM_i/MEMDesign_i/output_mapper_2_0/writeOut}} 
+restart
+run 1 us
+open_bd_design {C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/bd/MEMDesign/MEMDesign.bd}
+update_module_reference MEMDesign_output_mapper_2_0_0
+update_module_reference MEMDesign_output_mapper_0_0
+make_wrapper -files [get_files C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/bd/MEMDesign/MEMDesign.bd] -top
+relaunch_sim
+current_wave_config {Hw3Hw_TB_behav.wcfg}
+add_wave {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_2_INPUT_DATA_MEMCONTROL/clk}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_2_INPUT_DATA_MEMCONTROL/rst}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_2_INPUT_DATA_MEMCONTROL/valid}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_2_INPUT_DATA_MEMCONTROL/DataIn}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_2_INPUT_DATA_MEMCONTROL/DataOut}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_2_INPUT_DATA_MEMCONTROL/addrOut}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_2_INPUT_DATA_MEMCONTROL/writeEn}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_2_INPUT_DATA_MEMCONTROL/startAddr}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_2_INPUT_DATA_MEMCONTROL/strideInterval}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_2_INPUT_DATA_MEMCONTROL/startLatency}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_2_INPUT_DATA_MEMCONTROL/endLatency}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_2_INPUT_DATA_MEMCONTROL/MEMin}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_2_INPUT_DATA_MEMCONTROL/MEMout}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_2_INPUT_DATA_MEMCONTROL/MWMWen}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_2_INPUT_DATA_MEMCONTROL/MEMEn}} 
+current_wave_config {Hw3Hw_TB_behav.wcfg}
+add_wave {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_2_BLOCKRAM}} 
+restart
+run 1 us
+current_wave_config {Hw3Hw_TB_behav.wcfg}
+add_wave {{/tb2/EE216B_MEM_i/MEMDesign_i/output_mapper_2_0/reset}} {{/tb2/EE216B_MEM_i/MEMDesign_i/output_mapper_2_0/clk}} {{/tb2/EE216B_MEM_i/MEMDesign_i/output_mapper_2_0/valid}} {{/tb2/EE216B_MEM_i/MEMDesign_i/output_mapper_2_0/writeEn}} {{/tb2/EE216B_MEM_i/MEMDesign_i/output_mapper_2_0/dataIn}} {{/tb2/EE216B_MEM_i/MEMDesign_i/output_mapper_2_0/outDataOut}} {{/tb2/EE216B_MEM_i/MEMDesign_i/output_mapper_2_0/startAddr}} {{/tb2/EE216B_MEM_i/MEMDesign_i/output_mapper_2_0/done}} {{/tb2/EE216B_MEM_i/MEMDesign_i/output_mapper_2_0/writeOut}} 
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+current_wave_config {Hw3Hw_TB_behav.wcfg}
+add_wave {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_1_OUTPUT_MAPPER/reset}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_1_OUTPUT_MAPPER/clk}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_1_OUTPUT_MAPPER/valid}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_1_OUTPUT_MAPPER/writeEn}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_1_OUTPUT_MAPPER/dataIn}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_1_OUTPUT_MAPPER/outDataOut}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_1_OUTPUT_MAPPER/startAddr}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_1_OUTPUT_MAPPER/done}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_1_OUTPUT_MAPPER/writeOut}} 
+restart
+run 1 us
+current_wave_config {Hw3Hw_TB_behav.wcfg}
+add_wave {{/tb2/EE216B_MEM_i/MEMDesign_i/output_mapper_2_0/reset}} {{/tb2/EE216B_MEM_i/MEMDesign_i/output_mapper_2_0/clk}} {{/tb2/EE216B_MEM_i/MEMDesign_i/output_mapper_2_0/valid}} {{/tb2/EE216B_MEM_i/MEMDesign_i/output_mapper_2_0/writeEn}} {{/tb2/EE216B_MEM_i/MEMDesign_i/output_mapper_2_0/dataIn}} {{/tb2/EE216B_MEM_i/MEMDesign_i/output_mapper_2_0/outDataOut}} {{/tb2/EE216B_MEM_i/MEMDesign_i/output_mapper_2_0/startAddr}} {{/tb2/EE216B_MEM_i/MEMDesign_i/output_mapper_2_0/done}} {{/tb2/EE216B_MEM_i/MEMDesign_i/output_mapper_2_0/writeOut}} 
+copy_bd_objs /  [get_bd_cells {LAYER_2_VALID_MUX}]
+set_property name LAYER_3_VALID_MUX [get_bd_cells LAYER_2_VALID_MUX1]
+delete_bd_objs [get_bd_nets valid_2_1]
+connect_bd_net [get_bd_ports valid_2] [get_bd_pins LAYER_2_VALID_MUX/DataIn_1]
+connect_bd_net [get_bd_ports valid_2] [get_bd_pins LAYER_3_VALID_MUX/DataIn_1]
+connect_bd_net [get_bd_pins LAYER_3_VALID_MUX/DataIn_2] [get_bd_pins LAYER_1_OUTPUT_MAPPER/writeOut]
+undo
+connect_bd_net [get_bd_pins LAYER_3_VALID_MUX/DataIn_2] [get_bd_pins output_mapper_2_0/done]
+undo
+connect_bd_net [get_bd_pins LAYER_3_VALID_MUX/DataIn_2] [get_bd_pins output_mapper_2_0/writeOut]
+connect_bd_net [get_bd_pins LAYER_3_VALID_MUX/sel] [get_bd_pins output_mapper_2_0/writeOut]
+connect_bd_net [get_bd_pins LAYER_3_VALID_MUX/DataOut_1] [get_bd_pins output_mapper_2_0/valid]
+save_bd_design
+make_wrapper -files [get_files C:/Users/Keith/Documents/UCLA/216B/vignesh_proj/ECE216BNew.srcs/sources_1/bd/MEMDesign/MEMDesign.bd] -top
+relaunch_sim
+restart
+run 1 us
+relaunch_sim
+close_sim
