@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Sat Jun  1 23:11:16 2024
+# Process ID: 21320
+# Current directory: C:/Users/Keith/Documents/UCLA/216B/216BProject-keith_project_6_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent24768 C:\Users\Keith\Documents\UCLA\216B\216BProject-keith_project_6_1\ECE216BNew.xpr
+# Log file: C:/Users/Keith/Documents/UCLA/216B/216BProject-keith_project_6_1/vivado.log
+# Journal file: C:/Users/Keith/Documents/UCLA/216B/216BProject-keith_project_6_1\vivado.jou
+# Running On: DESKTOP-TUIN670, OS: Windows, CPU Frequency: 3792 MHz, CPU Physical cores: 8, Host memory: 17094 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Keith/Documents/UCLA/216B/216BProject-keith_project_6_1/ECE216BNew.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config C:/Users/Keith/Documents/UCLA/216B/216BProject-keith_project_6_1/Hw3Hw_TB_behav.wcfg
+source tb2.tcl
+current_wave_config {Hw3Hw_TB_behav.wcfg}
+add_wave {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_2_INPUT_DATA_MEMCONTROL/clk}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_2_INPUT_DATA_MEMCONTROL/rst}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_2_INPUT_DATA_MEMCONTROL/valid}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_2_INPUT_DATA_MEMCONTROL/DataIn}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_2_INPUT_DATA_MEMCONTROL/DataOut}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_2_INPUT_DATA_MEMCONTROL/addrOut}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_2_INPUT_DATA_MEMCONTROL/writeEn}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_2_INPUT_DATA_MEMCONTROL/startAddr}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_2_INPUT_DATA_MEMCONTROL/strideInterval}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_2_INPUT_DATA_MEMCONTROL/startLatency}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_2_INPUT_DATA_MEMCONTROL/endLatency}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_2_INPUT_DATA_MEMCONTROL/MEMin}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_2_INPUT_DATA_MEMCONTROL/MEMout}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_2_INPUT_DATA_MEMCONTROL/MWMWen}} {{/tb2/EE216B_MEM_i/MEMDesign_i/LAYER_2_INPUT_DATA_MEMCONTROL/MEMEn}} 
+relaunch_sim

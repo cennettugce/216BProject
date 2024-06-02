@@ -53,19 +53,19 @@ controlIn =36'b110100110000100100000000000000000000;
 inputData = {configIn, controlIn};
 #2
 configIn =7'b1011100; 
-controlIn =36'b000000001000010000000000000000000000; 
+controlIn =36'b000000_001000_010000_000000_000000_000000; 
 inputData = {configIn, controlIn};
 #2
 configIn =7'b0101100; 
-controlIn =36'b001000000000001000000000000000000000; 
+controlIn =36'b001000_000000_001000_000000_000000_000000; 
 inputData = {configIn, controlIn};
 #2
 configIn =7'b0000001; 
-controlIn =36'b000000000100000000000000111100000000; 
+controlIn =36'b000000_000100_000000_000000_111100_000000; 
 inputData = {configIn, controlIn};
 #2
 configIn =7'b0001010; 
-controlIn =36'b000000000000000000111100000000000000;
+controlIn =36'b000000_000000_000000_111100_000000_000000;
 inputData = {configIn, controlIn};
 #2
 // This is your output channel 

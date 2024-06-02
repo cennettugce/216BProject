@@ -1,0 +1,44 @@
+{
+  "schema": "xilinx.com:schema:json_instance:1.0",
+  "ip_inst": {
+    "xci_name": "MEMDesign_mem_to_array_1_0_2",
+    "cell_name": "LAYER_1_MEM_TO_ARRAY",
+    "component_reference": "xilinx.com:module_ref:mem_to_array_1:1.0",
+    "ip_revision": "1",
+    "gen_directory": "../../../../../../ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_mem_to_array_1_0_2",
+    "parameters": {
+      "component_parameters": {
+        "Component_Name": [ { "value": "MEMDesign_mem_to_array_1_0_2", "resolve_type": "user", "usage": "all" } ]
+      },
+      "project_parameters": {
+        "ARCHITECTURE": [ { "value": "zynq" } ],
+        "BASE_BOARD_PART": [ { "value": "" } ],
+        "BOARD_CONNECTIONS": [ { "value": "" } ],
+        "DEVICE": [ { "value": "xc7z020" } ],
+        "PACKAGE": [ { "value": "clg400" } ],
+        "PREFHDL": [ { "value": "VERILOG" } ],
+        "SILICON_REVISION": [ { "value": "" } ],
+        "SIMULATOR_LANGUAGE": [ { "value": "MIXED" } ],
+        "SPEEDGRADE": [ { "value": "-2" } ],
+        "STATIC_POWER": [ { "value": "" } ],
+        "TEMPERATURE_GRADE": [ { "value": "" } ]
+      },
+      "runtime_parameters": {
+        "IPCONTEXT": [ { "value": "IP_Integrator" } ],
+        "IPREVISION": [ { "value": "1" } ],
+        "MANAGED": [ { "value": "TRUE" } ],
+        "OUTPUTDIR": [ { "value": "../../../../../../ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_mem_to_array_1_0_2" } ],
+        "SELECTEDSIMMODEL": [ { "value": "" } ],
+        "SHAREDDIR": [ { "value": "../../ipshared" } ],
+        "SWVERSION": [ { "value": "2023.2" } ],
+        "SYNTHESISFLOW": [ { "value": "OOC_HIERARCHICAL" } ]
+      }
+    },
+    "boundary": {
+      "ports": {
+        "from_mem": [ { "direction": "in", "size_left": "143", "size_right": "0" } ],
+        "to_array": [ { "direction": "out", "size_left": "1727", "size_right": "0" } ]
+      }
+    }
+  }
+}

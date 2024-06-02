@@ -2,7 +2,7 @@
   "schema": "xilinx.com:schema:json_instance:1.0",
   "ip_inst": {
     "xci_name": "MEMDesign_ArrayTop_0_0",
-    "cell_name": "ArrayTop_0",
+    "cell_name": "ARRAYTOP",
     "component_reference": "xilinx.com:module_ref:ArrayTop:1.0",
     "ip_revision": "1",
     "gen_directory": "../../../../../../ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_ArrayTop_0_0",
