@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Sun Jun  2 15:20:41 2024
+# Process ID: 23300
+# Current directory: C:/Users/Keith/Documents/UCLA/216B/216BProject-keith_project_6_1/ECE216BNew.runs/MEMDesign_LAYER_2_BLOCKRAM_0_synth_1
+# Command line: vivado.exe -log MEMDesign_LAYER_2_BLOCKRAM_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source MEMDesign_LAYER_2_BLOCKRAM_0.tcl
+# Log file: C:/Users/Keith/Documents/UCLA/216B/216BProject-keith_project_6_1/ECE216BNew.runs/MEMDesign_LAYER_2_BLOCKRAM_0_synth_1/MEMDesign_LAYER_2_BLOCKRAM_0.vds
+# Journal file: C:/Users/Keith/Documents/UCLA/216B/216BProject-keith_project_6_1/ECE216BNew.runs/MEMDesign_LAYER_2_BLOCKRAM_0_synth_1\vivado.jou
+# Running On: DESKTOP-TUIN670, OS: Windows, CPU Frequency: 3792 MHz, CPU Physical cores: 8, Host memory: 17094 MB
+#-----------------------------------------------------------
+source MEMDesign_LAYER_2_BLOCKRAM_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 484.039 ; gain = 181.223
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: MEMDesign_LAYER_2_BLOCKRAM_0
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry a5a740edaee7977c to dir: C:/Users/Keith/Documents/UCLA/216B/216BProject-keith_project_6_1/ECE216BNew.runs/MEMDesign_LAYER_2_BLOCKRAM_0_synth_1
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/Keith/Documents/UCLA/216B/216BProject-keith_project_6_1/ECE216BNew.cache/ip/2023.2/a/5/a5a740edaee7977c/MEMDesign_blk_mem_gen_1_0.dcp to C:/Users/Keith/Documents/UCLA/216B/216BProject-keith_project_6_1/ECE216BNew.runs/MEMDesign_LAYER_2_BLOCKRAM_0_synth_1/MEMDesign_LAYER_2_BLOCKRAM_0.dcp.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/Keith/Documents/UCLA/216B/216BProject-keith_project_6_1/ECE216BNew.cache/ip/2023.2/a/5/a5a740edaee7977c/MEMDesign_blk_mem_gen_1_0_sim_netlist.v to C:/Users/Keith/Documents/UCLA/216B/216BProject-keith_project_6_1/ECE216BNew.runs/MEMDesign_LAYER_2_BLOCKRAM_0_synth_1/MEMDesign_LAYER_2_BLOCKRAM_0_sim_netlist.v.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/Keith/Documents/UCLA/216B/216BProject-keith_project_6_1/ECE216BNew.cache/ip/2023.2/a/5/a5a740edaee7977c/MEMDesign_blk_mem_gen_1_0_sim_netlist.vhdl to C:/Users/Keith/Documents/UCLA/216B/216BProject-keith_project_6_1/ECE216BNew.runs/MEMDesign_LAYER_2_BLOCKRAM_0_synth_1/MEMDesign_LAYER_2_BLOCKRAM_0_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/Keith/Documents/UCLA/216B/216BProject-keith_project_6_1/ECE216BNew.cache/ip/2023.2/a/5/a5a740edaee7977c/MEMDesign_blk_mem_gen_1_0_stub.v to C:/Users/Keith/Documents/UCLA/216B/216BProject-keith_project_6_1/ECE216BNew.runs/MEMDesign_LAYER_2_BLOCKRAM_0_synth_1/MEMDesign_LAYER_2_BLOCKRAM_0_stub.v.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/Keith/Documents/UCLA/216B/216BProject-keith_project_6_1/ECE216BNew.cache/ip/2023.2/a/5/a5a740edaee7977c/MEMDesign_blk_mem_gen_1_0_stub.vhdl to C:/Users/Keith/Documents/UCLA/216B/216BProject-keith_project_6_1/ECE216BNew.runs/MEMDesign_LAYER_2_BLOCKRAM_0_synth_1/MEMDesign_LAYER_2_BLOCKRAM_0_stub.vhdl.
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP MEMDesign_LAYER_2_BLOCKRAM_0, cache-ID = a5a740edaee7977c.
+INFO: [Common 17-206] Exiting Vivado at Sun Jun  2 15:20:52 2024...

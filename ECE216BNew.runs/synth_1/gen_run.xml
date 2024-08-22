@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7z020clg400-2" LaunchTime="1717366748">
+  <File Type="PA-TCL" Name="MEMDesign_wrapper.tcl"/>
+  <File Type="REPORTS-TCL" Name="MEMDesign_wrapper_reports.tcl"/>
+  <File Type="RDS-RDS" Name="MEMDesign_wrapper.vds"/>
+  <File Type="RDS-UTIL" Name="MEMDesign_wrapper_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="MEMDesign_wrapper_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="MEMDesign_wrapper.dcp"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/EntityLib.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ArrayTop.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/mem_to_array_1.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/output_mapper.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/mem_to_array_2.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/output_mapper_2.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/MEMDesign/MEMDesign.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PGENDIR/sources_1/bd/MEMDesign/hdl/MEMDesign_wrapper.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/mem_to_array.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/MEM_Design/MEM_Design.bd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/MEMDesign/ip/MEMDesign_blk_mem_gen_0_1/layer1_im2col.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/MEMDesign2/MEMDesign2.bd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="MEMDesign_wrapper"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2023"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="MEMDesign_blk_mem_gen_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="MEMDesign_blk_mem_gen_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="MEMDesign_LAYER_2_BLOCKRAM_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="MEMDesign_CADA_MEMControl_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="MEMDesign_CADA_MEMControl_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="MEMDesign_HA_1BM_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="MEMDesign_output_mapper_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="MEMDesign_HA_1BM_0_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="MEMDesign_HA_1BM_2_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="MEMDesign_output_mapper_2_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="MEMDesign_mem_to_array_2_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="MEMDesign_LAYER_2_VALID_MUX_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="MEMDesign_CONFIG_MEMCONTROL_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="MEMDesign_LAYER_2_INPUT_DATA_MEMCONTROL_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="MEMDesign_CONFIG_BLOCKRAM_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="MEMDesign_ArrayTop_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="MEMDesign_mem_to_array_1_0_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="MEMDesign_HA_1BM_0_0"/>
+</GenRun>

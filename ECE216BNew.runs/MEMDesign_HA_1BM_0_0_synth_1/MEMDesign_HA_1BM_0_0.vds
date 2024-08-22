@@ -1,0 +1,29 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Sun Jun  2 15:20:30 2024
+# Process ID: 7904
+# Current directory: C:/Users/Keith/Documents/UCLA/216B/216BProject-keith_project_6_1/ECE216BNew.runs/MEMDesign_HA_1BM_0_0_synth_1
+# Command line: vivado.exe -log MEMDesign_HA_1BM_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source MEMDesign_HA_1BM_0_0.tcl
+# Log file: C:/Users/Keith/Documents/UCLA/216B/216BProject-keith_project_6_1/ECE216BNew.runs/MEMDesign_HA_1BM_0_0_synth_1/MEMDesign_HA_1BM_0_0.vds
+# Journal file: C:/Users/Keith/Documents/UCLA/216B/216BProject-keith_project_6_1/ECE216BNew.runs/MEMDesign_HA_1BM_0_0_synth_1\vivado.jou
+# Running On: DESKTOP-TUIN670, OS: Windows, CPU Frequency: 3792 MHz, CPU Physical cores: 8, Host memory: 17094 MB
+#-----------------------------------------------------------
+source MEMDesign_HA_1BM_0_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 483.047 ; gain = 178.789
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.2/data/ip'.
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is c:/Users/Keith/Documents/UCLA/216B/216BProject-keith_project_6_1/ECE216BNew.cache/ip 
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: MEMDesign_HA_1BM_0_0
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry b69059217ae5735c to dir: C:/Users/Keith/Documents/UCLA/216B/216BProject-keith_project_6_1/ECE216BNew.runs/MEMDesign_HA_1BM_0_0_synth_1
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/Keith/Documents/UCLA/216B/216BProject-keith_project_6_1/ECE216BNew.cache/ip/2023.2/b/6/b69059217ae5735c/MEMDesign_HA_1BM_1_0.dcp to C:/Users/Keith/Documents/UCLA/216B/216BProject-keith_project_6_1/ECE216BNew.runs/MEMDesign_HA_1BM_0_0_synth_1/MEMDesign_HA_1BM_0_0.dcp.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/Keith/Documents/UCLA/216B/216BProject-keith_project_6_1/ECE216BNew.cache/ip/2023.2/b/6/b69059217ae5735c/MEMDesign_HA_1BM_1_0_sim_netlist.v to C:/Users/Keith/Documents/UCLA/216B/216BProject-keith_project_6_1/ECE216BNew.runs/MEMDesign_HA_1BM_0_0_synth_1/MEMDesign_HA_1BM_0_0_sim_netlist.v.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/Keith/Documents/UCLA/216B/216BProject-keith_project_6_1/ECE216BNew.cache/ip/2023.2/b/6/b69059217ae5735c/MEMDesign_HA_1BM_1_0_sim_netlist.vhdl to C:/Users/Keith/Documents/UCLA/216B/216BProject-keith_project_6_1/ECE216BNew.runs/MEMDesign_HA_1BM_0_0_synth_1/MEMDesign_HA_1BM_0_0_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/Keith/Documents/UCLA/216B/216BProject-keith_project_6_1/ECE216BNew.cache/ip/2023.2/b/6/b69059217ae5735c/MEMDesign_HA_1BM_1_0_stub.v to C:/Users/Keith/Documents/UCLA/216B/216BProject-keith_project_6_1/ECE216BNew.runs/MEMDesign_HA_1BM_0_0_synth_1/MEMDesign_HA_1BM_0_0_stub.v.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/Keith/Documents/UCLA/216B/216BProject-keith_project_6_1/ECE216BNew.cache/ip/2023.2/b/6/b69059217ae5735c/MEMDesign_HA_1BM_1_0_stub.vhdl to C:/Users/Keith/Documents/UCLA/216B/216BProject-keith_project_6_1/ECE216BNew.runs/MEMDesign_HA_1BM_0_0_synth_1/MEMDesign_HA_1BM_0_0_stub.vhdl.
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP MEMDesign_HA_1BM_0_0, cache-ID = b69059217ae5735c.
+INFO: [Common 17-206] Exiting Vivado at Sun Jun  2 15:20:41 2024...

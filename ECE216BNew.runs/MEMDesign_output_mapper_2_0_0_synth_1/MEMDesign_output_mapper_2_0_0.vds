@@ -1,0 +1,333 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Sun Jun  2 15:19:11 2024
+# Process ID: 8588
+# Current directory: C:/Users/Keith/Documents/UCLA/216B/216BProject-keith_project_6_1/ECE216BNew.runs/MEMDesign_output_mapper_2_0_0_synth_1
+# Command line: vivado.exe -log MEMDesign_output_mapper_2_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source MEMDesign_output_mapper_2_0_0.tcl
+# Log file: C:/Users/Keith/Documents/UCLA/216B/216BProject-keith_project_6_1/ECE216BNew.runs/MEMDesign_output_mapper_2_0_0_synth_1/MEMDesign_output_mapper_2_0_0.vds
+# Journal file: C:/Users/Keith/Documents/UCLA/216B/216BProject-keith_project_6_1/ECE216BNew.runs/MEMDesign_output_mapper_2_0_0_synth_1\vivado.jou
+# Running On: DESKTOP-TUIN670, OS: Windows, CPU Frequency: 3792 MHz, CPU Physical cores: 8, Host memory: 17094 MB
+#-----------------------------------------------------------
+source MEMDesign_output_mapper_2_0_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 483.727 ; gain = 179.559
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.2/data/ip'.
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is c:/Users/Keith/Documents/UCLA/216B/216BProject-keith_project_6_1/ECE216BNew.cache/ip 
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: MEMDesign_output_mapper_2_0_0
+Command: synth_design -top MEMDesign_output_mapper_2_0_0 -part xc7z020clg400-2 -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg400-2
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 28516
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 1356.527 ; gain = 440.082
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'MEMDesign_output_mapper_2_0_0' [c:/Users/Keith/Documents/UCLA/216B/216BProject-keith_project_6_1/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_output_mapper_2_0_0/synth/MEMDesign_output_mapper_2_0_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'output_mapper_2' [C:/Users/Keith/Documents/UCLA/216B/216BProject-keith_project_6_1/ECE216BNew.srcs/sources_1/new/output_mapper_2.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'output_mapper_2' (0#1) [C:/Users/Keith/Documents/UCLA/216B/216BProject-keith_project_6_1/ECE216BNew.srcs/sources_1/new/output_mapper_2.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'MEMDesign_output_mapper_2_0_0' (0#1) [c:/Users/Keith/Documents/UCLA/216B/216BProject-keith_project_6_1/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_output_mapper_2_0_0/synth/MEMDesign_output_mapper_2_0_0.v:53]
+WARNING: [Synth 8-7129] Port dataIn[143] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[142] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[141] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[140] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[139] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[138] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[137] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[136] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[135] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[134] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[133] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[132] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[131] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[130] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[129] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[128] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[127] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[126] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[125] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[124] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[123] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[122] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[121] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[120] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[119] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[118] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[117] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[116] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[115] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[114] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[113] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[112] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[111] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[110] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[109] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[108] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[107] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[106] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[105] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[104] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[103] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[102] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[101] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[100] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[99] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[98] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[97] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[96] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[95] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[94] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[93] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[92] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[91] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[90] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[89] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[88] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[87] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[86] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[85] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[84] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[83] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[82] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[81] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[80] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[79] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[78] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[77] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[76] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[75] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[74] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[73] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[72] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[71] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[70] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[69] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[68] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[67] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[66] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[65] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[64] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[63] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[62] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[61] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[60] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[59] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[58] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[57] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[56] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[55] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[54] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[53] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[52] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[51] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[50] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[49] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[48] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[31] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[30] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[29] in module output_mapper_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dataIn[28] in module output_mapper_2 is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:13 . Memory (MB): peak = 1467.336 ; gain = 550.891
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:10 ; elapsed = 00:00:13 . Memory (MB): peak = 1467.336 ; gain = 550.891
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:13 . Memory (MB): peak = 1467.336 ; gain = 550.891
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 1467.336 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1561.059 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.052 . Memory (MB): peak = 1561.078 ; gain = 0.020
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:20 ; elapsed = 00:00:23 . Memory (MB): peak = 1561.078 ; gain = 644.633
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:20 ; elapsed = 00:00:23 . Memory (MB): peak = 1561.078 ; gain = 644.633
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:23 . Memory (MB): peak = 1561.078 ; gain = 644.633
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:20 ; elapsed = 00:00:23 . Memory (MB): peak = 1561.078 ; gain = 644.633
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    6 Bit       Adders := 1     
++---Registers : 
+	               64 Bit    Registers := 2     
+	                6 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input   64 Bit        Muxes := 4     
+	   4 Input   64 Bit        Muxes := 1     
+	   3 Input   64 Bit        Muxes := 1     
+	   2 Input    6 Bit        Muxes := 2     
+	   6 Input    6 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 13    
+	   4 Input    1 Bit        Muxes := 2     
+	   5 Input    1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 1561.078 ; gain = 644.633
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:28 ; elapsed = 00:00:31 . Memory (MB): peak = 1561.078 ; gain = 644.633
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:28 ; elapsed = 00:00:31 . Memory (MB): peak = 1561.078 ; gain = 644.633
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:28 ; elapsed = 00:00:31 . Memory (MB): peak = 1561.078 ; gain = 644.633
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:34 ; elapsed = 00:00:38 . Memory (MB): peak = 1561.078 ; gain = 644.633
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:34 ; elapsed = 00:00:38 . Memory (MB): peak = 1561.078 ; gain = 644.633
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:34 ; elapsed = 00:00:38 . Memory (MB): peak = 1561.078 ; gain = 644.633
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:34 ; elapsed = 00:00:38 . Memory (MB): peak = 1561.078 ; gain = 644.633
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:34 ; elapsed = 00:00:38 . Memory (MB): peak = 1561.078 ; gain = 644.633
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:34 ; elapsed = 00:00:38 . Memory (MB): peak = 1561.078 ; gain = 644.633
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT2 |     2|
+|2     |LUT3 |    21|
+|3     |LUT4 |     2|
+|4     |LUT5 |    18|
+|5     |LUT6 |    27|
+|6     |FDCE |   121|
++------+-----+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:34 ; elapsed = 00:00:38 . Memory (MB): peak = 1561.078 ; gain = 644.633
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 129 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:21 ; elapsed = 00:00:35 . Memory (MB): peak = 1561.078 ; gain = 550.891
+Synthesis Optimization Complete : Time (s): cpu = 00:00:34 ; elapsed = 00:00:38 . Memory (MB): peak = 1561.078 ; gain = 644.633
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1561.078 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1561.078 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 83f7b644
+INFO: [Common 17-83] Releasing license: Synthesis
+22 Infos, 102 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:40 ; elapsed = 00:00:50 . Memory (MB): peak = 1561.078 ; gain = 1063.926
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1561.078 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Keith/Documents/UCLA/216B/216BProject-keith_project_6_1/ECE216BNew.runs/MEMDesign_output_mapper_2_0_0_synth_1/MEMDesign_output_mapper_2_0_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP MEMDesign_output_mapper_2_0_0, cache-ID = 5ab6c874294eeff4
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1561.078 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Keith/Documents/UCLA/216B/216BProject-keith_project_6_1/ECE216BNew.runs/MEMDesign_output_mapper_2_0_0_synth_1/MEMDesign_output_mapper_2_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file MEMDesign_output_mapper_2_0_0_utilization_synth.rpt -pb MEMDesign_output_mapper_2_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun Jun  2 15:20:11 2024...

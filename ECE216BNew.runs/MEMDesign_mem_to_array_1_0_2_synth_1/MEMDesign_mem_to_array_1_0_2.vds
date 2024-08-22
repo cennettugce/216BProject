@@ -1,0 +1,310 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Sun Jun  2 15:20:29 2024
+# Process ID: 27140
+# Current directory: C:/Users/Keith/Documents/UCLA/216B/216BProject-keith_project_6_1/ECE216BNew.runs/MEMDesign_mem_to_array_1_0_2_synth_1
+# Command line: vivado.exe -log MEMDesign_mem_to_array_1_0_2.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source MEMDesign_mem_to_array_1_0_2.tcl
+# Log file: C:/Users/Keith/Documents/UCLA/216B/216BProject-keith_project_6_1/ECE216BNew.runs/MEMDesign_mem_to_array_1_0_2_synth_1/MEMDesign_mem_to_array_1_0_2.vds
+# Journal file: C:/Users/Keith/Documents/UCLA/216B/216BProject-keith_project_6_1/ECE216BNew.runs/MEMDesign_mem_to_array_1_0_2_synth_1\vivado.jou
+# Running On: DESKTOP-TUIN670, OS: Windows, CPU Frequency: 3792 MHz, CPU Physical cores: 8, Host memory: 17094 MB
+#-----------------------------------------------------------
+source MEMDesign_mem_to_array_1_0_2.tcl -notrace
+create_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 485.895 ; gain = 178.516
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.2/data/ip'.
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is c:/Users/Keith/Documents/UCLA/216B/216BProject-keith_project_6_1/ECE216BNew.cache/ip 
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: MEMDesign_mem_to_array_1_0_2
+Command: synth_design -top MEMDesign_mem_to_array_1_0_2 -part xc7z020clg400-2 -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg400-2
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 26776
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1357.250 ; gain = 440.109
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'MEMDesign_mem_to_array_1_0_2' [c:/Users/Keith/Documents/UCLA/216B/216BProject-keith_project_6_1/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_mem_to_array_1_0_2/synth/MEMDesign_mem_to_array_1_0_2.v:53]
+INFO: [Synth 8-6157] synthesizing module 'mem_to_array_1' [C:/Users/Keith/Documents/UCLA/216B/216BProject-keith_project_6_1/ECE216BNew.srcs/sources_1/new/mem_to_array_1.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'mem_to_array_1' (0#1) [C:/Users/Keith/Documents/UCLA/216B/216BProject-keith_project_6_1/ECE216BNew.srcs/sources_1/new/mem_to_array_1.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'MEMDesign_mem_to_array_1_0_2' (0#1) [c:/Users/Keith/Documents/UCLA/216B/216BProject-keith_project_6_1/ECE216BNew.gen/sources_1/bd/MEMDesign/ip/MEMDesign_mem_to_array_1_0_2/synth/MEMDesign_mem_to_array_1_0_2.v:53]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1467.477 ; gain = 550.336
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1467.477 ; gain = 550.336
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1467.477 ; gain = 550.336
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.018 . Memory (MB): peak = 1467.477 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1490.195 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.052 . Memory (MB): peak = 1490.219 ; gain = 0.023
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 1490.219 ; gain = 573.078
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 1490.219 ; gain = 573.078
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1490.219 ; gain = 573.078
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1490.219 ; gain = 573.078
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-3330] design MEMDesign_mem_to_array_1_0_2 has an empty top module
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1727] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1726] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1725] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1724] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1723] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1722] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1721] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1720] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1719] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1718] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1717] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1716] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1715] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1714] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1713] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1712] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1711] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1710] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1709] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1708] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1707] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1706] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1705] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1704] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1703] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1702] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1701] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1700] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1699] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1698] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1697] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1696] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1695] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1694] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1693] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1692] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1691] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1690] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1689] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1688] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1687] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1686] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1685] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1684] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1683] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1682] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1681] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1680] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1679] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1678] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1677] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1676] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1675] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1674] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1673] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1672] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1671] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1670] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1669] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1668] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1667] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1666] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1665] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1664] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1663] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1662] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1661] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1660] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1659] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1658] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1657] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1656] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1655] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1654] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1653] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1652] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1651] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1650] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1649] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1648] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1647] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1646] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1645] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1644] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1643] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1642] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1641] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1640] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1639] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1638] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1637] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1636] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1635] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1634] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1633] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1632] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1631] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1630] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1629] driven by constant 0
+INFO: [Synth 8-3917] design MEMDesign_mem_to_array_1_0_2 has port to_array[1628] driven by constant 0
+INFO: [Common 17-14] Message 'Synth 8-3917' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 1490.219 ; gain = 573.078
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1490.219 ; gain = 573.078
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1490.219 ; gain = 573.078
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1490.219 ; gain = 573.078
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:30 ; elapsed = 00:00:30 . Memory (MB): peak = 1490.219 ; gain = 573.078
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:30 ; elapsed = 00:00:30 . Memory (MB): peak = 1490.219 ; gain = 573.078
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:30 ; elapsed = 00:00:30 . Memory (MB): peak = 1490.219 ; gain = 573.078
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:30 ; elapsed = 00:00:30 . Memory (MB): peak = 1490.219 ; gain = 573.078
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:30 ; elapsed = 00:00:30 . Memory (MB): peak = 1490.219 ; gain = 573.078
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:30 ; elapsed = 00:00:30 . Memory (MB): peak = 1490.219 ; gain = 573.078
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++-+-----+------+
+| |Cell |Count |
++-+-----+------+
++-+-----+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:30 ; elapsed = 00:00:30 . Memory (MB): peak = 1490.219 ; gain = 573.078
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 2 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:19 ; elapsed = 00:00:28 . Memory (MB): peak = 1490.219 ; gain = 550.336
+Synthesis Optimization Complete : Time (s): cpu = 00:00:30 ; elapsed = 00:00:30 . Memory (MB): peak = 1490.219 ; gain = 573.078
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1490.219 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1490.371 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 448b2348
+INFO: [Common 17-83] Releasing license: Synthesis
+122 Infos, 3 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 1494.410 ; gain = 995.547
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Keith/Documents/UCLA/216B/216BProject-keith_project_6_1/ECE216BNew.runs/MEMDesign_mem_to_array_1_0_2_synth_1/MEMDesign_mem_to_array_1_0_2.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP MEMDesign_mem_to_array_1_0_2, cache-ID = 6ec6b5bde3b5ef05
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Keith/Documents/UCLA/216B/216BProject-keith_project_6_1/ECE216BNew.runs/MEMDesign_mem_to_array_1_0_2_synth_1/MEMDesign_mem_to_array_1_0_2.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file MEMDesign_mem_to_array_1_0_2_utilization_synth.rpt -pb MEMDesign_mem_to_array_1_0_2_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun Jun  2 15:21:17 2024...

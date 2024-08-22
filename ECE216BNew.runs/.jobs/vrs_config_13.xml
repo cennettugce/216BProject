@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="MEMDesign_blk_mem_gen_0_1_synth_1" LaunchDir="C:/Users/Keith/Documents/UCLA/216B/216BProject-keith_project_6_1/ECE216BNew.runs/MEMDesign_blk_mem_gen_0_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="MEMDesign_blk_mem_gen_1_0_synth_1" LaunchDir="C:/Users/Keith/Documents/UCLA/216B/216BProject-keith_project_6_1/ECE216BNew.runs/MEMDesign_blk_mem_gen_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="MEMDesign_LAYER_2_BLOCKRAM_0_synth_1" LaunchDir="C:/Users/Keith/Documents/UCLA/216B/216BProject-keith_project_6_1/ECE216BNew.runs/MEMDesign_LAYER_2_BLOCKRAM_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="MEMDesign_blk_mem_gen_1_0_synth_1"/>
+	</Run>
+	<Run Id="MEMDesign_CADA_MEMControl_1_0_synth_1" LaunchDir="C:/Users/Keith/Documents/UCLA/216B/216BProject-keith_project_6_1/ECE216BNew.runs/MEMDesign_CADA_MEMControl_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="MEMDesign_HA_1BM_1_0_synth_1" LaunchDir="C:/Users/Keith/Documents/UCLA/216B/216BProject-keith_project_6_1/ECE216BNew.runs/MEMDesign_HA_1BM_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="MEMDesign_HA_1BM_2_0_synth_1" LaunchDir="C:/Users/Keith/Documents/UCLA/216B/216BProject-keith_project_6_1/ECE216BNew.runs/MEMDesign_HA_1BM_2_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="MEMDesign_mem_to_array_2_0_0_synth_1" LaunchDir="C:/Users/Keith/Documents/UCLA/216B/216BProject-keith_project_6_1/ECE216BNew.runs/MEMDesign_mem_to_array_2_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="MEMDesign_output_mapper_0_0_synth_1" LaunchDir="C:/Users/Keith/Documents/UCLA/216B/216BProject-keith_project_6_1/ECE216BNew.runs/MEMDesign_output_mapper_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="MEMDesign_output_mapper_2_0_0_synth_1" LaunchDir="C:/Users/Keith/Documents/UCLA/216B/216BProject-keith_project_6_1/ECE216BNew.runs/MEMDesign_output_mapper_2_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="MEMDesign_LAYER_2_VALID_MUX_1_synth_1" LaunchDir="C:/Users/Keith/Documents/UCLA/216B/216BProject-keith_project_6_1/ECE216BNew.runs/MEMDesign_LAYER_2_VALID_MUX_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="MEMDesign_HA_1BM_0_2_synth_1" LaunchDir="C:/Users/Keith/Documents/UCLA/216B/216BProject-keith_project_6_1/ECE216BNew.runs/MEMDesign_HA_1BM_0_2_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="MEMDesign_CONFIG_MEMCONTROL_0_synth_1" LaunchDir="C:/Users/Keith/Documents/UCLA/216B/216BProject-keith_project_6_1/ECE216BNew.runs/MEMDesign_CONFIG_MEMCONTROL_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="MEMDesign_LAYER_2_INPUT_DATA_MEMCONTROL_0_synth_1" LaunchDir="C:/Users/Keith/Documents/UCLA/216B/216BProject-keith_project_6_1/ECE216BNew.runs/MEMDesign_LAYER_2_INPUT_DATA_MEMCONTROL_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="MEMDesign_CONFIG_BLOCKRAM_0_synth_1" LaunchDir="C:/Users/Keith/Documents/UCLA/216B/216BProject-keith_project_6_1/ECE216BNew.runs/MEMDesign_CONFIG_BLOCKRAM_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="MEMDesign_ArrayTop_0_0_synth_1" LaunchDir="C:/Users/Keith/Documents/UCLA/216B/216BProject-keith_project_6_1/ECE216BNew.runs/MEMDesign_ArrayTop_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="MEMDesign_mem_to_array_1_0_2_synth_1" LaunchDir="C:/Users/Keith/Documents/UCLA/216B/216BProject-keith_project_6_1/ECE216BNew.runs/MEMDesign_mem_to_array_1_0_2_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="MEMDesign_HA_1BM_0_0_synth_1" LaunchDir="C:/Users/Keith/Documents/UCLA/216B/216BProject-keith_project_6_1/ECE216BNew.runs/MEMDesign_HA_1BM_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="MEMDesign_CADA_MEMControl_0_1_synth_1" LaunchDir="C:/Users/Keith/Documents/UCLA/216B/216BProject-keith_project_6_1/ECE216BNew.runs/MEMDesign_CADA_MEMControl_0_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="C:/Users/Keith/Documents/UCLA/216B/216BProject-keith_project_6_1/ECE216BNew.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="MEMDesign_blk_mem_gen_0_1_synth_1"/>
+		<Parent Id="MEMDesign_blk_mem_gen_1_0_synth_1"/>
+		<Parent Id="MEMDesign_LAYER_2_BLOCKRAM_0_synth_1"/>
+		<Parent Id="MEMDesign_CADA_MEMControl_1_0_synth_1"/>
+		<Parent Id="MEMDesign_HA_1BM_1_0_synth_1"/>
+		<Parent Id="MEMDesign_HA_1BM_2_0_synth_1"/>
+		<Parent Id="MEMDesign_mem_to_array_2_0_0_synth_1"/>
+		<Parent Id="MEMDesign_output_mapper_0_0_synth_1"/>
+		<Parent Id="MEMDesign_output_mapper_2_0_0_synth_1"/>
+		<Parent Id="MEMDesign_LAYER_2_VALID_MUX_1_synth_1"/>
+		<Parent Id="MEMDesign_HA_1BM_0_2_synth_1"/>
+		<Parent Id="MEMDesign_CONFIG_MEMCONTROL_0_synth_1"/>
+		<Parent Id="MEMDesign_LAYER_2_INPUT_DATA_MEMCONTROL_0_synth_1"/>
+		<Parent Id="MEMDesign_CONFIG_BLOCKRAM_0_synth_1"/>
+		<Parent Id="MEMDesign_ArrayTop_0_0_synth_1"/>
+		<Parent Id="MEMDesign_mem_to_array_1_0_2_synth_1"/>
+		<Parent Id="MEMDesign_HA_1BM_0_0_synth_1"/>
+		<Parent Id="MEMDesign_CADA_MEMControl_0_1_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+		<Parameter Name="runs.enableClusterConf" Val="true" Type="bool"/>
+		<Parameter Name="general.shortenLongPath" Val="true" Type="bool"/>
+	</Parameters>
+	<ProductInfo Name="vivado"/>
+</Runs>
+

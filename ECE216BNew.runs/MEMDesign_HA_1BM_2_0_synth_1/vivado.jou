@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Sun Jun  2 15:19:16 2024
+# Process ID: 20288
+# Current directory: C:/Users/Keith/Documents/UCLA/216B/216BProject-keith_project_6_1/ECE216BNew.runs/MEMDesign_HA_1BM_2_0_synth_1
+# Command line: vivado.exe -log MEMDesign_HA_1BM_2_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source MEMDesign_HA_1BM_2_0.tcl
+# Log file: C:/Users/Keith/Documents/UCLA/216B/216BProject-keith_project_6_1/ECE216BNew.runs/MEMDesign_HA_1BM_2_0_synth_1/MEMDesign_HA_1BM_2_0.vds
+# Journal file: C:/Users/Keith/Documents/UCLA/216B/216BProject-keith_project_6_1/ECE216BNew.runs/MEMDesign_HA_1BM_2_0_synth_1\vivado.jou
+# Running On: DESKTOP-TUIN670, OS: Windows, CPU Frequency: 3792 MHz, CPU Physical cores: 8, Host memory: 17094 MB
+#-----------------------------------------------------------
+source MEMDesign_HA_1BM_2_0.tcl -notrace

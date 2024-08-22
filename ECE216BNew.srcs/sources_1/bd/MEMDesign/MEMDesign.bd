@@ -1,0 +1,1711 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x469A72296A5BA0D6",
+      "device": "xc7z020clg400-2",
+      "gen_directory": "../../../../ECE216BNew.gen/sources_1/bd/MEMDesign",
+      "name": "MEMDesign",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2023.2",
+      "validated": "true"
+    },
+    "design_tree": {
+      "CONFIG_BLOCKRAM": "",
+      "CONFIG_MEMCONTROL": "",
+      "ARRAYTOP": "",
+      "CADA_LaneSplit_0": "",
+      "LAYER_1_INPUT_BLOCKRAM": "",
+      "LAYER_1_INPUT_DATA_MEMCONTROL": "",
+      "LAYER_1_MEM_TO_ARRAY": "",
+      "LAYER_1_CLK_MUX": "",
+      "LAYER_1_OUTPUT_MAPPER": "",
+      "LAYER_2_VALID_MUX": "",
+      "LAYER_2_INPUT_DATA_MEMCONTROL": "",
+      "LAYER_2_BLOCKRAM": "",
+      "LAYER_2_MEM_TO_ARRAY": "",
+      "LAYER_DATA_MUX": "",
+      "LAYER_2_OUTPUT_MAPPER": "",
+      "LAYER_3_VALID_MUX": "",
+      "LAYER_3_INPUT_DATA_MEMCONTROL": "",
+      "LAYER_3_BLOCKRAM": "",
+      "LAYER_2_3_INPUT_MUX": "",
+      "GCONTROLIN_BRAM": "",
+      "GCONTROLIN_MEM_CONTROL": ""
+    },
+    "ports": {
+      "clk": {
+        "direction": "I"
+      },
+      "rst": {
+        "direction": "I"
+      },
+      "dataIn": {
+        "direction": "I",
+        "left": "42",
+        "right": "0"
+      },
+      "valid": {
+        "direction": "I"
+      },
+      "writeEn": {
+        "direction": "I"
+      },
+      "startAddr": {
+        "direction": "I",
+        "left": "4",
+        "right": "0"
+      },
+      "strideInterval": {
+        "direction": "I",
+        "left": "3",
+        "right": "0"
+      },
+      "startLatency": {
+        "direction": "I",
+        "left": "15",
+        "right": "0"
+      },
+      "endLatency": {
+        "direction": "I",
+        "left": "15",
+        "right": "0"
+      },
+      "ena": {
+        "direction": "O"
+      },
+      "gControlIn": {
+        "direction": "I",
+        "left": "125",
+        "right": "0"
+      },
+      "dataOut": {
+        "direction": "O",
+        "left": "143",
+        "right": "0"
+      },
+      "valid_1": {
+        "direction": "I"
+      },
+      "DataIn_1": {
+        "direction": "I",
+        "left": "143",
+        "right": "0"
+      },
+      "writeEn_1": {
+        "direction": "I"
+      },
+      "startLatency_1": {
+        "direction": "I",
+        "left": "15",
+        "right": "0"
+      },
+      "endLatency_1": {
+        "direction": "I",
+        "left": "15",
+        "right": "0"
+      },
+      "startAddr_1": {
+        "direction": "I",
+        "left": "3",
+        "right": "0"
+      },
+      "strideInterval_1": {
+        "direction": "I",
+        "left": "2",
+        "right": "0"
+      },
+      "clk_data": {
+        "direction": "I"
+      },
+      "endLatency_2": {
+        "direction": "I",
+        "left": "15",
+        "right": "0"
+      },
+      "startLatency_2": {
+        "direction": "I",
+        "left": "15",
+        "right": "0"
+      },
+      "valid_2": {
+        "direction": "I"
+      },
+      "valid_3": {
+        "direction": "I"
+      },
+      "endLatency_3": {
+        "direction": "I",
+        "left": "15",
+        "right": "0"
+      },
+      "startLatency_3": {
+        "direction": "I",
+        "left": "15",
+        "right": "0"
+      },
+      "endLatency_4": {
+        "direction": "I",
+        "left": "15",
+        "right": "0"
+      },
+      "startLatency_4": {
+        "direction": "I",
+        "left": "15",
+        "right": "0"
+      },
+      "valid_4": {
+        "direction": "I"
+      },
+      "writeEn_4": {
+        "direction": "I"
+      },
+      "startAddr_4": {
+        "type": "data",
+        "direction": "I",
+        "left": "4",
+        "right": "0",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "outDataOut": {
+        "direction": "O",
+        "left": "63",
+        "right": "0"
+      }
+    },
+    "components": {
+      "CONFIG_BLOCKRAM": {
+        "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+        "ip_revision": "7",
+        "xci_name": "MEMDesign_blk_mem_gen_0_0",
+        "xci_path": "ip\\MEMDesign_blk_mem_gen_0_0\\MEMDesign_blk_mem_gen_0_0.xci",
+        "inst_hier_path": "CONFIG_BLOCKRAM",
+        "parameters": {
+          "Use_RSTA_Pin": {
+            "value": "true"
+          },
+          "Write_Depth_A": {
+            "value": "32"
+          },
+          "Write_Width_A": {
+            "value": "43"
+          },
+          "use_bram_block": {
+            "value": "Stand_Alone"
+          }
+        }
+      },
+      "CONFIG_MEMCONTROL": {
+        "vlnv": "xilinx.com:module_ref:CADA_MEMControl:1.0",
+        "ip_revision": "1",
+        "xci_name": "MEMDesign_CADA_MEMControl_0_0",
+        "xci_path": "ip\\MEMDesign_CADA_MEMControl_0_0\\MEMDesign_CADA_MEMControl_0_0.xci",
+        "inst_hier_path": "CONFIG_MEMCONTROL",
+        "parameters": {
+          "Data_bitWidth": {
+            "value": "43"
+          }
+        },
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "CADA_MEMControl",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "rst",
+                "value_src": "constant"
+              }
+            }
+          },
+          "rst": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "valid": {
+            "direction": "I"
+          },
+          "DataIn": {
+            "direction": "I",
+            "left": "42",
+            "right": "0"
+          },
+          "DataOut": {
+            "direction": "O",
+            "left": "42",
+            "right": "0"
+          },
+          "addrOut": {
+            "direction": "O",
+            "left": "4",
+            "right": "0"
+          },
+          "writeEn": {
+            "direction": "I"
+          },
+          "startAddr": {
+            "direction": "I",
+            "left": "4",
+            "right": "0"
+          },
+          "strideInterval": {
+            "direction": "I",
+            "left": "3",
+            "right": "0"
+          },
+          "startLatency": {
+            "direction": "I",
+            "left": "15",
+            "right": "0"
+          },
+          "endLatency": {
+            "direction": "I",
+            "left": "15",
+            "right": "0"
+          },
+          "MEMin": {
+            "direction": "I",
+            "left": "42",
+            "right": "0"
+          },
+          "MEMout": {
+            "direction": "O",
+            "left": "42",
+            "right": "0"
+          },
+          "MWMWen": {
+            "direction": "O"
+          },
+          "MEMEn": {
+            "direction": "O"
+          }
+        }
+      },
+      "ARRAYTOP": {
+        "vlnv": "xilinx.com:module_ref:ArrayTop:1.0",
+        "ip_revision": "1",
+        "xci_name": "MEMDesign_ArrayTop_0_0",
+        "xci_path": "ip\\MEMDesign_ArrayTop_0_0\\MEMDesign_ArrayTop_0_0.xci",
+        "inst_hier_path": "ARRAYTOP",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "ArrayTop",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "rst",
+                "value_src": "constant"
+              }
+            }
+          },
+          "rst": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "dataOut": {
+            "direction": "O",
+            "left": "143",
+            "right": "0"
+          },
+          "dataIn": {
+            "direction": "I",
+            "left": "1727",
+            "right": "0"
+          },
+          "configIn": {
+            "direction": "I",
+            "left": "6",
+            "right": "0"
+          },
+          "controlIn": {
+            "direction": "I",
+            "left": "35",
+            "right": "0"
+          },
+          "gControlIn": {
+            "direction": "I",
+            "left": "125",
+            "right": "0"
+          }
+        }
+      },
+      "CADA_LaneSplit_0": {
+        "vlnv": "xilinx.com:module_ref:CADA_LaneSplit:1.0",
+        "ip_revision": "1",
+        "xci_name": "MEMDesign_CADA_LaneSplit_0_0",
+        "xci_path": "ip\\MEMDesign_CADA_LaneSplit_0_0\\MEMDesign_CADA_LaneSplit_0_0.xci",
+        "inst_hier_path": "CADA_LaneSplit_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "CADA_LaneSplit",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "dataOut1": {
+            "direction": "O",
+            "left": "6",
+            "right": "0"
+          },
+          "dataOut2": {
+            "direction": "O",
+            "left": "35",
+            "right": "0"
+          },
+          "dataIn": {
+            "direction": "I",
+            "left": "42",
+            "right": "0"
+          }
+        }
+      },
+      "LAYER_1_INPUT_BLOCKRAM": {
+        "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+        "ip_revision": "7",
+        "xci_name": "MEMDesign_blk_mem_gen_0_1",
+        "xci_path": "ip\\MEMDesign_blk_mem_gen_0_1\\MEMDesign_blk_mem_gen_0_1.xci",
+        "inst_hier_path": "LAYER_1_INPUT_BLOCKRAM",
+        "parameters": {
+          "Coe_File": {
+            "value": "layer1_im2col.coe"
+          },
+          "Load_Init_File": {
+            "value": "true"
+          },
+          "Use_RSTA_Pin": {
+            "value": "true"
+          },
+          "Write_Depth_A": {
+            "value": "16"
+          },
+          "Write_Width_A": {
+            "value": "144"
+          },
+          "use_bram_block": {
+            "value": "Stand_Alone"
+          }
+        }
+      },
+      "LAYER_1_INPUT_DATA_MEMCONTROL": {
+        "vlnv": "xilinx.com:module_ref:CADA_MEMControl:1.0",
+        "ip_revision": "1",
+        "xci_name": "MEMDesign_CADA_MEMControl_0_1",
+        "xci_path": "ip\\MEMDesign_CADA_MEMControl_0_1\\MEMDesign_CADA_MEMControl_0_1.xci",
+        "inst_hier_path": "LAYER_1_INPUT_DATA_MEMCONTROL",
+        "parameters": {
+          "Data_bitWidth": {
+            "value": "144"
+          },
+          "addr_BW": {
+            "value": "4"
+          },
+          "stride_BW": {
+            "value": "3"
+          }
+        },
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "CADA_MEMControl",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "rst",
+                "value_src": "constant"
+              }
+            }
+          },
+          "rst": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "valid": {
+            "direction": "I"
+          },
+          "DataIn": {
+            "direction": "I",
+            "left": "143",
+            "right": "0"
+          },
+          "DataOut": {
+            "direction": "O",
+            "left": "143",
+            "right": "0"
+          },
+          "addrOut": {
+            "direction": "O",
+            "left": "3",
+            "right": "0"
+          },
+          "writeEn": {
+            "direction": "I"
+          },
+          "startAddr": {
+            "direction": "I",
+            "left": "3",
+            "right": "0"
+          },
+          "strideInterval": {
+            "direction": "I",
+            "left": "2",
+            "right": "0"
+          },
+          "startLatency": {
+            "direction": "I",
+            "left": "15",
+            "right": "0"
+          },
+          "endLatency": {
+            "direction": "I",
+            "left": "15",
+            "right": "0"
+          },
+          "MEMin": {
+            "direction": "I",
+            "left": "143",
+            "right": "0"
+          },
+          "MEMout": {
+            "direction": "O",
+            "left": "143",
+            "right": "0"
+          },
+          "MWMWen": {
+            "direction": "O"
+          },
+          "MEMEn": {
+            "direction": "O"
+          }
+        }
+      },
+      "LAYER_1_MEM_TO_ARRAY": {
+        "vlnv": "xilinx.com:module_ref:mem_to_array_1:1.0",
+        "ip_revision": "1",
+        "xci_name": "MEMDesign_mem_to_array_1_0_2",
+        "xci_path": "ip\\MEMDesign_mem_to_array_1_0_2\\MEMDesign_mem_to_array_1_0_2.xci",
+        "inst_hier_path": "LAYER_1_MEM_TO_ARRAY",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "mem_to_array_1",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "from_mem": {
+            "direction": "I",
+            "left": "143",
+            "right": "0"
+          },
+          "to_array": {
+            "direction": "O",
+            "left": "1727",
+            "right": "0"
+          }
+        }
+      },
+      "LAYER_1_CLK_MUX": {
+        "vlnv": "xilinx.com:module_ref:HA_1BM:1.0",
+        "ip_revision": "1",
+        "xci_name": "MEMDesign_HA_1BM_0_0",
+        "xci_path": "ip\\MEMDesign_HA_1BM_0_0\\MEMDesign_HA_1BM_0_0.xci",
+        "inst_hier_path": "LAYER_1_CLK_MUX",
+        "parameters": {
+          "Mux_BW": {
+            "value": "1"
+          }
+        },
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "HA_1BM",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "DataIn_1": {
+            "direction": "I",
+            "left": "0",
+            "right": "0"
+          },
+          "DataIn_2": {
+            "direction": "I",
+            "left": "0",
+            "right": "0"
+          },
+          "sel": {
+            "direction": "I"
+          },
+          "DataOut_1": {
+            "direction": "O",
+            "left": "0",
+            "right": "0"
+          }
+        }
+      },
+      "LAYER_1_OUTPUT_MAPPER": {
+        "vlnv": "xilinx.com:module_ref:output_mapper:1.0",
+        "ip_revision": "1",
+        "xci_name": "MEMDesign_output_mapper_0_0",
+        "xci_path": "ip\\MEMDesign_output_mapper_0_0\\MEMDesign_output_mapper_0_0.xci",
+        "inst_hier_path": "LAYER_1_OUTPUT_MAPPER",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "output_mapper",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "reset": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "reset",
+                "value_src": "constant"
+              }
+            }
+          },
+          "valid": {
+            "direction": "I"
+          },
+          "writeEn": {
+            "direction": "I"
+          },
+          "dataIn": {
+            "direction": "I",
+            "left": "143",
+            "right": "0"
+          },
+          "outDataOut": {
+            "direction": "O",
+            "left": "63",
+            "right": "0"
+          },
+          "startAddr": {
+            "direction": "O",
+            "left": "4",
+            "right": "0"
+          },
+          "done": {
+            "direction": "O"
+          },
+          "writeOut": {
+            "direction": "O"
+          }
+        }
+      },
+      "LAYER_2_VALID_MUX": {
+        "vlnv": "xilinx.com:module_ref:HA_1BM:1.0",
+        "ip_revision": "1",
+        "xci_name": "MEMDesign_HA_1BM_1_0",
+        "xci_path": "ip\\MEMDesign_HA_1BM_1_0\\MEMDesign_HA_1BM_1_0.xci",
+        "inst_hier_path": "LAYER_2_VALID_MUX",
+        "parameters": {
+          "Mux_BW": {
+            "value": "1"
+          }
+        },
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "HA_1BM",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "DataIn_1": {
+            "direction": "I",
+            "left": "0",
+            "right": "0"
+          },
+          "DataIn_2": {
+            "direction": "I",
+            "left": "0",
+            "right": "0"
+          },
+          "sel": {
+            "direction": "I"
+          },
+          "DataOut_1": {
+            "direction": "O",
+            "left": "0",
+            "right": "0"
+          }
+        }
+      },
+      "LAYER_2_INPUT_DATA_MEMCONTROL": {
+        "vlnv": "xilinx.com:module_ref:CADA_MEMControl:1.0",
+        "ip_revision": "1",
+        "xci_name": "MEMDesign_CADA_MEMControl_1_0",
+        "xci_path": "ip\\MEMDesign_CADA_MEMControl_1_0\\MEMDesign_CADA_MEMControl_1_0.xci",
+        "inst_hier_path": "LAYER_2_INPUT_DATA_MEMCONTROL",
+        "parameters": {
+          "Data_bitWidth": {
+            "value": "64"
+          },
+          "addr_BW": {
+            "value": "5"
+          },
+          "stride_BW": {
+            "value": "3"
+          }
+        },
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "CADA_MEMControl",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "rst",
+                "value_src": "constant"
+              }
+            }
+          },
+          "rst": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "valid": {
+            "direction": "I"
+          },
+          "DataIn": {
+            "direction": "I",
+            "left": "63",
+            "right": "0"
+          },
+          "DataOut": {
+            "direction": "O",
+            "left": "63",
+            "right": "0"
+          },
+          "addrOut": {
+            "direction": "O",
+            "left": "4",
+            "right": "0"
+          },
+          "writeEn": {
+            "direction": "I"
+          },
+          "startAddr": {
+            "direction": "I",
+            "left": "4",
+            "right": "0"
+          },
+          "strideInterval": {
+            "direction": "I",
+            "left": "2",
+            "right": "0"
+          },
+          "startLatency": {
+            "direction": "I",
+            "left": "15",
+            "right": "0"
+          },
+          "endLatency": {
+            "direction": "I",
+            "left": "15",
+            "right": "0"
+          },
+          "MEMin": {
+            "direction": "I",
+            "left": "63",
+            "right": "0"
+          },
+          "MEMout": {
+            "direction": "O",
+            "left": "63",
+            "right": "0"
+          },
+          "MWMWen": {
+            "direction": "O"
+          },
+          "MEMEn": {
+            "direction": "O"
+          }
+        }
+      },
+      "LAYER_2_BLOCKRAM": {
+        "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+        "ip_revision": "7",
+        "xci_name": "MEMDesign_blk_mem_gen_1_0",
+        "xci_path": "ip\\MEMDesign_blk_mem_gen_1_0\\MEMDesign_blk_mem_gen_1_0.xci",
+        "inst_hier_path": "LAYER_2_BLOCKRAM",
+        "parameters": {
+          "Load_Init_File": {
+            "value": "false"
+          },
+          "Use_RSTA_Pin": {
+            "value": "true"
+          },
+          "Write_Depth_A": {
+            "value": "32"
+          },
+          "Write_Width_A": {
+            "value": "64"
+          },
+          "use_bram_block": {
+            "value": "Stand_Alone"
+          }
+        }
+      },
+      "LAYER_2_MEM_TO_ARRAY": {
+        "vlnv": "xilinx.com:module_ref:mem_to_array_2:1.0",
+        "ip_revision": "1",
+        "xci_name": "MEMDesign_mem_to_array_2_0_0",
+        "xci_path": "ip\\MEMDesign_mem_to_array_2_0_0\\MEMDesign_mem_to_array_2_0_0.xci",
+        "inst_hier_path": "LAYER_2_MEM_TO_ARRAY",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "mem_to_array_2",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "from_mem": {
+            "direction": "I",
+            "left": "63",
+            "right": "0"
+          },
+          "stage": {
+            "direction": "I"
+          },
+          "to_array": {
+            "direction": "O",
+            "left": "1727",
+            "right": "0"
+          }
+        }
+      },
+      "LAYER_DATA_MUX": {
+        "vlnv": "xilinx.com:module_ref:HA_1BM:1.0",
+        "ip_revision": "1",
+        "xci_name": "MEMDesign_HA_1BM_2_0",
+        "xci_path": "ip\\MEMDesign_HA_1BM_2_0\\MEMDesign_HA_1BM_2_0.xci",
+        "inst_hier_path": "LAYER_DATA_MUX",
+        "parameters": {
+          "Mux_BW": {
+            "value": "1728"
+          }
+        },
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "HA_1BM",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "DataIn_1": {
+            "direction": "I",
+            "left": "1727",
+            "right": "0"
+          },
+          "DataIn_2": {
+            "direction": "I",
+            "left": "1727",
+            "right": "0"
+          },
+          "sel": {
+            "direction": "I"
+          },
+          "DataOut_1": {
+            "direction": "O",
+            "left": "1727",
+            "right": "0"
+          }
+        }
+      },
+      "LAYER_2_OUTPUT_MAPPER": {
+        "vlnv": "xilinx.com:module_ref:output_mapper_2:1.0",
+        "ip_revision": "1",
+        "xci_name": "MEMDesign_output_mapper_2_0_0",
+        "xci_path": "ip\\MEMDesign_output_mapper_2_0_0\\MEMDesign_output_mapper_2_0_0.xci",
+        "inst_hier_path": "LAYER_2_OUTPUT_MAPPER",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "output_mapper_2",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "reset": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "reset",
+                "value_src": "constant"
+              }
+            }
+          },
+          "valid": {
+            "direction": "I"
+          },
+          "writeEn": {
+            "direction": "I"
+          },
+          "dataIn": {
+            "direction": "I",
+            "left": "143",
+            "right": "0"
+          },
+          "outDataOut": {
+            "direction": "O",
+            "left": "63",
+            "right": "0"
+          },
+          "startAddr": {
+            "direction": "O",
+            "left": "4",
+            "right": "0"
+          },
+          "done": {
+            "direction": "O"
+          },
+          "writeOut": {
+            "direction": "O"
+          }
+        }
+      },
+      "LAYER_3_VALID_MUX": {
+        "vlnv": "xilinx.com:module_ref:HA_1BM:1.0",
+        "ip_revision": "1",
+        "xci_name": "MEMDesign_LAYER_2_VALID_MUX_1",
+        "xci_path": "ip\\MEMDesign_LAYER_2_VALID_MUX_1\\MEMDesign_LAYER_2_VALID_MUX_1.xci",
+        "inst_hier_path": "LAYER_3_VALID_MUX",
+        "parameters": {
+          "Mux_BW": {
+            "value": "1"
+          }
+        },
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "HA_1BM",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "DataIn_1": {
+            "direction": "I",
+            "left": "0",
+            "right": "0"
+          },
+          "DataIn_2": {
+            "direction": "I",
+            "left": "0",
+            "right": "0"
+          },
+          "sel": {
+            "direction": "I"
+          },
+          "DataOut_1": {
+            "direction": "O",
+            "left": "0",
+            "right": "0"
+          }
+        }
+      },
+      "LAYER_3_INPUT_DATA_MEMCONTROL": {
+        "vlnv": "xilinx.com:module_ref:CADA_MEMControl:1.0",
+        "ip_revision": "1",
+        "xci_name": "MEMDesign_LAYER_2_INPUT_DATA_MEMCONTROL_0",
+        "xci_path": "ip\\MEMDesign_LAYER_2_INPUT_DATA_MEMCONTROL_0\\MEMDesign_LAYER_2_INPUT_DATA_MEMCONTROL_0.xci",
+        "inst_hier_path": "LAYER_3_INPUT_DATA_MEMCONTROL",
+        "parameters": {
+          "Data_bitWidth": {
+            "value": "64"
+          },
+          "addr_BW": {
+            "value": "5"
+          },
+          "stride_BW": {
+            "value": "3"
+          }
+        },
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "CADA_MEMControl",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "rst",
+                "value_src": "constant"
+              }
+            }
+          },
+          "rst": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "valid": {
+            "direction": "I"
+          },
+          "DataIn": {
+            "direction": "I",
+            "left": "63",
+            "right": "0"
+          },
+          "DataOut": {
+            "direction": "O",
+            "left": "63",
+            "right": "0"
+          },
+          "addrOut": {
+            "direction": "O",
+            "left": "4",
+            "right": "0"
+          },
+          "writeEn": {
+            "direction": "I"
+          },
+          "startAddr": {
+            "direction": "I",
+            "left": "4",
+            "right": "0"
+          },
+          "strideInterval": {
+            "direction": "I",
+            "left": "2",
+            "right": "0"
+          },
+          "startLatency": {
+            "direction": "I",
+            "left": "15",
+            "right": "0"
+          },
+          "endLatency": {
+            "direction": "I",
+            "left": "15",
+            "right": "0"
+          },
+          "MEMin": {
+            "direction": "I",
+            "left": "63",
+            "right": "0"
+          },
+          "MEMout": {
+            "direction": "O",
+            "left": "63",
+            "right": "0"
+          },
+          "MWMWen": {
+            "direction": "O"
+          },
+          "MEMEn": {
+            "direction": "O"
+          }
+        }
+      },
+      "LAYER_3_BLOCKRAM": {
+        "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+        "ip_revision": "7",
+        "xci_name": "MEMDesign_LAYER_2_BLOCKRAM_0",
+        "xci_path": "ip\\MEMDesign_LAYER_2_BLOCKRAM_0\\MEMDesign_LAYER_2_BLOCKRAM_0.xci",
+        "inst_hier_path": "LAYER_3_BLOCKRAM",
+        "parameters": {
+          "Load_Init_File": {
+            "value": "false"
+          },
+          "Use_RSTA_Pin": {
+            "value": "true"
+          },
+          "Write_Depth_A": {
+            "value": "32"
+          },
+          "Write_Width_A": {
+            "value": "64"
+          },
+          "use_bram_block": {
+            "value": "Stand_Alone"
+          }
+        }
+      },
+      "LAYER_2_3_INPUT_MUX": {
+        "vlnv": "xilinx.com:module_ref:HA_1BM:1.0",
+        "ip_revision": "1",
+        "xci_name": "MEMDesign_HA_1BM_0_2",
+        "xci_path": "ip\\MEMDesign_HA_1BM_0_2\\MEMDesign_HA_1BM_0_2.xci",
+        "inst_hier_path": "LAYER_2_3_INPUT_MUX",
+        "parameters": {
+          "Mux_BW": {
+            "value": "64"
+          }
+        },
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "HA_1BM",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "DataIn_1": {
+            "direction": "I",
+            "left": "63",
+            "right": "0"
+          },
+          "DataIn_2": {
+            "direction": "I",
+            "left": "63",
+            "right": "0"
+          },
+          "sel": {
+            "direction": "I"
+          },
+          "DataOut_1": {
+            "direction": "O",
+            "left": "63",
+            "right": "0"
+          }
+        }
+      },
+      "GCONTROLIN_BRAM": {
+        "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+        "ip_revision": "7",
+        "xci_name": "MEMDesign_CONFIG_BLOCKRAM_0",
+        "xci_path": "ip\\MEMDesign_CONFIG_BLOCKRAM_0\\MEMDesign_CONFIG_BLOCKRAM_0.xci",
+        "inst_hier_path": "GCONTROLIN_BRAM",
+        "parameters": {
+          "Use_RSTA_Pin": {
+            "value": "true"
+          },
+          "Write_Depth_A": {
+            "value": "32"
+          },
+          "Write_Width_A": {
+            "value": "126"
+          },
+          "use_bram_block": {
+            "value": "Stand_Alone"
+          }
+        }
+      },
+      "GCONTROLIN_MEM_CONTROL": {
+        "vlnv": "xilinx.com:module_ref:CADA_MEMControl:1.0",
+        "ip_revision": "1",
+        "xci_name": "MEMDesign_CONFIG_MEMCONTROL_0",
+        "xci_path": "ip\\MEMDesign_CONFIG_MEMCONTROL_0\\MEMDesign_CONFIG_MEMCONTROL_0.xci",
+        "inst_hier_path": "GCONTROLIN_MEM_CONTROL",
+        "parameters": {
+          "Data_bitWidth": {
+            "value": "126"
+          },
+          "stride_BW": {
+            "value": "3"
+          }
+        },
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "CADA_MEMControl",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "rst",
+                "value_src": "constant"
+              }
+            }
+          },
+          "rst": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "valid": {
+            "direction": "I"
+          },
+          "DataIn": {
+            "direction": "I",
+            "left": "125",
+            "right": "0"
+          },
+          "DataOut": {
+            "direction": "O",
+            "left": "125",
+            "right": "0"
+          },
+          "addrOut": {
+            "direction": "O",
+            "left": "4",
+            "right": "0"
+          },
+          "writeEn": {
+            "direction": "I"
+          },
+          "startAddr": {
+            "direction": "I",
+            "left": "4",
+            "right": "0",
+            "parameters": {
+              "LAYERED_METADATA": {
+                "value": "undef",
+                "value_src": "default_prop"
+              }
+            }
+          },
+          "strideInterval": {
+            "direction": "I",
+            "left": "2",
+            "right": "0"
+          },
+          "startLatency": {
+            "direction": "I",
+            "left": "15",
+            "right": "0"
+          },
+          "endLatency": {
+            "direction": "I",
+            "left": "15",
+            "right": "0"
+          },
+          "MEMin": {
+            "direction": "I",
+            "left": "125",
+            "right": "0"
+          },
+          "MEMout": {
+            "direction": "O",
+            "left": "125",
+            "right": "0"
+          },
+          "MWMWen": {
+            "direction": "O"
+          },
+          "MEMEn": {
+            "direction": "O"
+          }
+        }
+      }
+    },
+    "nets": {
+      "ARRAYTOP_dataOut": {
+        "ports": [
+          "ARRAYTOP/dataOut",
+          "dataOut",
+          "LAYER_1_OUTPUT_MAPPER/dataIn",
+          "LAYER_2_OUTPUT_MAPPER/dataIn"
+        ]
+      },
+      "CADA_LaneSplit_0_dataOut1": {
+        "ports": [
+          "CADA_LaneSplit_0/dataOut1",
+          "ARRAYTOP/configIn"
+        ]
+      },
+      "CADA_LaneSplit_0_dataOut2": {
+        "ports": [
+          "CADA_LaneSplit_0/dataOut2",
+          "ARRAYTOP/controlIn"
+        ]
+      },
+      "CADA_MEMControl_0_DataOut": {
+        "ports": [
+          "CONFIG_MEMCONTROL/DataOut",
+          "CADA_LaneSplit_0/dataIn"
+        ]
+      },
+      "CADA_MEMControl_0_MEMEn": {
+        "ports": [
+          "CONFIG_MEMCONTROL/MEMEn",
+          "CONFIG_BLOCKRAM/ena",
+          "ena"
+        ]
+      },
+      "CADA_MEMControl_0_MEMout": {
+        "ports": [
+          "CONFIG_MEMCONTROL/MEMout",
+          "CONFIG_BLOCKRAM/dina"
+        ]
+      },
+      "CADA_MEMControl_0_MWMWen": {
+        "ports": [
+          "CONFIG_MEMCONTROL/MWMWen",
+          "CONFIG_BLOCKRAM/wea"
+        ]
+      },
+      "CADA_MEMControl_0_addrOut": {
+        "ports": [
+          "CONFIG_MEMCONTROL/addrOut",
+          "CONFIG_BLOCKRAM/addra"
+        ]
+      },
+      "CADA_MEMControl_1_DataOut": {
+        "ports": [
+          "LAYER_1_INPUT_DATA_MEMCONTROL/DataOut",
+          "LAYER_1_MEM_TO_ARRAY/from_mem"
+        ]
+      },
+      "CADA_MEMControl_1_MEMEn": {
+        "ports": [
+          "LAYER_1_INPUT_DATA_MEMCONTROL/MEMEn",
+          "LAYER_1_INPUT_BLOCKRAM/ena"
+        ]
+      },
+      "CADA_MEMControl_1_MEMout": {
+        "ports": [
+          "LAYER_1_INPUT_DATA_MEMCONTROL/MEMout",
+          "LAYER_1_INPUT_BLOCKRAM/dina"
+        ]
+      },
+      "CADA_MEMControl_1_MWMWen": {
+        "ports": [
+          "LAYER_1_INPUT_DATA_MEMCONTROL/MWMWen",
+          "LAYER_1_INPUT_BLOCKRAM/wea"
+        ]
+      },
+      "CADA_MEMControl_1_addrOut": {
+        "ports": [
+          "LAYER_1_INPUT_DATA_MEMCONTROL/addrOut",
+          "LAYER_1_INPUT_BLOCKRAM/addra"
+        ]
+      },
+      "CADA_MEMControl_2_MEMEn": {
+        "ports": [
+          "LAYER_2_INPUT_DATA_MEMCONTROL/MEMEn",
+          "LAYER_2_BLOCKRAM/ena"
+        ]
+      },
+      "CADA_MEMControl_2_MEMout": {
+        "ports": [
+          "LAYER_2_INPUT_DATA_MEMCONTROL/MEMout",
+          "LAYER_2_BLOCKRAM/dina"
+        ]
+      },
+      "CADA_MEMControl_2_MWMWen": {
+        "ports": [
+          "LAYER_2_INPUT_DATA_MEMCONTROL/MWMWen",
+          "LAYER_2_BLOCKRAM/wea"
+        ]
+      },
+      "CADA_MEMControl_2_addrOut": {
+        "ports": [
+          "LAYER_2_INPUT_DATA_MEMCONTROL/addrOut",
+          "LAYER_2_BLOCKRAM/addra"
+        ]
+      },
+      "CONFIG_BLOCKRAM1_douta": {
+        "ports": [
+          "GCONTROLIN_BRAM/douta",
+          "GCONTROLIN_MEM_CONTROL/MEMin"
+        ]
+      },
+      "CONFIG_MEMCONTROL1_DataOut": {
+        "ports": [
+          "GCONTROLIN_MEM_CONTROL/DataOut",
+          "ARRAYTOP/gControlIn"
+        ]
+      },
+      "CONFIG_MEMCONTROL1_MEMEn": {
+        "ports": [
+          "GCONTROLIN_MEM_CONTROL/MEMEn",
+          "GCONTROLIN_BRAM/ena"
+        ]
+      },
+      "CONFIG_MEMCONTROL1_MEMout": {
+        "ports": [
+          "GCONTROLIN_MEM_CONTROL/MEMout",
+          "GCONTROLIN_BRAM/dina"
+        ]
+      },
+      "CONFIG_MEMCONTROL1_MWMWen": {
+        "ports": [
+          "GCONTROLIN_MEM_CONTROL/MWMWen",
+          "GCONTROLIN_BRAM/wea"
+        ]
+      },
+      "CONFIG_MEMCONTROL1_addrOut": {
+        "ports": [
+          "GCONTROLIN_MEM_CONTROL/addrOut",
+          "GCONTROLIN_BRAM/addra"
+        ]
+      },
+      "DataIn_1_1": {
+        "ports": [
+          "DataIn_1",
+          "LAYER_1_INPUT_DATA_MEMCONTROL/DataIn"
+        ]
+      },
+      "HA_1BM_0_DataOut_1": {
+        "ports": [
+          "LAYER_1_CLK_MUX/DataOut_1",
+          "LAYER_1_INPUT_BLOCKRAM/clka",
+          "LAYER_1_INPUT_DATA_MEMCONTROL/clk"
+        ]
+      },
+      "HA_1BM_0_DataOut_2": {
+        "ports": [
+          "LAYER_2_3_INPUT_MUX/DataOut_1",
+          "LAYER_2_MEM_TO_ARRAY/from_mem"
+        ]
+      },
+      "HA_1BM_2_DataOut_1": {
+        "ports": [
+          "LAYER_DATA_MUX/DataOut_1",
+          "ARRAYTOP/dataIn"
+        ]
+      },
+      "LAYER_1_OUTPUT_MAPPER_done": {
+        "ports": [
+          "LAYER_1_OUTPUT_MAPPER/done",
+          "LAYER_DATA_MUX/sel"
+        ]
+      },
+      "LAYER_1_OUTPUT_MAPPER_outDataOut": {
+        "ports": [
+          "LAYER_1_OUTPUT_MAPPER/outDataOut",
+          "LAYER_2_INPUT_DATA_MEMCONTROL/DataIn",
+          "outDataOut"
+        ]
+      },
+      "LAYER_1_OUTPUT_MAPPER_startAddr": {
+        "ports": [
+          "LAYER_1_OUTPUT_MAPPER/startAddr",
+          "LAYER_2_INPUT_DATA_MEMCONTROL/startAddr"
+        ]
+      },
+      "LAYER_1_OUTPUT_MAPPER_writeOut": {
+        "ports": [
+          "LAYER_1_OUTPUT_MAPPER/writeOut",
+          "LAYER_2_VALID_MUX/DataIn_2",
+          "LAYER_2_VALID_MUX/sel",
+          "LAYER_2_INPUT_DATA_MEMCONTROL/writeEn",
+          "LAYER_2_OUTPUT_MAPPER/writeEn"
+        ]
+      },
+      "LAYER_2_BLOCKRAM1_douta": {
+        "ports": [
+          "LAYER_3_BLOCKRAM/douta",
+          "LAYER_3_INPUT_DATA_MEMCONTROL/MEMin"
+        ]
+      },
+      "LAYER_2_INPUT_DATA_MEMCONTROL1_DataOut": {
+        "ports": [
+          "LAYER_3_INPUT_DATA_MEMCONTROL/DataOut",
+          "LAYER_2_3_INPUT_MUX/DataIn_2"
+        ]
+      },
+      "LAYER_2_INPUT_DATA_MEMCONTROL1_MEMEn": {
+        "ports": [
+          "LAYER_3_INPUT_DATA_MEMCONTROL/MEMEn",
+          "LAYER_3_BLOCKRAM/wea"
+        ]
+      },
+      "LAYER_2_INPUT_DATA_MEMCONTROL1_MEMout": {
+        "ports": [
+          "LAYER_3_INPUT_DATA_MEMCONTROL/MEMout",
+          "LAYER_3_BLOCKRAM/dina"
+        ]
+      },
+      "LAYER_2_INPUT_DATA_MEMCONTROL1_MWMWen": {
+        "ports": [
+          "LAYER_3_INPUT_DATA_MEMCONTROL/MWMWen",
+          "LAYER_3_BLOCKRAM/ena"
+        ]
+      },
+      "LAYER_2_INPUT_DATA_MEMCONTROL1_addrOut": {
+        "ports": [
+          "LAYER_3_INPUT_DATA_MEMCONTROL/addrOut",
+          "LAYER_3_BLOCKRAM/addra"
+        ]
+      },
+      "LAYER_2_INPUT_DATA_MEMCONTROL_DataOut": {
+        "ports": [
+          "LAYER_2_INPUT_DATA_MEMCONTROL/DataOut",
+          "LAYER_2_3_INPUT_MUX/DataIn_1"
+        ]
+      },
+      "LAYER_2_OUTPUT_MAPPER_outDataOut": {
+        "ports": [
+          "LAYER_2_OUTPUT_MAPPER/outDataOut",
+          "LAYER_3_INPUT_DATA_MEMCONTROL/DataIn"
+        ]
+      },
+      "LAYER_2_VALID_MUX1_DataOut_1": {
+        "ports": [
+          "LAYER_3_VALID_MUX/DataOut_1",
+          "LAYER_3_INPUT_DATA_MEMCONTROL/valid"
+        ]
+      },
+      "LAYER_2_VALID_MUX_DataOut_1": {
+        "ports": [
+          "LAYER_2_VALID_MUX/DataOut_1",
+          "LAYER_2_INPUT_DATA_MEMCONTROL/valid"
+        ]
+      },
+      "blk_mem_gen_0_douta": {
+        "ports": [
+          "CONFIG_BLOCKRAM/douta",
+          "CONFIG_MEMCONTROL/MEMin"
+        ]
+      },
+      "blk_mem_gen_1_douta": {
+        "ports": [
+          "LAYER_1_INPUT_BLOCKRAM/douta",
+          "LAYER_1_INPUT_DATA_MEMCONTROL/MEMin"
+        ]
+      },
+      "blk_mem_gen_2_douta": {
+        "ports": [
+          "LAYER_2_BLOCKRAM/douta",
+          "LAYER_2_INPUT_DATA_MEMCONTROL/MEMin"
+        ]
+      },
+      "clk_1": {
+        "ports": [
+          "clk",
+          "CONFIG_BLOCKRAM/clka",
+          "LAYER_2_BLOCKRAM/clka",
+          "LAYER_3_BLOCKRAM/clka",
+          "GCONTROLIN_BRAM/clka",
+          "CONFIG_MEMCONTROL/clk",
+          "ARRAYTOP/clk",
+          "LAYER_1_CLK_MUX/DataIn_2",
+          "LAYER_2_INPUT_DATA_MEMCONTROL/clk",
+          "LAYER_3_INPUT_DATA_MEMCONTROL/clk",
+          "GCONTROLIN_MEM_CONTROL/clk",
+          "LAYER_1_OUTPUT_MAPPER/clk",
+          "LAYER_2_OUTPUT_MAPPER/clk"
+        ]
+      },
+      "clk_data_1": {
+        "ports": [
+          "clk_data",
+          "LAYER_1_CLK_MUX/DataIn_1"
+        ]
+      },
+      "dataIn_1": {
+        "ports": [
+          "dataIn",
+          "CONFIG_MEMCONTROL/DataIn"
+        ]
+      },
+      "endLatency_1": {
+        "ports": [
+          "endLatency",
+          "CONFIG_MEMCONTROL/endLatency"
+        ]
+      },
+      "endLatency_1_1": {
+        "ports": [
+          "endLatency_1",
+          "LAYER_1_INPUT_DATA_MEMCONTROL/endLatency"
+        ]
+      },
+      "endLatency_2_1": {
+        "ports": [
+          "endLatency_2",
+          "LAYER_2_INPUT_DATA_MEMCONTROL/endLatency"
+        ]
+      },
+      "endLatency_3_1": {
+        "ports": [
+          "endLatency_3",
+          "LAYER_3_INPUT_DATA_MEMCONTROL/endLatency"
+        ]
+      },
+      "endLatency_4_1": {
+        "ports": [
+          "endLatency_4",
+          "GCONTROLIN_MEM_CONTROL/endLatency"
+        ]
+      },
+      "gControlIn_1": {
+        "ports": [
+          "gControlIn",
+          "GCONTROLIN_MEM_CONTROL/DataIn"
+        ]
+      },
+      "mem_to_array_1_0_to_array": {
+        "ports": [
+          "LAYER_1_MEM_TO_ARRAY/to_array",
+          "LAYER_DATA_MUX/DataIn_1"
+        ]
+      },
+      "mem_to_array_2_0_to_array": {
+        "ports": [
+          "LAYER_2_MEM_TO_ARRAY/to_array",
+          "LAYER_DATA_MUX/DataIn_2"
+        ]
+      },
+      "output_mapper_2_0_done": {
+        "ports": [
+          "LAYER_2_OUTPUT_MAPPER/done",
+          "LAYER_2_3_INPUT_MUX/sel",
+          "LAYER_2_MEM_TO_ARRAY/stage"
+        ]
+      },
+      "output_mapper_2_0_startAddr": {
+        "ports": [
+          "LAYER_2_OUTPUT_MAPPER/startAddr",
+          "LAYER_3_INPUT_DATA_MEMCONTROL/startAddr"
+        ]
+      },
+      "output_mapper_2_0_writeOut": {
+        "ports": [
+          "LAYER_2_OUTPUT_MAPPER/writeOut",
+          "LAYER_3_VALID_MUX/DataIn_2",
+          "LAYER_3_VALID_MUX/sel",
+          "LAYER_3_INPUT_DATA_MEMCONTROL/writeEn"
+        ]
+      },
+      "rst_1": {
+        "ports": [
+          "rst",
+          "CONFIG_BLOCKRAM/rsta",
+          "LAYER_1_INPUT_BLOCKRAM/rsta",
+          "LAYER_2_BLOCKRAM/rsta",
+          "LAYER_3_BLOCKRAM/rsta",
+          "GCONTROLIN_BRAM/rsta",
+          "CONFIG_MEMCONTROL/rst",
+          "ARRAYTOP/rst",
+          "LAYER_1_INPUT_DATA_MEMCONTROL/rst",
+          "LAYER_2_INPUT_DATA_MEMCONTROL/rst",
+          "LAYER_3_INPUT_DATA_MEMCONTROL/rst",
+          "GCONTROLIN_MEM_CONTROL/rst",
+          "LAYER_1_OUTPUT_MAPPER/reset",
+          "LAYER_2_OUTPUT_MAPPER/reset"
+        ]
+      },
+      "startAddr_1": {
+        "ports": [
+          "startAddr",
+          "CONFIG_MEMCONTROL/startAddr"
+        ]
+      },
+      "startAddr_1_1": {
+        "ports": [
+          "startAddr_1",
+          "LAYER_1_INPUT_DATA_MEMCONTROL/startAddr"
+        ]
+      },
+      "startAddr_4_1": {
+        "ports": [
+          "startAddr_4",
+          "GCONTROLIN_MEM_CONTROL/startAddr"
+        ]
+      },
+      "startLatency_1": {
+        "ports": [
+          "startLatency",
+          "CONFIG_MEMCONTROL/startLatency"
+        ]
+      },
+      "startLatency_1_1": {
+        "ports": [
+          "startLatency_1",
+          "LAYER_1_INPUT_DATA_MEMCONTROL/startLatency"
+        ]
+      },
+      "startLatency_2_1": {
+        "ports": [
+          "startLatency_2",
+          "LAYER_2_INPUT_DATA_MEMCONTROL/startLatency"
+        ]
+      },
+      "startLatency_3_1": {
+        "ports": [
+          "startLatency_3",
+          "LAYER_3_INPUT_DATA_MEMCONTROL/startLatency"
+        ]
+      },
+      "startLatency_4_1": {
+        "ports": [
+          "startLatency_4",
+          "GCONTROLIN_MEM_CONTROL/startLatency"
+        ]
+      },
+      "strideInterval_1_1": {
+        "ports": [
+          "strideInterval_1",
+          "LAYER_1_INPUT_DATA_MEMCONTROL/strideInterval",
+          "LAYER_2_INPUT_DATA_MEMCONTROL/strideInterval",
+          "LAYER_3_INPUT_DATA_MEMCONTROL/strideInterval",
+          "GCONTROLIN_MEM_CONTROL/strideInterval"
+        ]
+      },
+      "strideInterval_2": {
+        "ports": [
+          "strideInterval",
+          "CONFIG_MEMCONTROL/strideInterval"
+        ]
+      },
+      "valid_1": {
+        "ports": [
+          "valid",
+          "CONFIG_MEMCONTROL/valid"
+        ]
+      },
+      "valid_1_1": {
+        "ports": [
+          "valid_1",
+          "LAYER_1_INPUT_DATA_MEMCONTROL/valid",
+          "LAYER_1_CLK_MUX/sel",
+          "LAYER_1_OUTPUT_MAPPER/valid"
+        ]
+      },
+      "valid_2_1": {
+        "ports": [
+          "valid_2",
+          "LAYER_2_VALID_MUX/DataIn_1",
+          "LAYER_2_OUTPUT_MAPPER/valid"
+        ]
+      },
+      "valid_3_1": {
+        "ports": [
+          "valid_3",
+          "LAYER_3_VALID_MUX/DataIn_1"
+        ]
+      },
+      "valid_4_1": {
+        "ports": [
+          "valid_4",
+          "GCONTROLIN_MEM_CONTROL/valid"
+        ]
+      },
+      "writeEn_1": {
+        "ports": [
+          "writeEn",
+          "CONFIG_MEMCONTROL/writeEn"
+        ]
+      },
+      "writeEn_1_1": {
+        "ports": [
+          "writeEn_1",
+          "LAYER_1_INPUT_DATA_MEMCONTROL/writeEn",
+          "LAYER_1_OUTPUT_MAPPER/writeEn"
+        ]
+      },
+      "writeEn_4_1": {
+        "ports": [
+          "writeEn_4",
+          "GCONTROLIN_MEM_CONTROL/writeEn"
+        ]
+      }
+    }
+  }
+}

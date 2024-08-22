@@ -1,0 +1,143 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.763507",
+   "Default View_TopLeft":"583,135",
+   "ExpandedHierarchyInLayout":"",
+   "commentid":"",
+   "guistr":"# # String gsaved with Nlview 7.5.8 2022-09-21 7111 VDI=41 GEI=38 GUI=JA:10.0
+#  -string -flagsOSRD
+preplace port port-id_clk -pg 1 -lvl 0 -x -10 -y 560 -defaultsOSRD
+preplace port port-id_rst -pg 1 -lvl 0 -x -10 -y 540 -defaultsOSRD
+preplace port port-id_valid -pg 1 -lvl 0 -x -10 -y 1400 -defaultsOSRD
+preplace port port-id_writeEn -pg 1 -lvl 0 -x -10 -y 1440 -defaultsOSRD
+preplace port port-id_ena -pg 1 -lvl 9 -x 3130 -y 1650 -defaultsOSRD
+preplace port port-id_valid_1 -pg 1 -lvl 0 -x -10 -y 580 -defaultsOSRD
+preplace port port-id_writeEn_1 -pg 1 -lvl 0 -x -10 -y 600 -defaultsOSRD
+preplace port port-id_clk_data -pg 1 -lvl 0 -x -10 -y 770 -defaultsOSRD
+preplace port port-id_valid_2 -pg 1 -lvl 0 -x -10 -y 270 -defaultsOSRD
+preplace port port-id_valid_3 -pg 1 -lvl 0 -x -10 -y 100 -defaultsOSRD
+preplace port port-id_valid_4 -pg 1 -lvl 0 -x -10 -y 1110 -defaultsOSRD
+preplace port port-id_writeEn_4 -pg 1 -lvl 0 -x -10 -y 1130 -defaultsOSRD
+preplace portBus dataIn -pg 1 -lvl 0 -x -10 -y 1420 -defaultsOSRD
+preplace portBus startAddr -pg 1 -lvl 0 -x -10 -y 1460 -defaultsOSRD
+preplace portBus strideInterval -pg 1 -lvl 0 -x -10 -y 1480 -defaultsOSRD
+preplace portBus startLatency -pg 1 -lvl 0 -x -10 -y 1500 -defaultsOSRD
+preplace portBus endLatency -pg 1 -lvl 0 -x -10 -y 1520 -defaultsOSRD
+preplace portBus gControlIn -pg 1 -lvl 0 -x -10 -y 1090 -defaultsOSRD
+preplace portBus dataOut -pg 1 -lvl 9 -x 3130 -y 690 -defaultsOSRD
+preplace portBus DataIn_1 -pg 1 -lvl 0 -x -10 -y 880 -defaultsOSRD
+preplace portBus startLatency_1 -pg 1 -lvl 0 -x -10 -y 960 -defaultsOSRD
+preplace portBus endLatency_1 -pg 1 -lvl 0 -x -10 -y 980 -defaultsOSRD
+preplace portBus startAddr_1 -pg 1 -lvl 0 -x -10 -y 920 -defaultsOSRD
+preplace portBus strideInterval_1 -pg 1 -lvl 0 -x -10 -y 690 -defaultsOSRD
+preplace portBus endLatency_2 -pg 1 -lvl 0 -x -10 -y 470 -defaultsOSRD
+preplace portBus startLatency_2 -pg 1 -lvl 0 -x -10 -y 450 -defaultsOSRD
+preplace portBus endLatency_3 -pg 1 -lvl 0 -x -10 -y 250 -defaultsOSRD
+preplace portBus startLatency_3 -pg 1 -lvl 0 -x -10 -y 230 -defaultsOSRD
+preplace portBus endLatency_4 -pg 1 -lvl 0 -x -10 -y 1070 -defaultsOSRD
+preplace portBus startLatency_4 -pg 1 -lvl 0 -x -10 -y 1180 -defaultsOSRD
+preplace portBus startAddr_4 -pg 1 -lvl 0 -x -10 -y 1150 -defaultsOSRD
+preplace portBus outDataOut -pg 1 -lvl 9 -x 3130 -y 650 -defaultsOSRD
+preplace inst CONFIG_BLOCKRAM -pg 1 -lvl 8 -x 2950 -y 1520 -defaultsOSRD
+preplace inst CONFIG_MEMCONTROL -pg 1 -lvl 6 -x 2170 -y 1450 -defaultsOSRD
+preplace inst ARRAYTOP -pg 1 -lvl 8 -x 2950 -y 1300 -defaultsOSRD
+preplace inst CADA_LaneSplit_0 -pg 1 -lvl 7 -x 2530 -y 1360 -defaultsOSRD
+preplace inst LAYER_1_INPUT_BLOCKRAM -pg 1 -lvl 6 -x 2170 -y 940 -defaultsOSRD
+preplace inst LAYER_1_INPUT_DATA_MEMCONTROL -pg 1 -lvl 5 -x 1800 -y 910 -defaultsOSRD
+preplace inst LAYER_1_MEM_TO_ARRAY -pg 1 -lvl 6 -x 2170 -y 740 -defaultsOSRD
+preplace inst LAYER_1_CLK_MUX -pg 1 -lvl 4 -x 1350 -y 790 -defaultsOSRD
+preplace inst LAYER_1_OUTPUT_MAPPER -pg 1 -lvl 1 -x 200 -y 580 -defaultsOSRD
+preplace inst LAYER_2_VALID_MUX -pg 1 -lvl 3 -x 920 -y 330 -defaultsOSRD
+preplace inst LAYER_2_INPUT_DATA_MEMCONTROL -pg 1 -lvl 4 -x 1350 -y 490 -defaultsOSRD
+preplace inst LAYER_2_BLOCKRAM -pg 1 -lvl 5 -x 1800 -y 370 -defaultsOSRD
+preplace inst LAYER_2_MEM_TO_ARRAY -pg 1 -lvl 6 -x 2170 -y 590 -defaultsOSRD
+preplace inst LAYER_DATA_MUX -pg 1 -lvl 7 -x 2530 -y 760 -defaultsOSRD
+preplace inst LAYER_2_OUTPUT_MAPPER -pg 1 -lvl 2 -x 580 -y 360 -defaultsOSRD
+preplace inst LAYER_3_VALID_MUX -pg 1 -lvl 3 -x 920 -y 120 -defaultsOSRD
+preplace inst LAYER_3_INPUT_DATA_MEMCONTROL -pg 1 -lvl 4 -x 1350 -y 180 -defaultsOSRD
+preplace inst LAYER_3_BLOCKRAM -pg 1 -lvl 5 -x 1800 -y 130 -defaultsOSRD
+preplace inst LAYER_2_3_INPUT_MUX -pg 1 -lvl 5 -x 1800 -y 560 -defaultsOSRD
+preplace inst GCONTROLIN_BRAM -pg 1 -lvl 8 -x 2950 -y 1080 -defaultsOSRD
+preplace inst GCONTROLIN_MEM_CONTROL -pg 1 -lvl 7 -x 2530 -y 1130 -defaultsOSRD
+preplace netloc ARRAYTOP_dataOut 1 0 9 50 680 420 670 NJ 670 NJ 670 NJ 670 NJ 670 NJ 670 NJ 670 3100
+preplace netloc CADA_LaneSplit_0_dataOut1 1 7 1 2760 1310n
+preplace netloc CADA_LaneSplit_0_dataOut2 1 7 1 2800 1330n
+preplace netloc CADA_MEMControl_0_DataOut 1 6 1 2360 1360n
+preplace netloc CADA_MEMControl_0_MEMEn 1 6 3 NJ 1490 2710 1650 NJ
+preplace netloc CADA_MEMControl_0_MEMout 1 6 2 NJ 1450 2730
+preplace netloc CADA_MEMControl_0_MWMWen 1 6 2 NJ 1470 2720
+preplace netloc CADA_MEMControl_0_addrOut 1 6 2 NJ 1430 2740
+preplace netloc CADA_MEMControl_1_DataOut 1 5 1 1980 740n
+preplace netloc CADA_MEMControl_1_MEMEn 1 5 1 1960 950n
+preplace netloc CADA_MEMControl_1_MEMout 1 5 1 1990 910n
+preplace netloc CADA_MEMControl_1_MWMWen 1 5 1 1980 930n
+preplace netloc CADA_MEMControl_1_addrOut 1 5 1 N 890
+preplace netloc CADA_MEMControl_2_MEMEn 1 4 1 1630 400n
+preplace netloc CADA_MEMControl_2_MEMout 1 4 1 1610 360n
+preplace netloc CADA_MEMControl_2_MWMWen 1 4 1 1640 440n
+preplace netloc CADA_MEMControl_2_addrOut 1 4 1 1590 320n
+preplace netloc CONFIG_BLOCKRAM1_douta 1 6 2 2370 980 2790
+preplace netloc CONFIG_MEMCONTROL1_DataOut 1 7 1 2770 1090n
+preplace netloc CONFIG_MEMCONTROL1_MEMEn 1 7 1 2760 1110n
+preplace netloc CONFIG_MEMCONTROL1_MEMout 1 7 1 2700 1070n
+preplace netloc CONFIG_MEMCONTROL1_MWMWen 1 7 1 N 1150
+preplace netloc CONFIG_MEMCONTROL1_addrOut 1 7 1 2690 1030n
+preplace netloc DataIn_1_1 1 0 5 NJ 880 NJ 880 NJ 880 NJ 880 NJ
+preplace netloc HA_1BM_0_DataOut_1 1 4 2 1640 760 2010
+preplace netloc HA_1BM_0_DataOut_2 1 5 1 2010 560n
+preplace netloc HA_1BM_2_DataOut_1 1 7 1 2800 760n
+preplace netloc LAYER_1_OUTPUT_MAPPER_done 1 1 6 350 630 NJ 630 1060J 680 NJ 680 NJ 680 2330J
+preplace netloc LAYER_1_OUTPUT_MAPPER_outDataOut 1 1 8 N 550 NJ 550 1190 660 N 660 N 660 2330 650 N 650 N
+preplace netloc LAYER_1_OUTPUT_MAPPER_startAddr 1 1 3 410 500 NJ 500 NJ
+preplace netloc LAYER_1_OUTPUT_MAPPER_writeOut 1 1 3 380 250 770 250 1140J
+preplace netloc LAYER_2_BLOCKRAM1_douta 1 3 2 1200 20 1630J
+preplace netloc LAYER_2_INPUT_DATA_MEMCONTROL1_DataOut 1 4 1 1620 140n
+preplace netloc LAYER_2_INPUT_DATA_MEMCONTROL1_MEMEn 1 4 1 1530 200n
+preplace netloc LAYER_2_INPUT_DATA_MEMCONTROL1_MEMout 1 4 1 1510 120n
+preplace netloc LAYER_2_INPUT_DATA_MEMCONTROL1_MWMWen 1 4 1 1520 160n
+preplace netloc LAYER_2_INPUT_DATA_MEMCONTROL1_addrOut 1 4 1 1500 80n
+preplace netloc LAYER_2_INPUT_DATA_MEMCONTROL_DataOut 1 4 1 1600 450n
+preplace netloc LAYER_2_OUTPUT_MAPPER_outDataOut 1 2 2 730 30 1160J
+preplace netloc LAYER_2_VALID_MUX1_DataOut_1 1 3 1 1190 120n
+preplace netloc LAYER_2_VALID_MUX_DataOut_1 1 3 1 1100 330n
+preplace netloc blk_mem_gen_0_douta 1 5 3 2010 1600 2330J 1530 NJ
+preplace netloc blk_mem_gen_1_douta 1 4 2 1640 1060 2010J
+preplace netloc blk_mem_gen_2_douta 1 3 2 1200 340 1630J
+preplace netloc clk_1 1 0 8 30 340 390 200 NJ 200 1150 330 1640 0 2000 1070 2340 960 2780
+preplace netloc clk_data_1 1 0 4 NJ 770 NJ 770 NJ 770 NJ
+preplace netloc dataIn_1 1 0 6 NJ 1420 NJ 1420 NJ 1420 NJ 1420 NJ 1420 NJ
+preplace netloc endLatency_1 1 0 6 NJ 1520 NJ 1520 NJ 1520 NJ 1520 NJ 1520 NJ
+preplace netloc endLatency_1_1 1 0 5 NJ 980 NJ 980 NJ 980 NJ 980 NJ
+preplace netloc endLatency_2_1 1 0 4 10J 460 NJ 460 NJ 460 1130J
+preplace netloc endLatency_3_1 1 0 4 10J 210 NJ 210 NJ 210 1160J
+preplace netloc endLatency_4_1 1 0 7 NJ 1070 NJ 1070 NJ 1070 NJ 1070 1500J 1090 NJ 1090 2330J
+preplace netloc gControlIn_1 1 0 7 10J 1100 NJ 1100 NJ 1100 NJ 1100 NJ 1100 NJ 1100 NJ
+preplace netloc mem_to_array_1_0_to_array 1 6 1 NJ 740
+preplace netloc mem_to_array_2_0_to_array 1 6 1 2360 590n
+preplace netloc output_mapper_2_0_done 1 2 4 730 640 NJ 640 1640 640 1980J
+preplace netloc output_mapper_2_0_startAddr 1 2 2 740 220 1110J
+preplace netloc output_mapper_2_0_writeOut 1 2 2 780 40 1170
+preplace netloc rst_1 1 0 8 20 320 420 240 NJ 240 1180 30 1580 1070 1970 1080 2350 970 2750
+preplace netloc startAddr_1 1 0 6 NJ 1460 NJ 1460 NJ 1460 NJ 1460 NJ 1460 NJ
+preplace netloc startAddr_1_1 1 0 5 NJ 920 NJ 920 NJ 920 NJ 920 NJ
+preplace netloc startAddr_4_1 1 0 7 10J 1140 NJ 1140 NJ 1140 NJ 1140 NJ 1140 NJ 1140 NJ
+preplace netloc startLatency_1 1 0 6 NJ 1500 NJ 1500 NJ 1500 NJ 1500 NJ 1500 NJ
+preplace netloc startLatency_1_1 1 0 5 NJ 960 NJ 960 NJ 960 NJ 960 NJ
+preplace netloc startLatency_2_1 1 0 4 NJ 450 430J 510 NJ 510 1120J
+preplace netloc startLatency_3_1 1 0 4 NJ 230 NJ 230 NJ 230 NJ
+preplace netloc startLatency_4_1 1 0 7 NJ 1180 NJ 1180 NJ 1180 NJ 1180 NJ 1180 NJ 1180 NJ
+preplace netloc strideInterval_1_1 1 0 7 NJ 690 NJ 690 NJ 690 1170 690 1550 1160 NJ 1160 NJ
+preplace netloc strideInterval_2 1 0 6 NJ 1480 NJ 1480 NJ 1480 NJ 1480 NJ 1480 NJ
+preplace netloc valid_1 1 0 6 NJ 1400 NJ 1400 NJ 1400 NJ 1400 NJ 1400 NJ
+preplace netloc valid_1_1 1 0 5 50 480 390J 520 NJ 520 1100 710 1560
+preplace netloc valid_2_1 1 0 3 NJ 270 430 260 750
+preplace netloc valid_3_1 1 0 3 NJ 100 NJ 100 NJ
+preplace netloc valid_4_1 1 0 7 NJ 1110 NJ 1110 NJ 1110 NJ 1110 NJ 1110 NJ 1110 2360J
+preplace netloc writeEn_1 1 0 6 NJ 1440 NJ 1440 NJ 1440 NJ 1440 NJ 1440 NJ
+preplace netloc writeEn_1_1 1 0 5 40 470 400J 530 NJ 530 1110J 650 1570
+preplace netloc writeEn_4_1 1 0 7 50J 1120 NJ 1120 NJ 1120 NJ 1120 NJ 1120 NJ 1120 NJ
+levelinfo -pg 1 -10 200 580 920 1350 1800 2170 2530 2950 3130
+pagesize -pg 1 -db -bbox -sgen -210 -10 3330 1670
+"
+}
+0
